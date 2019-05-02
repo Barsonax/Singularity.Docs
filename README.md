@@ -1,2 +1,2 @@
 # Singularity.Docs
-Documentation for the Singularity container
+Documentation for the [Singularity container](https://github.com/Barsonax/Singularity)
