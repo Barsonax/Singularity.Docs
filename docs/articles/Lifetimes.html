@@ -8,7 +8,7 @@
     <title>Lifetimes </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Lifetimes ">
-    <meta name="generator" content="docfx 2.41.0.0">
+    <meta name="generator" content="docfx 2.42.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,12 +70,16 @@
 <h2 id="lifetimes">Lifetimes</h2>
 
 <p>Lifetimes allow you to control when new instances are created. You can set lifetimes with the <code>With</code> method:</p>
-<pre><code class="lang-cs">var config = new BindingConfig();
-config.Register&lt;ITestService10, TestService10&gt;().With(Lifetime.Transient);
+<pre><code class="lang-cs">var container = new Container(builder =&gt;
+{
+    builder.Register&lt;ITestService10, TestService10&gt;(c =&gt; c.With(Lifetime.Transient));
+});
 </code></pre>
 <p>And</p>
-<pre><code class="lang-cs">var config = new BindingConfig();
-config.Register&lt;ITestService10, TestService10&gt;().With(Lifetime.Singleton);
+<pre><code class="lang-cs">var container = new Container(builder =&gt;
+{
+    builder.Register&lt;ITestService10, TestService10&gt;(c =&gt; c.With(Lifetime.Singleton));
+});
 </code></pre>
 <p>There are a few different lifetimes:</p>
 <ul>
@@ -85,11 +89,11 @@ config.Register&lt;ITestService10, TestService10&gt;().With(Lifetime.Singleton);
 </ul>
 <p>The <code>Lifetime.Transient</code> is the default setting which means singularity will return a new instance everytime a instance is requested. For more info see <a href="../api/Singularity.Lifetime.html">Lifetime</a></p>
 <p>The following example illustrates how lifetimes can be used:</p>
-<pre><code class="lang-cs">var config = new BindingConfig();
-config.Register&lt;IScopedService, ScopedService&gt;().With(Lifetime.PerScope));
-config.Register&lt;ISingleton, Singleton&gt;().With(Lifetime.Singleton));
-
-var container = new Container(config);
+<pre><code class="lang-cs">var container = new Container(builder =&gt;
+{
+    builder.Register&lt;IScopedService, ScopedService&gt;().With(Lifetime.PerScope));
+	builder.Register&lt;ISingleton, Singleton&gt;().With(Lifetime.Singleton));
+});
 
 Scoped scope1 = container.BeginScope();
 

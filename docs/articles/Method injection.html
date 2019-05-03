@@ -8,7 +8,7 @@
     <title>Why </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Why ">
-    <meta name="generator" content="docfx 2.41.0.0">
+    <meta name="generator" content="docfx 2.42.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -72,28 +72,33 @@
 <p>While not recommended sometimes you cannot get away with using just constructor injection and you have to use a different way to inject your dependencies.
 For instance in duality the component instances are not managed by the container but by the game engine. This makes it impossible to use constructor injection as the container is not the one that is creating the component instances.</p>
 <h2 id="how">How</h2>
-<p>Singularity supports method injection through the <code>MethodInject</code> method:</p>
-<pre><code class="lang-cs">var config = new BindingConfig();
-config.For&lt;ITestService10&gt;().Inject&lt;TestService10&gt;();
+<p>Singularity supports method and property injection through the <code>LateInject</code> method:</p>
+<pre><code class="lang-cs">var container = new Container(builder =&gt;
+{
+    builder.Register&lt;ITestService10, TestService10&gt;();
+    builder.LateInject&lt;LateInjectionClass&gt;(c =&gt; c
+		.UseMethod(nameof(LateInjectionClass.Inject)));
+        .UseProperty(nameof(LateInjectionClass.TestService10Settable)));
+});
 
-var container = new Container(config);
-
-var instance = new MethodInjectionClass();
-container.MethodInject(instance);
+var instance = new LateInjectionClass();
+container.LateInject(instance);
 </code></pre>
-<p>The MethodInjectionClass is defined as follows:</p>
-<pre><code class="lang-cs">public class MethodInjectionClass
+<p>When <code>LateInject</code> is called the container will inject the required instances in the registered methods and properties.
+As you can see Singularity does not require you to take a dependency on the container like some other containers.
+You can see this in the definition of the LateInjectionClass which just a simple class:</p>
+<pre><code class="lang-cs">public class LateInjectionClass
 {
     public ITestService10 TestService10 { get; private set; }
 
-    [Inject]
+	public ITestService10 TestService10Settable { get; set; }
+
     public void Inject(ITestService10 testService10)
     {
         TestService10 = testService10;
     }
 }
 </code></pre>
-<p>When <code>MethodInject</code> is called the container will look for all methods that are marked with <code>[Inject]</code> and it will call those methods to provide the dependencies.</p>
 </article>
           </div>
           

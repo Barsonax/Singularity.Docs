@@ -8,7 +8,7 @@
     <title> </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content=" ">
-    <meta name="generator" content="docfx 2.41.0.0">
+    <meta name="generator" content="docfx 2.42.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -69,13 +69,15 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <p>When the entering a new scene <code>Singularity.Duality</code> will search the entire scene for any components implementing <code>IModule</code>. It will then call <code>Register</code> on all those components in order to get the dependencies. A example component that implements <code>IModule</code> can be found below:</p>
-<pre><code class="lang-cs">public class SceneDependenciesComponent : Component, IModule
-{
-	public void Register(BindingConfig config)
-	{
-		config.For&lt;IGameManager&gt;().Inject(() =&gt; GameObj.ParentScene.FindComponent&lt;GameManagerComponent&gt;(true)).With(Lifetime.PerContainer);
-	}
-}
+<pre><code class="lang-cs">    public class SceneDependenciesComponent : Component, IModule
+    {
+	    public void Register(ContainerBuilder config)
+	    {
+            config.Register&lt;IGameManager&gt;(c =&gt; c
+                .Inject(() =&gt; GameObj.Scene.FindComponent&lt;GameManagerComponent&gt;(true))
+                .With(Lifetime.PerContainer));
+	    }
+    }
 </code></pre>
 <p>It will then create a <a href="https://github.com/Barsonax/Singularity/wiki/Nested-containers">Nested container</a> with the registered scene dependencies. This means any dependencies that are defined as <a href="https://github.com/Barsonax/Singularity/wiki/Game-Scope-Dependencies">Game Scope Dependencies</a> will also be available.</p>
 </article>

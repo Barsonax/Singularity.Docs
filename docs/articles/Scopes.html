@@ -8,7 +8,7 @@
     <title>Scopes </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Scopes ">
-    <meta name="generator" content="docfx 2.41.0.0">
+    <meta name="generator" content="docfx 2.42.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -75,21 +75,26 @@ You can use the <code>OnDeath</code> method to execute code such as calling <cod
 </code></pre>
 <p>A scope ends when the container is disposed. This means it will execute the OnDeath actions on all created instances. You can create a new scope by creating a nested container and passing in a new scope:
 You can create a new scope this way:</p>
-<pre><code class="lang-cs">var config = new BindingConfig();
-config.Register&lt;IDisposable, Disposable&gt;().OnDeath(x =&gt; x.Dispose());
-
-var container = new Container(config);
+<pre><code class="lang-cs">var container = new Container(builder =&gt;
+{
+    builder.Register&lt;IDisposable, Disposable&gt;(c =&gt; c
+	    .With(Lifetime.Scoped)
+		.With(DisposeBehavior.Always));
+});
 
 Scoped scope = container.BeginScope();
 var disposable = scope.GetInstance&lt;IDisposable&gt;();
 scope.Dispose(); //disposable will now get disposed
 </code></pre>
 <p>Creating a container will also create a implicit scope:</p>
-<pre><code class="lang-cs">var config = new BindingConfig();
-var container = new Container(config);
+<pre><code class="lang-cs">var container = new Container(builder =&gt;
+{
+    builder.Register&lt;IDisposable, Disposable&gt;(c =&gt; c
+	    .With(Lifetime.Scoped)
+		.With(DisposeBehavior.Always));
+});
 
-var nestedConfig = new BindingConfig();
-Container nestedContainer = container.GetNestedContainer(nestedConfig);
+Container nestedContainer = container.GetNestedContainer();
 
 var disposable = container.GetInstance&lt;IDisposable&gt;();
 var disposableNested = nestedContainer.GetInstance&lt;IDisposable&gt;();

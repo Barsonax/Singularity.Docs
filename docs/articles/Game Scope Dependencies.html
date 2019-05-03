@@ -8,7 +8,7 @@
     <title> </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content=" ">
-    <meta name="generator" content="docfx 2.41.0.0">
+    <meta name="generator" content="docfx 2.42.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -79,9 +79,9 @@
 <p>A example of a game dependency module can be found below:</p>
 <pre><code class="lang-cs">public class GameDependencies : IModule
 {
-	public void Register(BindingConfig config)
+	public void Register(containerBuilder builder)
 	{
-		config.Register&lt;IPathfinder, Pathfinder&gt;();
+		builder.Register&lt;IPathfinder, Pathfinder&gt;();
 	}
 }
 </code></pre>
