@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "c:/Git/Singularity/docfx_project",
+  "source_base_path": "c:/Git/Singularity/src/Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "d76KK1h/IC/DPydv7GIKCw=="
+          "hash": "UKMItRVIUl8up54V3NKCnw=="
         }
       },
       "is_incremental": true,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Configuring Dependencies.html",
-          "hash": "uT3JbKb9PKGTZKqrPALjHQ=="
+          "hash": "/qOiWN1cZVxCSYkYTVm3zw=="
         }
       },
       "is_incremental": true,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Game Scope Dependencies.html",
-          "hash": "oDK7PDGb5TSPTzNUEgZAkQ=="
+          "hash": "DXpymM3btbJ4/WJMeGMuZg=="
         }
       },
       "is_incremental": true,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Lifetimes.html",
-          "hash": "p7cuOCuvYp/+dinDZbG5dg=="
+          "hash": "03vkzFbEqaCdCr/rSRGi/A=="
         }
       },
       "is_incremental": true,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Method injection.html",
-          "hash": "FBICzN4HqWIOpyx3dcU7tg=="
+          "hash": "EDRp7grD2Zlpg/17Y/2oIw=="
         }
       },
       "is_incremental": true,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Modules.html",
-          "hash": "5lEa/nPK755cSkhEaO3aRg=="
+          "hash": "d1Rk5Apsit6dDK3wIZ/jOg=="
         }
       },
       "is_incremental": true,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Scene Scope Dependencies.html",
-          "hash": "CJ1djv7qEeseBYtXvvV1Eg=="
+          "hash": "ZNArVxm40kT2S4jU/VkiLw=="
         }
       },
       "is_incremental": true,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Scopes.html",
-          "hash": "7OS3iCa1+zNqchRD8JkTTw=="
+          "hash": "OyGvX20C7z5FQsxIrkdPMg=="
         }
       },
       "is_incremental": true,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Using Singularity in Duality.html",
-          "hash": "eACM1f7of1hIDnLiwsb6rA=="
+          "hash": "17+VSAtpwBCEb2dqQfCZ0Q=="
         }
       },
       "is_incremental": true,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "JUPMn6dLJtp/3Tx6HN4BxA=="
+          "hash": "+WnWfrfrWtFAlNr2sGmG1A=="
         }
       },
       "is_incremental": true,
