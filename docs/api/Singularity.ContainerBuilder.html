@@ -81,35 +81,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ContainerBuilder</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.html">Singularity</a></h6>
   <h6><strong>Assembly</strong>: Singularity.dll</h6>
   <h5 id="Singularity_ContainerBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ContainerBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ContainerBuilder : object</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -118,7 +94,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_Container.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.Container%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L17">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L18">View Source</a>
   </span>
   <a id="Singularity_ContainerBuilder_Container_" data-uid="Singularity.ContainerBuilder.Container*"></a>
   <h4 id="Singularity_ContainerBuilder_Container" data-uid="Singularity.ContainerBuilder.Container">Container</h4>
@@ -151,7 +127,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_Decorate_System_Type_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedDecoratorConfigurator___System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.Decorate(System.Type%2CSystem.Type%2CSystem.Nullable%7BSystem.Action%7BSingularity.WeaklyTypedDecoratorConfigurator%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L119">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L120">View Source</a>
   </span>
   <a id="Singularity_ContainerBuilder_Decorate_" data-uid="Singularity.ContainerBuilder.Decorate*"></a>
   <h4 id="Singularity_ContainerBuilder_Decorate_System_Type_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedDecoratorConfigurator___System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.Decorate(System.Type,System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedDecoratorConfigurator}},System.String,System.Int32)">Decorate(Type, Type, Nullable&lt;Action&lt;WeaklyTypedDecoratorConfigurator&gt;&gt;, String, Int32)</h4>
@@ -160,7 +136,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Decorate(Type dependencyType, Type decoratorType, Action&lt;WeaklyTypedDecoratorConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedDecoratorConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Decorate(Type dependencyType, Type decoratorType, Action&lt;WeaklyTypedDecoratorConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,7 +180,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_Decorate_System_Type_System_Type___System_Nullable_System_Action_Singularity_WeaklyTypedDecoratorConfigurator___System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.Decorate(System.Type%2CSystem.Type%5B%5D%2CSystem.Nullable%7BSystem.Action%7BSingularity.WeaklyTypedDecoratorConfigurator%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L133">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L134">View Source</a>
   </span>
   <a id="Singularity_ContainerBuilder_Decorate_" data-uid="Singularity.ContainerBuilder.Decorate*"></a>
   <h4 id="Singularity_ContainerBuilder_Decorate_System_Type_System_Type___System_Nullable_System_Action_Singularity_WeaklyTypedDecoratorConfigurator___System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.Decorate(System.Type,System.Type[],System.Nullable{System.Action{Singularity.WeaklyTypedDecoratorConfigurator}},System.String,System.Int32)">Decorate(Type, Type[], Nullable&lt;Action&lt;WeaklyTypedDecoratorConfigurator&gt;&gt;, String, Int32)</h4>
@@ -213,7 +189,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Decorate(Type dependencyType, Type[] decoratorTypes, Action&lt;WeaklyTypedDecoratorConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedDecoratorConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Decorate(Type dependencyType, Type[] decoratorTypes, Action&lt;WeaklyTypedDecoratorConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -257,7 +233,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_Decorate__2_System_Nullable_System_Action_Singularity_StronglyTypedDecoratorConfigurator___0___1____System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.Decorate%60%602(System.Nullable%7BSystem.Action%7BSingularity.StronglyTypedDecoratorConfigurator%7B%60%600%2C%60%601%7D%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L103">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L104">View Source</a>
   </span>
   <a id="Singularity_ContainerBuilder_Decorate_" data-uid="Singularity.ContainerBuilder.Decorate*"></a>
   <h4 id="Singularity_ContainerBuilder_Decorate__2_System_Nullable_System_Action_Singularity_StronglyTypedDecoratorConfigurator___0___1____System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.Decorate``2(System.Nullable{System.Action{Singularity.StronglyTypedDecoratorConfigurator{``0,``1}}},System.String,System.Int32)">Decorate&lt;TDependency, TDecorator&gt;(Nullable&lt;Action&lt;StronglyTypedDecoratorConfigurator&lt;TDependency, TDecorator&gt;&gt;&gt;, String, Int32)</h4>
@@ -266,7 +242,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Decorate&lt;TDependency, TDecorator&gt;(Action&lt;StronglyTypedDecoratorConfigurator&lt;TDependency, TDecorator&gt;&gt;? configurator = default(Action&lt;StronglyTypedDecoratorConfigurator&lt;TDependency, TDecorator&gt;&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)
+    <pre><code class="lang-csharp hljs">public void Decorate&lt;TDependency, TDecorator&gt;(Action&lt;StronglyTypedDecoratorConfigurator&lt;TDependency, TDecorator&gt;&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)
     where TDependency : class where TDecorator : TDependency</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -335,10 +311,116 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_LateInject_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedLateInjectorConfigurator___System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.LateInject(System.Type%2CSystem.Nullable%7BSystem.Action%7BSingularity.WeaklyTypedLateInjectorConfigurator%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L161">View Source</a>
+  </span>
+  <a id="Singularity_ContainerBuilder_LateInject_" data-uid="Singularity.ContainerBuilder.LateInject*"></a>
+  <h4 id="Singularity_ContainerBuilder_LateInject_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedLateInjectorConfigurator___System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.LateInject(System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedLateInjectorConfigurator}},System.String,System.Int32)">LateInject(Type, Nullable&lt;Action&lt;WeaklyTypedLateInjectorConfigurator&gt;&gt;, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Registers a new strongly typed late injector for <code data-dev-comment-type="paramref" class="paramref">instanceType</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LateInject(Type instanceType, Action&lt;WeaklyTypedLateInjectorConfigurator&gt;? configurator, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">instanceType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Action</span>&lt;<a class="xref" href="Singularity.WeaklyTypedLateInjectorConfigurator.html">WeaklyTypedLateInjectorConfigurator</a>&gt;&gt;</td>
+        <td><span class="parametername">configurator</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">callerFilePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">callerLineNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_LateInject__1_System_Nullable_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0____System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.LateInject%60%601(System.Nullable%7BSystem.Action%7BSingularity.StronglyTypedLateInjectorConfigurator%7B%60%600%7D%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L149">View Source</a>
+  </span>
+  <a id="Singularity_ContainerBuilder_LateInject_" data-uid="Singularity.ContainerBuilder.LateInject*"></a>
+  <h4 id="Singularity_ContainerBuilder_LateInject__1_System_Nullable_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0____System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.LateInject``1(System.Nullable{System.Action{Singularity.StronglyTypedLateInjectorConfigurator{``0}}},System.String,System.Int32)">LateInject&lt;TInstance&gt;(Nullable&lt;Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;&gt;, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Registers a new strongly typed late injector for <code data-dev-comment-type="typeparamref" class="typeparamref">TInstance</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LateInject&lt;TInstance&gt;(Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;? configurator, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Action</span>&lt;<a class="xref" href="Singularity.StronglyTypedLateInjectorConfigurator-1.html">StronglyTypedLateInjectorConfigurator</a>&lt;TInstance&gt;&gt;&gt;</td>
+        <td><span class="parametername">configurator</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">callerFilePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">callerLineNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInstance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_Register_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.Register(System.Type%2CSystem.Nullable%7BSystem.Action%7BSingularity.WeaklyTypedServiceConfigurator%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L60">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L61">View Source</a>
   </span>
   <a id="Singularity_ContainerBuilder_Register_" data-uid="Singularity.ContainerBuilder.Register*"></a>
   <h4 id="Singularity_ContainerBuilder_Register_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.Register(System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.String,System.Int32)">Register(Type, Nullable&lt;Action&lt;WeaklyTypedServiceConfigurator&gt;&gt;, String, Int32)</h4>
@@ -347,7 +429,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register(Type instanceType, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedServiceConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Register(Type instanceType, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -386,7 +468,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_Register_System_Type_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.Register(System.Type%2CSystem.Type%2CSystem.Nullable%7BSystem.Action%7BSingularity.WeaklyTypedServiceConfigurator%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L73">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L74">View Source</a>
   </span>
   <a id="Singularity_ContainerBuilder_Register_" data-uid="Singularity.ContainerBuilder.Register*"></a>
   <h4 id="Singularity_ContainerBuilder_Register_System_Type_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.Register(System.Type,System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.String,System.Int32)">Register(Type, Type, Nullable&lt;Action&lt;WeaklyTypedServiceConfigurator&gt;&gt;, String, Int32)</h4>
@@ -395,7 +477,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register(Type dependencyType, Type instanceType, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedServiceConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Register(Type dependencyType, Type instanceType, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -439,7 +521,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_Register_System_Type_System_Type___System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.Register(System.Type%2CSystem.Type%5B%5D%2CSystem.Nullable%7BSystem.Action%7BSingularity.WeaklyTypedServiceConfigurator%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L87">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L88">View Source</a>
   </span>
   <a id="Singularity_ContainerBuilder_Register_" data-uid="Singularity.ContainerBuilder.Register*"></a>
   <h4 id="Singularity_ContainerBuilder_Register_System_Type_System_Type___System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.Register(System.Type,System.Type[],System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.String,System.Int32)">Register(Type, Type[], Nullable&lt;Action&lt;WeaklyTypedServiceConfigurator&gt;&gt;, String, Int32)</h4>
@@ -448,7 +530,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register(Type dependencyType, Type[] instanceTypes, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedServiceConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Register(Type dependencyType, Type[] instanceTypes, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -492,7 +574,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_Register__1_System_Nullable_System_Action_Singularity_StronglyTypedServiceConfigurator___0___0____System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.Register%60%601(System.Nullable%7BSystem.Action%7BSingularity.StronglyTypedServiceConfigurator%7B%60%600%2C%60%600%7D%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L33">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L34">View Source</a>
   </span>
   <a id="Singularity_ContainerBuilder_Register_" data-uid="Singularity.ContainerBuilder.Register*"></a>
   <h4 id="Singularity_ContainerBuilder_Register__1_System_Nullable_System_Action_Singularity_StronglyTypedServiceConfigurator___0___0____System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.Register``1(System.Nullable{System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``0}}},System.String,System.Int32)">Register&lt;TInstance&gt;(Nullable&lt;Action&lt;StronglyTypedServiceConfigurator&lt;TInstance, TInstance&gt;&gt;&gt;, String, Int32)</h4>
@@ -501,7 +583,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register&lt;TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TInstance, TInstance&gt;&gt;? configurator = default(Action&lt;StronglyTypedServiceConfigurator&lt;TInstance, TInstance&gt;&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)
+    <pre><code class="lang-csharp hljs">public void Register&lt;TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TInstance, TInstance&gt;&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)
     where TInstance : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -551,7 +633,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder_Register__2_System_Nullable_System_Action_Singularity_StronglyTypedServiceConfigurator___0___1____System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder.Register%60%602(System.Nullable%7BSystem.Action%7BSingularity.StronglyTypedServiceConfigurator%7B%60%600%2C%60%601%7D%7D%7D%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L47">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L48">View Source</a>
   </span>
   <a id="Singularity_ContainerBuilder_Register_" data-uid="Singularity.ContainerBuilder.Register*"></a>
   <h4 id="Singularity_ContainerBuilder_Register__2_System_Nullable_System_Action_Singularity_StronglyTypedServiceConfigurator___0___1____System_String_System_Int32_" data-uid="Singularity.ContainerBuilder.Register``2(System.Nullable{System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``1}}},System.String,System.Int32)">Register&lt;TDependency, TInstance&gt;(Nullable&lt;Action&lt;StronglyTypedServiceConfigurator&lt;TDependency, TInstance&gt;&gt;&gt;, String, Int32)</h4>
@@ -560,7 +642,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register&lt;TDependency, TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TDependency, TInstance&gt;&gt;? configurator = default(Action&lt;StronglyTypedServiceConfigurator&lt;TDependency, TInstance&gt;&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)
+    <pre><code class="lang-csharp hljs">public void Register&lt;TDependency, TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TDependency, TInstance&gt;&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)
     where TInstance : class, TDependency</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -630,7 +712,7 @@
                     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ContainerBuilder.md&amp;value=---%0Auid%3A%20Singularity.ContainerBuilder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/ContainerBuilder.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/ContainerBuilder.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

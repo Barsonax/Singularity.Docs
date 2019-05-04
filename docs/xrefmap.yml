@@ -7,18 +7,6 @@ references:
   commentId: N:Singularity
   fullName: Singularity
   nameWithType: Singularity
-- uid: Singularity.Attributes
-  name: Singularity.Attributes
-  href: api/Singularity.Attributes.html
-  commentId: N:Singularity.Attributes
-  fullName: Singularity.Attributes
-  nameWithType: Singularity.Attributes
-- uid: Singularity.Attributes.InjectAttribute
-  name: InjectAttribute
-  href: api/Singularity.Attributes.InjectAttribute.html
-  commentId: T:Singularity.Attributes.InjectAttribute
-  fullName: Singularity.Attributes.InjectAttribute
-  nameWithType: InjectAttribute
 - uid: Singularity.Collections
   name: Singularity.Collections
   href: api/Singularity.Collections.html
@@ -138,25 +126,6 @@ references:
   fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Enumerator.Reset
   nameWithType: SinglyLinkedListNode<T>.Enumerator.Reset
   nameWithType.vb: SinglyLinkedListNode(Of T).Enumerator.Reset
-- uid: Singularity.Collections.SinglyLinkedListNode`1.Enumerator.System#Collections#IEnumerator#Current
-  name: IEnumerator.Current
-  href: api/Singularity.Collections.SinglyLinkedListNode-1.Enumerator.html#Singularity_Collections_SinglyLinkedListNode_1_Enumerator_System_Collections_IEnumerator_Current
-  commentId: P:Singularity.Collections.SinglyLinkedListNode`1.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Singularity.Collections.SinglyLinkedListNode<T>.Enumerator.System.Collections.IEnumerator.Current
-  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: SinglyLinkedListNode<T>.Enumerator.IEnumerator.Current
-  nameWithType.vb: SinglyLinkedListNode(Of T).Enumerator.System.Collections.IEnumerator.Current
-- uid: Singularity.Collections.SinglyLinkedListNode`1.Enumerator.System#Collections#IEnumerator#Current*
-  name: IEnumerator.Current
-  href: api/Singularity.Collections.SinglyLinkedListNode-1.Enumerator.html#Singularity_Collections_SinglyLinkedListNode_1_Enumerator_System_Collections_IEnumerator_Current_
-  commentId: Overload:Singularity.Collections.SinglyLinkedListNode`1.Enumerator.System#Collections#IEnumerator#Current
-  isSpec: "True"
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Singularity.Collections.SinglyLinkedListNode<T>.Enumerator.System.Collections.IEnumerator.Current
-  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: SinglyLinkedListNode<T>.Enumerator.IEnumerator.Current
-  nameWithType.vb: SinglyLinkedListNode(Of T).Enumerator.System.Collections.IEnumerator.Current
 - uid: Singularity.Collections.SinglyLinkedListNode`1.GetEnumerator
   name: GetEnumerator()
   href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_GetEnumerator
@@ -182,44 +151,6 @@ references:
   fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Next
   nameWithType: SinglyLinkedListNode<T>.Next
   nameWithType.vb: SinglyLinkedListNode(Of T).Next
-- uid: Singularity.Collections.SinglyLinkedListNode`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
-  name: IEnumerable<T>.GetEnumerator()
-  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_System_Collections_Generic_IEnumerable_T__GetEnumerator
-  commentId: M:Singularity.Collections.SinglyLinkedListNode`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
-  name.vb: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-  fullName: Singularity.Collections.SinglyLinkedListNode<T>.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-  nameWithType: SinglyLinkedListNode<T>.IEnumerable<T>.GetEnumerator()
-  nameWithType.vb: SinglyLinkedListNode(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-- uid: Singularity.Collections.SinglyLinkedListNode`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator*
-  name: IEnumerable<T>.GetEnumerator
-  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_System_Collections_Generic_IEnumerable_T__GetEnumerator_
-  commentId: Overload:Singularity.Collections.SinglyLinkedListNode`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
-  isSpec: "True"
-  name.vb: System.Collections.Generic.IEnumerable<T>.GetEnumerator
-  fullName: Singularity.Collections.SinglyLinkedListNode<T>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
-  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator
-  nameWithType: SinglyLinkedListNode<T>.IEnumerable<T>.GetEnumerator
-  nameWithType.vb: SinglyLinkedListNode(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator
-- uid: Singularity.Collections.SinglyLinkedListNode`1.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Singularity.Collections.SinglyLinkedListNode`1.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Singularity.Collections.SinglyLinkedListNode<T>.System.Collections.IEnumerable.GetEnumerator()
-  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: SinglyLinkedListNode<T>.IEnumerable.GetEnumerator()
-  nameWithType.vb: SinglyLinkedListNode(Of T).System.Collections.IEnumerable.GetEnumerator()
-- uid: Singularity.Collections.SinglyLinkedListNode`1.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Singularity.Collections.SinglyLinkedListNode`1.System#Collections#IEnumerable#GetEnumerator
-  isSpec: "True"
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Singularity.Collections.SinglyLinkedListNode<T>.System.Collections.IEnumerable.GetEnumerator
-  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).System.Collections.IEnumerable.GetEnumerator
-  nameWithType: SinglyLinkedListNode<T>.IEnumerable.GetEnumerator
-  nameWithType.vb: SinglyLinkedListNode(Of T).System.Collections.IEnumerable.GetEnumerator
 - uid: Singularity.Collections.SinglyLinkedListNode`1.Value
   name: Value
   href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_Value
@@ -345,35 +276,35 @@ references:
   isSpec: "True"
   fullName: Singularity.Container.IsDisposed
   nameWithType: Container.IsDisposed
-- uid: Singularity.Container.MethodInject(System.Object)
-  name: MethodInject(Object)
-  href: api/Singularity.Container.html#Singularity_Container_MethodInject_System_Object_
-  commentId: M:Singularity.Container.MethodInject(System.Object)
-  fullName: Singularity.Container.MethodInject(System.Object)
-  nameWithType: Container.MethodInject(Object)
-- uid: Singularity.Container.MethodInject*
-  name: MethodInject
-  href: api/Singularity.Container.html#Singularity_Container_MethodInject_
-  commentId: Overload:Singularity.Container.MethodInject
+- uid: Singularity.Container.LateInject(System.Object)
+  name: LateInject(Object)
+  href: api/Singularity.Container.html#Singularity_Container_LateInject_System_Object_
+  commentId: M:Singularity.Container.LateInject(System.Object)
+  fullName: Singularity.Container.LateInject(System.Object)
+  nameWithType: Container.LateInject(Object)
+- uid: Singularity.Container.LateInject*
+  name: LateInject
+  href: api/Singularity.Container.html#Singularity_Container_LateInject_
+  commentId: Overload:Singularity.Container.LateInject
   isSpec: "True"
-  fullName: Singularity.Container.MethodInject
-  nameWithType: Container.MethodInject
-- uid: Singularity.Container.MethodInjectAll*
-  name: MethodInjectAll
-  href: api/Singularity.Container.html#Singularity_Container_MethodInjectAll_
-  commentId: Overload:Singularity.Container.MethodInjectAll
+  fullName: Singularity.Container.LateInject
+  nameWithType: Container.LateInject
+- uid: Singularity.Container.LateInjectAll*
+  name: LateInjectAll
+  href: api/Singularity.Container.html#Singularity_Container_LateInjectAll_
+  commentId: Overload:Singularity.Container.LateInjectAll
   isSpec: "True"
-  fullName: Singularity.Container.MethodInjectAll
-  nameWithType: Container.MethodInjectAll
-- uid: Singularity.Container.MethodInjectAll``1(System.Collections.Generic.IEnumerable{``0})
-  name: MethodInjectAll<T>(IEnumerable<T>)
-  href: api/Singularity.Container.html#Singularity_Container_MethodInjectAll__1_System_Collections_Generic_IEnumerable___0__
-  commentId: M:Singularity.Container.MethodInjectAll``1(System.Collections.Generic.IEnumerable{``0})
-  name.vb: MethodInjectAll(Of T)(IEnumerable(Of T))
-  fullName: Singularity.Container.MethodInjectAll<T>(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: Singularity.Container.MethodInjectAll(Of T)(System.Collections.Generic.IEnumerable(Of T))
-  nameWithType: Container.MethodInjectAll<T>(IEnumerable<T>)
-  nameWithType.vb: Container.MethodInjectAll(Of T)(IEnumerable(Of T))
+  fullName: Singularity.Container.LateInjectAll
+  nameWithType: Container.LateInjectAll
+- uid: Singularity.Container.LateInjectAll``1(System.Collections.Generic.IEnumerable{``0})
+  name: LateInjectAll<T>(IEnumerable<T>)
+  href: api/Singularity.Container.html#Singularity_Container_LateInjectAll__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Singularity.Container.LateInjectAll``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: LateInjectAll(Of T)(IEnumerable(Of T))
+  fullName: Singularity.Container.LateInjectAll<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Singularity.Container.LateInjectAll(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Container.LateInjectAll<T>(IEnumerable<T>)
+  nameWithType.vb: Container.LateInjectAll(Of T)(IEnumerable(Of T))
 - uid: Singularity.ContainerBuilder
   name: ContainerBuilder
   href: api/Singularity.ContainerBuilder.html
@@ -427,6 +358,31 @@ references:
   fullName.vb: Singularity.ContainerBuilder.Decorate(Of TDependency, TDecorator)(System.Nullable(Of System.Action(Of Singularity.StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator))), System.String, System.Int32)
   nameWithType: ContainerBuilder.Decorate<TDependency, TDecorator>(Nullable<Action<StronglyTypedDecoratorConfigurator<TDependency, TDecorator>>>, String, Int32)
   nameWithType.vb: ContainerBuilder.Decorate(Of TDependency, TDecorator)(Nullable(Of Action(Of StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator))), String, Int32)
+- uid: Singularity.ContainerBuilder.LateInject(System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedLateInjectorConfigurator}},System.String,System.Int32)
+  name: LateInject(Type, Nullable<Action<WeaklyTypedLateInjectorConfigurator>>, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedLateInjectorConfigurator___System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.LateInject(System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedLateInjectorConfigurator}},System.String,System.Int32)
+  name.vb: LateInject(Type, Nullable(Of Action(Of WeaklyTypedLateInjectorConfigurator)), String, Int32)
+  fullName: Singularity.ContainerBuilder.LateInject(System.Type, System.Nullable<System.Action<Singularity.WeaklyTypedLateInjectorConfigurator>>, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.LateInject(System.Type, System.Nullable(Of System.Action(Of Singularity.WeaklyTypedLateInjectorConfigurator)), System.String, System.Int32)
+  nameWithType: ContainerBuilder.LateInject(Type, Nullable<Action<WeaklyTypedLateInjectorConfigurator>>, String, Int32)
+  nameWithType.vb: ContainerBuilder.LateInject(Type, Nullable(Of Action(Of WeaklyTypedLateInjectorConfigurator)), String, Int32)
+- uid: Singularity.ContainerBuilder.LateInject*
+  name: LateInject
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject_
+  commentId: Overload:Singularity.ContainerBuilder.LateInject
+  isSpec: "True"
+  fullName: Singularity.ContainerBuilder.LateInject
+  nameWithType: ContainerBuilder.LateInject
+- uid: Singularity.ContainerBuilder.LateInject``1(System.Nullable{System.Action{Singularity.StronglyTypedLateInjectorConfigurator{``0}}},System.String,System.Int32)
+  name: LateInject<TInstance>(Nullable<Action<StronglyTypedLateInjectorConfigurator<TInstance>>>, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject__1_System_Nullable_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0____System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.LateInject``1(System.Nullable{System.Action{Singularity.StronglyTypedLateInjectorConfigurator{``0}}},System.String,System.Int32)
+  name.vb: LateInject(Of TInstance)(Nullable(Of Action(Of StronglyTypedLateInjectorConfigurator(Of TInstance))), String, Int32)
+  fullName: Singularity.ContainerBuilder.LateInject<TInstance>(System.Nullable<System.Action<Singularity.StronglyTypedLateInjectorConfigurator<TInstance>>>, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.LateInject(Of TInstance)(System.Nullable(Of System.Action(Of Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance))), System.String, System.Int32)
+  nameWithType: ContainerBuilder.LateInject<TInstance>(Nullable<Action<StronglyTypedLateInjectorConfigurator<TInstance>>>, String, Int32)
+  nameWithType.vb: ContainerBuilder.LateInject(Of TInstance)(Nullable(Of Action(Of StronglyTypedLateInjectorConfigurator(Of TInstance))), String, Int32)
 - uid: Singularity.ContainerBuilder.Register(System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.String,System.Int32)
   name: Register(Type, Nullable<Action<WeaklyTypedServiceConfigurator>>, String, Int32)
   href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_String_System_Int32_
@@ -656,63 +612,30 @@ references:
   commentId: N:Singularity.Exceptions
   fullName: Singularity.Exceptions
   nameWithType: Singularity.Exceptions
+- uid: Singularity.Exceptions.AbstractTypeResolveException
+  name: AbstractTypeResolveException
+  href: api/Singularity.Exceptions.AbstractTypeResolveException.html
+  commentId: T:Singularity.Exceptions.AbstractTypeResolveException
+  fullName: Singularity.Exceptions.AbstractTypeResolveException
+  nameWithType: AbstractTypeResolveException
 - uid: Singularity.Exceptions.BindingConfigException
   name: BindingConfigException
   href: api/Singularity.Exceptions.BindingConfigException.html
   commentId: T:Singularity.Exceptions.BindingConfigException
   fullName: Singularity.Exceptions.BindingConfigException
   nameWithType: BindingConfigException
-- uid: Singularity.Exceptions.BindingConfigException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: BindingConfigException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.BindingConfigException.html#Singularity_Exceptions_BindingConfigException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.BindingConfigException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.BindingConfigException.BindingConfigException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: BindingConfigException.BindingConfigException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.BindingConfigException.#ctor*
-  name: BindingConfigException
-  href: api/Singularity.Exceptions.BindingConfigException.html#Singularity_Exceptions_BindingConfigException__ctor_
-  commentId: Overload:Singularity.Exceptions.BindingConfigException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.BindingConfigException.BindingConfigException
-  nameWithType: BindingConfigException.BindingConfigException
 - uid: Singularity.Exceptions.CannotAutoResolveConstructorException
   name: CannotAutoResolveConstructorException
   href: api/Singularity.Exceptions.CannotAutoResolveConstructorException.html
   commentId: T:Singularity.Exceptions.CannotAutoResolveConstructorException
   fullName: Singularity.Exceptions.CannotAutoResolveConstructorException
   nameWithType: CannotAutoResolveConstructorException
-- uid: Singularity.Exceptions.CannotAutoResolveConstructorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: CannotAutoResolveConstructorException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.CannotAutoResolveConstructorException.html#Singularity_Exceptions_CannotAutoResolveConstructorException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.CannotAutoResolveConstructorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.CannotAutoResolveConstructorException.CannotAutoResolveConstructorException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: CannotAutoResolveConstructorException.CannotAutoResolveConstructorException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.CannotAutoResolveConstructorException.#ctor*
-  name: CannotAutoResolveConstructorException
-  href: api/Singularity.Exceptions.CannotAutoResolveConstructorException.html#Singularity_Exceptions_CannotAutoResolveConstructorException__ctor_
-  commentId: Overload:Singularity.Exceptions.CannotAutoResolveConstructorException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.CannotAutoResolveConstructorException.CannotAutoResolveConstructorException
-  nameWithType: CannotAutoResolveConstructorException.CannotAutoResolveConstructorException
 - uid: Singularity.Exceptions.CircularDependencyException
   name: CircularDependencyException
   href: api/Singularity.Exceptions.CircularDependencyException.html
   commentId: T:Singularity.Exceptions.CircularDependencyException
   fullName: Singularity.Exceptions.CircularDependencyException
   nameWithType: CircularDependencyException
-- uid: Singularity.Exceptions.CircularDependencyException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: CircularDependencyException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.CircularDependencyException.html#Singularity_Exceptions_CircularDependencyException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.CircularDependencyException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.CircularDependencyException.CircularDependencyException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: CircularDependencyException.CircularDependencyException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.CircularDependencyException.#ctor*
-  name: CircularDependencyException
-  href: api/Singularity.Exceptions.CircularDependencyException.html#Singularity_Exceptions_CircularDependencyException__ctor_
-  commentId: Overload:Singularity.Exceptions.CircularDependencyException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.CircularDependencyException.CircularDependencyException
-  nameWithType: CircularDependencyException.CircularDependencyException
 - uid: Singularity.Exceptions.CircularDependencyException.Cycle
   name: Cycle
   href: api/Singularity.Exceptions.CircularDependencyException.html#Singularity_Exceptions_CircularDependencyException_Cycle
@@ -745,19 +668,6 @@ references:
   commentId: T:Singularity.Exceptions.DependencyNotFoundException
   fullName: Singularity.Exceptions.DependencyNotFoundException
   nameWithType: DependencyNotFoundException
-- uid: Singularity.Exceptions.DependencyNotFoundException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: DependencyNotFoundException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.DependencyNotFoundException.html#Singularity_Exceptions_DependencyNotFoundException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.DependencyNotFoundException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.DependencyNotFoundException.DependencyNotFoundException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: DependencyNotFoundException.DependencyNotFoundException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.DependencyNotFoundException.#ctor*
-  name: DependencyNotFoundException
-  href: api/Singularity.Exceptions.DependencyNotFoundException.html#Singularity_Exceptions_DependencyNotFoundException__ctor_
-  commentId: Overload:Singularity.Exceptions.DependencyNotFoundException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.DependencyNotFoundException.DependencyNotFoundException
-  nameWithType: DependencyNotFoundException.DependencyNotFoundException
 - uid: Singularity.Exceptions.DependencyNotFoundException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: GetObjectData(SerializationInfo, StreamingContext)
   href: api/Singularity.Exceptions.DependencyNotFoundException.html#Singularity_Exceptions_DependencyNotFoundException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
@@ -790,140 +700,45 @@ references:
   commentId: T:Singularity.Exceptions.EnumerableRegistrationException
   fullName: Singularity.Exceptions.EnumerableRegistrationException
   nameWithType: EnumerableRegistrationException
-- uid: Singularity.Exceptions.EnumerableRegistrationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: EnumerableRegistrationException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.EnumerableRegistrationException.html#Singularity_Exceptions_EnumerableRegistrationException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.EnumerableRegistrationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.EnumerableRegistrationException.EnumerableRegistrationException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: EnumerableRegistrationException.EnumerableRegistrationException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.EnumerableRegistrationException.#ctor*
-  name: EnumerableRegistrationException
-  href: api/Singularity.Exceptions.EnumerableRegistrationException.html#Singularity_Exceptions_EnumerableRegistrationException__ctor_
-  commentId: Overload:Singularity.Exceptions.EnumerableRegistrationException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.EnumerableRegistrationException.EnumerableRegistrationException
-  nameWithType: EnumerableRegistrationException.EnumerableRegistrationException
 - uid: Singularity.Exceptions.InterfaceExpectedException
   name: InterfaceExpectedException
   href: api/Singularity.Exceptions.InterfaceExpectedException.html
   commentId: T:Singularity.Exceptions.InterfaceExpectedException
   fullName: Singularity.Exceptions.InterfaceExpectedException
   nameWithType: InterfaceExpectedException
-- uid: Singularity.Exceptions.InterfaceExpectedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: InterfaceExpectedException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.InterfaceExpectedException.html#Singularity_Exceptions_InterfaceExpectedException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.InterfaceExpectedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.InterfaceExpectedException.InterfaceExpectedException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: InterfaceExpectedException.InterfaceExpectedException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.InterfaceExpectedException.#ctor*
-  name: InterfaceExpectedException
-  href: api/Singularity.Exceptions.InterfaceExpectedException.html#Singularity_Exceptions_InterfaceExpectedException__ctor_
-  commentId: Overload:Singularity.Exceptions.InterfaceExpectedException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.InterfaceExpectedException.InterfaceExpectedException
-  nameWithType: InterfaceExpectedException.InterfaceExpectedException
-- uid: Singularity.Exceptions.InvalidEnumValue`1
-  name: InvalidEnumValue<T>
-  href: api/Singularity.Exceptions.InvalidEnumValue-1.html
-  commentId: T:Singularity.Exceptions.InvalidEnumValue`1
-  name.vb: InvalidEnumValue(Of T)
-  fullName: Singularity.Exceptions.InvalidEnumValue<T>
-  fullName.vb: Singularity.Exceptions.InvalidEnumValue(Of T)
-  nameWithType: InvalidEnumValue<T>
-  nameWithType.vb: InvalidEnumValue(Of T)
-- uid: Singularity.Exceptions.InvalidEnumValue`1.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: InvalidEnumValue(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.InvalidEnumValue-1.html#Singularity_Exceptions_InvalidEnumValue_1__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.InvalidEnumValue`1.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.InvalidEnumValue<T>.InvalidEnumValue(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  fullName.vb: Singularity.Exceptions.InvalidEnumValue(Of T).InvalidEnumValue(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: InvalidEnumValue<T>.InvalidEnumValue(SerializationInfo, StreamingContext)
-  nameWithType.vb: InvalidEnumValue(Of T).InvalidEnumValue(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.InvalidEnumValue`1.#ctor*
-  name: InvalidEnumValue
-  href: api/Singularity.Exceptions.InvalidEnumValue-1.html#Singularity_Exceptions_InvalidEnumValue_1__ctor_
-  commentId: Overload:Singularity.Exceptions.InvalidEnumValue`1.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.InvalidEnumValue<T>.InvalidEnumValue
-  fullName.vb: Singularity.Exceptions.InvalidEnumValue(Of T).InvalidEnumValue
-  nameWithType: InvalidEnumValue<T>.InvalidEnumValue
-  nameWithType.vb: InvalidEnumValue(Of T).InvalidEnumValue
+- uid: Singularity.Exceptions.InvalidEnumValueException`1
+  name: InvalidEnumValueException<T>
+  href: api/Singularity.Exceptions.InvalidEnumValueException-1.html
+  commentId: T:Singularity.Exceptions.InvalidEnumValueException`1
+  name.vb: InvalidEnumValueException(Of T)
+  fullName: Singularity.Exceptions.InvalidEnumValueException<T>
+  fullName.vb: Singularity.Exceptions.InvalidEnumValueException(Of T)
+  nameWithType: InvalidEnumValueException<T>
+  nameWithType.vb: InvalidEnumValueException(Of T)
 - uid: Singularity.Exceptions.InvalidExpressionArgumentsException
   name: InvalidExpressionArgumentsException
   href: api/Singularity.Exceptions.InvalidExpressionArgumentsException.html
   commentId: T:Singularity.Exceptions.InvalidExpressionArgumentsException
   fullName: Singularity.Exceptions.InvalidExpressionArgumentsException
   nameWithType: InvalidExpressionArgumentsException
-- uid: Singularity.Exceptions.InvalidExpressionArgumentsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: InvalidExpressionArgumentsException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.InvalidExpressionArgumentsException.html#Singularity_Exceptions_InvalidExpressionArgumentsException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.InvalidExpressionArgumentsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.InvalidExpressionArgumentsException.InvalidExpressionArgumentsException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: InvalidExpressionArgumentsException.InvalidExpressionArgumentsException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.InvalidExpressionArgumentsException.#ctor*
-  name: InvalidExpressionArgumentsException
-  href: api/Singularity.Exceptions.InvalidExpressionArgumentsException.html#Singularity_Exceptions_InvalidExpressionArgumentsException__ctor_
-  commentId: Overload:Singularity.Exceptions.InvalidExpressionArgumentsException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.InvalidExpressionArgumentsException.InvalidExpressionArgumentsException
-  nameWithType: InvalidExpressionArgumentsException.InvalidExpressionArgumentsException
 - uid: Singularity.Exceptions.NoConstructorException
   name: NoConstructorException
   href: api/Singularity.Exceptions.NoConstructorException.html
   commentId: T:Singularity.Exceptions.NoConstructorException
   fullName: Singularity.Exceptions.NoConstructorException
   nameWithType: NoConstructorException
-- uid: Singularity.Exceptions.NoConstructorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: NoConstructorException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.NoConstructorException.html#Singularity_Exceptions_NoConstructorException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.NoConstructorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.NoConstructorException.NoConstructorException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: NoConstructorException.NoConstructorException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.NoConstructorException.#ctor*
-  name: NoConstructorException
-  href: api/Singularity.Exceptions.NoConstructorException.html#Singularity_Exceptions_NoConstructorException__ctor_
-  commentId: Overload:Singularity.Exceptions.NoConstructorException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.NoConstructorException.NoConstructorException
-  nameWithType: NoConstructorException.NoConstructorException
 - uid: Singularity.Exceptions.RegistrationAlreadyExistsException
   name: RegistrationAlreadyExistsException
   href: api/Singularity.Exceptions.RegistrationAlreadyExistsException.html
   commentId: T:Singularity.Exceptions.RegistrationAlreadyExistsException
   fullName: Singularity.Exceptions.RegistrationAlreadyExistsException
   nameWithType: RegistrationAlreadyExistsException
-- uid: Singularity.Exceptions.RegistrationAlreadyExistsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: RegistrationAlreadyExistsException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.RegistrationAlreadyExistsException.html#Singularity_Exceptions_RegistrationAlreadyExistsException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.RegistrationAlreadyExistsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.RegistrationAlreadyExistsException.RegistrationAlreadyExistsException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: RegistrationAlreadyExistsException.RegistrationAlreadyExistsException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.RegistrationAlreadyExistsException.#ctor*
-  name: RegistrationAlreadyExistsException
-  href: api/Singularity.Exceptions.RegistrationAlreadyExistsException.html#Singularity_Exceptions_RegistrationAlreadyExistsException__ctor_
-  commentId: Overload:Singularity.Exceptions.RegistrationAlreadyExistsException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.RegistrationAlreadyExistsException.RegistrationAlreadyExistsException
-  nameWithType: RegistrationAlreadyExistsException.RegistrationAlreadyExistsException
 - uid: Singularity.Exceptions.SingularityAggregateException
   name: SingularityAggregateException
   href: api/Singularity.Exceptions.SingularityAggregateException.html
   commentId: T:Singularity.Exceptions.SingularityAggregateException
   fullName: Singularity.Exceptions.SingularityAggregateException
   nameWithType: SingularityAggregateException
-- uid: Singularity.Exceptions.SingularityAggregateException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: SingularityAggregateException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.SingularityAggregateException.html#Singularity_Exceptions_SingularityAggregateException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.SingularityAggregateException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.SingularityAggregateException.SingularityAggregateException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: SingularityAggregateException.SingularityAggregateException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.SingularityAggregateException.#ctor*
-  name: SingularityAggregateException
-  href: api/Singularity.Exceptions.SingularityAggregateException.html#Singularity_Exceptions_SingularityAggregateException__ctor_
-  commentId: Overload:Singularity.Exceptions.SingularityAggregateException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.SingularityAggregateException.SingularityAggregateException
-  nameWithType: SingularityAggregateException.SingularityAggregateException
 - uid: Singularity.Exceptions.SingularityAggregateException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: GetObjectData(SerializationInfo, StreamingContext)
   href: api/Singularity.Exceptions.SingularityAggregateException.html#Singularity_Exceptions_SingularityAggregateException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
@@ -988,19 +803,6 @@ references:
   commentId: T:Singularity.Exceptions.TypeNotAssignableException
   fullName: Singularity.Exceptions.TypeNotAssignableException
   nameWithType: TypeNotAssignableException
-- uid: Singularity.Exceptions.TypeNotAssignableException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: TypeNotAssignableException(SerializationInfo, StreamingContext)
-  href: api/Singularity.Exceptions.TypeNotAssignableException.html#Singularity_Exceptions_TypeNotAssignableException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Singularity.Exceptions.TypeNotAssignableException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Singularity.Exceptions.TypeNotAssignableException.TypeNotAssignableException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: TypeNotAssignableException.TypeNotAssignableException(SerializationInfo, StreamingContext)
-- uid: Singularity.Exceptions.TypeNotAssignableException.#ctor*
-  name: TypeNotAssignableException
-  href: api/Singularity.Exceptions.TypeNotAssignableException.html#Singularity_Exceptions_TypeNotAssignableException__ctor_
-  commentId: Overload:Singularity.Exceptions.TypeNotAssignableException.#ctor
-  isSpec: "True"
-  fullName: Singularity.Exceptions.TypeNotAssignableException.TypeNotAssignableException
-  nameWithType: TypeNotAssignableException.TypeNotAssignableException
 - uid: Singularity.Graph
   name: Singularity.Graph
   href: api/Singularity.Graph.html
@@ -1039,19 +841,6 @@ references:
   isSpec: "True"
   fullName: Singularity.Graph.BindingMetadata.CreatorLineNumber
   nameWithType: BindingMetadata.CreatorLineNumber
-- uid: Singularity.Graph.BindingMetadata.DependencyTypes
-  name: DependencyTypes
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_DependencyTypes
-  commentId: P:Singularity.Graph.BindingMetadata.DependencyTypes
-  fullName: Singularity.Graph.BindingMetadata.DependencyTypes
-  nameWithType: BindingMetadata.DependencyTypes
-- uid: Singularity.Graph.BindingMetadata.DependencyTypes*
-  name: DependencyTypes
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_DependencyTypes_
-  commentId: Overload:Singularity.Graph.BindingMetadata.DependencyTypes
-  isSpec: "True"
-  fullName: Singularity.Graph.BindingMetadata.DependencyTypes
-  nameWithType: BindingMetadata.DependencyTypes
 - uid: Singularity.Graph.BindingMetadata.Generated
   name: Generated
   href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_Generated
@@ -1106,19 +895,35 @@ references:
   fullName.vb: Singularity.IContainer.GetInstance(Of T)()
   nameWithType: IContainer.GetInstance<T>()
   nameWithType.vb: IContainer.GetInstance(Of T)()
-- uid: Singularity.IContainer.MethodInject(System.Object)
-  name: MethodInject(Object)
-  href: api/Singularity.IContainer.html#Singularity_IContainer_MethodInject_System_Object_
-  commentId: M:Singularity.IContainer.MethodInject(System.Object)
-  fullName: Singularity.IContainer.MethodInject(System.Object)
-  nameWithType: IContainer.MethodInject(Object)
-- uid: Singularity.IContainer.MethodInject*
-  name: MethodInject
-  href: api/Singularity.IContainer.html#Singularity_IContainer_MethodInject_
-  commentId: Overload:Singularity.IContainer.MethodInject
+- uid: Singularity.IContainer.LateInject(System.Object)
+  name: LateInject(Object)
+  href: api/Singularity.IContainer.html#Singularity_IContainer_LateInject_System_Object_
+  commentId: M:Singularity.IContainer.LateInject(System.Object)
+  fullName: Singularity.IContainer.LateInject(System.Object)
+  nameWithType: IContainer.LateInject(Object)
+- uid: Singularity.IContainer.LateInject*
+  name: LateInject
+  href: api/Singularity.IContainer.html#Singularity_IContainer_LateInject_
+  commentId: Overload:Singularity.IContainer.LateInject
   isSpec: "True"
-  fullName: Singularity.IContainer.MethodInject
-  nameWithType: IContainer.MethodInject
+  fullName: Singularity.IContainer.LateInject
+  nameWithType: IContainer.LateInject
+- uid: Singularity.IContainer.LateInjectAll*
+  name: LateInjectAll
+  href: api/Singularity.IContainer.html#Singularity_IContainer_LateInjectAll_
+  commentId: Overload:Singularity.IContainer.LateInjectAll
+  isSpec: "True"
+  fullName: Singularity.IContainer.LateInjectAll
+  nameWithType: IContainer.LateInjectAll
+- uid: Singularity.IContainer.LateInjectAll``1(System.Collections.Generic.IEnumerable{``0})
+  name: LateInjectAll<T>(IEnumerable<T>)
+  href: api/Singularity.IContainer.html#Singularity_IContainer_LateInjectAll__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Singularity.IContainer.LateInjectAll``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: LateInjectAll(Of T)(IEnumerable(Of T))
+  fullName: Singularity.IContainer.LateInjectAll<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Singularity.IContainer.LateInjectAll(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: IContainer.LateInjectAll<T>(IEnumerable<T>)
+  nameWithType.vb: IContainer.LateInjectAll(Of T)(IEnumerable(Of T))
 - uid: Singularity.IModule
   name: IModule
   href: api/Singularity.IModule.html
@@ -1376,19 +1181,35 @@ references:
   fullName.vb: Singularity.Scoped.GetInstance(Of T)()
   nameWithType: Scoped.GetInstance<T>()
   nameWithType.vb: Scoped.GetInstance(Of T)()
-- uid: Singularity.Scoped.MethodInject(System.Object)
-  name: MethodInject(Object)
-  href: api/Singularity.Scoped.html#Singularity_Scoped_MethodInject_System_Object_
-  commentId: M:Singularity.Scoped.MethodInject(System.Object)
-  fullName: Singularity.Scoped.MethodInject(System.Object)
-  nameWithType: Scoped.MethodInject(Object)
-- uid: Singularity.Scoped.MethodInject*
-  name: MethodInject
-  href: api/Singularity.Scoped.html#Singularity_Scoped_MethodInject_
-  commentId: Overload:Singularity.Scoped.MethodInject
+- uid: Singularity.Scoped.LateInject(System.Object)
+  name: LateInject(Object)
+  href: api/Singularity.Scoped.html#Singularity_Scoped_LateInject_System_Object_
+  commentId: M:Singularity.Scoped.LateInject(System.Object)
+  fullName: Singularity.Scoped.LateInject(System.Object)
+  nameWithType: Scoped.LateInject(Object)
+- uid: Singularity.Scoped.LateInject*
+  name: LateInject
+  href: api/Singularity.Scoped.html#Singularity_Scoped_LateInject_
+  commentId: Overload:Singularity.Scoped.LateInject
   isSpec: "True"
-  fullName: Singularity.Scoped.MethodInject
-  nameWithType: Scoped.MethodInject
+  fullName: Singularity.Scoped.LateInject
+  nameWithType: Scoped.LateInject
+- uid: Singularity.Scoped.LateInjectAll*
+  name: LateInjectAll
+  href: api/Singularity.Scoped.html#Singularity_Scoped_LateInjectAll_
+  commentId: Overload:Singularity.Scoped.LateInjectAll
+  isSpec: "True"
+  fullName: Singularity.Scoped.LateInjectAll
+  nameWithType: Scoped.LateInjectAll
+- uid: Singularity.Scoped.LateInjectAll``1(System.Collections.Generic.IEnumerable{``0})
+  name: LateInjectAll<T>(IEnumerable<T>)
+  href: api/Singularity.Scoped.html#Singularity_Scoped_LateInjectAll__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Singularity.Scoped.LateInjectAll``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: LateInjectAll(Of T)(IEnumerable(Of T))
+  fullName: Singularity.Scoped.LateInjectAll<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Singularity.Scoped.LateInjectAll(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Scoped.LateInjectAll<T>(IEnumerable<T>)
+  nameWithType.vb: Scoped.LateInjectAll(Of T)(IEnumerable(Of T))
 - uid: Singularity.SingularitySettings
   name: SingularitySettings
   href: api/Singularity.SingularitySettings.html
@@ -1429,6 +1250,65 @@ references:
   fullName.vb: Singularity.StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator)
   nameWithType: StronglyTypedDecoratorConfigurator<TDependency, TDecorator>
   nameWithType.vb: StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator)
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1
+  name: StronglyTypedLateInjectorConfigurator<TInstance>
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html
+  commentId: T:Singularity.StronglyTypedLateInjectorConfigurator`1
+  name.vb: StronglyTypedLateInjectorConfigurator(Of TInstance)
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance)
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance)
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseMethod(System.Reflection.MethodInfo)
+  name: UseMethod(MethodInfo)
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseMethod_System_Reflection_MethodInfo_
+  commentId: M:Singularity.StronglyTypedLateInjectorConfigurator`1.UseMethod(System.Reflection.MethodInfo)
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseMethod(System.Reflection.MethodInfo)
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseMethod(System.Reflection.MethodInfo)
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseMethod(MethodInfo)
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseMethod(MethodInfo)
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseMethod(System.String)
+  name: UseMethod(String)
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseMethod_System_String_
+  commentId: M:Singularity.StronglyTypedLateInjectorConfigurator`1.UseMethod(System.String)
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseMethod(System.String)
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseMethod(System.String)
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseMethod(String)
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseMethod(String)
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseMethod*
+  name: UseMethod
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseMethod_
+  commentId: Overload:Singularity.StronglyTypedLateInjectorConfigurator`1.UseMethod
+  isSpec: "True"
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseMethod
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseMethod
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseMethod
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseMethod
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseProperty(System.Reflection.PropertyInfo)
+  name: UseProperty(PropertyInfo)
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseProperty_System_Reflection_PropertyInfo_
+  commentId: M:Singularity.StronglyTypedLateInjectorConfigurator`1.UseProperty(System.Reflection.PropertyInfo)
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseProperty(System.Reflection.PropertyInfo)
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseProperty(System.Reflection.PropertyInfo)
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseProperty(PropertyInfo)
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseProperty(PropertyInfo)
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseProperty(System.String)
+  name: UseProperty(String)
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseProperty_System_String_
+  commentId: M:Singularity.StronglyTypedLateInjectorConfigurator`1.UseProperty(System.String)
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseProperty(System.String)
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseProperty(System.String)
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseProperty(String)
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseProperty(String)
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseProperty*
+  name: UseProperty
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseProperty_
+  commentId: Overload:Singularity.StronglyTypedLateInjectorConfigurator`1.UseProperty
+  isSpec: "True"
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseProperty
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseProperty
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseProperty
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseProperty
 - uid: Singularity.StronglyTypedServiceConfigurator`2
   name: StronglyTypedServiceConfigurator<TDependency, TInstance>
   href: api/Singularity.StronglyTypedServiceConfigurator-2.html
@@ -1595,6 +1475,50 @@ references:
   commentId: T:Singularity.WeaklyTypedDecoratorConfigurator
   fullName: Singularity.WeaklyTypedDecoratorConfigurator
   nameWithType: WeaklyTypedDecoratorConfigurator
+- uid: Singularity.WeaklyTypedLateInjectorConfigurator
+  name: WeaklyTypedLateInjectorConfigurator
+  href: api/Singularity.WeaklyTypedLateInjectorConfigurator.html
+  commentId: T:Singularity.WeaklyTypedLateInjectorConfigurator
+  fullName: Singularity.WeaklyTypedLateInjectorConfigurator
+  nameWithType: WeaklyTypedLateInjectorConfigurator
+- uid: Singularity.WeaklyTypedLateInjectorConfigurator.UseMethod(System.Reflection.MethodInfo)
+  name: UseMethod(MethodInfo)
+  href: api/Singularity.WeaklyTypedLateInjectorConfigurator.html#Singularity_WeaklyTypedLateInjectorConfigurator_UseMethod_System_Reflection_MethodInfo_
+  commentId: M:Singularity.WeaklyTypedLateInjectorConfigurator.UseMethod(System.Reflection.MethodInfo)
+  fullName: Singularity.WeaklyTypedLateInjectorConfigurator.UseMethod(System.Reflection.MethodInfo)
+  nameWithType: WeaklyTypedLateInjectorConfigurator.UseMethod(MethodInfo)
+- uid: Singularity.WeaklyTypedLateInjectorConfigurator.UseMethod(System.String)
+  name: UseMethod(String)
+  href: api/Singularity.WeaklyTypedLateInjectorConfigurator.html#Singularity_WeaklyTypedLateInjectorConfigurator_UseMethod_System_String_
+  commentId: M:Singularity.WeaklyTypedLateInjectorConfigurator.UseMethod(System.String)
+  fullName: Singularity.WeaklyTypedLateInjectorConfigurator.UseMethod(System.String)
+  nameWithType: WeaklyTypedLateInjectorConfigurator.UseMethod(String)
+- uid: Singularity.WeaklyTypedLateInjectorConfigurator.UseMethod*
+  name: UseMethod
+  href: api/Singularity.WeaklyTypedLateInjectorConfigurator.html#Singularity_WeaklyTypedLateInjectorConfigurator_UseMethod_
+  commentId: Overload:Singularity.WeaklyTypedLateInjectorConfigurator.UseMethod
+  isSpec: "True"
+  fullName: Singularity.WeaklyTypedLateInjectorConfigurator.UseMethod
+  nameWithType: WeaklyTypedLateInjectorConfigurator.UseMethod
+- uid: Singularity.WeaklyTypedLateInjectorConfigurator.UseProperty(System.Reflection.PropertyInfo)
+  name: UseProperty(PropertyInfo)
+  href: api/Singularity.WeaklyTypedLateInjectorConfigurator.html#Singularity_WeaklyTypedLateInjectorConfigurator_UseProperty_System_Reflection_PropertyInfo_
+  commentId: M:Singularity.WeaklyTypedLateInjectorConfigurator.UseProperty(System.Reflection.PropertyInfo)
+  fullName: Singularity.WeaklyTypedLateInjectorConfigurator.UseProperty(System.Reflection.PropertyInfo)
+  nameWithType: WeaklyTypedLateInjectorConfigurator.UseProperty(PropertyInfo)
+- uid: Singularity.WeaklyTypedLateInjectorConfigurator.UseProperty(System.String)
+  name: UseProperty(String)
+  href: api/Singularity.WeaklyTypedLateInjectorConfigurator.html#Singularity_WeaklyTypedLateInjectorConfigurator_UseProperty_System_String_
+  commentId: M:Singularity.WeaklyTypedLateInjectorConfigurator.UseProperty(System.String)
+  fullName: Singularity.WeaklyTypedLateInjectorConfigurator.UseProperty(System.String)
+  nameWithType: WeaklyTypedLateInjectorConfigurator.UseProperty(String)
+- uid: Singularity.WeaklyTypedLateInjectorConfigurator.UseProperty*
+  name: UseProperty
+  href: api/Singularity.WeaklyTypedLateInjectorConfigurator.html#Singularity_WeaklyTypedLateInjectorConfigurator_UseProperty_
+  commentId: Overload:Singularity.WeaklyTypedLateInjectorConfigurator.UseProperty
+  isSpec: "True"
+  fullName: Singularity.WeaklyTypedLateInjectorConfigurator.UseProperty
+  nameWithType: WeaklyTypedLateInjectorConfigurator.UseProperty
 - uid: Singularity.WeaklyTypedServiceConfigurator
   name: WeaklyTypedServiceConfigurator
   href: api/Singularity.WeaklyTypedServiceConfigurator.html

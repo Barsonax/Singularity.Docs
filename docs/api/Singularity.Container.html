@@ -86,35 +86,11 @@
     <div><a class="xref" href="Singularity.IContainer.html">IContainer</a></div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.html">Singularity</a></h6>
   <h6><strong>Assembly</strong>: Singularity.dll</h6>
   <h5 id="Singularity_Container_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Container : IContainer, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Container : object, IContainer, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -123,7 +99,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container__ctor_System_Collections_Generic_IEnumerable_Singularity_IModule__System_Nullable_Singularity_SingularitySettings__.md&amp;value=---%0Auid%3A%20Singularity.Container.%23ctor(System.Collections.Generic.IEnumerable%7BSingularity.IModule%7D%2CSystem.Nullable%7BSingularity.SingularitySettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L36">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L35">View Source</a>
   </span>
   <a id="Singularity_Container__ctor_" data-uid="Singularity.Container.#ctor*"></a>
   <h4 id="Singularity_Container__ctor_System_Collections_Generic_IEnumerable_Singularity_IModule__System_Nullable_Singularity_SingularitySettings__" data-uid="Singularity.Container.#ctor(System.Collections.Generic.IEnumerable{Singularity.IModule},System.Nullable{Singularity.SingularitySettings})">Container(IEnumerable&lt;IModule&gt;, Nullable&lt;SingularitySettings&gt;)</h4>
@@ -132,7 +108,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Container(IEnumerable&lt;IModule&gt; modules, SingularitySettings? options = default(SingularitySettings? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Container(IEnumerable&lt;IModule&gt; modules, SingularitySettings? options = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,7 +137,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container__ctor_System_Nullable_System_Action_Singularity_ContainerBuilder___System_Nullable_Singularity_SingularitySettings__.md&amp;value=---%0Auid%3A%20Singularity.Container.%23ctor(System.Nullable%7BSystem.Action%7BSingularity.ContainerBuilder%7D%7D%2CSystem.Nullable%7BSingularity.SingularitySettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L43">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L42">View Source</a>
   </span>
   <a id="Singularity_Container__ctor_" data-uid="Singularity.Container.#ctor*"></a>
   <h4 id="Singularity_Container__ctor_System_Nullable_System_Action_Singularity_ContainerBuilder___System_Nullable_Singularity_SingularitySettings__" data-uid="Singularity.Container.#ctor(System.Nullable{System.Action{Singularity.ContainerBuilder}},System.Nullable{Singularity.SingularitySettings})">Container(Nullable&lt;Action&lt;ContainerBuilder&gt;&gt;, Nullable&lt;SingularitySettings&gt;)</h4>
@@ -170,7 +146,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Container(Action&lt;ContainerBuilder&gt;? builder = default(Action&lt;ContainerBuilder&gt;? ), SingularitySettings? options = default(SingularitySettings? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Container(Action&lt;ContainerBuilder&gt;? builder = null, SingularitySettings? options = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,7 +177,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_IsDisposed.md&amp;value=---%0Auid%3A%20Singularity.Container.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L23">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L21">View Source</a>
   </span>
   <a id="Singularity_Container_IsDisposed_" data-uid="Singularity.Container.IsDisposed*"></a>
   <h4 id="Singularity_Container_IsDisposed" data-uid="Singularity.Container.IsDisposed">IsDisposed</h4>
@@ -234,7 +210,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_BeginScope.md&amp;value=---%0Auid%3A%20Singularity.Container.BeginScope%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L79">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L79">View Source</a>
   </span>
   <a id="Singularity_Container_BeginScope_" data-uid="Singularity.Container.BeginScope*"></a>
   <h4 id="Singularity_Container_BeginScope" data-uid="Singularity.Container.BeginScope">BeginScope()</h4>
@@ -265,7 +241,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_Dispose.md&amp;value=---%0Auid%3A%20Singularity.Container.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L169">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L186">View Source</a>
   </span>
   <a id="Singularity_Container_Dispose_" data-uid="Singularity.Container.Dispose*"></a>
   <h4 id="Singularity_Container_Dispose" data-uid="Singularity.Container.Dispose">Dispose()</h4>
@@ -281,7 +257,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_GetInstance_System_Type_.md&amp;value=---%0Auid%3A%20Singularity.Container.GetInstance(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L107">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L93">View Source</a>
   </span>
   <a id="Singularity_Container_GetInstance_" data-uid="Singularity.Container.GetInstance*"></a>
   <h4 id="Singularity_Container_GetInstance_System_Type_" data-uid="Singularity.Container.GetInstance(System.Type)">GetInstance(Type)</h4>
@@ -346,7 +322,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_GetInstance__1.md&amp;value=---%0Auid%3A%20Singularity.Container.GetInstance%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L100">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L86">View Source</a>
   </span>
   <a id="Singularity_Container_GetInstance_" data-uid="Singularity.Container.GetInstance*"></a>
   <h4 id="Singularity_Container_GetInstance__1" data-uid="Singularity.Container.GetInstance``1">GetInstance&lt;T&gt;()</h4>
@@ -410,7 +386,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_GetNestedContainer_System_Collections_Generic_IEnumerable_Singularity_IModule__.md&amp;value=---%0Auid%3A%20Singularity.Container.GetNestedContainer(System.Collections.Generic.IEnumerable%7BSingularity.IModule%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L67">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L67">View Source</a>
   </span>
   <a id="Singularity_Container_GetNestedContainer_" data-uid="Singularity.Container.GetNestedContainer*"></a>
   <h4 id="Singularity_Container_GetNestedContainer_System_Collections_Generic_IEnumerable_Singularity_IModule__" data-uid="Singularity.Container.GetNestedContainer(System.Collections.Generic.IEnumerable{Singularity.IModule})">GetNestedContainer(IEnumerable&lt;IModule&gt;)</h4>
@@ -458,7 +434,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_GetNestedContainer_System_Nullable_System_Action_Singularity_ContainerBuilder___.md&amp;value=---%0Auid%3A%20Singularity.Container.GetNestedContainer(System.Nullable%7BSystem.Action%7BSingularity.ContainerBuilder%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L73">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L73">View Source</a>
   </span>
   <a id="Singularity_Container_GetNestedContainer_" data-uid="Singularity.Container.GetNestedContainer*"></a>
   <h4 id="Singularity_Container_GetNestedContainer_System_Nullable_System_Action_Singularity_ContainerBuilder___" data-uid="Singularity.Container.GetNestedContainer(System.Nullable{System.Action{Singularity.ContainerBuilder}})">GetNestedContainer(Nullable&lt;Action&lt;ContainerBuilder&gt;&gt;)</h4>
@@ -467,7 +443,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Container GetNestedContainer(Action&lt;ContainerBuilder&gt;? builder = default(Action&lt;ContainerBuilder&gt;? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Container GetNestedContainer(Action&lt;ContainerBuilder&gt;? builder = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -503,19 +479,19 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_MethodInject_System_Object_.md&amp;value=---%0Auid%3A%20Singularity.Container.MethodInject(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_LateInject_System_Object_.md&amp;value=---%0Auid%3A%20Singularity.Container.LateInject(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L123">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L116">View Source</a>
   </span>
-  <a id="Singularity_Container_MethodInject_" data-uid="Singularity.Container.MethodInject*"></a>
-  <h4 id="Singularity_Container_MethodInject_System_Object_" data-uid="Singularity.Container.MethodInject(System.Object)">MethodInject(Object)</h4>
-  <div class="markdown level1 summary"><p>Injects dependencies by calling all methods marked with <a class="xref" href="Singularity.Attributes.InjectAttribute.html">InjectAttribute</a> on the <code data-dev-comment-type="paramref" class="paramref">instance</code>.</p>
+  <a id="Singularity_Container_LateInject_" data-uid="Singularity.Container.LateInject*"></a>
+  <h4 id="Singularity_Container_LateInject_System_Object_" data-uid="Singularity.Container.LateInject(System.Object)">LateInject(Object)</h4>
+  <div class="markdown level1 summary"><p>Injects dependencies by calling all methods that were registered using <a class="xref" href="Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject__1_System_Nullable_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0____System_String_System_Int32_">LateInject&lt;TInstance&gt;(Nullable&lt;Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;&gt;, String, Int32)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void MethodInject(object instance)</code></pre>
+    <pre><code class="lang-csharp hljs">public void LateInject(object instance)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -545,26 +521,25 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Singularity.Exceptions.DependencyNotFoundException.html">DependencyNotFoundException</a></td>
-        <td><p>If the method had parameters that couldn't be resolved</p>
+        <td><p>If the late injection target had parameters that couldn't be resolved</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_MethodInjectAll__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20Singularity.Container.MethodInjectAll%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_LateInjectAll__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20Singularity.Container.LateInjectAll%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L91">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L109">View Source</a>
   </span>
-  <a id="Singularity_Container_MethodInjectAll_" data-uid="Singularity.Container.MethodInjectAll*"></a>
-  <h4 id="Singularity_Container_MethodInjectAll__1_System_Collections_Generic_IEnumerable___0__" data-uid="Singularity.Container.MethodInjectAll``1(System.Collections.Generic.IEnumerable{``0})">MethodInjectAll&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Injects dependencies by calling all methods marked with <a class="xref" href="Singularity.Attributes.InjectAttribute.html">InjectAttribute</a> on the <code data-dev-comment-type="paramref" class="paramref">instances</code>.</p>
-</div>
+  <a id="Singularity_Container_LateInjectAll_" data-uid="Singularity.Container.LateInjectAll*"></a>
+  <h4 id="Singularity_Container_LateInjectAll__1_System_Collections_Generic_IEnumerable___0__" data-uid="Singularity.Container.LateInjectAll``1(System.Collections.Generic.IEnumerable{``0})">LateInjectAll&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void MethodInjectAll&lt;T&gt;(IEnumerable&lt;T&gt; instances)</code></pre>
+    <pre><code class="lang-csharp hljs">public void LateInjectAll&lt;T&gt;(IEnumerable&lt;T&gt; instances)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -598,22 +573,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Singularity.Exceptions.DependencyNotFoundException.html">DependencyNotFoundException</a></td>
-        <td><p>If the method had parameters that couldn't be resolved</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Singularity.IContainer.html">IContainer</a>
@@ -632,7 +591,7 @@
                     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container.md&amp;value=---%0Auid%3A%20Singularity.Container%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity/Container.cs/#L18" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Container.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
