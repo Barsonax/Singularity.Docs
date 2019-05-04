@@ -261,8 +261,7 @@
   </span>
   <a id="Singularity_Container_GetInstance_" data-uid="Singularity.Container.GetInstance*"></a>
   <h4 id="Singularity_Container_GetInstance_System_Type_" data-uid="Singularity.Container.GetInstance(System.Type)">GetInstance(Type)</h4>
-  <div class="markdown level1 summary"><p>Resolves a instance for the given dependency type</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -281,8 +280,7 @@
       <tr>
         <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">type</span></td>
-        <td><p>The type of the dependency</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -301,22 +299,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Singularity.Exceptions.DependencyNotFoundException.html">DependencyNotFoundException</a></td>
-        <td><p>If the dependency is not configured</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Container_GetInstance__1.md&amp;value=---%0Auid%3A%20Singularity.Container.GetInstance%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -326,12 +308,12 @@
   </span>
   <a id="Singularity_Container_GetInstance_" data-uid="Singularity.Container.GetInstance*"></a>
   <h4 id="Singularity_Container_GetInstance__1" data-uid="Singularity.Container.GetInstance``1">GetInstance&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"><p>Resolves a instance for the given dependency type</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public T GetInstance&lt;T&gt;()
+
     where T : class</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -360,24 +342,7 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type of the dependency</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Singularity.Exceptions.DependencyNotFoundException.html">DependencyNotFoundException</a></td>
-        <td><p>If the dependency is not configured</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -486,8 +451,7 @@
   </span>
   <a id="Singularity_Container_LateInject_" data-uid="Singularity.Container.LateInject*"></a>
   <h4 id="Singularity_Container_LateInject_System_Object_" data-uid="Singularity.Container.LateInject(System.Object)">LateInject(Object)</h4>
-  <div class="markdown level1 summary"><p>Injects dependencies by calling all methods that were registered using <a class="xref" href="Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject__1_System_Nullable_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0____System_String_System_Int32_">LateInject&lt;TInstance&gt;(Nullable&lt;Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;&gt;, String, Int32)</a></p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -507,22 +471,6 @@
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">instance</span></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Singularity.Exceptions.DependencyNotFoundException.html">DependencyNotFoundException</a></td>
-        <td><p>If the late injection target had parameters that couldn't be resolved</p>
-</td>
       </tr>
     </tbody>
   </table>

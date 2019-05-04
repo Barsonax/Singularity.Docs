@@ -243,6 +243,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Decorate&lt;TDependency, TDecorator&gt;(Action&lt;StronglyTypedDecoratorConfigurator&lt;TDependency, TDecorator&gt;&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)
+
     where TDependency : class where TDecorator : TDependency</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -584,6 +585,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Register&lt;TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TInstance, TInstance&gt;&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)
+
     where TInstance : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -643,6 +645,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Register&lt;TDependency, TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TDependency, TInstance&gt;&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)
+
     where TInstance : class, TDependency</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

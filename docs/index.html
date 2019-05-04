@@ -62,10 +62,11 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="home">Home</h1>
 
+<p><a href="https://discord.gg/9x9J3y"><img src="https://img.shields.io/discord/569232642105540608.svg" alt="Discord"></a> <a href="https://www.nuget.org/packages/Singularity/"><img src="https://buildstats.info/nuget/Singularity" alt="NuGet Badge"></a> <a href="https://dev.azure.com/Barsonax/Singularity/_build/latest?definitionId=7&amp;branchName=master"><img src="https://dev.azure.com/Barsonax/Singularity/_apis/build/status/Singularity-CI?branchName=master" alt="Build Status"></a> <img src="https://img.shields.io/azure-devops/tests/Barsonax/Singularity/7/master.svg" alt="Azure DevOps tests (branch)"> <img src="https://img.shields.io/azure-devops/coverage/Barsonax/Singularity/7/master.svg" alt="coverage"> <a href="https://beerpay.io/Barsonax/Singularity"><img src="https://img.shields.io/beerpay/Barsonax/Singularity.svg" alt="Beerpay"></a></p>
 <p>Singularity is a ioc container that focuses on the following things</p>
 <ul>
-<li>Very high performance. The first time you use a dependency it will be compiled to a delegate and cached in a dictionary. When that dependency is requested again all it then retrieves the delegate from the dictionary and invokes it. This means that performance in Singularity is measured in nanoseconds as opposed to microseconds like in other containers. This makes it feasible to use singularity in applications where performance matters such as games.</li>
-<li>No magic. Singularity has been designed in such a way that it won't hide too much from you. For instance <code>Dispose</code> wont be automagically called but instead you can configure Singularity to do so through the <code>OnDeath</code> method. This way you can always find out who is calling your methods.</li>
+<li>Performance, Singularity is one of the fastest if not the fastest dependency injection container out there. Don't believe me? Check out my <a href="#Benchmarks">benchmarks</a> or if you want a second opinion check out the benchmarks that Daniel Palme made <a href="https://github.com/danielpalme/IocPerformance">here</a>.</li>
+<li>Not invasive. For instance <code>Dispose</code> wont be automatically called by default, instead you can configure Singularity to do so through the <code>With(DisposeBehavior)</code> method or tell singularity to automatically call <code>Dispose</code> by simply changing the settings. Is calling Dispose not enough and you want to invoke your own custom logic? The <code>WithFinalizer(Action&lt;TInstance&gt;)</code> method might be of help here.</li>
 <li>Clear error messages and fail fast to point you in the right direction as fast as possible.</li>
 </ul>
 <h2 id="getting-started">Getting started</h2>
@@ -74,13 +75,14 @@
 <ul>
 <li><a href="https://www.nuget.org/packages/Singularity/"><img src="https://buildstats.info/nuget/Singularity" alt="NuGet Badge"></a> Singularity</li>
 <li><a href="https://www.nuget.org/packages/Singularity.Duality.core/"><img src="https://buildstats.info/nuget/Singularity.Duality.core" alt="NuGet Badge"></a> Singularity.Duality.core</li>
+<li><a href="https://www.nuget.org/packages/Singularity.Microsoft.DependencyInjection/"><img src="https://buildstats.info/nuget/Singularity.Microsoft.DependencyInjection" alt="NuGet Badge"></a> Singularity.Microsoft.DependencyInjection</li>
 </ul>
 <h3 id="a-simple-example">A simple example</h3>
 <p>Its easy to setup a container and request a instance:</p>
-<pre><code class="lang-cs">var config = new BindingConfig();
-config.Register&lt;ITestService10&gt;, TestService10&gt;();
-
-var container = new Container(config);
+<pre><code class="lang-cs">var container = new Container(builder =&gt;
+{
+    builder.Register&lt;ITestService10, TestService10&gt;();
+});
 
 var instance = container.GetInstance&lt;ITestService10&gt;();
 </code></pre>
