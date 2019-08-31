@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum Lifetime
+    <title>Interface ILifetime
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum Lifetime
+    <meta name="title" content="Interface ILifetime
    ">
-    <meta name="generator" content="docfx 2.42.0.0">
+    <meta name="generator" content="docfx 2.45.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -68,47 +68,60 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Singularity.Lifetime">
+            <article class="content wrap" id="_content" data-uid="Singularity.ILifetime">
   
   
-  <h1 id="Singularity_Lifetime" data-uid="Singularity.Lifetime" class="text-break">Enum Lifetime
+  <h1 id="Singularity_ILifetime" data-uid="Singularity.ILifetime" class="text-break">Interface ILifetime
   </h1>
-  <div class="markdown level0 summary"><p>Specifies when new instances of dependencies should be made</p>
+  <div class="markdown level0 summary"><p>Defines a lifetime.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.html">Singularity</a></h6>
   <h6><strong>Assembly</strong>: Singularity.dll</h6>
-  <h5 id="Singularity_Lifetime_syntax">Syntax</h5>
+  <h5 id="Singularity_ILifetime_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum Lifetime : int</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ILifetime</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ILifetime_ApplyLifetimeOnExpression_Singularity_Scoped_Singularity_Expressions_ExpressionContext_.md&amp;value=---%0Auid%3A%20Singularity.ILifetime.ApplyLifetimeOnExpression(Singularity.Scoped%2CSingularity.Expressions.ExpressionContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Lifetimes/ILifetime.cs/#L15">View Source</a>
+  </span>
+  <a id="Singularity_ILifetime_ApplyLifetimeOnExpression_" data-uid="Singularity.ILifetime.ApplyLifetimeOnExpression*"></a>
+  <h4 id="Singularity_ILifetime_ApplyLifetimeOnExpression_Singularity_Scoped_Singularity_Expressions_ExpressionContext_" data-uid="Singularity.ILifetime.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)">ApplyLifetimeOnExpression(Scoped, ExpressionContext)</h4>
+  <div class="markdown level1 summary"><p>Applies caching on the expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ApplyLifetimeOnExpression(Scoped containerScope, ExpressionContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="Singularity_Lifetime_PerContainer">PerContainer</td>
-        <td><p>The same instance will be returned as long as it is requested in the same <a class="xref" href="Singularity.Container.html">Container</a> or a child of this container.</p>
-</td>
+        <td><a class="xref" href="Singularity.Scoped.html">Scoped</a></td>
+        <td><span class="parametername">containerScope</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td id="Singularity_Lifetime_PerScope">PerScope</td>
-        <td><p>The same instance will be returned as long as it is requested in the same <a class="xref" href="Singularity.Scoped.html">Scoped</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Singularity_Lifetime_Transient">Transient</td>
-        <td><p>Every time a instance is requested a new instance is returned.</p>
-</td>
+        <td><a class="xref" href="Singularity.Expressions.ExpressionContext.html">ExpressionContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
 </article>
           </div>
           
@@ -117,10 +130,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Lifetime.md&amp;value=---%0Auid%3A%20Singularity.Lifetime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ILifetime.md&amp;value=---%0Auid%3A%20Singularity.ILifetime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Lifetime.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Lifetimes/ILifetime.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

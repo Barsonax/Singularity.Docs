@@ -5,14 +5,50 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Collections.LifetimeCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Collections.LifetimeCollection.html",
+          "hash": "Kts/yG78b1FzqpScIvjHDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html",
+          "hash": "IEQrU04E2NFPubAPieqDGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Collections.SinglyLinkedListKeyNode-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Collections.SinglyLinkedListKeyNode-2.html",
+          "hash": "7EAAXZEEJNta+r47/4mugA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Singularity.Collections.SinglyLinkedListNode-1.Enumerator.yml",
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Collections.SinglyLinkedListNode-1.Enumerator.html",
-          "hash": "CVZfKgljpW6ONrzAF1f0KA=="
+          "hash": "Qf77TDohGN9BnocMeo3BPg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Collections.SinglyLinkedListNode-1.html",
-          "hash": "OFKIrLgzOVH8QuQ40i6I/A=="
+          "hash": "n72l/iRPMTLQIdKmmSnZJg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Collections.html",
-          "hash": "k0dQSxxvBGmes2bOHY0xgw=="
+          "hash": "xxbRXuIL1nExYExqOpxing=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Container.html",
-          "hash": "d/uMBNz/NUm7M+LKSIveBA=="
+          "hash": "Dd37ubLrJDTGd99E83txxQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,22 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.ContainerBuilder.html",
-          "hash": "ULhTJUjxbutXD0+GL2qHuA=="
+          "hash": "i+uF6GZSSJwpzbhdORfEtQ=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.DisposeBehavior.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.DisposeBehavior.html",
-          "hash": "NO6r/QDKANOjtnBTQMrFkA=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Duality.Resources.ModuleRef.html",
-          "hash": "NXH84rv4vQsBPtOZqWY/sg=="
+          "hash": "e8wVI3mYm3h+4HmDpNuagQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Duality.Resources.SingularityModules.html",
-          "hash": "7YIMVSZ6R4B1mt0NVGBXOw=="
+          "hash": "FiTDN9p9Xulgk/BGS7kxfQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Duality.Resources.html",
-          "hash": "gLjbMiRsPwN1CNuzBNYkrg=="
+          "hash": "LVZpU+F1z8m7B+gJFCVoGA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Duality.SingularityPlugin.html",
-          "hash": "VcZeyYSY9SdmI+BrPO7Kiw=="
+          "hash": "IqtPaRMuz8EHiWF8KBSSGw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Duality.html",
-          "hash": "wDHtjdIY1lbNbn3b9MXehA=="
+          "hash": "UlCxjnaQUPhZ1xMEhIf2SA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.AbstractTypeResolveException.html",
-          "hash": "NMFhLzGavwToqU4skYHa6Q=="
+          "hash": "BqM7hnFgu34zDBtuPR3zVQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.BindingConfigException.html",
-          "hash": "7gjdmEiyWAxzSWp2kKdNOA=="
+          "hash": "O2B/84FYkuMXOieZo4EJzg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.CannotAutoResolveConstructorException.html",
-          "hash": "QWsUuUqVZpQb5JX2BgESWA=="
+          "hash": "dxNSqe5vqkIW+OSDvJYVvA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.CircularDependencyException.html",
-          "hash": "JLWT514UFXb/ChKU6UicBw=="
+          "hash": "51kbVZS64+5915cnzgTbfQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.DependencyNotFoundException.html",
-          "hash": "xZqLWoP5CVXNYme4yaERFg=="
+          "hash": "LPk5vuGr3e9O8dMWJfZxQQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.EnumerableRegistrationException.html",
-          "hash": "QRyqRwlaMNlddtKdjfomnQ=="
+          "hash": "NMkvTQ39tEq9dPOUbJ45EA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -213,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.InterfaceExpectedException.html",
-          "hash": "RvUS4/tPzk0eLOIc00DGcA=="
+          "hash": "WjRAzdRThsTldchuvEdOfA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -225,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.InvalidEnumValueException-1.html",
-          "hash": "vH61O4yDM2Bnw3IzkV8mzw=="
+          "hash": "7z+z3lbKXaPb6XW7DQN3dg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -237,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.InvalidExpressionArgumentsException.html",
-          "hash": "9KiFWlyegzMrbxW/+K4fwA=="
+          "hash": "klUlT5XZ73pdx3rJ01dz+w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.NoConstructorException.html",
-          "hash": "Tvw8LSOrqgzVb14ZXzaCBA=="
+          "hash": "4r19az1zMTYZRbuCTJHF1w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -261,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.RegistrationAlreadyExistsException.html",
-          "hash": "KhfuRpeLo9zJSi12ndr+fQ=="
+          "hash": "jtXsFS5zQ9xCRZk7bFZRfA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.SingularityAggregateException.html",
-          "hash": "28pv9TveX4x/EdF6a0WPPw=="
+          "hash": "CUbgg7CxOU3nQ+KaOFjZ9g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -285,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.SingularityException.html",
-          "hash": "WpZjQ7KTj3cE40esqKxbqg=="
+          "hash": "K+oTUbQbFPnJt44jGaEn7A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.TypeNotAssignableException.html",
-          "hash": "YFYj888rPPV5+6B4TkxYQA=="
+          "hash": "YHEa2vn6wRB2g+cgwdFOVg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -309,10 +333,46 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.html",
-          "hash": "zNxli5Lo4xcdPBeE60oP+w=="
+          "hash": "KiTXpEhoFjFabKAHgFUpyQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Expressions.ExpressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Expressions.ExpressionContext.html",
+          "hash": "/AH675BKy2A+Idy8FVdPKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Expressions.ReadOnlyExpressionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Expressions.ReadOnlyExpressionContext.html",
+          "hash": "TXw97lIa2w8rOEwC18TUAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Expressions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Expressions.html",
+          "hash": "f3NDzBKIib5fzaKHnTqEgg=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -321,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Graph.BindingMetadata.html",
-          "hash": "D0ZAOgGk9QXALiZEwGXQfA=="
+          "hash": "TLePoXoNCK7eX8+qZ/zmSQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Graph.html",
-          "hash": "2uI/n8fUuZMeJlR58wZHHw=="
+          "hash": "J9OJxrUwFqgQpPsKxxkNUA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +405,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.IContainer.html",
-          "hash": "5gnw3aaVAKTmePPgHLZrpw=="
+          "hash": "llfL7AL0SMXi2+WtznHFRg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.ILifetime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.ILifetime.html",
+          "hash": "tm7r+xDw22HIDvWdzzWczA=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -357,22 +429,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.IModule.html",
-          "hash": "jSlBvdkpkrgvLJNoSNXD4w=="
+          "hash": "ctJjyrrwobzDEckYEF1Uig=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Lifetime.yml",
+      "source_relative_path": "api/Singularity.Lifetimes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Singularity.Lifetime.html",
-          "hash": "XV47y/nmPwNbGHH7MjIpkg=="
+          "relative_path": "api/Singularity.Lifetimes.html",
+          "hash": "ZV/VSIe9WRUe1LnbvmUAEQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Microsoft.DependencyInjection.Extensions.html",
-          "hash": "CeesCOuFdHO24fmLT7GjCw=="
+          "hash": "HNiK1D5DD+fdb1UGgw9uzw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.html",
-          "hash": "Eg3PveP0YdoQ3NsUtHjqaA=="
+          "hash": "mo4KZl9PnSZJ4JXgQIltUA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -405,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html",
-          "hash": "NFUQGNsTSH1SLVp+4etmgg=="
+          "hash": "RX+wBdfik/1LCuy7oslCfA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -417,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.html",
-          "hash": "EZYU9rja4MNpP08QDhFsAQ=="
+          "hash": "eG/5VU+hwqyxpd53OGGGGA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -429,10 +501,34 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Microsoft.DependencyInjection.html",
-          "hash": "Z2WpkH0t7k7IUehfVBh6sA=="
+          "hash": "JXeVOygaTuqs3quJ21ujCA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.PerContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.PerContainer.html",
+          "hash": "21Pj7RK+BmQp3JX4Jsujxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.PerScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.PerScope.html",
+          "hash": "tXO37gZ9dmZS/SCPf7f0pA=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -441,10 +537,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Scoped.html",
-          "hash": "2hcpToclR2HMGqt4MDYFMw=="
+          "hash": "hRtMoA+rGw9vBHlUBRNdKg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.ServiceAutoDispose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.ServiceAutoDispose.html",
+          "hash": "JSDv4Sujxz4gs8dJExtzCA=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -453,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.SingularitySettings.html",
-          "hash": "fKVRER9lllZfQmaoO466KQ=="
+          "hash": "nVSgKb8CBkFXZslIh2KUQA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -465,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.StronglyTypedDecoratorConfigurator-2.html",
-          "hash": "3XbbWRFJ8KNJ62NrSVWJEg=="
+          "hash": "5/orpdabqMa1JjznW9k2Zg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -477,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.StronglyTypedLateInjectorConfigurator-1.html",
-          "hash": "g1Nret88x16TW6T0l4hi1Q=="
+          "hash": "E+h3nlRC6uM6GcG241gN6A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -489,10 +597,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.StronglyTypedServiceConfigurator-2.html",
-          "hash": "TzY9kqbs5sGs3onzZhZmnw=="
+          "hash": "CcEYWb4vDGIFxborAoP2YA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Transient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Transient.html",
+          "hash": "njsZnUP9aV2E0TYPy/Q4xg=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -501,10 +621,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.WeaklyTypedDecoratorConfigurator.html",
-          "hash": "/eXDrRYmtdmiGShhWoFF7w=="
+          "hash": "Twd2HdocHveH5lpixmJ54A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -513,10 +633,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.WeaklyTypedLateInjectorConfigurator.html",
-          "hash": "kgHPpWJ9ZUSn/oJHTRXevw=="
+          "hash": "MIBoujzBaGXux+PaNdWGzg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -525,10 +645,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.WeaklyTypedServiceConfigurator.html",
-          "hash": "O2pgkVYVmapDS2wqpsWMFg=="
+          "hash": "MkyfUb7hlrtzpQleK+LlFQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -537,10 +657,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.html",
-          "hash": "wBjQyhoGmREfXk7nNs+/rw=="
+          "hash": "fsxjpPVnS25grmxEp7JSPw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -549,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "UKMItRVIUl8up54V3NKCnw=="
+          "hash": "e0UcLzPWu6VCLYx7k0En0Q=="
         }
       },
       "is_incremental": true,
@@ -561,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Pnd4ILYkxjcZ+Ura30tRgQ=="
+          "hash": "cgpp2k48gO1H8yHOS2dvIw=="
         }
       },
       "is_incremental": false,
@@ -573,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Configuring Dependencies.html",
-          "hash": "/qOiWN1cZVxCSYkYTVm3zw=="
+          "hash": "ptESltIZIKpvPKLkPeP8Fw=="
         }
       },
       "is_incremental": true,
@@ -585,19 +705,22 @@
       "output": {
         ".html": {
           "relative_path": "articles/Game Scope Dependencies.html",
-          "hash": "DXpymM3btbJ4/WJMeGMuZg=="
+          "hash": "Sr5C/mpgdLUb/u6njOOz4w=="
         }
       },
       "is_incremental": true,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/Lifetimes.md",
       "output": {
         ".html": {
           "relative_path": "articles/Lifetimes.html",
-          "hash": "03vkzFbEqaCdCr/rSRGi/A=="
+          "hash": "uPgsn207iYNW1W7eIv0/2g=="
         }
       },
       "is_incremental": true,
@@ -609,7 +732,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Method injection.html",
-          "hash": "EDRp7grD2Zlpg/17Y/2oIw=="
+          "hash": "iUxsuKRxJdo7ZK4dqSnceQ=="
         }
       },
       "is_incremental": true,
@@ -621,7 +744,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Modules.html",
-          "hash": "d1Rk5Apsit6dDK3wIZ/jOg=="
+          "hash": "r1/pIYCPVrxL0VdltNE9jA=="
         }
       },
       "is_incremental": true,
@@ -633,7 +756,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Scene Scope Dependencies.html",
-          "hash": "ZNArVxm40kT2S4jU/VkiLw=="
+          "hash": "w+Jq9Zl/ruYWscvu/C3YIw=="
         }
       },
       "is_incremental": true,
@@ -645,7 +768,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Scopes.html",
-          "hash": "OyGvX20C7z5FQsxIrkdPMg=="
+          "hash": "gnZNWrGV71YgPd+jzeZRtQ=="
         }
       },
       "is_incremental": true,
@@ -657,7 +780,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Using Singularity in Duality.html",
-          "hash": "17+VSAtpwBCEb2dqQfCZ0Q=="
+          "hash": "ekLRWe6Np2RAjRJeE0vnLw=="
         }
       },
       "is_incremental": true,
@@ -681,10 +804,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "UCWeMN3DXgncooJW8jvDZA=="
+          "hash": "FrKvq5fGr36fOEQbxeQAPg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -709,24 +832,24 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 10,
-          "skipped_file_count": 9
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 45,
-          "skipped_file_count": 10
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 55,
+          "skipped_file_count": 55
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 10
         }
       }
     },

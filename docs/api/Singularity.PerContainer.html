@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RegistrationAlreadyExistsException
+    <title>Class PerContainer
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RegistrationAlreadyExistsException
+    <meta name="title" content="Class PerContainer
    ">
     <meta name="generator" content="docfx 2.45.0.0">
     
@@ -68,66 +68,25 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Singularity.Exceptions.RegistrationAlreadyExistsException">
+            <article class="content wrap" id="_content" data-uid="Singularity.PerContainer">
   
   
-  <h1 id="Singularity_Exceptions_RegistrationAlreadyExistsException" data-uid="Singularity.Exceptions.RegistrationAlreadyExistsException" class="text-break">Class RegistrationAlreadyExistsException
+  <h1 id="Singularity_PerContainer" data-uid="Singularity.PerContainer" class="text-break">Class PerContainer
   </h1>
-  <div class="markdown level0 summary"><p>Exception for when a registration for the same type is registered in the child container.</p>
+  <div class="markdown level0 summary"><p>The same instance will be returned as long as it is requested in the same <a class="xref" href="Singularity.Container.html">Container</a> or a child of this container.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Exception</span></div>
-    <div class="level2"><a class="xref" href="Singularity.Exceptions.SingularityException.html">SingularityException</a></div>
-    <div class="level3"><span class="xref">RegistrationAlreadyExistsException</span></div>
+    <div class="level1"><span class="xref">PerContainer</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
+    <div><a class="xref" href="Singularity.ILifetime.html">ILifetime</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Exception.GetBaseException()</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.Data</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.HelpLink</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.HResult</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.InnerException</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.Message</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.Source</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.StackTrace</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.TargetSite</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.SerializeObjectState</span>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -138,22 +97,66 @@
       <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.Exceptions.html">Singularity.Exceptions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.html">Singularity</a></h6>
   <h6><strong>Assembly</strong>: Singularity.dll</h6>
-  <h5 id="Singularity_Exceptions_RegistrationAlreadyExistsException_syntax">Syntax</h5>
+  <h5 id="Singularity_PerContainer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public sealed class RegistrationAlreadyExistsException : SingularityException, ISerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class PerContainer : ILifetime</code></pre>
   </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_PerContainer_ApplyLifetimeOnExpression_Singularity_Scoped_Singularity_Expressions_ExpressionContext_.md&amp;value=---%0Auid%3A%20Singularity.PerContainer.ApplyLifetimeOnExpression(Singularity.Scoped%2CSingularity.Expressions.ExpressionContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Lifetimes/PerContainer.cs/#L14">View Source</a>
+  </span>
+  <a id="Singularity_PerContainer_ApplyLifetimeOnExpression_" data-uid="Singularity.PerContainer.ApplyLifetimeOnExpression*"></a>
+  <h4 id="Singularity_PerContainer_ApplyLifetimeOnExpression_Singularity_Scoped_Singularity_Expressions_ExpressionContext_" data-uid="Singularity.PerContainer.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)">ApplyLifetimeOnExpression(Scoped, ExpressionContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyLifetimeOnExpression(Scoped containerScope, ExpressionContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Singularity.Scoped.html">Scoped</a></td>
+        <td><span class="parametername">containerScope</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Singularity.Expressions.ExpressionContext.html">ExpressionContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.Runtime.Serialization.ISerializable</span>
+      <a class="xref" href="Singularity.ILifetime.html">ILifetime</a>
   </div>
 </article>
           </div>
@@ -163,10 +166,10 @@ public sealed class RegistrationAlreadyExistsException : SingularityException, I
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Exceptions_RegistrationAlreadyExistsException.md&amp;value=---%0Auid%3A%20Singularity.Exceptions.RegistrationAlreadyExistsException%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_PerContainer.md&amp;value=---%0Auid%3A%20Singularity.PerContainer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Exceptions/RegistrationAlreadyExistsException.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Lifetimes/PerContainer.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

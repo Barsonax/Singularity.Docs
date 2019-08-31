@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class WeaklyTypedServiceConfigurator
    ">
-    <meta name="generator" content="docfx 2.42.0.0">
+    <meta name="generator" content="docfx 2.45.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -81,11 +81,35 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">WeaklyTypedServiceConfigurator</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.html">Singularity</a></h6>
   <h6><strong>Assembly</strong>: Singularity.dll</h6>
   <h5 id="Singularity_WeaklyTypedServiceConfigurator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class WeaklyTypedServiceConfigurator : object</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class WeaklyTypedServiceConfigurator</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -187,19 +211,20 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_WeaklyTypedServiceConfigurator_With_Singularity_DisposeBehavior_.md&amp;value=---%0Auid%3A%20Singularity.WeaklyTypedServiceConfigurator.With(Singularity.DisposeBehavior)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_WeaklyTypedServiceConfigurator_With_Singularity_ILifetime_.md&amp;value=---%0Auid%3A%20Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ILifetime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/WeaklyTypedServiceConfigurator.cs/#L62">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/WeaklyTypedServiceConfigurator.cs/#L72">View Source</a>
   </span>
   <a id="Singularity_WeaklyTypedServiceConfigurator_With_" data-uid="Singularity.WeaklyTypedServiceConfigurator.With*"></a>
-  <h4 id="Singularity_WeaklyTypedServiceConfigurator_With_Singularity_DisposeBehavior_" data-uid="Singularity.WeaklyTypedServiceConfigurator.With(Singularity.DisposeBehavior)">With(DisposeBehavior)</h4>
-  <div class="markdown level1 summary"><p>Controls if and when the instance should be disposed. <a class="xref" href="Singularity.DisposeBehavior.html">DisposeBehavior</a> for more detailed information.</p>
+  <h4 id="Singularity_WeaklyTypedServiceConfigurator_With_Singularity_ILifetime_" data-uid="Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ILifetime)">With(ILifetime)</h4>
+  <div class="markdown level1 summary"><p>Controls when should new instances be created. See <a class="xref" href="Singularity.Lifetimes.html">Lifetimes</a> for more detailed information.</p>
+<param name="value">
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WeaklyTypedServiceConfigurator With(DisposeBehavior value)</code></pre>
+    <pre><code class="lang-csharp hljs">public WeaklyTypedServiceConfigurator With(ILifetime value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -212,7 +237,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Singularity.DisposeBehavior.html">DisposeBehavior</a></td>
+        <td><a class="xref" href="Singularity.ILifetime.html">ILifetime</a></td>
         <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
@@ -235,20 +260,19 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_WeaklyTypedServiceConfigurator_With_Singularity_Lifetime_.md&amp;value=---%0Auid%3A%20Singularity.WeaklyTypedServiceConfigurator.With(Singularity.Lifetime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_WeaklyTypedServiceConfigurator_With_Singularity_ServiceAutoDispose_.md&amp;value=---%0Auid%3A%20Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ServiceAutoDispose)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/WeaklyTypedServiceConfigurator.cs/#L72">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/WeaklyTypedServiceConfigurator.cs/#L62">View Source</a>
   </span>
   <a id="Singularity_WeaklyTypedServiceConfigurator_With_" data-uid="Singularity.WeaklyTypedServiceConfigurator.With*"></a>
-  <h4 id="Singularity_WeaklyTypedServiceConfigurator_With_Singularity_Lifetime_" data-uid="Singularity.WeaklyTypedServiceConfigurator.With(Singularity.Lifetime)">With(Lifetime)</h4>
-  <div class="markdown level1 summary"><p>Controls when should new instances be created. See <a class="xref" href="Singularity.Lifetime.html">Lifetime</a> for more detailed information.</p>
-<param name="value">
+  <h4 id="Singularity_WeaklyTypedServiceConfigurator_With_Singularity_ServiceAutoDispose_" data-uid="Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ServiceAutoDispose)">With(ServiceAutoDispose)</h4>
+  <div class="markdown level1 summary"><p>Controls if and when the instance should be disposed. <a class="xref" href="Singularity.ServiceAutoDispose.html">ServiceAutoDispose</a> for more detailed information.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WeaklyTypedServiceConfigurator With(Lifetime value)</code></pre>
+    <pre><code class="lang-csharp hljs">public WeaklyTypedServiceConfigurator With(ServiceAutoDispose value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -261,7 +285,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Singularity.Lifetime.html">Lifetime</a></td>
+        <td><a class="xref" href="Singularity.ServiceAutoDispose.html">ServiceAutoDispose</a></td>
         <td><span class="parametername">value</span></td>
         <td></td>
       </tr>

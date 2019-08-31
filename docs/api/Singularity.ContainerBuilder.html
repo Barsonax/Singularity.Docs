@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ContainerBuilder
    ">
-    <meta name="generator" content="docfx 2.42.0.0">
+    <meta name="generator" content="docfx 2.45.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -81,11 +81,35 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ContainerBuilder</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.html">Singularity</a></h6>
   <h6><strong>Assembly</strong>: Singularity.dll</h6>
   <h5 id="Singularity_ContainerBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ContainerBuilder : object</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ContainerBuilder</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -136,7 +160,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Decorate(Type dependencyType, Type decoratorType, Action&lt;WeaklyTypedDecoratorConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Decorate(Type dependencyType, Type decoratorType, Action&lt;WeaklyTypedDecoratorConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedDecoratorConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -189,7 +213,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Decorate(Type dependencyType, Type[] decoratorTypes, Action&lt;WeaklyTypedDecoratorConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Decorate(Type dependencyType, Type[] decoratorTypes, Action&lt;WeaklyTypedDecoratorConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedDecoratorConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -242,7 +266,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Decorate&lt;TDependency, TDecorator&gt;(Action&lt;StronglyTypedDecoratorConfigurator&lt;TDependency, TDecorator&gt;&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)
+    <pre><code class="lang-csharp hljs">public void Decorate&lt;TDependency, TDecorator&gt;(Action&lt;StronglyTypedDecoratorConfigurator&lt;TDependency, TDecorator&gt;&gt;? configurator = default(Action&lt;StronglyTypedDecoratorConfigurator&lt;TDependency, TDecorator&gt;&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)
 
     where TDependency : class where TDecorator : TDependency</code></pre>
   </div>
@@ -324,7 +348,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void LateInject(Type instanceType, Action&lt;WeaklyTypedLateInjectorConfigurator&gt;? configurator, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void LateInject(Type instanceType, Action&lt;WeaklyTypedLateInjectorConfigurator&gt;? configurator, string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -372,7 +396,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void LateInject&lt;TInstance&gt;(Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;? configurator, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void LateInject&lt;TInstance&gt;(Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;? configurator, string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -430,7 +454,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register(Type instanceType, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Register(Type instanceType, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedServiceConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -478,7 +502,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register(Type dependencyType, Type instanceType, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Register(Type dependencyType, Type instanceType, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedServiceConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -531,7 +555,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register(Type dependencyType, Type[] instanceTypes, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Register(Type dependencyType, Type[] instanceTypes, Action&lt;WeaklyTypedServiceConfigurator&gt;? configurator = default(Action&lt;WeaklyTypedServiceConfigurator&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -584,7 +608,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register&lt;TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TInstance, TInstance&gt;&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)
+    <pre><code class="lang-csharp hljs">public void Register&lt;TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TInstance, TInstance&gt;&gt;? configurator = default(Action&lt;StronglyTypedServiceConfigurator&lt;TInstance, TInstance&gt;&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)
 
     where TInstance : class</code></pre>
   </div>
@@ -644,7 +668,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register&lt;TDependency, TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TDependency, TInstance&gt;&gt;? configurator = null, string callerFilePath = &quot;&quot;, int callerLineNumber = null)
+    <pre><code class="lang-csharp hljs">public void Register&lt;TDependency, TInstance&gt;(Action&lt;StronglyTypedServiceConfigurator&lt;TDependency, TInstance&gt;&gt;? configurator = default(Action&lt;StronglyTypedServiceConfigurator&lt;TDependency, TInstance&gt;&gt;? ), string callerFilePath = &quot;&quot;, int callerLineNumber = -1)
 
     where TInstance : class, TDependency</code></pre>
   </div>

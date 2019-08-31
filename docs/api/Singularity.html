@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace Singularity
    ">
-    <meta name="generator" content="docfx 2.42.0.0">
+    <meta name="generator" content="docfx 2.45.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -83,8 +83,17 @@
       <h4><a class="xref" href="Singularity.ContainerBuilder.html">ContainerBuilder</a></h4>
       <section><p>A class to make configuring dependencies easier</p>
 </section>
+      <h4><a class="xref" href="Singularity.Lifetimes.html">Lifetimes</a></h4>
+      <section><p>Specifies when new instances of dependencies should be made</p>
+</section>
+      <h4><a class="xref" href="Singularity.PerContainer.html">PerContainer</a></h4>
+      <section><p>The same instance will be returned as long as it is requested in the same <a class="xref" href="Singularity.Container.html">Container</a> or a child of this container.</p>
+</section>
+      <h4><a class="xref" href="Singularity.PerScope.html">PerScope</a></h4>
+      <section><p>The same instance will be returned as long as it is requested in the same <a class="xref" href="Singularity.Scoped.html">Scoped</a>.</p>
+</section>
       <h4><a class="xref" href="Singularity.Scoped.html">Scoped</a></h4>
-      <section><p>Represents the scope in which instances will life.</p>
+      <section><p>A light weight scope in which instances will life.</p>
 </section>
       <h4><a class="xref" href="Singularity.SingularitySettings.html">SingularitySettings</a></h4>
       <section><p>Defines settings for the singularity container.</p>
@@ -97,6 +106,9 @@
 </section>
       <h4><a class="xref" href="Singularity.StronglyTypedServiceConfigurator-2.html">StronglyTypedServiceConfigurator&lt;TDependency, TInstance&gt;</a></h4>
       <section><p>A strongly typed configurator for registering new service bindings.</p>
+</section>
+      <h4><a class="xref" href="Singularity.Transient.html">Transient</a></h4>
+      <section><p>Every time a instance is requested a new instance is returned.</p>
 </section>
       <h4><a class="xref" href="Singularity.WeaklyTypedDecoratorConfigurator.html">WeaklyTypedDecoratorConfigurator</a></h4>
       <section><p>A weakly typed configurator for registering new decorators.</p>
@@ -112,16 +124,16 @@
       <h4><a class="xref" href="Singularity.IContainer.html">IContainer</a></h4>
       <section><p>Interface for a singularity container.</p>
 </section>
+      <h4><a class="xref" href="Singularity.ILifetime.html">ILifetime</a></h4>
+      <section><p>Defines a lifetime.</p>
+</section>
       <h4><a class="xref" href="Singularity.IModule.html">IModule</a></h4>
       <section><p>The interface for modules that can register dependencies.</p>
 </section>
     <h3 id="enums">Enums
   </h3>
-      <h4><a class="xref" href="Singularity.DisposeBehavior.html">DisposeBehavior</a></h4>
-      <section><p>Specifies when instances should be disposed.</p>
-</section>
-      <h4><a class="xref" href="Singularity.Lifetime.html">Lifetime</a></h4>
-      <section><p>Specifies when new instances of dependencies should be made</p>
+      <h4><a class="xref" href="Singularity.ServiceAutoDispose.html">ServiceAutoDispose</a></h4>
+      <section><p>Specifies if a service should be auto disposed.</p>
 </section>
 </article>
           </div>

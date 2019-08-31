@@ -13,6 +13,293 @@ references:
   commentId: N:Singularity.Collections
   fullName: Singularity.Collections
   nameWithType: Singularity.Collections
+- uid: Singularity.Collections.LifetimeCollection
+  name: LifetimeCollection
+  href: api/Singularity.Collections.LifetimeCollection.html
+  commentId: T:Singularity.Collections.LifetimeCollection
+  fullName: Singularity.Collections.LifetimeCollection
+  nameWithType: LifetimeCollection
+- uid: Singularity.Collections.LifetimeCollection.Contains(Singularity.ILifetime)
+  name: Contains(ILifetime)
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_Contains_Singularity_ILifetime_
+  commentId: M:Singularity.Collections.LifetimeCollection.Contains(Singularity.ILifetime)
+  fullName: Singularity.Collections.LifetimeCollection.Contains(Singularity.ILifetime)
+  nameWithType: LifetimeCollection.Contains(ILifetime)
+- uid: Singularity.Collections.LifetimeCollection.Contains*
+  name: Contains
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_Contains_
+  commentId: Overload:Singularity.Collections.LifetimeCollection.Contains
+  isSpec: "True"
+  fullName: Singularity.Collections.LifetimeCollection.Contains
+  nameWithType: LifetimeCollection.Contains
+- uid: Singularity.Collections.LifetimeCollection.Empty
+  name: Empty
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_Empty
+  commentId: P:Singularity.Collections.LifetimeCollection.Empty
+  fullName: Singularity.Collections.LifetimeCollection.Empty
+  nameWithType: LifetimeCollection.Empty
+- uid: Singularity.Collections.LifetimeCollection.Empty*
+  name: Empty
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_Empty_
+  commentId: Overload:Singularity.Collections.LifetimeCollection.Empty
+  isSpec: "True"
+  fullName: Singularity.Collections.LifetimeCollection.Empty
+  nameWithType: LifetimeCollection.Empty
+- uid: Singularity.Collections.LifetimeCollection.op_Implicit(Singularity.ILifetime[])~Singularity.Collections.LifetimeCollection
+  name: Implicit(ILifetime[] to LifetimeCollection)
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_op_Implicit_Singularity_ILifetime____Singularity_Collections_LifetimeCollection
+  commentId: M:Singularity.Collections.LifetimeCollection.op_Implicit(Singularity.ILifetime[])~Singularity.Collections.LifetimeCollection
+  name.vb: Widening(ILifetime() to LifetimeCollection)
+  fullName: Singularity.Collections.LifetimeCollection.Implicit(Singularity.ILifetime[] to Singularity.Collections.LifetimeCollection)
+  fullName.vb: Singularity.Collections.LifetimeCollection.Widening(Singularity.ILifetime() to Singularity.Collections.LifetimeCollection)
+  nameWithType: LifetimeCollection.Implicit(ILifetime[] to LifetimeCollection)
+  nameWithType.vb: LifetimeCollection.Widening(ILifetime() to LifetimeCollection)
+- uid: Singularity.Collections.LifetimeCollection.op_Implicit*
+  name: Implicit
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_op_Implicit_
+  commentId: Overload:Singularity.Collections.LifetimeCollection.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Singularity.Collections.LifetimeCollection.Implicit
+  fullName.vb: Singularity.Collections.LifetimeCollection.Widening
+  nameWithType: LifetimeCollection.Implicit
+  nameWithType.vb: LifetimeCollection.Widening
+- uid: Singularity.Collections.LifetimeCollection.System#Collections#Generic#IEnumerable{Singularity#ILifetime}#GetEnumerator
+  name: IEnumerable<ILifetime>.GetEnumerator()
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_System_Collections_Generic_IEnumerable_Singularity_ILifetime__GetEnumerator
+  commentId: M:Singularity.Collections.LifetimeCollection.System#Collections#Generic#IEnumerable{Singularity#ILifetime}#GetEnumerator
+  name.vb: System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator()
+  fullName: Singularity.Collections.LifetimeCollection.System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator()
+  nameWithType: LifetimeCollection.IEnumerable<ILifetime>.GetEnumerator()
+  nameWithType.vb: LifetimeCollection.System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator()
+- uid: Singularity.Collections.LifetimeCollection.System#Collections#Generic#IEnumerable{Singularity#ILifetime}#GetEnumerator*
+  name: IEnumerable<ILifetime>.GetEnumerator
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_System_Collections_Generic_IEnumerable_Singularity_ILifetime__GetEnumerator_
+  commentId: Overload:Singularity.Collections.LifetimeCollection.System#Collections#Generic#IEnumerable{Singularity#ILifetime}#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator
+  fullName: Singularity.Collections.LifetimeCollection.System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator
+  nameWithType: LifetimeCollection.IEnumerable<ILifetime>.GetEnumerator
+  nameWithType.vb: LifetimeCollection.System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator
+- uid: Singularity.Collections.LifetimeCollection.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:Singularity.Collections.LifetimeCollection.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: Singularity.Collections.LifetimeCollection.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: LifetimeCollection.IEnumerable.GetEnumerator()
+  nameWithType.vb: LifetimeCollection.System.Collections.IEnumerable.GetEnumerator()
+- uid: Singularity.Collections.LifetimeCollection.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:Singularity.Collections.LifetimeCollection.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: Singularity.Collections.LifetimeCollection.System.Collections.IEnumerable.GetEnumerator
+  nameWithType: LifetimeCollection.IEnumerable.GetEnumerator
+  nameWithType.vb: LifetimeCollection.System.Collections.IEnumerable.GetEnumerator
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2
+  name: SinglyLinkedListKeyNode<TKey, TValue>
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html
+  commentId: T:Singularity.Collections.SinglyLinkedListKeyNode`2
+  name.vb: SinglyLinkedListKeyNode(Of TKey, TValue)
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue)
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue)
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.#ctor(System.Nullable{Singularity.Collections.SinglyLinkedListKeyNode{`0,`1}},`0@,`1@)
+  name: SinglyLinkedListKeyNode(Nullable<SinglyLinkedListKeyNode<TKey, TValue>>, TKey, TValue)
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2__ctor_System_Nullable_Singularity_Collections_SinglyLinkedListKeyNode__0__1____0___1__
+  commentId: M:Singularity.Collections.SinglyLinkedListKeyNode`2.#ctor(System.Nullable{Singularity.Collections.SinglyLinkedListKeyNode{`0,`1}},`0@,`1@)
+  name.vb: SinglyLinkedListKeyNode(Nullable(Of SinglyLinkedListKeyNode(Of TKey, TValue)), ByRef TKey, ByRef TValue)
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.SinglyLinkedListKeyNode(System.Nullable<Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>>, TKey, TValue)
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).SinglyLinkedListKeyNode(System.Nullable(Of Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue)), ByRef TKey, ByRef TValue)
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.SinglyLinkedListKeyNode(Nullable<SinglyLinkedListKeyNode<TKey, TValue>>, TKey, TValue)
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).SinglyLinkedListKeyNode(Nullable(Of SinglyLinkedListKeyNode(Of TKey, TValue)), ByRef TKey, ByRef TValue)
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.#ctor*
+  name: SinglyLinkedListKeyNode
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2__ctor_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListKeyNode`2.#ctor
+  isSpec: "True"
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.SinglyLinkedListKeyNode
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).SinglyLinkedListKeyNode
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.SinglyLinkedListKeyNode
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).SinglyLinkedListKeyNode
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator
+  name: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html
+  commentId: T:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator
+  name.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Current
+  name: Current
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_Current
+  commentId: P:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Current
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Current
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Current
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Current
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Current
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Current*
+  name: Current
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_Current_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Current
+  isSpec: "True"
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Current
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Current
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Current
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Current
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Dispose
+  name: Dispose()
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_Dispose
+  commentId: M:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Dispose
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Dispose()
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Dispose()
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Dispose()
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Dispose()
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Dispose*
+  name: Dispose
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_Dispose_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Dispose
+  isSpec: "True"
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Dispose
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Dispose
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Dispose
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Dispose
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.MoveNext
+  name: MoveNext()
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_MoveNext
+  commentId: M:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.MoveNext
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.MoveNext()
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.MoveNext()
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.MoveNext()
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.MoveNext()
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.MoveNext*
+  name: MoveNext
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_MoveNext_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.MoveNext
+  isSpec: "True"
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.MoveNext
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.MoveNext
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.MoveNext
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.MoveNext
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Reset
+  name: Reset()
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_Reset
+  commentId: M:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Reset
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Reset()
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Reset()
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Reset()
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Reset()
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Reset*
+  name: Reset
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_Reset_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.Reset
+  isSpec: "True"
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Reset
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Reset
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.Reset
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.Reset
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.System#Collections#IEnumerator#Current
+  name: IEnumerator.Current
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_System_Collections_IEnumerator_Current
+  commentId: P:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.System#Collections#IEnumerator#Current
+  name.vb: System.Collections.IEnumerator.Current
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.System.Collections.IEnumerator.Current
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.System.Collections.IEnumerator.Current
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.IEnumerator.Current
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.System.Collections.IEnumerator.Current
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.System#Collections#IEnumerator#Current*
+  name: IEnumerator.Current
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Enumerator_System_Collections_IEnumerator_Current_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListKeyNode`2.Enumerator.System#Collections#IEnumerator#Current
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerator.Current
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.System.Collections.IEnumerator.Current
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.System.Collections.IEnumerator.Current
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Enumerator.IEnumerator.Current
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Enumerator.System.Collections.IEnumerator.Current
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.GetEnumerator
+  name: GetEnumerator()
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2_GetEnumerator
+  commentId: M:Singularity.Collections.SinglyLinkedListKeyNode`2.GetEnumerator
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.GetEnumerator()
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).GetEnumerator()
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.GetEnumerator()
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).GetEnumerator()
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.GetEnumerator*
+  name: GetEnumerator
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2_GetEnumerator_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListKeyNode`2.GetEnumerator
+  isSpec: "True"
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.GetEnumerator
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).GetEnumerator
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.GetEnumerator
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).GetEnumerator
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Key
+  name: Key
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Key
+  commentId: F:Singularity.Collections.SinglyLinkedListKeyNode`2.Key
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Key
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Key
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Key
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Key
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Next
+  name: Next
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Next
+  commentId: F:Singularity.Collections.SinglyLinkedListKeyNode`2.Next
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Next
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Next
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Next
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Next
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.System#Collections#Generic#IEnumerable{TValue}#GetEnumerator
+  name: IEnumerable<TValue>.GetEnumerator()
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2_System_Collections_Generic_IEnumerable_TValue__GetEnumerator
+  commentId: M:Singularity.Collections.SinglyLinkedListKeyNode`2.System#Collections#Generic#IEnumerable{TValue}#GetEnumerator
+  name.vb: System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.IEnumerable<TValue>.GetEnumerator()
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.System#Collections#Generic#IEnumerable{TValue}#GetEnumerator*
+  name: IEnumerable<TValue>.GetEnumerator
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2_System_Collections_Generic_IEnumerable_TValue__GetEnumerator_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListKeyNode`2.System#Collections#Generic#IEnumerable{TValue}#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IEnumerable<TValue>.GetEnumerator
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.System.Collections.Generic.IEnumerable<TValue>.GetEnumerator
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).System.Collections.Generic.IEnumerable<TValue>.GetEnumerator
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.IEnumerable<TValue>.GetEnumerator
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).System.Collections.Generic.IEnumerable<TValue>.GetEnumerator
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:Singularity.Collections.SinglyLinkedListKeyNode`2.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.IEnumerable.GetEnumerator()
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator()
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListKeyNode`2.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.IEnumerable.GetEnumerator
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.Value
+  name: Value
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2_Value
+  commentId: F:Singularity.Collections.SinglyLinkedListKeyNode`2.Value
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.Value
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).Value
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.Value
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).Value
 - uid: Singularity.Collections.SinglyLinkedListNode`1
   name: SinglyLinkedListNode<T>
   href: api/Singularity.Collections.SinglyLinkedListNode-1.html
@@ -126,6 +413,25 @@ references:
   fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Enumerator.Reset
   nameWithType: SinglyLinkedListNode<T>.Enumerator.Reset
   nameWithType.vb: SinglyLinkedListNode(Of T).Enumerator.Reset
+- uid: Singularity.Collections.SinglyLinkedListNode`1.Enumerator.System#Collections#IEnumerator#Current
+  name: IEnumerator.Current
+  href: api/Singularity.Collections.SinglyLinkedListNode-1.Enumerator.html#Singularity_Collections_SinglyLinkedListNode_1_Enumerator_System_Collections_IEnumerator_Current
+  commentId: P:Singularity.Collections.SinglyLinkedListNode`1.Enumerator.System#Collections#IEnumerator#Current
+  name.vb: System.Collections.IEnumerator.Current
+  fullName: Singularity.Collections.SinglyLinkedListNode<T>.Enumerator.System.Collections.IEnumerator.Current
+  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Enumerator.System.Collections.IEnumerator.Current
+  nameWithType: SinglyLinkedListNode<T>.Enumerator.IEnumerator.Current
+  nameWithType.vb: SinglyLinkedListNode(Of T).Enumerator.System.Collections.IEnumerator.Current
+- uid: Singularity.Collections.SinglyLinkedListNode`1.Enumerator.System#Collections#IEnumerator#Current*
+  name: IEnumerator.Current
+  href: api/Singularity.Collections.SinglyLinkedListNode-1.Enumerator.html#Singularity_Collections_SinglyLinkedListNode_1_Enumerator_System_Collections_IEnumerator_Current_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListNode`1.Enumerator.System#Collections#IEnumerator#Current
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerator.Current
+  fullName: Singularity.Collections.SinglyLinkedListNode<T>.Enumerator.System.Collections.IEnumerator.Current
+  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Enumerator.System.Collections.IEnumerator.Current
+  nameWithType: SinglyLinkedListNode<T>.Enumerator.IEnumerator.Current
+  nameWithType.vb: SinglyLinkedListNode(Of T).Enumerator.System.Collections.IEnumerator.Current
 - uid: Singularity.Collections.SinglyLinkedListNode`1.GetEnumerator
   name: GetEnumerator()
   href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_GetEnumerator
@@ -151,6 +457,44 @@ references:
   fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Next
   nameWithType: SinglyLinkedListNode<T>.Next
   nameWithType.vb: SinglyLinkedListNode(Of T).Next
+- uid: Singularity.Collections.SinglyLinkedListNode`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  name: IEnumerable<T>.GetEnumerator()
+  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_System_Collections_Generic_IEnumerable_T__GetEnumerator
+  commentId: M:Singularity.Collections.SinglyLinkedListNode`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  name.vb: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  fullName: Singularity.Collections.SinglyLinkedListNode<T>.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType: SinglyLinkedListNode<T>.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: SinglyLinkedListNode(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+- uid: Singularity.Collections.SinglyLinkedListNode`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator*
+  name: IEnumerable<T>.GetEnumerator
+  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_System_Collections_Generic_IEnumerable_T__GetEnumerator_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListNode`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IEnumerable<T>.GetEnumerator
+  fullName: Singularity.Collections.SinglyLinkedListNode<T>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
+  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator
+  nameWithType: SinglyLinkedListNode<T>.IEnumerable<T>.GetEnumerator
+  nameWithType.vb: SinglyLinkedListNode(Of T).System.Collections.Generic.IEnumerable<T>.GetEnumerator
+- uid: Singularity.Collections.SinglyLinkedListNode`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:Singularity.Collections.SinglyLinkedListNode`1.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: Singularity.Collections.SinglyLinkedListNode<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: SinglyLinkedListNode<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: SinglyLinkedListNode(Of T).System.Collections.IEnumerable.GetEnumerator()
+- uid: Singularity.Collections.SinglyLinkedListNode`1.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListNode`1.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: Singularity.Collections.SinglyLinkedListNode<T>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: SinglyLinkedListNode<T>.IEnumerable.GetEnumerator
+  nameWithType.vb: SinglyLinkedListNode(Of T).System.Collections.IEnumerable.GetEnumerator
 - uid: Singularity.Collections.SinglyLinkedListNode`1.Value
   name: Value
   href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1_Value
@@ -435,30 +779,6 @@ references:
   fullName.vb: Singularity.ContainerBuilder.Register(Of TDependency, TInstance)(System.Nullable(Of System.Action(Of Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance))), System.String, System.Int32)
   nameWithType: ContainerBuilder.Register<TDependency, TInstance>(Nullable<Action<StronglyTypedServiceConfigurator<TDependency, TInstance>>>, String, Int32)
   nameWithType.vb: ContainerBuilder.Register(Of TDependency, TInstance)(Nullable(Of Action(Of StronglyTypedServiceConfigurator(Of TDependency, TInstance))), String, Int32)
-- uid: Singularity.DisposeBehavior
-  name: DisposeBehavior
-  href: api/Singularity.DisposeBehavior.html
-  commentId: T:Singularity.DisposeBehavior
-  fullName: Singularity.DisposeBehavior
-  nameWithType: DisposeBehavior
-- uid: Singularity.DisposeBehavior.Always
-  name: Always
-  href: api/Singularity.DisposeBehavior.html#Singularity_DisposeBehavior_Always
-  commentId: F:Singularity.DisposeBehavior.Always
-  fullName: Singularity.DisposeBehavior.Always
-  nameWithType: DisposeBehavior.Always
-- uid: Singularity.DisposeBehavior.Default
-  name: Default
-  href: api/Singularity.DisposeBehavior.html#Singularity_DisposeBehavior_Default
-  commentId: F:Singularity.DisposeBehavior.Default
-  fullName: Singularity.DisposeBehavior.Default
-  nameWithType: DisposeBehavior.Default
-- uid: Singularity.DisposeBehavior.Never
-  name: Never
-  href: api/Singularity.DisposeBehavior.html#Singularity_DisposeBehavior_Never
-  commentId: F:Singularity.DisposeBehavior.Never
-  fullName: Singularity.DisposeBehavior.Never
-  nameWithType: DisposeBehavior.Never
 - uid: Singularity.Duality
   name: Singularity.Duality
   href: api/Singularity.Duality.html
@@ -803,6 +1123,101 @@ references:
   commentId: T:Singularity.Exceptions.TypeNotAssignableException
   fullName: Singularity.Exceptions.TypeNotAssignableException
   nameWithType: TypeNotAssignableException
+- uid: Singularity.Expressions
+  name: Singularity.Expressions
+  href: api/Singularity.Expressions.html
+  commentId: N:Singularity.Expressions
+  fullName: Singularity.Expressions
+  nameWithType: Singularity.Expressions
+- uid: Singularity.Expressions.ExpressionContext
+  name: ExpressionContext
+  href: api/Singularity.Expressions.ExpressionContext.html
+  commentId: T:Singularity.Expressions.ExpressionContext
+  fullName: Singularity.Expressions.ExpressionContext
+  nameWithType: ExpressionContext
+- uid: Singularity.Expressions.ExpressionContext.Expression
+  name: Expression
+  href: api/Singularity.Expressions.ExpressionContext.html#Singularity_Expressions_ExpressionContext_Expression
+  commentId: P:Singularity.Expressions.ExpressionContext.Expression
+  fullName: Singularity.Expressions.ExpressionContext.Expression
+  nameWithType: ExpressionContext.Expression
+- uid: Singularity.Expressions.ExpressionContext.Expression*
+  name: Expression
+  href: api/Singularity.Expressions.ExpressionContext.html#Singularity_Expressions_ExpressionContext_Expression_
+  commentId: Overload:Singularity.Expressions.ExpressionContext.Expression
+  isSpec: "True"
+  fullName: Singularity.Expressions.ExpressionContext.Expression
+  nameWithType: ExpressionContext.Expression
+- uid: Singularity.Expressions.ExpressionContext.op_Implicit(Singularity.Expressions.ExpressionContext)~Singularity.Expressions.ReadOnlyExpressionContext
+  name: Implicit(ExpressionContext to ReadOnlyExpressionContext)
+  href: api/Singularity.Expressions.ExpressionContext.html#Singularity_Expressions_ExpressionContext_op_Implicit_Singularity_Expressions_ExpressionContext__Singularity_Expressions_ReadOnlyExpressionContext
+  commentId: M:Singularity.Expressions.ExpressionContext.op_Implicit(Singularity.Expressions.ExpressionContext)~Singularity.Expressions.ReadOnlyExpressionContext
+  name.vb: Widening(ExpressionContext to ReadOnlyExpressionContext)
+  fullName: Singularity.Expressions.ExpressionContext.Implicit(Singularity.Expressions.ExpressionContext to Singularity.Expressions.ReadOnlyExpressionContext)
+  fullName.vb: Singularity.Expressions.ExpressionContext.Widening(Singularity.Expressions.ExpressionContext to Singularity.Expressions.ReadOnlyExpressionContext)
+  nameWithType: ExpressionContext.Implicit(ExpressionContext to ReadOnlyExpressionContext)
+  nameWithType.vb: ExpressionContext.Widening(ExpressionContext to ReadOnlyExpressionContext)
+- uid: Singularity.Expressions.ExpressionContext.op_Implicit*
+  name: Implicit
+  href: api/Singularity.Expressions.ExpressionContext.html#Singularity_Expressions_ExpressionContext_op_Implicit_
+  commentId: Overload:Singularity.Expressions.ExpressionContext.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Singularity.Expressions.ExpressionContext.Implicit
+  fullName.vb: Singularity.Expressions.ExpressionContext.Widening
+  nameWithType: ExpressionContext.Implicit
+  nameWithType.vb: ExpressionContext.Widening
+- uid: Singularity.Expressions.ExpressionContext.ScopedExpressions
+  name: ScopedExpressions
+  href: api/Singularity.Expressions.ExpressionContext.html#Singularity_Expressions_ExpressionContext_ScopedExpressions
+  commentId: P:Singularity.Expressions.ExpressionContext.ScopedExpressions
+  fullName: Singularity.Expressions.ExpressionContext.ScopedExpressions
+  nameWithType: ExpressionContext.ScopedExpressions
+- uid: Singularity.Expressions.ExpressionContext.ScopedExpressions*
+  name: ScopedExpressions
+  href: api/Singularity.Expressions.ExpressionContext.html#Singularity_Expressions_ExpressionContext_ScopedExpressions_
+  commentId: Overload:Singularity.Expressions.ExpressionContext.ScopedExpressions
+  isSpec: "True"
+  fullName: Singularity.Expressions.ExpressionContext.ScopedExpressions
+  nameWithType: ExpressionContext.ScopedExpressions
+- uid: Singularity.Expressions.ReadOnlyExpressionContext
+  name: ReadOnlyExpressionContext
+  href: api/Singularity.Expressions.ReadOnlyExpressionContext.html
+  commentId: T:Singularity.Expressions.ReadOnlyExpressionContext
+  fullName: Singularity.Expressions.ReadOnlyExpressionContext
+  nameWithType: ReadOnlyExpressionContext
+- uid: Singularity.Expressions.ReadOnlyExpressionContext.op_Explicit(Singularity.Expressions.ReadOnlyExpressionContext)~Singularity.Expressions.ExpressionContext
+  name: Explicit(ReadOnlyExpressionContext to ExpressionContext)
+  href: api/Singularity.Expressions.ReadOnlyExpressionContext.html#Singularity_Expressions_ReadOnlyExpressionContext_op_Explicit_Singularity_Expressions_ReadOnlyExpressionContext__Singularity_Expressions_ExpressionContext
+  commentId: M:Singularity.Expressions.ReadOnlyExpressionContext.op_Explicit(Singularity.Expressions.ReadOnlyExpressionContext)~Singularity.Expressions.ExpressionContext
+  name.vb: Narrowing(ReadOnlyExpressionContext to ExpressionContext)
+  fullName: Singularity.Expressions.ReadOnlyExpressionContext.Explicit(Singularity.Expressions.ReadOnlyExpressionContext to Singularity.Expressions.ExpressionContext)
+  fullName.vb: Singularity.Expressions.ReadOnlyExpressionContext.Narrowing(Singularity.Expressions.ReadOnlyExpressionContext to Singularity.Expressions.ExpressionContext)
+  nameWithType: ReadOnlyExpressionContext.Explicit(ReadOnlyExpressionContext to ExpressionContext)
+  nameWithType.vb: ReadOnlyExpressionContext.Narrowing(ReadOnlyExpressionContext to ExpressionContext)
+- uid: Singularity.Expressions.ReadOnlyExpressionContext.op_Explicit*
+  name: Explicit
+  href: api/Singularity.Expressions.ReadOnlyExpressionContext.html#Singularity_Expressions_ReadOnlyExpressionContext_op_Explicit_
+  commentId: Overload:Singularity.Expressions.ReadOnlyExpressionContext.op_Explicit
+  isSpec: "True"
+  name.vb: Narrowing
+  fullName: Singularity.Expressions.ReadOnlyExpressionContext.Explicit
+  fullName.vb: Singularity.Expressions.ReadOnlyExpressionContext.Narrowing
+  nameWithType: ReadOnlyExpressionContext.Explicit
+  nameWithType.vb: ReadOnlyExpressionContext.Narrowing
+- uid: Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions
+  name: ScopedExpressions
+  href: api/Singularity.Expressions.ReadOnlyExpressionContext.html#Singularity_Expressions_ReadOnlyExpressionContext_ScopedExpressions
+  commentId: P:Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions
+  fullName: Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions
+  nameWithType: ReadOnlyExpressionContext.ScopedExpressions
+- uid: Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions*
+  name: ScopedExpressions
+  href: api/Singularity.Expressions.ReadOnlyExpressionContext.html#Singularity_Expressions_ReadOnlyExpressionContext_ScopedExpressions_
+  commentId: Overload:Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions
+  isSpec: "True"
+  fullName: Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions
+  nameWithType: ReadOnlyExpressionContext.ScopedExpressions
 - uid: Singularity.Graph
   name: Singularity.Graph
   href: api/Singularity.Graph.html
@@ -924,6 +1339,25 @@ references:
   fullName.vb: Singularity.IContainer.LateInjectAll(Of T)(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: IContainer.LateInjectAll<T>(IEnumerable<T>)
   nameWithType.vb: IContainer.LateInjectAll(Of T)(IEnumerable(Of T))
+- uid: Singularity.ILifetime
+  name: ILifetime
+  href: api/Singularity.ILifetime.html
+  commentId: T:Singularity.ILifetime
+  fullName: Singularity.ILifetime
+  nameWithType: ILifetime
+- uid: Singularity.ILifetime.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)
+  name: ApplyLifetimeOnExpression(Scoped, ExpressionContext)
+  href: api/Singularity.ILifetime.html#Singularity_ILifetime_ApplyLifetimeOnExpression_Singularity_Scoped_Singularity_Expressions_ExpressionContext_
+  commentId: M:Singularity.ILifetime.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)
+  fullName: Singularity.ILifetime.ApplyLifetimeOnExpression(Singularity.Scoped, Singularity.Expressions.ExpressionContext)
+  nameWithType: ILifetime.ApplyLifetimeOnExpression(Scoped, ExpressionContext)
+- uid: Singularity.ILifetime.ApplyLifetimeOnExpression*
+  name: ApplyLifetimeOnExpression
+  href: api/Singularity.ILifetime.html#Singularity_ILifetime_ApplyLifetimeOnExpression_
+  commentId: Overload:Singularity.ILifetime.ApplyLifetimeOnExpression
+  isSpec: "True"
+  fullName: Singularity.ILifetime.ApplyLifetimeOnExpression
+  nameWithType: ILifetime.ApplyLifetimeOnExpression
 - uid: Singularity.IModule
   name: IModule
   href: api/Singularity.IModule.html
@@ -943,30 +1377,51 @@ references:
   isSpec: "True"
   fullName: Singularity.IModule.Register
   nameWithType: IModule.Register
-- uid: Singularity.Lifetime
-  name: Lifetime
-  href: api/Singularity.Lifetime.html
-  commentId: T:Singularity.Lifetime
-  fullName: Singularity.Lifetime
-  nameWithType: Lifetime
-- uid: Singularity.Lifetime.PerContainer
+- uid: Singularity.Lifetimes
+  name: Lifetimes
+  href: api/Singularity.Lifetimes.html
+  commentId: T:Singularity.Lifetimes
+  fullName: Singularity.Lifetimes
+  nameWithType: Lifetimes
+- uid: Singularity.Lifetimes.PerContainer
   name: PerContainer
-  href: api/Singularity.Lifetime.html#Singularity_Lifetime_PerContainer
-  commentId: F:Singularity.Lifetime.PerContainer
-  fullName: Singularity.Lifetime.PerContainer
-  nameWithType: Lifetime.PerContainer
-- uid: Singularity.Lifetime.PerScope
+  href: api/Singularity.Lifetimes.html#Singularity_Lifetimes_PerContainer
+  commentId: P:Singularity.Lifetimes.PerContainer
+  fullName: Singularity.Lifetimes.PerContainer
+  nameWithType: Lifetimes.PerContainer
+- uid: Singularity.Lifetimes.PerContainer*
+  name: PerContainer
+  href: api/Singularity.Lifetimes.html#Singularity_Lifetimes_PerContainer_
+  commentId: Overload:Singularity.Lifetimes.PerContainer
+  isSpec: "True"
+  fullName: Singularity.Lifetimes.PerContainer
+  nameWithType: Lifetimes.PerContainer
+- uid: Singularity.Lifetimes.PerScope
   name: PerScope
-  href: api/Singularity.Lifetime.html#Singularity_Lifetime_PerScope
-  commentId: F:Singularity.Lifetime.PerScope
-  fullName: Singularity.Lifetime.PerScope
-  nameWithType: Lifetime.PerScope
-- uid: Singularity.Lifetime.Transient
+  href: api/Singularity.Lifetimes.html#Singularity_Lifetimes_PerScope
+  commentId: P:Singularity.Lifetimes.PerScope
+  fullName: Singularity.Lifetimes.PerScope
+  nameWithType: Lifetimes.PerScope
+- uid: Singularity.Lifetimes.PerScope*
+  name: PerScope
+  href: api/Singularity.Lifetimes.html#Singularity_Lifetimes_PerScope_
+  commentId: Overload:Singularity.Lifetimes.PerScope
+  isSpec: "True"
+  fullName: Singularity.Lifetimes.PerScope
+  nameWithType: Lifetimes.PerScope
+- uid: Singularity.Lifetimes.Transient
   name: Transient
-  href: api/Singularity.Lifetime.html#Singularity_Lifetime_Transient
-  commentId: F:Singularity.Lifetime.Transient
-  fullName: Singularity.Lifetime.Transient
-  nameWithType: Lifetime.Transient
+  href: api/Singularity.Lifetimes.html#Singularity_Lifetimes_Transient
+  commentId: P:Singularity.Lifetimes.Transient
+  fullName: Singularity.Lifetimes.Transient
+  nameWithType: Lifetimes.Transient
+- uid: Singularity.Lifetimes.Transient*
+  name: Transient
+  href: api/Singularity.Lifetimes.html#Singularity_Lifetimes_Transient_
+  commentId: Overload:Singularity.Lifetimes.Transient
+  isSpec: "True"
+  fullName: Singularity.Lifetimes.Transient
+  nameWithType: Lifetimes.Transient
 - uid: Singularity.Microsoft.DependencyInjection
   name: Singularity.Microsoft.DependencyInjection
   href: api/Singularity.Microsoft.DependencyInjection.html
@@ -1140,6 +1595,60 @@ references:
   isSpec: "True"
   fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.CreateScope
   nameWithType: SingularityServiceScopeFactory.CreateScope
+- uid: Singularity.PerContainer
+  name: PerContainer
+  href: api/Singularity.PerContainer.html
+  commentId: T:Singularity.PerContainer
+  fullName: Singularity.PerContainer
+  nameWithType: PerContainer
+- uid: Singularity.PerContainer.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)
+  name: ApplyLifetimeOnExpression(Scoped, ExpressionContext)
+  href: api/Singularity.PerContainer.html#Singularity_PerContainer_ApplyLifetimeOnExpression_Singularity_Scoped_Singularity_Expressions_ExpressionContext_
+  commentId: M:Singularity.PerContainer.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)
+  fullName: Singularity.PerContainer.ApplyLifetimeOnExpression(Singularity.Scoped, Singularity.Expressions.ExpressionContext)
+  nameWithType: PerContainer.ApplyLifetimeOnExpression(Scoped, ExpressionContext)
+- uid: Singularity.PerContainer.ApplyLifetimeOnExpression*
+  name: ApplyLifetimeOnExpression
+  href: api/Singularity.PerContainer.html#Singularity_PerContainer_ApplyLifetimeOnExpression_
+  commentId: Overload:Singularity.PerContainer.ApplyLifetimeOnExpression
+  isSpec: "True"
+  fullName: Singularity.PerContainer.ApplyLifetimeOnExpression
+  nameWithType: PerContainer.ApplyLifetimeOnExpression
+- uid: Singularity.PerScope
+  name: PerScope
+  href: api/Singularity.PerScope.html
+  commentId: T:Singularity.PerScope
+  fullName: Singularity.PerScope
+  nameWithType: PerScope
+- uid: Singularity.PerScope.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)
+  name: ApplyLifetimeOnExpression(Scoped, ExpressionContext)
+  href: api/Singularity.PerScope.html#Singularity_PerScope_ApplyLifetimeOnExpression_Singularity_Scoped_Singularity_Expressions_ExpressionContext_
+  commentId: M:Singularity.PerScope.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)
+  fullName: Singularity.PerScope.ApplyLifetimeOnExpression(Singularity.Scoped, Singularity.Expressions.ExpressionContext)
+  nameWithType: PerScope.ApplyLifetimeOnExpression(Scoped, ExpressionContext)
+- uid: Singularity.PerScope.ApplyLifetimeOnExpression*
+  name: ApplyLifetimeOnExpression
+  href: api/Singularity.PerScope.html#Singularity_PerScope_ApplyLifetimeOnExpression_
+  commentId: Overload:Singularity.PerScope.ApplyLifetimeOnExpression
+  isSpec: "True"
+  fullName: Singularity.PerScope.ApplyLifetimeOnExpression
+  nameWithType: PerScope.ApplyLifetimeOnExpression
+- uid: Singularity.PerScope.CreateScopedExpression*
+  name: CreateScopedExpression
+  href: api/Singularity.PerScope.html#Singularity_PerScope_CreateScopedExpression_
+  commentId: Overload:Singularity.PerScope.CreateScopedExpression
+  isSpec: "True"
+  fullName: Singularity.PerScope.CreateScopedExpression
+  nameWithType: PerScope.CreateScopedExpression
+- uid: Singularity.PerScope.CreateScopedExpression``1(System.Linq.Expressions.Expression)
+  name: CreateScopedExpression<T>(Expression)
+  href: api/Singularity.PerScope.html#Singularity_PerScope_CreateScopedExpression__1_System_Linq_Expressions_Expression_
+  commentId: M:Singularity.PerScope.CreateScopedExpression``1(System.Linq.Expressions.Expression)
+  name.vb: CreateScopedExpression(Of T)(Expression)
+  fullName: Singularity.PerScope.CreateScopedExpression<T>(System.Linq.Expressions.Expression)
+  fullName.vb: Singularity.PerScope.CreateScopedExpression(Of T)(System.Linq.Expressions.Expression)
+  nameWithType: PerScope.CreateScopedExpression<T>(Expression)
+  nameWithType.vb: PerScope.CreateScopedExpression(Of T)(Expression)
 - uid: Singularity.Scoped
   name: Scoped
   href: api/Singularity.Scoped.html
@@ -1210,25 +1719,49 @@ references:
   fullName.vb: Singularity.Scoped.LateInjectAll(Of T)(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: Scoped.LateInjectAll<T>(IEnumerable<T>)
   nameWithType.vb: Scoped.LateInjectAll(Of T)(IEnumerable(Of T))
+- uid: Singularity.ServiceAutoDispose
+  name: ServiceAutoDispose
+  href: api/Singularity.ServiceAutoDispose.html
+  commentId: T:Singularity.ServiceAutoDispose
+  fullName: Singularity.ServiceAutoDispose
+  nameWithType: ServiceAutoDispose
+- uid: Singularity.ServiceAutoDispose.Always
+  name: Always
+  href: api/Singularity.ServiceAutoDispose.html#Singularity_ServiceAutoDispose_Always
+  commentId: F:Singularity.ServiceAutoDispose.Always
+  fullName: Singularity.ServiceAutoDispose.Always
+  nameWithType: ServiceAutoDispose.Always
+- uid: Singularity.ServiceAutoDispose.Default
+  name: Default
+  href: api/Singularity.ServiceAutoDispose.html#Singularity_ServiceAutoDispose_Default
+  commentId: F:Singularity.ServiceAutoDispose.Default
+  fullName: Singularity.ServiceAutoDispose.Default
+  nameWithType: ServiceAutoDispose.Default
+- uid: Singularity.ServiceAutoDispose.Never
+  name: Never
+  href: api/Singularity.ServiceAutoDispose.html#Singularity_ServiceAutoDispose_Never
+  commentId: F:Singularity.ServiceAutoDispose.Never
+  fullName: Singularity.ServiceAutoDispose.Never
+  nameWithType: ServiceAutoDispose.Never
 - uid: Singularity.SingularitySettings
   name: SingularitySettings
   href: api/Singularity.SingularitySettings.html
   commentId: T:Singularity.SingularitySettings
   fullName: Singularity.SingularitySettings
   nameWithType: SingularitySettings
-- uid: Singularity.SingularitySettings.AutoDispose
-  name: AutoDispose
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_AutoDispose
-  commentId: P:Singularity.SingularitySettings.AutoDispose
-  fullName: Singularity.SingularitySettings.AutoDispose
-  nameWithType: SingularitySettings.AutoDispose
-- uid: Singularity.SingularitySettings.AutoDispose*
-  name: AutoDispose
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_AutoDispose_
-  commentId: Overload:Singularity.SingularitySettings.AutoDispose
+- uid: Singularity.SingularitySettings.AutoDisposeLifetimes
+  name: AutoDisposeLifetimes
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_AutoDisposeLifetimes
+  commentId: P:Singularity.SingularitySettings.AutoDisposeLifetimes
+  fullName: Singularity.SingularitySettings.AutoDisposeLifetimes
+  nameWithType: SingularitySettings.AutoDisposeLifetimes
+- uid: Singularity.SingularitySettings.AutoDisposeLifetimes*
+  name: AutoDisposeLifetimes
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_AutoDisposeLifetimes_
+  commentId: Overload:Singularity.SingularitySettings.AutoDisposeLifetimes
   isSpec: "True"
-  fullName: Singularity.SingularitySettings.AutoDispose
-  nameWithType: SingularitySettings.AutoDispose
+  fullName: Singularity.SingularitySettings.AutoDisposeLifetimes
+  nameWithType: SingularitySettings.AutoDisposeLifetimes
 - uid: Singularity.SingularitySettings.Default
   name: Default
   href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_Default
@@ -1259,6 +1792,49 @@ references:
   fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance)
   nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>
   nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance)
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseField(System.Reflection.FieldInfo)
+  name: UseField(FieldInfo)
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseField_System_Reflection_FieldInfo_
+  commentId: M:Singularity.StronglyTypedLateInjectorConfigurator`1.UseField(System.Reflection.FieldInfo)
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseField(System.Reflection.FieldInfo)
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseField(System.Reflection.FieldInfo)
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseField(FieldInfo)
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseField(FieldInfo)
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseField(System.String)
+  name: UseField(String)
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseField_System_String_
+  commentId: M:Singularity.StronglyTypedLateInjectorConfigurator`1.UseField(System.String)
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseField(System.String)
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseField(System.String)
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseField(String)
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseField(String)
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseField*
+  name: UseField
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseField_
+  commentId: Overload:Singularity.StronglyTypedLateInjectorConfigurator`1.UseField
+  isSpec: "True"
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseField
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseField
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseField
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseField
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseMember(System.Linq.Expressions.Expression{System.Func{`0,System.Nullable{System.Object}}})
+  name: UseMember(Expression<Func<TInstance, Nullable<Object>>>)
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseMember_System_Linq_Expressions_Expression_System_Func__0_System_Nullable_System_Object____
+  commentId: M:Singularity.StronglyTypedLateInjectorConfigurator`1.UseMember(System.Linq.Expressions.Expression{System.Func{`0,System.Nullable{System.Object}}})
+  name.vb: UseMember(Expression(Of Func(Of TInstance, Nullable(Of Object))))
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseMember(System.Linq.Expressions.Expression<System.Func<TInstance, System.Nullable<System.Object>>>)
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseMember(System.Linq.Expressions.Expression(Of System.Func(Of TInstance, System.Nullable(Of System.Object))))
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseMember(Expression<Func<TInstance, Nullable<Object>>>)
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseMember(Expression(Of Func(Of TInstance, Nullable(Of Object))))
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseMember*
+  name: UseMember
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseMember_
+  commentId: Overload:Singularity.StronglyTypedLateInjectorConfigurator`1.UseMember
+  isSpec: "True"
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseMember
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseMember
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseMember
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseMember
 - uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseMethod(System.Reflection.MethodInfo)
   name: UseMethod(MethodInfo)
   href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseMethod_System_Reflection_MethodInfo_
@@ -1426,22 +2002,22 @@ references:
   fullName.vb: Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance).Inject(Of TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8)(System.Linq.Expressions.Expression(Of System.Func(Of TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TInstance)))
   nameWithType: StronglyTypedServiceConfigurator<TDependency, TInstance>.Inject<TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8>(Expression<Func<TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TInstance>>)
   nameWithType.vb: StronglyTypedServiceConfigurator(Of TDependency, TInstance).Inject(Of TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8)(Expression(Of Func(Of TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TInstance)))
-- uid: Singularity.StronglyTypedServiceConfigurator`2.With(Singularity.DisposeBehavior)
-  name: With(DisposeBehavior)
-  href: api/Singularity.StronglyTypedServiceConfigurator-2.html#Singularity_StronglyTypedServiceConfigurator_2_With_Singularity_DisposeBehavior_
-  commentId: M:Singularity.StronglyTypedServiceConfigurator`2.With(Singularity.DisposeBehavior)
-  fullName: Singularity.StronglyTypedServiceConfigurator<TDependency, TInstance>.With(Singularity.DisposeBehavior)
-  fullName.vb: Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance).With(Singularity.DisposeBehavior)
-  nameWithType: StronglyTypedServiceConfigurator<TDependency, TInstance>.With(DisposeBehavior)
-  nameWithType.vb: StronglyTypedServiceConfigurator(Of TDependency, TInstance).With(DisposeBehavior)
-- uid: Singularity.StronglyTypedServiceConfigurator`2.With(Singularity.Lifetime)
-  name: With(Lifetime)
-  href: api/Singularity.StronglyTypedServiceConfigurator-2.html#Singularity_StronglyTypedServiceConfigurator_2_With_Singularity_Lifetime_
-  commentId: M:Singularity.StronglyTypedServiceConfigurator`2.With(Singularity.Lifetime)
-  fullName: Singularity.StronglyTypedServiceConfigurator<TDependency, TInstance>.With(Singularity.Lifetime)
-  fullName.vb: Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance).With(Singularity.Lifetime)
-  nameWithType: StronglyTypedServiceConfigurator<TDependency, TInstance>.With(Lifetime)
-  nameWithType.vb: StronglyTypedServiceConfigurator(Of TDependency, TInstance).With(Lifetime)
+- uid: Singularity.StronglyTypedServiceConfigurator`2.With(Singularity.ILifetime)
+  name: With(ILifetime)
+  href: api/Singularity.StronglyTypedServiceConfigurator-2.html#Singularity_StronglyTypedServiceConfigurator_2_With_Singularity_ILifetime_
+  commentId: M:Singularity.StronglyTypedServiceConfigurator`2.With(Singularity.ILifetime)
+  fullName: Singularity.StronglyTypedServiceConfigurator<TDependency, TInstance>.With(Singularity.ILifetime)
+  fullName.vb: Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance).With(Singularity.ILifetime)
+  nameWithType: StronglyTypedServiceConfigurator<TDependency, TInstance>.With(ILifetime)
+  nameWithType.vb: StronglyTypedServiceConfigurator(Of TDependency, TInstance).With(ILifetime)
+- uid: Singularity.StronglyTypedServiceConfigurator`2.With(Singularity.ServiceAutoDispose)
+  name: With(ServiceAutoDispose)
+  href: api/Singularity.StronglyTypedServiceConfigurator-2.html#Singularity_StronglyTypedServiceConfigurator_2_With_Singularity_ServiceAutoDispose_
+  commentId: M:Singularity.StronglyTypedServiceConfigurator`2.With(Singularity.ServiceAutoDispose)
+  fullName: Singularity.StronglyTypedServiceConfigurator<TDependency, TInstance>.With(Singularity.ServiceAutoDispose)
+  fullName.vb: Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance).With(Singularity.ServiceAutoDispose)
+  nameWithType: StronglyTypedServiceConfigurator<TDependency, TInstance>.With(ServiceAutoDispose)
+  nameWithType.vb: StronglyTypedServiceConfigurator(Of TDependency, TInstance).With(ServiceAutoDispose)
 - uid: Singularity.StronglyTypedServiceConfigurator`2.With*
   name: With
   href: api/Singularity.StronglyTypedServiceConfigurator-2.html#Singularity_StronglyTypedServiceConfigurator_2_With_
@@ -1469,6 +2045,25 @@ references:
   fullName.vb: Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance).WithFinalizer
   nameWithType: StronglyTypedServiceConfigurator<TDependency, TInstance>.WithFinalizer
   nameWithType.vb: StronglyTypedServiceConfigurator(Of TDependency, TInstance).WithFinalizer
+- uid: Singularity.Transient
+  name: Transient
+  href: api/Singularity.Transient.html
+  commentId: T:Singularity.Transient
+  fullName: Singularity.Transient
+  nameWithType: Transient
+- uid: Singularity.Transient.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)
+  name: ApplyLifetimeOnExpression(Scoped, ExpressionContext)
+  href: api/Singularity.Transient.html#Singularity_Transient_ApplyLifetimeOnExpression_Singularity_Scoped_Singularity_Expressions_ExpressionContext_
+  commentId: M:Singularity.Transient.ApplyLifetimeOnExpression(Singularity.Scoped,Singularity.Expressions.ExpressionContext)
+  fullName: Singularity.Transient.ApplyLifetimeOnExpression(Singularity.Scoped, Singularity.Expressions.ExpressionContext)
+  nameWithType: Transient.ApplyLifetimeOnExpression(Scoped, ExpressionContext)
+- uid: Singularity.Transient.ApplyLifetimeOnExpression*
+  name: ApplyLifetimeOnExpression
+  href: api/Singularity.Transient.html#Singularity_Transient_ApplyLifetimeOnExpression_
+  commentId: Overload:Singularity.Transient.ApplyLifetimeOnExpression
+  isSpec: "True"
+  fullName: Singularity.Transient.ApplyLifetimeOnExpression
+  nameWithType: Transient.ApplyLifetimeOnExpression
 - uid: Singularity.WeaklyTypedDecoratorConfigurator
   name: WeaklyTypedDecoratorConfigurator
   href: api/Singularity.WeaklyTypedDecoratorConfigurator.html
@@ -1551,18 +2146,18 @@ references:
   isSpec: "True"
   fullName: Singularity.WeaklyTypedServiceConfigurator.Inject
   nameWithType: WeaklyTypedServiceConfigurator.Inject
-- uid: Singularity.WeaklyTypedServiceConfigurator.With(Singularity.DisposeBehavior)
-  name: With(DisposeBehavior)
-  href: api/Singularity.WeaklyTypedServiceConfigurator.html#Singularity_WeaklyTypedServiceConfigurator_With_Singularity_DisposeBehavior_
-  commentId: M:Singularity.WeaklyTypedServiceConfigurator.With(Singularity.DisposeBehavior)
-  fullName: Singularity.WeaklyTypedServiceConfigurator.With(Singularity.DisposeBehavior)
-  nameWithType: WeaklyTypedServiceConfigurator.With(DisposeBehavior)
-- uid: Singularity.WeaklyTypedServiceConfigurator.With(Singularity.Lifetime)
-  name: With(Lifetime)
-  href: api/Singularity.WeaklyTypedServiceConfigurator.html#Singularity_WeaklyTypedServiceConfigurator_With_Singularity_Lifetime_
-  commentId: M:Singularity.WeaklyTypedServiceConfigurator.With(Singularity.Lifetime)
-  fullName: Singularity.WeaklyTypedServiceConfigurator.With(Singularity.Lifetime)
-  nameWithType: WeaklyTypedServiceConfigurator.With(Lifetime)
+- uid: Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ILifetime)
+  name: With(ILifetime)
+  href: api/Singularity.WeaklyTypedServiceConfigurator.html#Singularity_WeaklyTypedServiceConfigurator_With_Singularity_ILifetime_
+  commentId: M:Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ILifetime)
+  fullName: Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ILifetime)
+  nameWithType: WeaklyTypedServiceConfigurator.With(ILifetime)
+- uid: Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ServiceAutoDispose)
+  name: With(ServiceAutoDispose)
+  href: api/Singularity.WeaklyTypedServiceConfigurator.html#Singularity_WeaklyTypedServiceConfigurator_With_Singularity_ServiceAutoDispose_
+  commentId: M:Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ServiceAutoDispose)
+  fullName: Singularity.WeaklyTypedServiceConfigurator.With(Singularity.ServiceAutoDispose)
+  nameWithType: WeaklyTypedServiceConfigurator.With(ServiceAutoDispose)
 - uid: Singularity.WeaklyTypedServiceConfigurator.With*
   name: With
   href: api/Singularity.WeaklyTypedServiceConfigurator.html#Singularity_WeaklyTypedServiceConfigurator_With_
