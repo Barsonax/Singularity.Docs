@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Home </title>
+    <title>Singularity </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Home ">
+    <meta name="title" content="Singularity ">
     <meta name="generator" content="docfx 2.45.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,13 +60,37 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="home">Home</h1>
+<h1 id="singularity">Singularity</h1>
 
-<p><a href="https://discord.gg/9x9J3y"><img src="https://img.shields.io/discord/569232642105540608.svg" alt="Discord"></a> <a href="https://www.nuget.org/packages/Singularity/"><img src="https://buildstats.info/nuget/Singularity" alt="NuGet Badge"></a> <a href="https://dev.azure.com/Barsonax/Singularity/_build/latest?definitionId=7&amp;branchName=master"><img src="https://dev.azure.com/Barsonax/Singularity/_apis/build/status/Singularity-CI?branchName=master" alt="Build Status"></a> <img src="https://img.shields.io/azure-devops/tests/Barsonax/Singularity/7/master.svg" alt="Azure DevOps tests (branch)"> <img src="https://img.shields.io/azure-devops/coverage/Barsonax/Singularity/7/master.svg" alt="coverage"> <a href="https://beerpay.io/Barsonax/Singularity"><img src="https://img.shields.io/beerpay/Barsonax/Singularity.svg" alt="Beerpay"></a></p>
-<p>Singularity is a ioc container that focuses on the following things</p>
+<p><a href="https://discord.gg/cKFnjjk"><img src="https://img.shields.io/discord/569232642105540608.svg" alt="Discord"></a> <a href="https://www.nuget.org/packages/Singularity/"><img src="https://buildstats.info/nuget/Singularity" alt="NuGet Badge"></a> <a href="https://dev.azure.com/Barsonax/Singularity/_build/latest?definitionId=7&amp;branchName=master"><img src="https://dev.azure.com/Barsonax/Singularity/_apis/build/status/Singularity-CI?branchName=master&amp;stageName=Build" alt="Build Status"></a> <img src="https://img.shields.io/azure-devops/tests/Barsonax/Singularity/7/master.svg" alt="Azure DevOps tests (branch)"> <a href="https://sonarcloud.io/dashboard?id=Barsonax_Singularity"><img src="https://sonarcloud.io/api/project_badges/measure?project=Barsonax_Singularity&amp;metric=sqale_rating" alt="Maintainability Rating"></a> <a href="https://sonarcloud.io/dashboard?id=Barsonax_Singularity"><img src="https://sonarcloud.io/api/project_badges/measure?project=Barsonax_Singularity&amp;metric=reliability_rating" alt="Reliability Rating"></a> <a href="https://sonarcloud.io/dashboard?id=Barsonax_Singularity"><img src="https://sonarcloud.io/api/project_badges/measure?project=Barsonax_Singularity&amp;metric=security_rating" alt="Security Rating"></a> <img src="https://img.shields.io/azure-devops/coverage/Barsonax/Singularity/7/master.svg" alt="coverage"> <a href="https://beerpay.io/Barsonax/Singularity"><img src="https://img.shields.io/beerpay/Barsonax/Singularity.svg" alt="Beerpay"></a></p>
+<h2 id="features">Features</h2>
 <ul>
-<li>Performance, Singularity is one of the fastest if not the fastest dependency injection container out there. Don't believe me? Check out my <a href="#Benchmarks">benchmarks</a> or if you want a second opinion check out the benchmarks that Daniel Palme made <a href="https://github.com/danielpalme/IocPerformance">here</a>.</li>
-<li>Not invasive. For instance <code>Dispose</code> wont be automatically called by default, instead you can configure Singularity to do so through the <code>With(DisposeBehavior)</code> method or tell singularity to automatically call <code>Dispose</code> by simply changing the settings. Is calling Dispose not enough and you want to invoke your own custom logic? The <code>WithFinalizer(Action&lt;TInstance&gt;)</code> method might be of help here.</li>
+<li>Extreme performance, Singularity is one of the fastest if not the fastest dependency injection container out there. Don't believe me? Check out my <a href="#Benchmarks">benchmarks</a> or if you want a second opinion check out the benchmarks that Daniel Palme made <a href="https://github.com/danielpalme/IocPerformance">here</a>.</li>
+<li>Clean fluent API.</li>
+<li><a href="https://github.com/dotnet/sourcelink">Source Link</a> enabled</li>
+<li>Generic wrappers:
+<ol>
+<li><code>Func&lt;T&gt;</code></li>
+<li><code>Lazy&lt;T&gt;</code></li>
+<li><code>Expression&lt;Func&lt;T&gt;&gt;</code></li>
+<li>And any other generic wrapper you may have defined yourself.</li>
+</ol>
+</li>
+<li>Collection support:
+<ol>
+<li><code>IEnumerable&lt;T&gt;</code></li>
+<li><code>IReadOnlyCollection&lt;T&gt;</code></li>
+<li><code>IReadOnlyList</code></li>
+</ol>
+</li>
+<li>Supports open generics.</li>
+<li>Supports resolving unregistered concrete types.</li>
+<li>Supports decorators.</li>
+<li>Supports method and property injection without forcing you to litter attributes all over your code base. All configuration is kept inside the container.</li>
+<li>Auto dispose, this is off by default but can be turned on with <code>With(DisposeBehavior)</code>or adding the lifetimes you want to auto dispose to <code>SingularitySettings.AutoDisposeLifetimes</code>.</li>
+<li>Custom finalizers with the <code>WithFinalizer(Action&lt;TInstance&gt;)</code> method.</li>
+<li>Supports Transient, Singleton and Scope lifetimes.</li>
+<li>Supports child containers.</li>
 <li>Clear error messages and fail fast to point you in the right direction as fast as possible.</li>
 </ul>
 <h2 id="getting-started">Getting started</h2>
@@ -98,6 +122,32 @@ var instance = container.GetInstance&lt;ITestService10&gt;();
 <p>Ofcourse its possible to combine these with for instance a collection type such as IEnumerable<t> or IReadOnlyList<t>:<p>
 <pre><code class="lang-cs">var instanceExpressions = container.GetInstance&lt;IReadOnlyList&lt;Expression&lt;Func&lt;IPlugin&gt;&gt;&gt;&gt;(); //Returns all expressions for IPlugin registrations
 </code></pre>
+<h3 id="benchmarks">Benchmarks</h3>
+<p>The code used in the benchmark can be found <a href="https://github.com/Barsonax/Singularity/blob/master/Singularity.TestClasses/Benchmark/SimpleSingularityContainerBenchmark.cs">here</a></p>
+<pre><code>BenchmarkDotNet=v0.11.4, OS=Windows 10.0.17763.437 (1809/October2018Update/Redstone5)
+Intel Core i7-4790K CPU 4.00GHz (Haswell), 1 CPU, 8 logical and 4 physical cores
+.NET Core SDK=3.0.100-preview3-010431
+  [Host]       : .NET Core 2.1.9 (CoreCLR 4.6.27414.06, CoreFX 4.6.27415.01), 64bit RyuJIT
+  LegacyJitX64 : .NET Framework 4.7.2 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3324.0
+  RyuJitX64    : .NET Core 2.1.9 (CoreCLR 4.6.27414.06, CoreFX 4.6.27415.01), 64bit RyuJIT
+
+Platform=X64  IterationTime=500.0000 ms
+
+|    Method |          Job |       Jit | Runtime |      Mean |     Error |    StdDev | Gen 0/1k Op | Gen 1/1k Op | Gen 2/1k Op | Allocated Memory/Op |
+|---------- |------------- |---------- |-------- |----------:|----------:|----------:|------------:|------------:|------------:|--------------------:|
+| Singleton | LegacyJitX64 | LegacyJit |     Clr |  7.700 ns | 0.0722 ns | 0.0675 ns |           - |           - |           - |                   - |
+| Transient | LegacyJitX64 | LegacyJit |     Clr | 10.086 ns | 0.0220 ns | 0.0195 ns |      0.0057 |           - |           - |                24 B |
+|  Combined | LegacyJitX64 | LegacyJit |     Clr | 15.067 ns | 0.0568 ns | 0.0532 ns |      0.0133 |           - |           - |                56 B |
+|   Complex | LegacyJitX64 | LegacyJit |     Clr | 26.822 ns | 0.1198 ns | 0.1121 ns |      0.0229 |           - |           - |                96 B |
+| Singleton |    RyuJitX64 |    RyuJit |    Core |  7.744 ns | 0.0743 ns | 0.0695 ns |           - |           - |           - |                   - |
+| Transient |    RyuJitX64 |    RyuJit |    Core | 10.031 ns | 0.0172 ns | 0.0161 ns |      0.0057 |           - |           - |                24 B |
+|  Combined |    RyuJitX64 |    RyuJit |    Core | 16.454 ns | 0.0564 ns | 0.0500 ns |      0.0133 |           - |           - |                56 B |
+|   Complex |    RyuJitX64 |    RyuJit |    Core | 23.667 ns | 0.0410 ns | 0.0342 ns |      0.0229 |           - |           - |                96 B |
+</code></pre>
+<h3 id="donations">Donations</h3>
+<p>Support me by buying a beer <a href="https://beerpay.io/Barsonax/Singularity"><img src="https://img.shields.io/beerpay/Barsonax/Singularity.svg" alt="Beerpay"></a></p>
+<h3 id="licensing">Licensing</h3>
+<p>Licensed under AGPL however this might not be fit for all commercial works as it requires you to open source your work. If you require a different license please contact me.</p>
 </t></t></article>
           </div>
           
@@ -106,7 +156,7 @@ var instance = container.GetInstance&lt;ITestService10&gt;();
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/feature/aspnetcore30/src/Docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

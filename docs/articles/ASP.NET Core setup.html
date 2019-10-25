@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Singularity.Graph
-   </title>
+    <title>ASP.NET Core 3.0 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Singularity.Graph
-   ">
+    <meta name="title" content="ASP.NET Core 3.0 ">
     <meta name="generator" content="docfx 2.45.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -68,19 +66,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Singularity.Graph">
-  
-  <h1 id="Singularity_Graph" data-uid="Singularity.Graph" class="text-break">Namespace Singularity.Graph
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="structs">Structs
-  </h3>
-      <h4><a class="xref" href="Singularity.Graph.BindingMetadata.html">BindingMetadata</a></h4>
-      <section><p>Contains useful metadata of a registered binding such as on what line its registered.
-Is used to provide more info in error messages</p>
-</section>
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="aspnet-core-30">ASP.NET Core 3.0</h2>
+
+<p>Setup in ASP.NET Core 3.0 is very simple, just call <code>UseServiceProviderFactory</code> and pass in a <code>SingularityServiceProviderFactory</code> instance:</p>
+<pre><code class="lang-cs">public class Program
+{
+    public static void Main(string[] args)
+    {
+        CreateHostBuilder(args).Build().Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =&gt;
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =&gt; { webBuilder.UseStartup&lt;Startup&gt;(); })
+            .UseServiceProviderFactory(new SingularityServiceProviderFactory());
+}
+</code></pre>
+<p>If you want to register dependencies using the Singularity API just add this in the startup.cs:</p>
+<pre><code class="lang-cs">public void ConfigureContainer(ContainerBuilder builder)
+{
+    //Register services using singularities ContainerBuilder here
+}
+</code></pre>
 </article>
           </div>
           
@@ -88,6 +96,9 @@ Is used to provide more info in error messages</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Barsonax/Singularity/blob/feature/aspnetcore30/src/Docs/articles/ASP.NET Core setup.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -72,13 +72,13 @@
 <p>Lifetimes allow you to control when new instances are created. You can set lifetimes with the <code>With</code> method:</p>
 <pre><code class="lang-cs">var container = new Container(builder =&gt;
 {
-    builder.Register&lt;ITestService10, TestService10&gt;(c =&gt; c.With(Lifetime.Transient));
+    builder.Register&lt;ITestService10, TestService10&gt;(c =&gt; c.With(Lifetimes.Transient));
 });
 </code></pre>
 <p>And</p>
 <pre><code class="lang-cs">var container = new Container(builder =&gt;
 {
-    builder.Register&lt;ITestService10, TestService10&gt;(c =&gt; c.With(Lifetime.Singleton));
+    builder.Register&lt;ITestService10, TestService10&gt;(c =&gt; c.With(Lifetimes.Singleton));
 });
 </code></pre>
 <p>There are a few different lifetimes:</p>
@@ -87,12 +87,12 @@
 <li><code>Lifetime.PerContainer</code></li>
 <li><code>Lifetime.PerScope</code></li>
 </ul>
-<p>The <code>Lifetime.Transient</code> is the default setting which means singularity will return a new instance everytime a instance is requested. For more info see <a href="../api/Singularity.Lifetime.yml">Lifetime</a></p>
+<p>The <code>Lifetime.Transient</code> is the default setting which means singularity will return a new instance everytime a instance is requested. For more info see <a href="../api/Singularity.Lifetimes.html">Lifetimes</a></p>
 <p>The following example illustrates how lifetimes can be used:</p>
 <pre><code class="lang-cs">var container = new Container(builder =&gt;
 {
-    builder.Register&lt;IScopedService, ScopedService&gt;().With(Lifetime.PerScope));
-	builder.Register&lt;ISingleton, Singleton&gt;().With(Lifetime.Singleton));
+    builder.Register&lt;IScopedService, ScopedService&gt;().With(Lifetimes.PerScope));
+	builder.Register&lt;ISingleton, Singleton&gt;().With(Lifetimes.Singleton));
 });
 
 Scoped scope1 = container.BeginScope();
@@ -120,7 +120,7 @@ var singleton2 = scope2.GetInstance&lt;ISingleton&gt;();
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Docs/articles/Lifetimes.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/feature/aspnetcore30/src/Docs/articles/Lifetimes.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

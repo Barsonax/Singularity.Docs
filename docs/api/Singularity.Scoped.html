@@ -123,7 +123,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Scoped_Dispose.md&amp;value=---%0Auid%3A%20Singularity.Scoped.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Scoped.cs/#L160">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Scoped.cs/#L172">View Source</a>
   </span>
   <a id="Singularity_Scoped_Dispose_" data-uid="Singularity.Scoped.Dispose*"></a>
   <h4 id="Singularity_Scoped_Dispose" data-uid="Singularity.Scoped.Dispose">Dispose()</h4>
@@ -197,7 +197,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public T GetInstance&lt;T&gt;()
-
     where T : class</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -227,6 +226,103 @@
       <tr>
         <td><span class="parametername">T</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Scoped_GetInstanceOrDefault_System_Type_.md&amp;value=---%0Auid%3A%20Singularity.Scoped.GetInstanceOrDefault(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Scoped.cs/#L69">View Source</a>
+  </span>
+  <a id="Singularity_Scoped_GetInstanceOrDefault_" data-uid="Singularity.Scoped.GetInstanceOrDefault*"></a>
+  <h4 id="Singularity_Scoped_GetInstanceOrDefault_System_Type_" data-uid="Singularity.Scoped.GetInstanceOrDefault(System.Type)">GetInstanceOrDefault(Type)</h4>
+  <div class="markdown level1 summary"><p>Resolves a instance for the given dependency type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? GetInstanceOrDefault(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the dependency</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Scoped_GetInstanceOrDefault__1.md&amp;value=---%0Auid%3A%20Singularity.Scoped.GetInstanceOrDefault%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Scoped.cs/#L63">View Source</a>
+  </span>
+  <a id="Singularity_Scoped_GetInstanceOrDefault_" data-uid="Singularity.Scoped.GetInstanceOrDefault*"></a>
+  <h4 id="Singularity_Scoped_GetInstanceOrDefault__1" data-uid="Singularity.Scoped.GetInstanceOrDefault``1">GetInstanceOrDefault&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Resolves a instance for the given dependency type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T? GetInstanceOrDefault&lt;T&gt;()
+    where T : class</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the dependency</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -268,7 +364,7 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Scoped_LateInjectAll__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20Singularity.Scoped.LateInjectAll%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Scoped.cs/#L67">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Scoped.cs/#L79">View Source</a>
   </span>
   <a id="Singularity_Scoped_LateInjectAll_" data-uid="Singularity.Scoped.LateInjectAll*"></a>
   <h4 id="Singularity_Scoped_LateInjectAll__1_System_Collections_Generic_IEnumerable___0__" data-uid="Singularity.Scoped.LateInjectAll``1(System.Collections.Generic.IEnumerable{``0})">LateInjectAll&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>

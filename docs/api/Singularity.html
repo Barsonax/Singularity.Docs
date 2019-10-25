@@ -77,14 +77,27 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
+      <h4><a class="xref" href="Singularity.ConstructorResolvers.html">ConstructorResolvers</a></h4>
+      <section><p>Provides easy access to build in constructor selectors.</p>
+</section>
       <h4><a class="xref" href="Singularity.Container.html">Container</a></h4>
       <section><p>A thread safe and lock free dependency injection container.</p>
 </section>
       <h4><a class="xref" href="Singularity.ContainerBuilder.html">ContainerBuilder</a></h4>
       <section><p>A class to make configuring dependencies easier</p>
 </section>
+      <h4><a class="xref" href="Singularity.DefaultConstructorResolver.html">DefaultConstructorResolver</a></h4>
+      <section><p>Assumes there is only 1 public constructor. Throws a error if there are multiple public constructors.
+If this is undesired take a look at other resolves in <a class="xref" href="Singularity.ConstructorResolvers.html">ConstructorResolvers</a>/&gt;</p>
+</section>
+      <h4><a class="xref" href="Singularity.LeastArgumentsConstructorResolver.html">LeastArgumentsConstructorResolver</a></h4>
+      <section><p>Picks the public constructor with the most arguments.</p>
+</section>
       <h4><a class="xref" href="Singularity.Lifetimes.html">Lifetimes</a></h4>
       <section><p>Specifies when new instances of dependencies should be made</p>
+</section>
+      <h4><a class="xref" href="Singularity.MostArgumentsConstructorResolver.html">MostArgumentsConstructorResolver</a></h4>
+      <section><p>Picks the public constructor with the most arguments.</p>
 </section>
       <h4><a class="xref" href="Singularity.PerContainer.html">PerContainer</a></h4>
       <section><p>The same instance will be returned as long as it is requested in the same <a class="xref" href="Singularity.Container.html">Container</a> or a child of this container.</p>
@@ -110,6 +123,8 @@
       <h4><a class="xref" href="Singularity.Transient.html">Transient</a></h4>
       <section><p>Every time a instance is requested a new instance is returned.</p>
 </section>
+      <h4><a class="xref" href="Singularity.TypeMetadataCache-1.html">TypeMetadataCache&lt;T&gt;</a></h4>
+      <section></section>
       <h4><a class="xref" href="Singularity.WeaklyTypedDecoratorConfigurator.html">WeaklyTypedDecoratorConfigurator</a></h4>
       <section><p>A weakly typed configurator for registering new decorators.</p>
 </section>

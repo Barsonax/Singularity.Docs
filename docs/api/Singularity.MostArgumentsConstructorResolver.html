@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ReadOnlyExpressionContext
+    <title>Class MostArgumentsConstructorResolver
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ReadOnlyExpressionContext
+    <meta name="title" content="Class MostArgumentsConstructorResolver
    ">
     <meta name="generator" content="docfx 2.45.0.0">
     
@@ -68,18 +68,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Singularity.Expressions.ReadOnlyExpressionContext">
+            <article class="content wrap" id="_content" data-uid="Singularity.MostArgumentsConstructorResolver">
   
   
-  <h1 id="Singularity_Expressions_ReadOnlyExpressionContext" data-uid="Singularity.Expressions.ReadOnlyExpressionContext" class="text-break">Class ReadOnlyExpressionContext
+  <h1 id="Singularity_MostArgumentsConstructorResolver" data-uid="Singularity.MostArgumentsConstructorResolver" class="text-break">Class MostArgumentsConstructorResolver
   </h1>
-  <div class="markdown level0 summary"><p>Same as <a class="xref" href="Singularity.Expressions.ExpressionContext.html">ExpressionContext</a> but readonly.</p>
+  <div class="markdown level0 summary"><p>Picks the public constructor with the most arguments.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ReadOnlyExpressionContext</span></div>
+    <div class="level1"><span class="xref">MostArgumentsConstructorResolver</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Singularity.Expressions.IConstructorResolver.html">IConstructorResolver</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,62 +109,28 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.Expressions.html">Singularity.Expressions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.html">Singularity</a></h6>
   <h6><strong>Assembly</strong>: Singularity.dll</h6>
-  <h5 id="Singularity_Expressions_ReadOnlyExpressionContext_syntax">Syntax</h5>
+  <h5 id="Singularity_MostArgumentsConstructorResolver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ReadOnlyExpressionContext</code></pre>
+    <pre><code class="lang-csharp hljs">public class MostArgumentsConstructorResolver : IConstructorResolver</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Expressions_ReadOnlyExpressionContext_ScopedExpressions.md&amp;value=---%0Auid%3A%20Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_MostArgumentsConstructorResolver_AutoResolveConstructorExpression_System_Type_.md&amp;value=---%0Auid%3A%20Singularity.MostArgumentsConstructorResolver.AutoResolveConstructorExpression(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Expressions/ExpressionContext.cs/#L54">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/MostArgumentsConstructorResolver.cs/#L40">View Source</a>
   </span>
-  <a id="Singularity_Expressions_ReadOnlyExpressionContext_ScopedExpressions_" data-uid="Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions*"></a>
-  <h4 id="Singularity_Expressions_ReadOnlyExpressionContext_ScopedExpressions" data-uid="Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions">ScopedExpressions</h4>
-  <div class="markdown level1 summary"><p><a class="xref" href="Singularity.Expressions.ExpressionContext.html#Singularity_Expressions_ExpressionContext_ScopedExpressions">ScopedExpressions</a></p>
-</div>
+  <a id="Singularity_MostArgumentsConstructorResolver_AutoResolveConstructorExpression_" data-uid="Singularity.MostArgumentsConstructorResolver.AutoResolveConstructorExpression*"></a>
+  <h4 id="Singularity_MostArgumentsConstructorResolver_AutoResolveConstructorExpression_System_Type_" data-uid="Singularity.MostArgumentsConstructorResolver.AutoResolveConstructorExpression(System.Type)">AutoResolveConstructorExpression(Type)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;MethodCallExpression&gt; ScopedExpressions { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<span class="xref">System.Linq.Expressions.MethodCallExpression</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="operators">Operators
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Expressions_ReadOnlyExpressionContext_op_Explicit_Singularity_Expressions_ReadOnlyExpressionContext__Singularity_Expressions_ExpressionContext.md&amp;value=---%0Auid%3A%20Singularity.Expressions.ReadOnlyExpressionContext.op_Explicit(Singularity.Expressions.ReadOnlyExpressionContext)~Singularity.Expressions.ExpressionContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Expressions/ExpressionContext.cs/#L67">View Source</a>
-  </span>
-  <a id="Singularity_Expressions_ReadOnlyExpressionContext_op_Explicit_" data-uid="Singularity.Expressions.ReadOnlyExpressionContext.op_Explicit*"></a>
-  <h4 id="Singularity_Expressions_ReadOnlyExpressionContext_op_Explicit_Singularity_Expressions_ReadOnlyExpressionContext__Singularity_Expressions_ExpressionContext" data-uid="Singularity.Expressions.ReadOnlyExpressionContext.op_Explicit(Singularity.Expressions.ReadOnlyExpressionContext)~Singularity.Expressions.ExpressionContext">Explicit(ReadOnlyExpressionContext to ExpressionContext)</h4>
-  <div class="markdown level1 summary"><p>Converts this readonly context to a context that can be modified by creating a new context.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static explicit operator ExpressionContext(ReadOnlyExpressionContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public Expression AutoResolveConstructorExpression(Type type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,8 +143,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Singularity.Expressions.ReadOnlyExpressionContext.html">ReadOnlyExpressionContext</a></td>
-        <td><span class="parametername">context</span></td>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -189,11 +159,79 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Singularity.Expressions.ExpressionContext.html">ExpressionContext</a></td>
+        <td><span class="xref">System.Linq.Expressions.Expression</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_MostArgumentsConstructorResolver_SelectConstructor_System_Type_.md&amp;value=---%0Auid%3A%20Singularity.MostArgumentsConstructorResolver.SelectConstructor(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/MostArgumentsConstructorResolver.cs/#L25">View Source</a>
+  </span>
+  <a id="Singularity_MostArgumentsConstructorResolver_SelectConstructor_" data-uid="Singularity.MostArgumentsConstructorResolver.SelectConstructor*"></a>
+  <h4 id="Singularity_MostArgumentsConstructorResolver_SelectConstructor_System_Type_" data-uid="Singularity.MostArgumentsConstructorResolver.SelectConstructor(System.Type)">SelectConstructor(Type)</h4>
+  <div class="markdown level1 summary"><p>Tries to find a constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConstructorInfo SelectConstructor(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.ConstructorInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Singularity.Exceptions.NoConstructorException.html">NoConstructorException</a></td>
+        <td><p>If there is no public constructor</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Singularity.Expressions.IConstructorResolver.html">IConstructorResolver</a>
+  </div>
 </article>
           </div>
           
@@ -202,10 +240,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_Expressions_ReadOnlyExpressionContext.md&amp;value=---%0Auid%3A%20Singularity.Expressions.ReadOnlyExpressionContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_MostArgumentsConstructorResolver.md&amp;value=---%0Auid%3A%20Singularity.MostArgumentsConstructorResolver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Expressions/ExpressionContext.cs/#L49" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/MostArgumentsConstructorResolver.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
