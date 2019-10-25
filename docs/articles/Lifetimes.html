@@ -78,7 +78,7 @@
 <p>And</p>
 <pre><code class="lang-cs">var container = new Container(builder =&gt;
 {
-    builder.Register&lt;ITestService10, TestService10&gt;(c =&gt; c.With(Lifetimes.Singleton));
+    builder.Register&lt;ITestService10, TestService10&gt;(c =&gt; c.With(Lifetimes.PerContainer));
 });
 </code></pre>
 <p>There are a few different lifetimes:</p>
@@ -92,7 +92,7 @@
 <pre><code class="lang-cs">var container = new Container(builder =&gt;
 {
     builder.Register&lt;IScopedService, ScopedService&gt;().With(Lifetimes.PerScope));
-	builder.Register&lt;ISingleton, Singleton&gt;().With(Lifetimes.Singleton));
+	builder.Register&lt;ISingleton, Singleton&gt;().With(Lifetimes.PerContainer));
 });
 
 Scoped scope1 = container.BeginScope();
@@ -120,7 +120,7 @@ var singleton2 = scope2.GetInstance&lt;ISingleton&gt;();
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/feature/aspnetcore30/src/Docs/articles/Lifetimes.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Docs/articles/Lifetimes.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
