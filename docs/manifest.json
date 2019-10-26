@@ -765,10 +765,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "e0UcLzPWu6VCLYx7k0En0Q=="
+          "hash": "FmdwTEXH9K/egeNjrQlMmw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -828,7 +828,7 @@
           "hash": "9SyPzhQZj9xnfSyaU+xZ0w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
