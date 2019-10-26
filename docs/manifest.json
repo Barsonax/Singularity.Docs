@@ -768,7 +768,7 @@
           "hash": "FmdwTEXH9K/egeNjrQlMmw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/ASP.NET Core setup.html",
-          "hash": "A9Ri+BDrLMjHr4QdDywIBw=="
+          "hash": "pj1G5nSnLlC8nYC7xABkpA=="
         }
       },
       "is_incremental": true,
@@ -909,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "m5gi3v+ctkQsn+TfXxfoMg=="
+          "hash": "HVhdxiTgtmHfQ/7SaD0SPQ=="
         }
       },
       "is_incremental": true,
@@ -944,17 +944,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 11,
+          "skipped_file_count": 11
+        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 63,
           "skipped_file_count": 63
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 11,
-          "skipped_file_count": 10
         }
       }
     },
