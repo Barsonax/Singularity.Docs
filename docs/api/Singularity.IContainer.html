@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IContainer
    ">
-    <meta name="generator" content="docfx 2.45.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -81,12 +81,15 @@
     <div>
       <span class="xref">System.IDisposable.Dispose()</span>
     </div>
+    <div>
+      <span class="xref">System.IServiceProvider.GetService(System.Type)</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Singularity.html">Singularity</a></h6>
   <h6><strong>Assembly</strong>: Singularity.dll</h6>
   <h5 id="Singularity_IContainer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IContainer : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IContainer : IDisposable, IServiceProvider</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -233,7 +236,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object? GetInstanceOrDefault(Type type)</code></pre>
+    <pre><code class="lang-csharp hljs">object GetInstanceOrDefault(Type type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -263,7 +266,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="xref">System.Object</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -282,7 +285,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">T? GetInstanceOrDefault&lt;T&gt;()
+    <pre><code class="lang-csharp hljs">T GetInstanceOrDefault&lt;T&gt;()
     where T : class</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -295,7 +298,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;T&gt;</td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -325,7 +328,7 @@
   </span>
   <a id="Singularity_IContainer_LateInject_" data-uid="Singularity.IContainer.LateInject*"></a>
   <h4 id="Singularity_IContainer_LateInject_System_Object_" data-uid="Singularity.IContainer.LateInject(System.Object)">LateInject(Object)</h4>
-  <div class="markdown level1 summary"><p>Injects dependencies by calling all methods that were registered using <a class="xref" href="Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject__1_System_Nullable_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0____System_String_System_Int32_">LateInject&lt;TInstance&gt;(Nullable&lt;Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;&gt;, String, Int32)</a></p>
+  <div class="markdown level1 summary"><p>Injects dependencies by calling all methods that were registered using <a class="xref" href="Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject__1_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0___System_String_System_Int32_">LateInject&lt;TInstance&gt;(Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;, String, Int32)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -374,7 +377,7 @@
   </span>
   <a id="Singularity_IContainer_LateInjectAll_" data-uid="Singularity.IContainer.LateInjectAll*"></a>
   <h4 id="Singularity_IContainer_LateInjectAll__1_System_Collections_Generic_IEnumerable___0__" data-uid="Singularity.IContainer.LateInjectAll``1(System.Collections.Generic.IEnumerable{``0})">LateInjectAll&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Injects dependencies for all elements of the provided <code data-dev-comment-type="paramref" class="paramref">instances</code> by calling all late injection targets that were registered using <a class="xref" href="Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject__1_System_Nullable_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0____System_String_System_Int32_">LateInject&lt;TInstance&gt;(Nullable&lt;Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;&gt;, String, Int32)</a></p>
+  <div class="markdown level1 summary"><p>Injects dependencies for all elements of the provided <code data-dev-comment-type="paramref" class="paramref">instances</code> by calling all late injection targets that were registered using <a class="xref" href="Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject__1_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0___System_String_System_Int32_">LateInject&lt;TInstance&gt;(Action&lt;StronglyTypedLateInjectorConfigurator&lt;TInstance&gt;&gt;, String, Int32)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace Singularity.Exceptions
    ">
-    <meta name="generator" content="docfx 2.45.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,7 +90,11 @@
       <section><p>Thrown when a circular dependency has been found.</p>
 </section>
       <h4><a class="xref" href="Singularity.Exceptions.DependencyNotFoundException.html">DependencyNotFoundException</a></h4>
-      <section><p>Thrown when a dependency cannot be found.</p>
+      <section><p>Thrown when a service cannot be found and its not possible for the <a class="xref" href="Singularity.Graph.Resolvers.IDependencyResolver.html">IDependencyResolver</a>'s to generate a <a class="xref" href="Singularity.ServiceBinding.html">ServiceBinding</a>.</p>
+</section>
+      <h4><a class="xref" href="Singularity.Exceptions.DependencyResolveException.html">DependencyResolveException</a></h4>
+      <section><p>Thrown if the service was found but it was not possible to resolve it.
+This could be due to missing dependencies of this service.</p>
 </section>
       <h4><a class="xref" href="Singularity.Exceptions.EnumerableRegistrationException.html">EnumerableRegistrationException</a></h4>
       <section><p>Exception for when a enumerable is registered incorrectly.</p>

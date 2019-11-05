@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace Singularity
    ">
-    <meta name="generator" content="docfx 2.45.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -77,6 +77,9 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
+      <h4><a class="xref" href="Singularity.ConfigurationExtensions.html">ConfigurationExtensions</a></h4>
+      <section><p>Configuration extensions for <span class="xref">Microsoft.Extensions.DependencyInjection</span>.</p>
+</section>
       <h4><a class="xref" href="Singularity.ConstructorResolvers.html">ConstructorResolvers</a></h4>
       <section><p>Provides easy access to build in constructor selectors.</p>
 </section>
@@ -96,8 +99,17 @@ If this is undesired take a look at other resolves in <a class="xref" href="Sing
       <h4><a class="xref" href="Singularity.Lifetimes.html">Lifetimes</a></h4>
       <section><p>Specifies when new instances of dependencies should be made</p>
 </section>
+      <h4><a class="xref" href="Singularity.Loggers.html">Loggers</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Singularity.MatchExtensions.html">MatchExtensions</a></h4>
+      <section><p>Extensions for <a class="xref" href="Singularity.Graph.Resolvers.ITypeMatcher.html">ITypeMatcher</a></p>
+</section>
       <h4><a class="xref" href="Singularity.MostArgumentsConstructorResolver.html">MostArgumentsConstructorResolver</a></h4>
       <section><p>Picks the public constructor with the most arguments.</p>
+</section>
+      <h4><a class="xref" href="Singularity.PatternTypeMatcher.html">PatternTypeMatcher</a></h4>
+      <section><p>Matches a type with a string.
+Wildcard supported.</p>
 </section>
       <h4><a class="xref" href="Singularity.PerContainer.html">PerContainer</a></h4>
       <section><p>The same instance will be returned as long as it is requested in the same <a class="xref" href="Singularity.Container.html">Container</a> or a child of this container.</p>
@@ -107,6 +119,19 @@ If this is undesired take a look at other resolves in <a class="xref" href="Sing
 </section>
       <h4><a class="xref" href="Singularity.Scoped.html">Scoped</a></h4>
       <section><p>A light weight scope in which instances will life.</p>
+</section>
+      <h4><a class="xref" href="Singularity.ServiceBinding.html">ServiceBinding</a></h4>
+      <section><p>Contains information that is needed to properly resolve a service.</p>
+</section>
+      <h4><a class="xref" href="Singularity.SingularityServiceProviderFactory.html">SingularityServiceProviderFactory</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Singularity.SingularityServiceScope.html">SingularityServiceScope</a></h4>
+      <section><p><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceScope</span> implementation for the singularity container.
+Wraps a <a class="xref" href="Singularity.Scoped.html">Scoped</a> so that it can be used as a <span class="xref">Microsoft.Extensions.DependencyInjection.IServiceScope</span></p>
+</section>
+      <h4><a class="xref" href="Singularity.SingularityServiceScopeFactory.html">SingularityServiceScopeFactory</a></h4>
+      <section><p><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceScopeFactory</span> implementation for the singularity container.
+Wraps a <a class="xref" href="Singularity.Container.html">Container</a> so that it can be used as a <span class="xref">Microsoft.Extensions.DependencyInjection.IServiceScopeFactory</span></p>
 </section>
       <h4><a class="xref" href="Singularity.SingularitySettings.html">SingularitySettings</a></h4>
       <section><p>Defines settings for the singularity container.</p>
@@ -123,8 +148,6 @@ If this is undesired take a look at other resolves in <a class="xref" href="Sing
       <h4><a class="xref" href="Singularity.Transient.html">Transient</a></h4>
       <section><p>Every time a instance is requested a new instance is returned.</p>
 </section>
-      <h4><a class="xref" href="Singularity.TypeMetadataCache-1.html">TypeMetadataCache&lt;T&gt;</a></h4>
-      <section></section>
       <h4><a class="xref" href="Singularity.WeaklyTypedDecoratorConfigurator.html">WeaklyTypedDecoratorConfigurator</a></h4>
       <section><p>A weakly typed configurator for registering new decorators.</p>
 </section>

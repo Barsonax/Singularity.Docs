@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SingularitySettings
    ">
-    <meta name="generator" content="docfx 2.45.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -111,24 +111,25 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class SingularitySettings</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_Default.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L15">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L18">View Source</a>
   </span>
+  <a id="Singularity_SingularitySettings_Default_" data-uid="Singularity.SingularitySettings.Default*"></a>
   <h4 id="Singularity_SingularitySettings_Default" data-uid="Singularity.SingularitySettings.Default">Default</h4>
   <div class="markdown level1 summary"><p>The default singularity settings.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly SingularitySettings Default</code></pre>
+    <pre><code class="lang-csharp hljs">public static SingularitySettings Default { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -148,17 +149,18 @@
     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_Microsoft.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.Microsoft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L20">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L23">View Source</a>
   </span>
+  <a id="Singularity_SingularitySettings_Microsoft_" data-uid="Singularity.SingularitySettings.Microsoft*"></a>
   <h4 id="Singularity_SingularitySettings_Microsoft" data-uid="Singularity.SingularitySettings.Microsoft">Microsoft</h4>
   <div class="markdown level1 summary"><p>Settings for microsoft dependency injection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly SingularitySettings Microsoft</code></pre>
+    <pre><code class="lang-csharp hljs">public static SingularitySettings Microsoft { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -173,66 +175,281 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_AutoDisposeLifetimes.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.AutoDisposeLifetimes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_AutoDispose_Singularity_ILifetime_.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L34">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L106">View Source</a>
   </span>
-  <a id="Singularity_SingularitySettings_AutoDisposeLifetimes_" data-uid="Singularity.SingularitySettings.AutoDisposeLifetimes*"></a>
-  <h4 id="Singularity_SingularitySettings_AutoDisposeLifetimes" data-uid="Singularity.SingularitySettings.AutoDisposeLifetimes">AutoDisposeLifetimes</h4>
-  <div class="markdown level1 summary"><p>Specifies what lifetimes should be auto disposed if the instance is a <span class="xref">System.IDisposable</span> and the service is registered with <a class="xref" href="Singularity.ServiceAutoDispose.html#Singularity_ServiceAutoDispose_Default">Default</a>.</p>
-</div>
+  <a id="Singularity_SingularitySettings_AutoDispose_" data-uid="Singularity.SingularitySettings.AutoDispose*"></a>
+  <h4 id="Singularity_SingularitySettings_AutoDispose_Singularity_ILifetime_" data-uid="Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime)">AutoDispose(ILifetime)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LifetimeCollection AutoDisposeLifetimes { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void AutoDispose(ILifetime lifetime)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Singularity.Collections.LifetimeCollection.html">LifetimeCollection</a></td>
+        <td><a class="xref" href="Singularity.ILifetime.html">ILifetime</a></td>
+        <td><span class="parametername">lifetime</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_ConstructorResolver.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.ConstructorResolver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_AutoDispose_Singularity_ILifetime___.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L39">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L99">View Source</a>
   </span>
-  <a id="Singularity_SingularitySettings_ConstructorResolver_" data-uid="Singularity.SingularitySettings.ConstructorResolver*"></a>
-  <h4 id="Singularity_SingularitySettings_ConstructorResolver" data-uid="Singularity.SingularitySettings.ConstructorResolver">ConstructorResolver</h4>
-  <div class="markdown level1 summary"><p>The constructor selector that will be used by default.</p>
-</div>
+  <a id="Singularity_SingularitySettings_AutoDispose_" data-uid="Singularity.SingularitySettings.AutoDispose*"></a>
+  <h4 id="Singularity_SingularitySettings_AutoDispose_Singularity_ILifetime___" data-uid="Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime[])">AutoDispose(ILifetime[])</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IConstructorResolver ConstructorResolver { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void AutoDispose(params ILifetime[] autoDisposeLifetimes)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Singularity.ILifetime.html">ILifetime</a>[]</td>
+        <td><span class="parametername">autoDisposeLifetimes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_ExcludeAutoRegistration_System_Type_Singularity_Graph_Resolvers_ITypeMatcher_.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type%2CSingularity.Graph.Resolvers.ITypeMatcher)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L83">View Source</a>
+  </span>
+  <a id="Singularity_SingularitySettings_ExcludeAutoRegistration_" data-uid="Singularity.SingularitySettings.ExcludeAutoRegistration*"></a>
+  <h4 id="Singularity_SingularitySettings_ExcludeAutoRegistration_System_Type_Singularity_Graph_Resolvers_ITypeMatcher_" data-uid="Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type,Singularity.Graph.Resolvers.ITypeMatcher)">ExcludeAutoRegistration(Type, ITypeMatcher)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExcludeAutoRegistration(Type resolverType, ITypeMatcher match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">resolverType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Singularity.Graph.Resolvers.ITypeMatcher.html">ITypeMatcher</a></td>
+        <td><span class="parametername">match</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_ExcludeAutoRegistration__1_Singularity_Graph_Resolvers_ITypeMatcher_.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.ExcludeAutoRegistration%60%601(Singularity.Graph.Resolvers.ITypeMatcher)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L77">View Source</a>
+  </span>
+  <a id="Singularity_SingularitySettings_ExcludeAutoRegistration_" data-uid="Singularity.SingularitySettings.ExcludeAutoRegistration*"></a>
+  <h4 id="Singularity_SingularitySettings_ExcludeAutoRegistration__1_Singularity_Graph_Resolvers_ITypeMatcher_" data-uid="Singularity.SingularitySettings.ExcludeAutoRegistration``1(Singularity.Graph.Resolvers.ITypeMatcher)">ExcludeAutoRegistration&lt;TResolverType&gt;(ITypeMatcher)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExcludeAutoRegistration&lt;TResolverType&gt;(ITypeMatcher match)
+    where TResolverType : IDependencyResolver</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Singularity.Graph.Resolvers.ITypeMatcher.html">ITypeMatcher</a></td>
+        <td><span class="parametername">match</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResolverType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_IgnoreResolveError_Singularity_Graph_Resolvers_ITypeMatcher_.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.IgnoreResolveError(Singularity.Graph.Resolvers.ITypeMatcher)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L72">View Source</a>
+  </span>
+  <a id="Singularity_SingularitySettings_IgnoreResolveError_" data-uid="Singularity.SingularitySettings.IgnoreResolveError*"></a>
+  <h4 id="Singularity_SingularitySettings_IgnoreResolveError_Singularity_Graph_Resolvers_ITypeMatcher_" data-uid="Singularity.SingularitySettings.IgnoreResolveError(Singularity.Graph.Resolvers.ITypeMatcher)">IgnoreResolveError(ITypeMatcher)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IgnoreResolveError(ITypeMatcher match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Singularity.Graph.Resolvers.ITypeMatcher.html">ITypeMatcher</a></td>
+        <td><span class="parametername">match</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_With_Singularity_Expressions_IConstructorResolver_.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.With(Singularity.Expressions.IConstructorResolver)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L97">View Source</a>
+  </span>
+  <a id="Singularity_SingularitySettings_With_" data-uid="Singularity.SingularitySettings.With*"></a>
+  <h4 id="Singularity_SingularitySettings_With_Singularity_Expressions_IConstructorResolver_" data-uid="Singularity.SingularitySettings.With(Singularity.Expressions.IConstructorResolver)">With(IConstructorResolver)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void With(IConstructorResolver constructorResolver)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Singularity.Expressions.IConstructorResolver.html">IConstructorResolver</a></td>
+        <td><span class="parametername">constructorResolver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_With_Singularity_Graph_Resolvers_IDependencyResolver___.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L95">View Source</a>
+  </span>
+  <a id="Singularity_SingularitySettings_With_" data-uid="Singularity.SingularitySettings.With*"></a>
+  <h4 id="Singularity_SingularitySettings_With_Singularity_Graph_Resolvers_IDependencyResolver___" data-uid="Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver[])">With(IDependencyResolver[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void With(IDependencyResolver[] resolvers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Singularity.Graph.Resolvers.IDependencyResolver.html">IDependencyResolver</a>[]</td>
+        <td><span class="parametername">resolvers</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings_With_Singularity_Logging_ISingularityLogger_.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings.With(Singularity.Logging.ISingularityLogger)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L93">View Source</a>
+  </span>
+  <a id="Singularity_SingularitySettings_With_" data-uid="Singularity.SingularitySettings.With*"></a>
+  <h4 id="Singularity_SingularitySettings_With_Singularity_Logging_ISingularityLogger_" data-uid="Singularity.SingularitySettings.With(Singularity.Logging.ISingularityLogger)">With(ISingularityLogger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void With(ISingularityLogger logger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Singularity.Logging.ISingularityLogger.html">ISingularityLogger</a></td>
+        <td><span class="parametername">logger</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -248,7 +465,7 @@
                     <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_SingularitySettings.md&amp;value=---%0Auid%3A%20Singularity.SingularitySettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/SingularitySettings.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

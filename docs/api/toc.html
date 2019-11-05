@@ -4,6 +4,7 @@
     <div class="sidefilter">
       <form class="toc-filter">
         <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
         <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
       </form>
     </div>
@@ -16,6 +17,9 @@
                     <a href="Singularity.html" name="" title="Singularity">Singularity</a>
                     
                     <ul class="nav level2">
+                          <li>
+                              <a href="Singularity.ConfigurationExtensions.html" name="" title="ConfigurationExtensions">ConfigurationExtensions</a>
+                          </li>
                           <li>
                               <a href="Singularity.ConstructorResolvers.html" name="" title="ConstructorResolvers">ConstructorResolvers</a>
                           </li>
@@ -44,7 +48,16 @@
                               <a href="Singularity.Lifetimes.html" name="" title="Lifetimes">Lifetimes</a>
                           </li>
                           <li>
+                              <a href="Singularity.Loggers.html" name="" title="Loggers">Loggers</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.MatchExtensions.html" name="" title="MatchExtensions">MatchExtensions</a>
+                          </li>
+                          <li>
                               <a href="Singularity.MostArgumentsConstructorResolver.html" name="" title="MostArgumentsConstructorResolver">MostArgumentsConstructorResolver</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.PatternTypeMatcher.html" name="" title="PatternTypeMatcher">PatternTypeMatcher</a>
                           </li>
                           <li>
                               <a href="Singularity.PerContainer.html" name="" title="PerContainer">PerContainer</a>
@@ -57,6 +70,18 @@
                           </li>
                           <li>
                               <a href="Singularity.ServiceAutoDispose.html" name="" title="ServiceAutoDispose">ServiceAutoDispose</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.ServiceBinding.html" name="" title="ServiceBinding">ServiceBinding</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.SingularityServiceProviderFactory.html" name="" title="SingularityServiceProviderFactory">SingularityServiceProviderFactory</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.SingularityServiceScope.html" name="" title="SingularityServiceScope">SingularityServiceScope</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.SingularityServiceScopeFactory.html" name="" title="SingularityServiceScopeFactory">SingularityServiceScopeFactory</a>
                           </li>
                           <li>
                               <a href="Singularity.SingularitySettings.html" name="" title="SingularitySettings">SingularitySettings</a>
@@ -72,9 +97,6 @@
                           </li>
                           <li>
                               <a href="Singularity.Transient.html" name="" title="Transient">Transient</a>
-                          </li>
-                          <li>
-                              <a href="Singularity.TypeMetadataCache-1.html" name="" title="TypeMetadataCache&lt;T&gt;">TypeMetadataCache&lt;T&gt;</a>
                           </li>
                           <li>
                               <a href="Singularity.WeaklyTypedDecoratorConfigurator.html" name="" title="WeaklyTypedDecoratorConfigurator">WeaklyTypedDecoratorConfigurator</a>
@@ -93,7 +115,7 @@
                     
                     <ul class="nav level2">
                           <li>
-                              <a href="Singularity.Collections.LifetimeCollection.html" name="" title="LifetimeCollection">LifetimeCollection</a>
+                              <a href="Singularity.Collections.ArrayList-1.html" name="" title="ArrayList&lt;T&gt;">ArrayList&lt;T&gt;</a>
                           </li>
                           <li>
                               <a href="Singularity.Collections.SinglyLinkedListKeyNode-2.html" name="" title="SinglyLinkedListKeyNode&lt;TKey, TValue&gt;">SinglyLinkedListKeyNode&lt;TKey, TValue&gt;</a>
@@ -106,9 +128,6 @@
                           </li>
                           <li>
                               <a href="Singularity.Collections.SinglyLinkedListNode-1.Enumerator.html" name="" title="SinglyLinkedListNode&lt;T&gt;.Enumerator">SinglyLinkedListNode&lt;T&gt;.Enumerator</a>
-                          </li>
-                          <li>
-                              <a href="Singularity.Collections.SinglyLinkedListNodeTypeCache-1.html" name="" title="SinglyLinkedListNodeTypeCache&lt;T&gt;">SinglyLinkedListNodeTypeCache&lt;T&gt;</a>
                           </li>
                     </ul>
                 </li>
@@ -154,6 +173,9 @@
                           </li>
                           <li>
                               <a href="Singularity.Exceptions.DependencyNotFoundException.html" name="" title="DependencyNotFoundException">DependencyNotFoundException</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.Exceptions.DependencyResolveException.html" name="" title="DependencyResolveException">DependencyResolveException</a>
                           </li>
                           <li>
                               <a href="Singularity.Exceptions.EnumerableRegistrationException.html" name="" title="EnumerableRegistrationException">EnumerableRegistrationException</a>
@@ -208,27 +230,61 @@
                           <li>
                               <a href="Singularity.Graph.BindingMetadata.html" name="" title="BindingMetadata">BindingMetadata</a>
                           </li>
+                          <li>
+                              <a href="Singularity.Graph.InstanceFactory.html" name="" title="InstanceFactory">InstanceFactory</a>
+                          </li>
                     </ul>
                 </li>
                 <li>
                     <span class="expand-stub"></span>
-                    <a href="Singularity.Microsoft.DependencyInjection.html" name="" title="Singularity.Microsoft.DependencyInjection">Singularity.Microsoft.DependencyInjection</a>
+                    <a href="Singularity.Graph.Resolvers.html" name="" title="Singularity.Graph.Resolvers">Singularity.Graph.Resolvers</a>
                     
                     <ul class="nav level2">
                           <li>
-                              <a href="Singularity.Microsoft.DependencyInjection.Extensions.html" name="" title="Extensions">Extensions</a>
+                              <a href="Singularity.Graph.Resolvers.ConcreteDependencyResolver.html" name="" title="ConcreteDependencyResolver">ConcreteDependencyResolver</a>
                           </li>
                           <li>
-                              <a href="Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.html" name="" title="SingularityServiceProvider">SingularityServiceProvider</a>
+                              <a href="Singularity.Graph.Resolvers.ContainerDependencyResolver.html" name="" title="ContainerDependencyResolver">ContainerDependencyResolver</a>
                           </li>
                           <li>
-                              <a href="Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.html" name="" title="SingularityServiceProviderFactory">SingularityServiceProviderFactory</a>
+                              <a href="Singularity.Graph.Resolvers.EnumerableDependencyResolver.html" name="" title="EnumerableDependencyResolver">EnumerableDependencyResolver</a>
                           </li>
                           <li>
-                              <a href="Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html" name="" title="SingularityServiceScope">SingularityServiceScope</a>
+                              <a href="Singularity.Graph.Resolvers.ExpressionDependencyResolver.html" name="" title="ExpressionDependencyResolver">ExpressionDependencyResolver</a>
                           </li>
                           <li>
-                              <a href="Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.html" name="" title="SingularityServiceScopeFactory">SingularityServiceScopeFactory</a>
+                              <a href="Singularity.Graph.Resolvers.FactoryDependencyResolver.html" name="" title="FactoryDependencyResolver">FactoryDependencyResolver</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.Graph.Resolvers.IDependencyResolver.html" name="" title="IDependencyResolver">IDependencyResolver</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.Graph.Resolvers.IResolverPipeline.html" name="" title="IResolverPipeline">IResolverPipeline</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.Graph.Resolvers.ITypeMatcher.html" name="" title="ITypeMatcher">ITypeMatcher</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.Graph.Resolvers.LazyDependencyResolver.html" name="" title="LazyDependencyResolver">LazyDependencyResolver</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.Graph.Resolvers.OpenGenericResolver.html" name="" title="OpenGenericResolver">OpenGenericResolver</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="Singularity.Logging.html" name="" title="Singularity.Logging">Singularity.Logging</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="Singularity.Logging.ConsoleLogger.html" name="" title="ConsoleLogger">ConsoleLogger</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.Logging.ISingularityLogger.html" name="" title="ISingularityLogger">ISingularityLogger</a>
+                          </li>
+                          <li>
+                              <a href="Singularity.Logging.NullLogger.html" name="" title="NullLogger">NullLogger</a>
                           </li>
                     </ul>
                 </li>

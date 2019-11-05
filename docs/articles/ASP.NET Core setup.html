@@ -8,7 +8,7 @@
     <title>ASP.NET Core 3.0 </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="ASP.NET Core 3.0 ">
-    <meta name="generator" content="docfx 2.45.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -69,7 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h2 id="aspnet-core-30">ASP.NET Core 3.0</h2>
 
-<p>Setup in ASP.NET Core 3.0 is very simple, just call <code>UseServiceProviderFactory</code> and pass in a <code>SingularityServiceProviderFactory</code> instance:</p>
+<p>Setup in ASP.NET Core 3.0 is very simple. First reference the <a href="https://www.nuget.org/packages/Singularity.AspNetCore.Hosting/"><code>Singularity.AspNetCore.Hosting</code></a> package. Then in your Program.cs add the <code>Singularity</code> namespace and call <code>UseSingularity</code> on the <code>IHostBuilder</code></p>
 <pre><code class="lang-cs">public class Program
 {
     public static void Main(string[] args)
@@ -79,14 +79,26 @@
 
     public static IHostBuilder CreateHostBuilder(string[] args) =&gt;
         Host.CreateDefaultBuilder(args)
-            .ConfigureWebHostDefaults(webBuilder =&gt; { webBuilder.UseStartup&lt;Startup&gt;(); })
-            .UseServiceProviderFactory(new SingularityServiceProviderFactory());
+            .ConfigureWebHostDefaults(webBuilder =&gt;
+            {
+                webBuilder.UseStartup&lt;Startup&gt;();
+            })
+            .UseSingularity();
 }
 </code></pre>
-<p>If you want to register dependencies using the Singularity API just add this in the startup.cs:</p>
+<p>At this point your application will already work but for better integration you can reference the <a href="https://www.nuget.org/packages/Singularity.AspNetCore.MVC/"><code>Singularity.AspNetCore.MVC</code></a> package. Then in your Startup.cs add the <code>Singularity</code> namespace and call <code>SetupMvc</code> in the <code>ConfigureContainer</code> method. This will add custom Controller and View activators to the container. You can also do additional configurations here such as enabling a logger. Finally this is also the place where you can register dependencies using Singularities API:</p>
 <pre><code class="lang-cs">public void ConfigureContainer(ContainerBuilder builder)
-{
-    //Register services using singularities ContainerBuilder here
+{    
+    builder.SetupMvc();
+    
+    //Setup some logger
+    builder.ConfigureSettings(s =&gt;
+    {
+        s.With(Loggers.ConsoleLogger);
+    });
+    
+    //Register some services
+    builder.Register&lt;ITransient1, Transient1&gt;();
 }
 </code></pre>
 </article>

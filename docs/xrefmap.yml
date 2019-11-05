@@ -13,78 +13,128 @@ references:
   commentId: N:Singularity.Collections
   fullName: Singularity.Collections
   nameWithType: Singularity.Collections
-- uid: Singularity.Collections.LifetimeCollection
-  name: LifetimeCollection
-  href: api/Singularity.Collections.LifetimeCollection.html
-  commentId: T:Singularity.Collections.LifetimeCollection
-  fullName: Singularity.Collections.LifetimeCollection
-  nameWithType: LifetimeCollection
-- uid: Singularity.Collections.LifetimeCollection.Contains(Singularity.ILifetime)
-  name: Contains(ILifetime)
-  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_Contains_Singularity_ILifetime_
-  commentId: M:Singularity.Collections.LifetimeCollection.Contains(Singularity.ILifetime)
-  fullName: Singularity.Collections.LifetimeCollection.Contains(Singularity.ILifetime)
-  nameWithType: LifetimeCollection.Contains(ILifetime)
-- uid: Singularity.Collections.LifetimeCollection.Contains*
-  name: Contains
-  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_Contains_
-  commentId: Overload:Singularity.Collections.LifetimeCollection.Contains
+- uid: Singularity.Collections.ArrayList`1
+  name: ArrayList<T>
+  href: api/Singularity.Collections.ArrayList-1.html
+  commentId: T:Singularity.Collections.ArrayList`1
+  name.vb: ArrayList(Of T)
+  fullName: Singularity.Collections.ArrayList<T>
+  fullName.vb: Singularity.Collections.ArrayList(Of T)
+  nameWithType: ArrayList<T>
+  nameWithType.vb: ArrayList(Of T)
+- uid: Singularity.Collections.ArrayList`1.#ctor
+  name: ArrayList()
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1__ctor
+  commentId: M:Singularity.Collections.ArrayList`1.#ctor
+  fullName: Singularity.Collections.ArrayList<T>.ArrayList()
+  fullName.vb: Singularity.Collections.ArrayList(Of T).ArrayList()
+  nameWithType: ArrayList<T>.ArrayList()
+  nameWithType.vb: ArrayList(Of T).ArrayList()
+- uid: Singularity.Collections.ArrayList`1.#ctor(`0[])
+  name: ArrayList(T[])
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1__ctor__0___
+  commentId: M:Singularity.Collections.ArrayList`1.#ctor(`0[])
+  name.vb: ArrayList(T())
+  fullName: Singularity.Collections.ArrayList<T>.ArrayList(T[])
+  fullName.vb: Singularity.Collections.ArrayList(Of T).ArrayList(T())
+  nameWithType: ArrayList<T>.ArrayList(T[])
+  nameWithType.vb: ArrayList(Of T).ArrayList(T())
+- uid: Singularity.Collections.ArrayList`1.#ctor*
+  name: ArrayList
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1__ctor_
+  commentId: Overload:Singularity.Collections.ArrayList`1.#ctor
   isSpec: "True"
-  fullName: Singularity.Collections.LifetimeCollection.Contains
-  nameWithType: LifetimeCollection.Contains
-- uid: Singularity.Collections.LifetimeCollection.op_Implicit(Singularity.ILifetime[])~Singularity.Collections.LifetimeCollection
-  name: Implicit(ILifetime[] to LifetimeCollection)
-  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_op_Implicit_Singularity_ILifetime____Singularity_Collections_LifetimeCollection
-  commentId: M:Singularity.Collections.LifetimeCollection.op_Implicit(Singularity.ILifetime[])~Singularity.Collections.LifetimeCollection
-  name.vb: Widening(ILifetime() to LifetimeCollection)
-  fullName: Singularity.Collections.LifetimeCollection.Implicit(Singularity.ILifetime[] to Singularity.Collections.LifetimeCollection)
-  fullName.vb: Singularity.Collections.LifetimeCollection.Widening(Singularity.ILifetime() to Singularity.Collections.LifetimeCollection)
-  nameWithType: LifetimeCollection.Implicit(ILifetime[] to LifetimeCollection)
-  nameWithType.vb: LifetimeCollection.Widening(ILifetime() to LifetimeCollection)
-- uid: Singularity.Collections.LifetimeCollection.op_Implicit*
-  name: Implicit
-  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_op_Implicit_
-  commentId: Overload:Singularity.Collections.LifetimeCollection.op_Implicit
+  fullName: Singularity.Collections.ArrayList<T>.ArrayList
+  fullName.vb: Singularity.Collections.ArrayList(Of T).ArrayList
+  nameWithType: ArrayList<T>.ArrayList
+  nameWithType.vb: ArrayList(Of T).ArrayList
+- uid: Singularity.Collections.ArrayList`1.Add(`0)
+  name: Add(T)
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_Add__0_
+  commentId: M:Singularity.Collections.ArrayList`1.Add(`0)
+  fullName: Singularity.Collections.ArrayList<T>.Add(T)
+  fullName.vb: Singularity.Collections.ArrayList(Of T).Add(T)
+  nameWithType: ArrayList<T>.Add(T)
+  nameWithType.vb: ArrayList(Of T).Add(T)
+- uid: Singularity.Collections.ArrayList`1.Add*
+  name: Add
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_Add_
+  commentId: Overload:Singularity.Collections.ArrayList`1.Add
   isSpec: "True"
-  name.vb: Widening
-  fullName: Singularity.Collections.LifetimeCollection.Implicit
-  fullName.vb: Singularity.Collections.LifetimeCollection.Widening
-  nameWithType: LifetimeCollection.Implicit
-  nameWithType.vb: LifetimeCollection.Widening
-- uid: Singularity.Collections.LifetimeCollection.System#Collections#Generic#IEnumerable{Singularity#ILifetime}#GetEnumerator
-  name: IEnumerable<ILifetime>.GetEnumerator()
-  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_System_Collections_Generic_IEnumerable_Singularity_ILifetime__GetEnumerator
-  commentId: M:Singularity.Collections.LifetimeCollection.System#Collections#Generic#IEnumerable{Singularity#ILifetime}#GetEnumerator
-  name.vb: System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator()
-  fullName: Singularity.Collections.LifetimeCollection.System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator()
-  nameWithType: LifetimeCollection.IEnumerable<ILifetime>.GetEnumerator()
-  nameWithType.vb: LifetimeCollection.System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator()
-- uid: Singularity.Collections.LifetimeCollection.System#Collections#Generic#IEnumerable{Singularity#ILifetime}#GetEnumerator*
-  name: IEnumerable<ILifetime>.GetEnumerator
-  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_System_Collections_Generic_IEnumerable_Singularity_ILifetime__GetEnumerator_
-  commentId: Overload:Singularity.Collections.LifetimeCollection.System#Collections#Generic#IEnumerable{Singularity#ILifetime}#GetEnumerator
+  fullName: Singularity.Collections.ArrayList<T>.Add
+  fullName.vb: Singularity.Collections.ArrayList(Of T).Add
+  nameWithType: ArrayList<T>.Add
+  nameWithType.vb: ArrayList(Of T).Add
+- uid: Singularity.Collections.ArrayList`1.Array
+  name: Array
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_Array
+  commentId: P:Singularity.Collections.ArrayList`1.Array
+  fullName: Singularity.Collections.ArrayList<T>.Array
+  fullName.vb: Singularity.Collections.ArrayList(Of T).Array
+  nameWithType: ArrayList<T>.Array
+  nameWithType.vb: ArrayList(Of T).Array
+- uid: Singularity.Collections.ArrayList`1.Array*
+  name: Array
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_Array_
+  commentId: Overload:Singularity.Collections.ArrayList`1.Array
   isSpec: "True"
-  name.vb: System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator
-  fullName: Singularity.Collections.LifetimeCollection.System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator
-  nameWithType: LifetimeCollection.IEnumerable<ILifetime>.GetEnumerator
-  nameWithType.vb: LifetimeCollection.System.Collections.Generic.IEnumerable<Singularity.ILifetime>.GetEnumerator
-- uid: Singularity.Collections.LifetimeCollection.System#Collections#IEnumerable#GetEnumerator
+  fullName: Singularity.Collections.ArrayList<T>.Array
+  fullName.vb: Singularity.Collections.ArrayList(Of T).Array
+  nameWithType: ArrayList<T>.Array
+  nameWithType.vb: ArrayList(Of T).Array
+- uid: Singularity.Collections.ArrayList`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_GetEnumerator
+  commentId: M:Singularity.Collections.ArrayList`1.GetEnumerator
+  fullName: Singularity.Collections.ArrayList<T>.GetEnumerator()
+  fullName.vb: Singularity.Collections.ArrayList(Of T).GetEnumerator()
+  nameWithType: ArrayList<T>.GetEnumerator()
+  nameWithType.vb: ArrayList(Of T).GetEnumerator()
+- uid: Singularity.Collections.ArrayList`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_GetEnumerator_
+  commentId: Overload:Singularity.Collections.ArrayList`1.GetEnumerator
+  isSpec: "True"
+  fullName: Singularity.Collections.ArrayList<T>.GetEnumerator
+  fullName.vb: Singularity.Collections.ArrayList(Of T).GetEnumerator
+  nameWithType: ArrayList<T>.GetEnumerator
+  nameWithType.vb: ArrayList(Of T).GetEnumerator
+- uid: Singularity.Collections.ArrayList`1.Last
+  name: Last()
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_Last
+  commentId: M:Singularity.Collections.ArrayList`1.Last
+  fullName: Singularity.Collections.ArrayList<T>.Last()
+  fullName.vb: Singularity.Collections.ArrayList(Of T).Last()
+  nameWithType: ArrayList<T>.Last()
+  nameWithType.vb: ArrayList(Of T).Last()
+- uid: Singularity.Collections.ArrayList`1.Last*
+  name: Last
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_Last_
+  commentId: Overload:Singularity.Collections.ArrayList`1.Last
+  isSpec: "True"
+  fullName: Singularity.Collections.ArrayList<T>.Last
+  fullName.vb: Singularity.Collections.ArrayList(Of T).Last
+  nameWithType: ArrayList<T>.Last
+  nameWithType.vb: ArrayList(Of T).Last
+- uid: Singularity.Collections.ArrayList`1.System#Collections#IEnumerable#GetEnumerator
   name: IEnumerable.GetEnumerator()
-  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Singularity.Collections.LifetimeCollection.System#Collections#IEnumerable#GetEnumerator
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:Singularity.Collections.ArrayList`1.System#Collections#IEnumerable#GetEnumerator
   name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Singularity.Collections.LifetimeCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: LifetimeCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: LifetimeCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Singularity.Collections.LifetimeCollection.System#Collections#IEnumerable#GetEnumerator*
+  fullName: Singularity.Collections.ArrayList<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: Singularity.Collections.ArrayList(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: ArrayList<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: ArrayList(Of T).System.Collections.IEnumerable.GetEnumerator()
+- uid: Singularity.Collections.ArrayList`1.System#Collections#IEnumerable#GetEnumerator*
   name: IEnumerable.GetEnumerator
-  href: api/Singularity.Collections.LifetimeCollection.html#Singularity_Collections_LifetimeCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Singularity.Collections.LifetimeCollection.System#Collections#IEnumerable#GetEnumerator
+  href: api/Singularity.Collections.ArrayList-1.html#Singularity_Collections_ArrayList_1_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:Singularity.Collections.ArrayList`1.System#Collections#IEnumerable#GetEnumerator
   isSpec: "True"
   name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Singularity.Collections.LifetimeCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: LifetimeCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: LifetimeCollection.System.Collections.IEnumerable.GetEnumerator
+  fullName: Singularity.Collections.ArrayList<T>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: Singularity.Collections.ArrayList(Of T).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ArrayList<T>.IEnumerable.GetEnumerator
+  nameWithType.vb: ArrayList(Of T).System.Collections.IEnumerable.GetEnumerator
 - uid: Singularity.Collections.SinglyLinkedListKeyNode`2
   name: SinglyLinkedListKeyNode<TKey, TValue>
   href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html
@@ -94,15 +144,15 @@ references:
   fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue)
   nameWithType: SinglyLinkedListKeyNode<TKey, TValue>
   nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue)
-- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.#ctor(System.Nullable{Singularity.Collections.SinglyLinkedListKeyNode{`0,`1}},`0@,`1@)
-  name: SinglyLinkedListKeyNode(Nullable<SinglyLinkedListKeyNode<TKey, TValue>>, TKey, TValue)
-  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2__ctor_System_Nullable_Singularity_Collections_SinglyLinkedListKeyNode__0__1____0___1__
-  commentId: M:Singularity.Collections.SinglyLinkedListKeyNode`2.#ctor(System.Nullable{Singularity.Collections.SinglyLinkedListKeyNode{`0,`1}},`0@,`1@)
-  name.vb: SinglyLinkedListKeyNode(Nullable(Of SinglyLinkedListKeyNode(Of TKey, TValue)), ByRef TKey, ByRef TValue)
-  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.SinglyLinkedListKeyNode(System.Nullable<Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>>, TKey, TValue)
-  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).SinglyLinkedListKeyNode(System.Nullable(Of Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue)), ByRef TKey, ByRef TValue)
-  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.SinglyLinkedListKeyNode(Nullable<SinglyLinkedListKeyNode<TKey, TValue>>, TKey, TValue)
-  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).SinglyLinkedListKeyNode(Nullable(Of SinglyLinkedListKeyNode(Of TKey, TValue)), ByRef TKey, ByRef TValue)
+- uid: Singularity.Collections.SinglyLinkedListKeyNode`2.#ctor(Singularity.Collections.SinglyLinkedListKeyNode{`0,`1},`0@,`1@)
+  name: SinglyLinkedListKeyNode(SinglyLinkedListKeyNode<TKey, TValue>, TKey, TValue)
+  href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2__ctor_Singularity_Collections_SinglyLinkedListKeyNode__0__1___0___1__
+  commentId: M:Singularity.Collections.SinglyLinkedListKeyNode`2.#ctor(Singularity.Collections.SinglyLinkedListKeyNode{`0,`1},`0@,`1@)
+  name.vb: SinglyLinkedListKeyNode(SinglyLinkedListKeyNode(Of TKey, TValue), ByRef TKey, ByRef TValue)
+  fullName: Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>.SinglyLinkedListKeyNode(Singularity.Collections.SinglyLinkedListKeyNode<TKey, TValue>, TKey, TValue)
+  fullName.vb: Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue).SinglyLinkedListKeyNode(Singularity.Collections.SinglyLinkedListKeyNode(Of TKey, TValue), ByRef TKey, ByRef TValue)
+  nameWithType: SinglyLinkedListKeyNode<TKey, TValue>.SinglyLinkedListKeyNode(SinglyLinkedListKeyNode<TKey, TValue>, TKey, TValue)
+  nameWithType.vb: SinglyLinkedListKeyNode(Of TKey, TValue).SinglyLinkedListKeyNode(SinglyLinkedListKeyNode(Of TKey, TValue), ByRef TKey, ByRef TValue)
 - uid: Singularity.Collections.SinglyLinkedListKeyNode`2.#ctor*
   name: SinglyLinkedListKeyNode
   href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html#Singularity_Collections_SinglyLinkedListKeyNode_2__ctor_
@@ -305,15 +355,15 @@ references:
   fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).SinglyLinkedListNode(ByRef T)
   nameWithType: SinglyLinkedListNode<T>.SinglyLinkedListNode(T)
   nameWithType.vb: SinglyLinkedListNode(Of T).SinglyLinkedListNode(ByRef T)
-- uid: Singularity.Collections.SinglyLinkedListNode`1.#ctor(System.Nullable{Singularity.Collections.SinglyLinkedListNode{`0}},`0@)
-  name: SinglyLinkedListNode(Nullable<SinglyLinkedListNode<T>>, T)
-  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1__ctor_System_Nullable_Singularity_Collections_SinglyLinkedListNode__0____0__
-  commentId: M:Singularity.Collections.SinglyLinkedListNode`1.#ctor(System.Nullable{Singularity.Collections.SinglyLinkedListNode{`0}},`0@)
-  name.vb: SinglyLinkedListNode(Nullable(Of SinglyLinkedListNode(Of T)), ByRef T)
-  fullName: Singularity.Collections.SinglyLinkedListNode<T>.SinglyLinkedListNode(System.Nullable<Singularity.Collections.SinglyLinkedListNode<T>>, T)
-  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).SinglyLinkedListNode(System.Nullable(Of Singularity.Collections.SinglyLinkedListNode(Of T)), ByRef T)
-  nameWithType: SinglyLinkedListNode<T>.SinglyLinkedListNode(Nullable<SinglyLinkedListNode<T>>, T)
-  nameWithType.vb: SinglyLinkedListNode(Of T).SinglyLinkedListNode(Nullable(Of SinglyLinkedListNode(Of T)), ByRef T)
+- uid: Singularity.Collections.SinglyLinkedListNode`1.#ctor(Singularity.Collections.SinglyLinkedListNode{`0},`0@)
+  name: SinglyLinkedListNode(SinglyLinkedListNode<T>, T)
+  href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1__ctor_Singularity_Collections_SinglyLinkedListNode__0___0__
+  commentId: M:Singularity.Collections.SinglyLinkedListNode`1.#ctor(Singularity.Collections.SinglyLinkedListNode{`0},`0@)
+  name.vb: SinglyLinkedListNode(SinglyLinkedListNode(Of T), ByRef T)
+  fullName: Singularity.Collections.SinglyLinkedListNode<T>.SinglyLinkedListNode(Singularity.Collections.SinglyLinkedListNode<T>, T)
+  fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).SinglyLinkedListNode(Singularity.Collections.SinglyLinkedListNode(Of T), ByRef T)
+  nameWithType: SinglyLinkedListNode<T>.SinglyLinkedListNode(SinglyLinkedListNode<T>, T)
+  nameWithType.vb: SinglyLinkedListNode(Of T).SinglyLinkedListNode(SinglyLinkedListNode(Of T), ByRef T)
 - uid: Singularity.Collections.SinglyLinkedListNode`1.#ctor*
   name: SinglyLinkedListNode
   href: api/Singularity.Collections.SinglyLinkedListNode-1.html#Singularity_Collections_SinglyLinkedListNode_1__ctor_
@@ -490,23 +540,64 @@ references:
   fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Value
   nameWithType: SinglyLinkedListNode<T>.Value
   nameWithType.vb: SinglyLinkedListNode(Of T).Value
-- uid: Singularity.Collections.SinglyLinkedListNodeTypeCache`1
-  name: SinglyLinkedListNodeTypeCache<T>
-  href: api/Singularity.Collections.SinglyLinkedListNodeTypeCache-1.html
-  commentId: T:Singularity.Collections.SinglyLinkedListNodeTypeCache`1
-  name.vb: SinglyLinkedListNodeTypeCache(Of T)
-  fullName: Singularity.Collections.SinglyLinkedListNodeTypeCache<T>
-  fullName.vb: Singularity.Collections.SinglyLinkedListNodeTypeCache(Of T)
-  nameWithType: SinglyLinkedListNodeTypeCache<T>
-  nameWithType.vb: SinglyLinkedListNodeTypeCache(Of T)
-- uid: Singularity.Collections.SinglyLinkedListNodeTypeCache`1.Instance
-  name: Instance
-  href: api/Singularity.Collections.SinglyLinkedListNodeTypeCache-1.html#Singularity_Collections_SinglyLinkedListNodeTypeCache_1_Instance
-  commentId: F:Singularity.Collections.SinglyLinkedListNodeTypeCache`1.Instance
-  fullName: Singularity.Collections.SinglyLinkedListNodeTypeCache<T>.Instance
-  fullName.vb: Singularity.Collections.SinglyLinkedListNodeTypeCache(Of T).Instance
-  nameWithType: SinglyLinkedListNodeTypeCache<T>.Instance
-  nameWithType.vb: SinglyLinkedListNodeTypeCache(Of T).Instance
+- uid: Singularity.ConfigurationExtensions
+  name: ConfigurationExtensions
+  href: api/Singularity.ConfigurationExtensions.html
+  commentId: T:Singularity.ConfigurationExtensions
+  fullName: Singularity.ConfigurationExtensions
+  nameWithType: ConfigurationExtensions
+- uid: Singularity.ConfigurationExtensions.CreateContainerBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection,Singularity.SingularitySettings)
+  name: CreateContainerBuilder(IServiceCollection, SingularitySettings)
+  href: api/Singularity.ConfigurationExtensions.html#Singularity_ConfigurationExtensions_CreateContainerBuilder_Microsoft_Extensions_DependencyInjection_IServiceCollection_Singularity_SingularitySettings_
+  commentId: M:Singularity.ConfigurationExtensions.CreateContainerBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection,Singularity.SingularitySettings)
+  fullName: Singularity.ConfigurationExtensions.CreateContainerBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection, Singularity.SingularitySettings)
+  nameWithType: ConfigurationExtensions.CreateContainerBuilder(IServiceCollection, SingularitySettings)
+- uid: Singularity.ConfigurationExtensions.CreateContainerBuilder*
+  name: CreateContainerBuilder
+  href: api/Singularity.ConfigurationExtensions.html#Singularity_ConfigurationExtensions_CreateContainerBuilder_
+  commentId: Overload:Singularity.ConfigurationExtensions.CreateContainerBuilder
+  isSpec: "True"
+  fullName: Singularity.ConfigurationExtensions.CreateContainerBuilder
+  nameWithType: ConfigurationExtensions.CreateContainerBuilder
+- uid: Singularity.ConfigurationExtensions.RegisterService(Singularity.ContainerBuilder,Microsoft.Extensions.DependencyInjection.ServiceDescriptor)
+  name: RegisterService(ContainerBuilder, ServiceDescriptor)
+  href: api/Singularity.ConfigurationExtensions.html#Singularity_ConfigurationExtensions_RegisterService_Singularity_ContainerBuilder_Microsoft_Extensions_DependencyInjection_ServiceDescriptor_
+  commentId: M:Singularity.ConfigurationExtensions.RegisterService(Singularity.ContainerBuilder,Microsoft.Extensions.DependencyInjection.ServiceDescriptor)
+  fullName: Singularity.ConfigurationExtensions.RegisterService(Singularity.ContainerBuilder, Microsoft.Extensions.DependencyInjection.ServiceDescriptor)
+  nameWithType: ConfigurationExtensions.RegisterService(ContainerBuilder, ServiceDescriptor)
+- uid: Singularity.ConfigurationExtensions.RegisterService*
+  name: RegisterService
+  href: api/Singularity.ConfigurationExtensions.html#Singularity_ConfigurationExtensions_RegisterService_
+  commentId: Overload:Singularity.ConfigurationExtensions.RegisterService
+  isSpec: "True"
+  fullName: Singularity.ConfigurationExtensions.RegisterService
+  nameWithType: ConfigurationExtensions.RegisterService
+- uid: Singularity.ConfigurationExtensions.RegisterServiceProvider(Singularity.ContainerBuilder)
+  name: RegisterServiceProvider(ContainerBuilder)
+  href: api/Singularity.ConfigurationExtensions.html#Singularity_ConfigurationExtensions_RegisterServiceProvider_Singularity_ContainerBuilder_
+  commentId: M:Singularity.ConfigurationExtensions.RegisterServiceProvider(Singularity.ContainerBuilder)
+  fullName: Singularity.ConfigurationExtensions.RegisterServiceProvider(Singularity.ContainerBuilder)
+  nameWithType: ConfigurationExtensions.RegisterServiceProvider(ContainerBuilder)
+- uid: Singularity.ConfigurationExtensions.RegisterServiceProvider*
+  name: RegisterServiceProvider
+  href: api/Singularity.ConfigurationExtensions.html#Singularity_ConfigurationExtensions_RegisterServiceProvider_
+  commentId: Overload:Singularity.ConfigurationExtensions.RegisterServiceProvider
+  isSpec: "True"
+  fullName: Singularity.ConfigurationExtensions.RegisterServiceProvider
+  nameWithType: ConfigurationExtensions.RegisterServiceProvider
+- uid: Singularity.ConfigurationExtensions.RegisterServices(Singularity.ContainerBuilder,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: RegisterServices(ContainerBuilder, IServiceCollection)
+  href: api/Singularity.ConfigurationExtensions.html#Singularity_ConfigurationExtensions_RegisterServices_Singularity_ContainerBuilder_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Singularity.ConfigurationExtensions.RegisterServices(Singularity.ContainerBuilder,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Singularity.ConfigurationExtensions.RegisterServices(Singularity.ContainerBuilder, Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: ConfigurationExtensions.RegisterServices(ContainerBuilder, IServiceCollection)
+- uid: Singularity.ConfigurationExtensions.RegisterServices*
+  name: RegisterServices
+  href: api/Singularity.ConfigurationExtensions.html#Singularity_ConfigurationExtensions_RegisterServices_
+  commentId: Overload:Singularity.ConfigurationExtensions.RegisterServices
+  isSpec: "True"
+  fullName: Singularity.ConfigurationExtensions.RegisterServices
+  nameWithType: ConfigurationExtensions.RegisterServices
 - uid: Singularity.ConstructorResolvers
   name: ConstructorResolvers
   href: api/Singularity.ConstructorResolvers.html
@@ -558,33 +649,30 @@ references:
   commentId: T:Singularity.Container
   fullName: Singularity.Container
   nameWithType: Container
-- uid: Singularity.Container.#ctor(Singularity.ContainerBuilder,System.Nullable{Singularity.SingularitySettings})
-  name: Container(ContainerBuilder, Nullable<SingularitySettings>)
-  href: api/Singularity.Container.html#Singularity_Container__ctor_Singularity_ContainerBuilder_System_Nullable_Singularity_SingularitySettings__
-  commentId: M:Singularity.Container.#ctor(Singularity.ContainerBuilder,System.Nullable{Singularity.SingularitySettings})
-  name.vb: Container(ContainerBuilder, Nullable(Of SingularitySettings))
-  fullName: Singularity.Container.Container(Singularity.ContainerBuilder, System.Nullable<Singularity.SingularitySettings>)
-  fullName.vb: Singularity.Container.Container(Singularity.ContainerBuilder, System.Nullable(Of Singularity.SingularitySettings))
-  nameWithType: Container.Container(ContainerBuilder, Nullable<SingularitySettings>)
-  nameWithType.vb: Container.Container(ContainerBuilder, Nullable(Of SingularitySettings))
-- uid: Singularity.Container.#ctor(System.Collections.Generic.IEnumerable{Singularity.IModule},System.Nullable{Singularity.SingularitySettings})
-  name: Container(IEnumerable<IModule>, Nullable<SingularitySettings>)
-  href: api/Singularity.Container.html#Singularity_Container__ctor_System_Collections_Generic_IEnumerable_Singularity_IModule__System_Nullable_Singularity_SingularitySettings__
-  commentId: M:Singularity.Container.#ctor(System.Collections.Generic.IEnumerable{Singularity.IModule},System.Nullable{Singularity.SingularitySettings})
-  name.vb: Container(IEnumerable(Of IModule), Nullable(Of SingularitySettings))
-  fullName: Singularity.Container.Container(System.Collections.Generic.IEnumerable<Singularity.IModule>, System.Nullable<Singularity.SingularitySettings>)
-  fullName.vb: Singularity.Container.Container(System.Collections.Generic.IEnumerable(Of Singularity.IModule), System.Nullable(Of Singularity.SingularitySettings))
-  nameWithType: Container.Container(IEnumerable<IModule>, Nullable<SingularitySettings>)
-  nameWithType.vb: Container.Container(IEnumerable(Of IModule), Nullable(Of SingularitySettings))
-- uid: Singularity.Container.#ctor(System.Nullable{System.Action{Singularity.ContainerBuilder}},System.Nullable{Singularity.SingularitySettings})
-  name: Container(Nullable<Action<ContainerBuilder>>, Nullable<SingularitySettings>)
-  href: api/Singularity.Container.html#Singularity_Container__ctor_System_Nullable_System_Action_Singularity_ContainerBuilder___System_Nullable_Singularity_SingularitySettings__
-  commentId: M:Singularity.Container.#ctor(System.Nullable{System.Action{Singularity.ContainerBuilder}},System.Nullable{Singularity.SingularitySettings})
-  name.vb: Container(Nullable(Of Action(Of ContainerBuilder)), Nullable(Of SingularitySettings))
-  fullName: Singularity.Container.Container(System.Nullable<System.Action<Singularity.ContainerBuilder>>, System.Nullable<Singularity.SingularitySettings>)
-  fullName.vb: Singularity.Container.Container(System.Nullable(Of System.Action(Of Singularity.ContainerBuilder)), System.Nullable(Of Singularity.SingularitySettings))
-  nameWithType: Container.Container(Nullable<Action<ContainerBuilder>>, Nullable<SingularitySettings>)
-  nameWithType.vb: Container.Container(Nullable(Of Action(Of ContainerBuilder)), Nullable(Of SingularitySettings))
+- uid: Singularity.Container.#ctor(Singularity.ContainerBuilder)
+  name: Container(ContainerBuilder)
+  href: api/Singularity.Container.html#Singularity_Container__ctor_Singularity_ContainerBuilder_
+  commentId: M:Singularity.Container.#ctor(Singularity.ContainerBuilder)
+  fullName: Singularity.Container.Container(Singularity.ContainerBuilder)
+  nameWithType: Container.Container(ContainerBuilder)
+- uid: Singularity.Container.#ctor(System.Action{Singularity.ContainerBuilder})
+  name: Container(Action<ContainerBuilder>)
+  href: api/Singularity.Container.html#Singularity_Container__ctor_System_Action_Singularity_ContainerBuilder__
+  commentId: M:Singularity.Container.#ctor(System.Action{Singularity.ContainerBuilder})
+  name.vb: Container(Action(Of ContainerBuilder))
+  fullName: Singularity.Container.Container(System.Action<Singularity.ContainerBuilder>)
+  fullName.vb: Singularity.Container.Container(System.Action(Of Singularity.ContainerBuilder))
+  nameWithType: Container.Container(Action<ContainerBuilder>)
+  nameWithType.vb: Container.Container(Action(Of ContainerBuilder))
+- uid: Singularity.Container.#ctor(System.Collections.Generic.IEnumerable{Singularity.IModule})
+  name: Container(IEnumerable<IModule>)
+  href: api/Singularity.Container.html#Singularity_Container__ctor_System_Collections_Generic_IEnumerable_Singularity_IModule__
+  commentId: M:Singularity.Container.#ctor(System.Collections.Generic.IEnumerable{Singularity.IModule})
+  name.vb: Container(IEnumerable(Of IModule))
+  fullName: Singularity.Container.Container(System.Collections.Generic.IEnumerable<Singularity.IModule>)
+  fullName.vb: Singularity.Container.Container(System.Collections.Generic.IEnumerable(Of Singularity.IModule))
+  nameWithType: Container.Container(IEnumerable<IModule>)
+  nameWithType.vb: Container.Container(IEnumerable(Of IModule))
 - uid: Singularity.Container.#ctor*
   name: Container
   href: api/Singularity.Container.html#Singularity_Container__ctor_
@@ -662,6 +750,15 @@ references:
   fullName.vb: Singularity.Container.GetInstanceOrDefault(Of T)()
   nameWithType: Container.GetInstanceOrDefault<T>()
   nameWithType.vb: Container.GetInstanceOrDefault(Of T)()
+- uid: Singularity.Container.GetNestedContainer(System.Action{Singularity.ContainerBuilder})
+  name: GetNestedContainer(Action<ContainerBuilder>)
+  href: api/Singularity.Container.html#Singularity_Container_GetNestedContainer_System_Action_Singularity_ContainerBuilder__
+  commentId: M:Singularity.Container.GetNestedContainer(System.Action{Singularity.ContainerBuilder})
+  name.vb: GetNestedContainer(Action(Of ContainerBuilder))
+  fullName: Singularity.Container.GetNestedContainer(System.Action<Singularity.ContainerBuilder>)
+  fullName.vb: Singularity.Container.GetNestedContainer(System.Action(Of Singularity.ContainerBuilder))
+  nameWithType: Container.GetNestedContainer(Action<ContainerBuilder>)
+  nameWithType.vb: Container.GetNestedContainer(Action(Of ContainerBuilder))
 - uid: Singularity.Container.GetNestedContainer(System.Collections.Generic.IEnumerable{Singularity.IModule})
   name: GetNestedContainer(IEnumerable<IModule>)
   href: api/Singularity.Container.html#Singularity_Container_GetNestedContainer_System_Collections_Generic_IEnumerable_Singularity_IModule__
@@ -671,15 +768,6 @@ references:
   fullName.vb: Singularity.Container.GetNestedContainer(System.Collections.Generic.IEnumerable(Of Singularity.IModule))
   nameWithType: Container.GetNestedContainer(IEnumerable<IModule>)
   nameWithType.vb: Container.GetNestedContainer(IEnumerable(Of IModule))
-- uid: Singularity.Container.GetNestedContainer(System.Nullable{System.Action{Singularity.ContainerBuilder}})
-  name: GetNestedContainer(Nullable<Action<ContainerBuilder>>)
-  href: api/Singularity.Container.html#Singularity_Container_GetNestedContainer_System_Nullable_System_Action_Singularity_ContainerBuilder___
-  commentId: M:Singularity.Container.GetNestedContainer(System.Nullable{System.Action{Singularity.ContainerBuilder}})
-  name.vb: GetNestedContainer(Nullable(Of Action(Of ContainerBuilder)))
-  fullName: Singularity.Container.GetNestedContainer(System.Nullable<System.Action<Singularity.ContainerBuilder>>)
-  fullName.vb: Singularity.Container.GetNestedContainer(System.Nullable(Of System.Action(Of Singularity.ContainerBuilder)))
-  nameWithType: Container.GetNestedContainer(Nullable<Action<ContainerBuilder>>)
-  nameWithType.vb: Container.GetNestedContainer(Nullable(Of Action(Of ContainerBuilder)))
 - uid: Singularity.Container.GetNestedContainer*
   name: GetNestedContainer
   href: api/Singularity.Container.html#Singularity_Container_GetNestedContainer_
@@ -729,21 +817,38 @@ references:
   fullName.vb: Singularity.Container.LateInjectAll(Of T)(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: Container.LateInjectAll<T>(IEnumerable<T>)
   nameWithType.vb: Container.LateInjectAll(Of T)(IEnumerable(Of T))
+- uid: Singularity.Container.System#IServiceProvider#GetService(System.Type)
+  name: IServiceProvider.GetService(Type)
+  href: api/Singularity.Container.html#Singularity_Container_System_IServiceProvider_GetService_System_Type_
+  commentId: M:Singularity.Container.System#IServiceProvider#GetService(System.Type)
+  name.vb: System.IServiceProvider.GetService(Type)
+  fullName: Singularity.Container.System.IServiceProvider.GetService(System.Type)
+  nameWithType: Container.IServiceProvider.GetService(Type)
+  nameWithType.vb: Container.System.IServiceProvider.GetService(Type)
+- uid: Singularity.Container.System#IServiceProvider#GetService*
+  name: IServiceProvider.GetService
+  href: api/Singularity.Container.html#Singularity_Container_System_IServiceProvider_GetService_
+  commentId: Overload:Singularity.Container.System#IServiceProvider#GetService
+  isSpec: "True"
+  name.vb: System.IServiceProvider.GetService
+  fullName: Singularity.Container.System.IServiceProvider.GetService
+  nameWithType: Container.IServiceProvider.GetService
+  nameWithType.vb: Container.System.IServiceProvider.GetService
 - uid: Singularity.ContainerBuilder
   name: ContainerBuilder
   href: api/Singularity.ContainerBuilder.html
   commentId: T:Singularity.ContainerBuilder
   fullName: Singularity.ContainerBuilder
   nameWithType: ContainerBuilder
-- uid: Singularity.ContainerBuilder.#ctor(System.Nullable{System.Action{Singularity.ContainerBuilder}},System.Nullable{Singularity.SingularitySettings})
-  name: ContainerBuilder(Nullable<Action<ContainerBuilder>>, Nullable<SingularitySettings>)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder__ctor_System_Nullable_System_Action_Singularity_ContainerBuilder___System_Nullable_Singularity_SingularitySettings__
-  commentId: M:Singularity.ContainerBuilder.#ctor(System.Nullable{System.Action{Singularity.ContainerBuilder}},System.Nullable{Singularity.SingularitySettings})
-  name.vb: ContainerBuilder(Nullable(Of Action(Of ContainerBuilder)), Nullable(Of SingularitySettings))
-  fullName: Singularity.ContainerBuilder.ContainerBuilder(System.Nullable<System.Action<Singularity.ContainerBuilder>>, System.Nullable<Singularity.SingularitySettings>)
-  fullName.vb: Singularity.ContainerBuilder.ContainerBuilder(System.Nullable(Of System.Action(Of Singularity.ContainerBuilder)), System.Nullable(Of Singularity.SingularitySettings))
-  nameWithType: ContainerBuilder.ContainerBuilder(Nullable<Action<ContainerBuilder>>, Nullable<SingularitySettings>)
-  nameWithType.vb: ContainerBuilder.ContainerBuilder(Nullable(Of Action(Of ContainerBuilder)), Nullable(Of SingularitySettings))
+- uid: Singularity.ContainerBuilder.#ctor(System.Action{Singularity.ContainerBuilder},Singularity.SingularitySettings)
+  name: ContainerBuilder(Action<ContainerBuilder>, SingularitySettings)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder__ctor_System_Action_Singularity_ContainerBuilder__Singularity_SingularitySettings_
+  commentId: M:Singularity.ContainerBuilder.#ctor(System.Action{Singularity.ContainerBuilder},Singularity.SingularitySettings)
+  name.vb: ContainerBuilder(Action(Of ContainerBuilder), SingularitySettings)
+  fullName: Singularity.ContainerBuilder.ContainerBuilder(System.Action<Singularity.ContainerBuilder>, Singularity.SingularitySettings)
+  fullName.vb: Singularity.ContainerBuilder.ContainerBuilder(System.Action(Of Singularity.ContainerBuilder), Singularity.SingularitySettings)
+  nameWithType: ContainerBuilder.ContainerBuilder(Action<ContainerBuilder>, SingularitySettings)
+  nameWithType.vb: ContainerBuilder.ContainerBuilder(Action(Of ContainerBuilder), SingularitySettings)
 - uid: Singularity.ContainerBuilder.#ctor*
   name: ContainerBuilder
   href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder__ctor_
@@ -751,24 +856,46 @@ references:
   isSpec: "True"
   fullName: Singularity.ContainerBuilder.ContainerBuilder
   nameWithType: ContainerBuilder.ContainerBuilder
-- uid: Singularity.ContainerBuilder.Decorate(System.Type,System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedDecoratorConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name: Decorate(Type, Type, Nullable<Action<WeaklyTypedDecoratorConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Decorate_System_Type_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedDecoratorConfigurator___System_Nullable_Singularity_Expressions_IConstructorResolver__System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.Decorate(System.Type,System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedDecoratorConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name.vb: Decorate(Type, Type, Nullable(Of Action(Of WeaklyTypedDecoratorConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
-  fullName: Singularity.ContainerBuilder.Decorate(System.Type, System.Type, System.Nullable<System.Action<Singularity.WeaklyTypedDecoratorConfigurator>>, System.Nullable<Singularity.Expressions.IConstructorResolver>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.Decorate(System.Type, System.Type, System.Nullable(Of System.Action(Of Singularity.WeaklyTypedDecoratorConfigurator)), System.Nullable(Of Singularity.Expressions.IConstructorResolver), System.String, System.Int32)
-  nameWithType: ContainerBuilder.Decorate(Type, Type, Nullable<Action<WeaklyTypedDecoratorConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  nameWithType.vb: ContainerBuilder.Decorate(Type, Type, Nullable(Of Action(Of WeaklyTypedDecoratorConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
-- uid: Singularity.ContainerBuilder.Decorate(System.Type,System.Type[],System.Nullable{System.Action{Singularity.WeaklyTypedDecoratorConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name: Decorate(Type, Type[], Nullable<Action<WeaklyTypedDecoratorConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Decorate_System_Type_System_Type___System_Nullable_System_Action_Singularity_WeaklyTypedDecoratorConfigurator___System_Nullable_Singularity_Expressions_IConstructorResolver__System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.Decorate(System.Type,System.Type[],System.Nullable{System.Action{Singularity.WeaklyTypedDecoratorConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name.vb: Decorate(Type, Type(), Nullable(Of Action(Of WeaklyTypedDecoratorConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
-  fullName: Singularity.ContainerBuilder.Decorate(System.Type, System.Type[], System.Nullable<System.Action<Singularity.WeaklyTypedDecoratorConfigurator>>, System.Nullable<Singularity.Expressions.IConstructorResolver>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.Decorate(System.Type, System.Type(), System.Nullable(Of System.Action(Of Singularity.WeaklyTypedDecoratorConfigurator)), System.Nullable(Of Singularity.Expressions.IConstructorResolver), System.String, System.Int32)
-  nameWithType: ContainerBuilder.Decorate(Type, Type[], Nullable<Action<WeaklyTypedDecoratorConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  nameWithType.vb: ContainerBuilder.Decorate(Type, Type(), Nullable(Of Action(Of WeaklyTypedDecoratorConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
+- uid: Singularity.ContainerBuilder.ConfigureSettings(Singularity.SingularitySettings)
+  name: ConfigureSettings(SingularitySettings)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_ConfigureSettings_Singularity_SingularitySettings_
+  commentId: M:Singularity.ContainerBuilder.ConfigureSettings(Singularity.SingularitySettings)
+  fullName: Singularity.ContainerBuilder.ConfigureSettings(Singularity.SingularitySettings)
+  nameWithType: ContainerBuilder.ConfigureSettings(SingularitySettings)
+- uid: Singularity.ContainerBuilder.ConfigureSettings(System.Action{Singularity.SingularitySettings})
+  name: ConfigureSettings(Action<SingularitySettings>)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_ConfigureSettings_System_Action_Singularity_SingularitySettings__
+  commentId: M:Singularity.ContainerBuilder.ConfigureSettings(System.Action{Singularity.SingularitySettings})
+  name.vb: ConfigureSettings(Action(Of SingularitySettings))
+  fullName: Singularity.ContainerBuilder.ConfigureSettings(System.Action<Singularity.SingularitySettings>)
+  fullName.vb: Singularity.ContainerBuilder.ConfigureSettings(System.Action(Of Singularity.SingularitySettings))
+  nameWithType: ContainerBuilder.ConfigureSettings(Action<SingularitySettings>)
+  nameWithType.vb: ContainerBuilder.ConfigureSettings(Action(Of SingularitySettings))
+- uid: Singularity.ContainerBuilder.ConfigureSettings*
+  name: ConfigureSettings
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_ConfigureSettings_
+  commentId: Overload:Singularity.ContainerBuilder.ConfigureSettings
+  isSpec: "True"
+  fullName: Singularity.ContainerBuilder.ConfigureSettings
+  nameWithType: ContainerBuilder.ConfigureSettings
+- uid: Singularity.ContainerBuilder.Decorate(System.Type,System.Type,System.Action{Singularity.WeaklyTypedDecoratorConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name: Decorate(Type, Type, Action<WeaklyTypedDecoratorConfigurator>, IConstructorResolver, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Decorate_System_Type_System_Type_System_Action_Singularity_WeaklyTypedDecoratorConfigurator__Singularity_Expressions_IConstructorResolver_System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.Decorate(System.Type,System.Type,System.Action{Singularity.WeaklyTypedDecoratorConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name.vb: Decorate(Type, Type, Action(Of WeaklyTypedDecoratorConfigurator), IConstructorResolver, String, Int32)
+  fullName: Singularity.ContainerBuilder.Decorate(System.Type, System.Type, System.Action<Singularity.WeaklyTypedDecoratorConfigurator>, Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.Decorate(System.Type, System.Type, System.Action(Of Singularity.WeaklyTypedDecoratorConfigurator), Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  nameWithType: ContainerBuilder.Decorate(Type, Type, Action<WeaklyTypedDecoratorConfigurator>, IConstructorResolver, String, Int32)
+  nameWithType.vb: ContainerBuilder.Decorate(Type, Type, Action(Of WeaklyTypedDecoratorConfigurator), IConstructorResolver, String, Int32)
+- uid: Singularity.ContainerBuilder.Decorate(System.Type,System.Type[],System.Action{Singularity.WeaklyTypedDecoratorConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name: Decorate(Type, Type[], Action<WeaklyTypedDecoratorConfigurator>, IConstructorResolver, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Decorate_System_Type_System_Type___System_Action_Singularity_WeaklyTypedDecoratorConfigurator__Singularity_Expressions_IConstructorResolver_System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.Decorate(System.Type,System.Type[],System.Action{Singularity.WeaklyTypedDecoratorConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name.vb: Decorate(Type, Type(), Action(Of WeaklyTypedDecoratorConfigurator), IConstructorResolver, String, Int32)
+  fullName: Singularity.ContainerBuilder.Decorate(System.Type, System.Type[], System.Action<Singularity.WeaklyTypedDecoratorConfigurator>, Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.Decorate(System.Type, System.Type(), System.Action(Of Singularity.WeaklyTypedDecoratorConfigurator), Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  nameWithType: ContainerBuilder.Decorate(Type, Type[], Action<WeaklyTypedDecoratorConfigurator>, IConstructorResolver, String, Int32)
+  nameWithType.vb: ContainerBuilder.Decorate(Type, Type(), Action(Of WeaklyTypedDecoratorConfigurator), IConstructorResolver, String, Int32)
 - uid: Singularity.ContainerBuilder.Decorate*
   name: Decorate
   href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Decorate_
@@ -776,24 +903,24 @@ references:
   isSpec: "True"
   fullName: Singularity.ContainerBuilder.Decorate
   nameWithType: ContainerBuilder.Decorate
-- uid: Singularity.ContainerBuilder.Decorate``2(System.Nullable{System.Action{Singularity.StronglyTypedDecoratorConfigurator{``0,``1}}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name: Decorate<TDependency, TDecorator>(Nullable<Action<StronglyTypedDecoratorConfigurator<TDependency, TDecorator>>>, Nullable<IConstructorResolver>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Decorate__2_System_Nullable_System_Action_Singularity_StronglyTypedDecoratorConfigurator___0___1____System_Nullable_Singularity_Expressions_IConstructorResolver__System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.Decorate``2(System.Nullable{System.Action{Singularity.StronglyTypedDecoratorConfigurator{``0,``1}}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name.vb: Decorate(Of TDependency, TDecorator)(Nullable(Of Action(Of StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator))), Nullable(Of IConstructorResolver), String, Int32)
-  fullName: Singularity.ContainerBuilder.Decorate<TDependency, TDecorator>(System.Nullable<System.Action<Singularity.StronglyTypedDecoratorConfigurator<TDependency, TDecorator>>>, System.Nullable<Singularity.Expressions.IConstructorResolver>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.Decorate(Of TDependency, TDecorator)(System.Nullable(Of System.Action(Of Singularity.StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator))), System.Nullable(Of Singularity.Expressions.IConstructorResolver), System.String, System.Int32)
-  nameWithType: ContainerBuilder.Decorate<TDependency, TDecorator>(Nullable<Action<StronglyTypedDecoratorConfigurator<TDependency, TDecorator>>>, Nullable<IConstructorResolver>, String, Int32)
-  nameWithType.vb: ContainerBuilder.Decorate(Of TDependency, TDecorator)(Nullable(Of Action(Of StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator))), Nullable(Of IConstructorResolver), String, Int32)
-- uid: Singularity.ContainerBuilder.LateInject(System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedLateInjectorConfigurator}},System.String,System.Int32)
-  name: LateInject(Type, Nullable<Action<WeaklyTypedLateInjectorConfigurator>>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedLateInjectorConfigurator___System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.LateInject(System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedLateInjectorConfigurator}},System.String,System.Int32)
-  name.vb: LateInject(Type, Nullable(Of Action(Of WeaklyTypedLateInjectorConfigurator)), String, Int32)
-  fullName: Singularity.ContainerBuilder.LateInject(System.Type, System.Nullable<System.Action<Singularity.WeaklyTypedLateInjectorConfigurator>>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.LateInject(System.Type, System.Nullable(Of System.Action(Of Singularity.WeaklyTypedLateInjectorConfigurator)), System.String, System.Int32)
-  nameWithType: ContainerBuilder.LateInject(Type, Nullable<Action<WeaklyTypedLateInjectorConfigurator>>, String, Int32)
-  nameWithType.vb: ContainerBuilder.LateInject(Type, Nullable(Of Action(Of WeaklyTypedLateInjectorConfigurator)), String, Int32)
+- uid: Singularity.ContainerBuilder.Decorate``2(System.Action{Singularity.StronglyTypedDecoratorConfigurator{``0,``1}},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name: Decorate<TDependency, TDecorator>(Action<StronglyTypedDecoratorConfigurator<TDependency, TDecorator>>, IConstructorResolver, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Decorate__2_System_Action_Singularity_StronglyTypedDecoratorConfigurator___0___1___Singularity_Expressions_IConstructorResolver_System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.Decorate``2(System.Action{Singularity.StronglyTypedDecoratorConfigurator{``0,``1}},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name.vb: Decorate(Of TDependency, TDecorator)(Action(Of StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator)), IConstructorResolver, String, Int32)
+  fullName: Singularity.ContainerBuilder.Decorate<TDependency, TDecorator>(System.Action<Singularity.StronglyTypedDecoratorConfigurator<TDependency, TDecorator>>, Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.Decorate(Of TDependency, TDecorator)(System.Action(Of Singularity.StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator)), Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  nameWithType: ContainerBuilder.Decorate<TDependency, TDecorator>(Action<StronglyTypedDecoratorConfigurator<TDependency, TDecorator>>, IConstructorResolver, String, Int32)
+  nameWithType.vb: ContainerBuilder.Decorate(Of TDependency, TDecorator)(Action(Of StronglyTypedDecoratorConfigurator(Of TDependency, TDecorator)), IConstructorResolver, String, Int32)
+- uid: Singularity.ContainerBuilder.LateInject(System.Type,System.Action{Singularity.WeaklyTypedLateInjectorConfigurator},System.String,System.Int32)
+  name: LateInject(Type, Action<WeaklyTypedLateInjectorConfigurator>, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject_System_Type_System_Action_Singularity_WeaklyTypedLateInjectorConfigurator__System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.LateInject(System.Type,System.Action{Singularity.WeaklyTypedLateInjectorConfigurator},System.String,System.Int32)
+  name.vb: LateInject(Type, Action(Of WeaklyTypedLateInjectorConfigurator), String, Int32)
+  fullName: Singularity.ContainerBuilder.LateInject(System.Type, System.Action<Singularity.WeaklyTypedLateInjectorConfigurator>, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.LateInject(System.Type, System.Action(Of Singularity.WeaklyTypedLateInjectorConfigurator), System.String, System.Int32)
+  nameWithType: ContainerBuilder.LateInject(Type, Action<WeaklyTypedLateInjectorConfigurator>, String, Int32)
+  nameWithType.vb: ContainerBuilder.LateInject(Type, Action(Of WeaklyTypedLateInjectorConfigurator), String, Int32)
 - uid: Singularity.ContainerBuilder.LateInject*
   name: LateInject
   href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject_
@@ -801,42 +928,42 @@ references:
   isSpec: "True"
   fullName: Singularity.ContainerBuilder.LateInject
   nameWithType: ContainerBuilder.LateInject
-- uid: Singularity.ContainerBuilder.LateInject``1(System.Nullable{System.Action{Singularity.StronglyTypedLateInjectorConfigurator{``0}}},System.String,System.Int32)
-  name: LateInject<TInstance>(Nullable<Action<StronglyTypedLateInjectorConfigurator<TInstance>>>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject__1_System_Nullable_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0____System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.LateInject``1(System.Nullable{System.Action{Singularity.StronglyTypedLateInjectorConfigurator{``0}}},System.String,System.Int32)
-  name.vb: LateInject(Of TInstance)(Nullable(Of Action(Of StronglyTypedLateInjectorConfigurator(Of TInstance))), String, Int32)
-  fullName: Singularity.ContainerBuilder.LateInject<TInstance>(System.Nullable<System.Action<Singularity.StronglyTypedLateInjectorConfigurator<TInstance>>>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.LateInject(Of TInstance)(System.Nullable(Of System.Action(Of Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance))), System.String, System.Int32)
-  nameWithType: ContainerBuilder.LateInject<TInstance>(Nullable<Action<StronglyTypedLateInjectorConfigurator<TInstance>>>, String, Int32)
-  nameWithType.vb: ContainerBuilder.LateInject(Of TInstance)(Nullable(Of Action(Of StronglyTypedLateInjectorConfigurator(Of TInstance))), String, Int32)
-- uid: Singularity.ContainerBuilder.Register(System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name: Register(Type, Nullable<Action<WeaklyTypedServiceConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_Nullable_Singularity_Expressions_IConstructorResolver__System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.Register(System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name.vb: Register(Type, Nullable(Of Action(Of WeaklyTypedServiceConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
-  fullName: Singularity.ContainerBuilder.Register(System.Type, System.Nullable<System.Action<Singularity.WeaklyTypedServiceConfigurator>>, System.Nullable<Singularity.Expressions.IConstructorResolver>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.Register(System.Type, System.Nullable(Of System.Action(Of Singularity.WeaklyTypedServiceConfigurator)), System.Nullable(Of Singularity.Expressions.IConstructorResolver), System.String, System.Int32)
-  nameWithType: ContainerBuilder.Register(Type, Nullable<Action<WeaklyTypedServiceConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  nameWithType.vb: ContainerBuilder.Register(Type, Nullable(Of Action(Of WeaklyTypedServiceConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
-- uid: Singularity.ContainerBuilder.Register(System.Type,System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name: Register(Type, Type, Nullable<Action<WeaklyTypedServiceConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register_System_Type_System_Type_System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_Nullable_Singularity_Expressions_IConstructorResolver__System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.Register(System.Type,System.Type,System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name.vb: Register(Type, Type, Nullable(Of Action(Of WeaklyTypedServiceConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
-  fullName: Singularity.ContainerBuilder.Register(System.Type, System.Type, System.Nullable<System.Action<Singularity.WeaklyTypedServiceConfigurator>>, System.Nullable<Singularity.Expressions.IConstructorResolver>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.Register(System.Type, System.Type, System.Nullable(Of System.Action(Of Singularity.WeaklyTypedServiceConfigurator)), System.Nullable(Of Singularity.Expressions.IConstructorResolver), System.String, System.Int32)
-  nameWithType: ContainerBuilder.Register(Type, Type, Nullable<Action<WeaklyTypedServiceConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  nameWithType.vb: ContainerBuilder.Register(Type, Type, Nullable(Of Action(Of WeaklyTypedServiceConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
-- uid: Singularity.ContainerBuilder.Register(System.Type,System.Type[],System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name: Register(Type, Type[], Nullable<Action<WeaklyTypedServiceConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register_System_Type_System_Type___System_Nullable_System_Action_Singularity_WeaklyTypedServiceConfigurator___System_Nullable_Singularity_Expressions_IConstructorResolver__System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.Register(System.Type,System.Type[],System.Nullable{System.Action{Singularity.WeaklyTypedServiceConfigurator}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name.vb: Register(Type, Type(), Nullable(Of Action(Of WeaklyTypedServiceConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
-  fullName: Singularity.ContainerBuilder.Register(System.Type, System.Type[], System.Nullable<System.Action<Singularity.WeaklyTypedServiceConfigurator>>, System.Nullable<Singularity.Expressions.IConstructorResolver>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.Register(System.Type, System.Type(), System.Nullable(Of System.Action(Of Singularity.WeaklyTypedServiceConfigurator)), System.Nullable(Of Singularity.Expressions.IConstructorResolver), System.String, System.Int32)
-  nameWithType: ContainerBuilder.Register(Type, Type[], Nullable<Action<WeaklyTypedServiceConfigurator>>, Nullable<IConstructorResolver>, String, Int32)
-  nameWithType.vb: ContainerBuilder.Register(Type, Type(), Nullable(Of Action(Of WeaklyTypedServiceConfigurator)), Nullable(Of IConstructorResolver), String, Int32)
+- uid: Singularity.ContainerBuilder.LateInject``1(System.Action{Singularity.StronglyTypedLateInjectorConfigurator{``0}},System.String,System.Int32)
+  name: LateInject<TInstance>(Action<StronglyTypedLateInjectorConfigurator<TInstance>>, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_LateInject__1_System_Action_Singularity_StronglyTypedLateInjectorConfigurator___0___System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.LateInject``1(System.Action{Singularity.StronglyTypedLateInjectorConfigurator{``0}},System.String,System.Int32)
+  name.vb: LateInject(Of TInstance)(Action(Of StronglyTypedLateInjectorConfigurator(Of TInstance)), String, Int32)
+  fullName: Singularity.ContainerBuilder.LateInject<TInstance>(System.Action<Singularity.StronglyTypedLateInjectorConfigurator<TInstance>>, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.LateInject(Of TInstance)(System.Action(Of Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance)), System.String, System.Int32)
+  nameWithType: ContainerBuilder.LateInject<TInstance>(Action<StronglyTypedLateInjectorConfigurator<TInstance>>, String, Int32)
+  nameWithType.vb: ContainerBuilder.LateInject(Of TInstance)(Action(Of StronglyTypedLateInjectorConfigurator(Of TInstance)), String, Int32)
+- uid: Singularity.ContainerBuilder.Register(System.Type,System.Action{Singularity.WeaklyTypedServiceConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name: Register(Type, Action<WeaklyTypedServiceConfigurator>, IConstructorResolver, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register_System_Type_System_Action_Singularity_WeaklyTypedServiceConfigurator__Singularity_Expressions_IConstructorResolver_System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.Register(System.Type,System.Action{Singularity.WeaklyTypedServiceConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name.vb: Register(Type, Action(Of WeaklyTypedServiceConfigurator), IConstructorResolver, String, Int32)
+  fullName: Singularity.ContainerBuilder.Register(System.Type, System.Action<Singularity.WeaklyTypedServiceConfigurator>, Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.Register(System.Type, System.Action(Of Singularity.WeaklyTypedServiceConfigurator), Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  nameWithType: ContainerBuilder.Register(Type, Action<WeaklyTypedServiceConfigurator>, IConstructorResolver, String, Int32)
+  nameWithType.vb: ContainerBuilder.Register(Type, Action(Of WeaklyTypedServiceConfigurator), IConstructorResolver, String, Int32)
+- uid: Singularity.ContainerBuilder.Register(System.Type,System.Type,System.Action{Singularity.WeaklyTypedServiceConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name: Register(Type, Type, Action<WeaklyTypedServiceConfigurator>, IConstructorResolver, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register_System_Type_System_Type_System_Action_Singularity_WeaklyTypedServiceConfigurator__Singularity_Expressions_IConstructorResolver_System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.Register(System.Type,System.Type,System.Action{Singularity.WeaklyTypedServiceConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name.vb: Register(Type, Type, Action(Of WeaklyTypedServiceConfigurator), IConstructorResolver, String, Int32)
+  fullName: Singularity.ContainerBuilder.Register(System.Type, System.Type, System.Action<Singularity.WeaklyTypedServiceConfigurator>, Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.Register(System.Type, System.Type, System.Action(Of Singularity.WeaklyTypedServiceConfigurator), Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  nameWithType: ContainerBuilder.Register(Type, Type, Action<WeaklyTypedServiceConfigurator>, IConstructorResolver, String, Int32)
+  nameWithType.vb: ContainerBuilder.Register(Type, Type, Action(Of WeaklyTypedServiceConfigurator), IConstructorResolver, String, Int32)
+- uid: Singularity.ContainerBuilder.Register(System.Type,System.Type[],System.Action{Singularity.WeaklyTypedServiceConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name: Register(Type, Type[], Action<WeaklyTypedServiceConfigurator>, IConstructorResolver, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register_System_Type_System_Type___System_Action_Singularity_WeaklyTypedServiceConfigurator__Singularity_Expressions_IConstructorResolver_System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.Register(System.Type,System.Type[],System.Action{Singularity.WeaklyTypedServiceConfigurator},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name.vb: Register(Type, Type(), Action(Of WeaklyTypedServiceConfigurator), IConstructorResolver, String, Int32)
+  fullName: Singularity.ContainerBuilder.Register(System.Type, System.Type[], System.Action<Singularity.WeaklyTypedServiceConfigurator>, Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.Register(System.Type, System.Type(), System.Action(Of Singularity.WeaklyTypedServiceConfigurator), Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  nameWithType: ContainerBuilder.Register(Type, Type[], Action<WeaklyTypedServiceConfigurator>, IConstructorResolver, String, Int32)
+  nameWithType.vb: ContainerBuilder.Register(Type, Type(), Action(Of WeaklyTypedServiceConfigurator), IConstructorResolver, String, Int32)
 - uid: Singularity.ContainerBuilder.Register*
   name: Register
   href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register_
@@ -844,24 +971,24 @@ references:
   isSpec: "True"
   fullName: Singularity.ContainerBuilder.Register
   nameWithType: ContainerBuilder.Register
-- uid: Singularity.ContainerBuilder.Register``1(System.Nullable{System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``0}}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name: Register<TInstance>(Nullable<Action<StronglyTypedServiceConfigurator<TInstance, TInstance>>>, Nullable<IConstructorResolver>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register__1_System_Nullable_System_Action_Singularity_StronglyTypedServiceConfigurator___0___0____System_Nullable_Singularity_Expressions_IConstructorResolver__System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.Register``1(System.Nullable{System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``0}}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name.vb: Register(Of TInstance)(Nullable(Of Action(Of StronglyTypedServiceConfigurator(Of TInstance, TInstance))), Nullable(Of IConstructorResolver), String, Int32)
-  fullName: Singularity.ContainerBuilder.Register<TInstance>(System.Nullable<System.Action<Singularity.StronglyTypedServiceConfigurator<TInstance, TInstance>>>, System.Nullable<Singularity.Expressions.IConstructorResolver>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.Register(Of TInstance)(System.Nullable(Of System.Action(Of Singularity.StronglyTypedServiceConfigurator(Of TInstance, TInstance))), System.Nullable(Of Singularity.Expressions.IConstructorResolver), System.String, System.Int32)
-  nameWithType: ContainerBuilder.Register<TInstance>(Nullable<Action<StronglyTypedServiceConfigurator<TInstance, TInstance>>>, Nullable<IConstructorResolver>, String, Int32)
-  nameWithType.vb: ContainerBuilder.Register(Of TInstance)(Nullable(Of Action(Of StronglyTypedServiceConfigurator(Of TInstance, TInstance))), Nullable(Of IConstructorResolver), String, Int32)
-- uid: Singularity.ContainerBuilder.Register``2(System.Nullable{System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``1}}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name: Register<TDependency, TInstance>(Nullable<Action<StronglyTypedServiceConfigurator<TDependency, TInstance>>>, Nullable<IConstructorResolver>, String, Int32)
-  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register__2_System_Nullable_System_Action_Singularity_StronglyTypedServiceConfigurator___0___1____System_Nullable_Singularity_Expressions_IConstructorResolver__System_String_System_Int32_
-  commentId: M:Singularity.ContainerBuilder.Register``2(System.Nullable{System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``1}}},System.Nullable{Singularity.Expressions.IConstructorResolver},System.String,System.Int32)
-  name.vb: Register(Of TDependency, TInstance)(Nullable(Of Action(Of StronglyTypedServiceConfigurator(Of TDependency, TInstance))), Nullable(Of IConstructorResolver), String, Int32)
-  fullName: Singularity.ContainerBuilder.Register<TDependency, TInstance>(System.Nullable<System.Action<Singularity.StronglyTypedServiceConfigurator<TDependency, TInstance>>>, System.Nullable<Singularity.Expressions.IConstructorResolver>, System.String, System.Int32)
-  fullName.vb: Singularity.ContainerBuilder.Register(Of TDependency, TInstance)(System.Nullable(Of System.Action(Of Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance))), System.Nullable(Of Singularity.Expressions.IConstructorResolver), System.String, System.Int32)
-  nameWithType: ContainerBuilder.Register<TDependency, TInstance>(Nullable<Action<StronglyTypedServiceConfigurator<TDependency, TInstance>>>, Nullable<IConstructorResolver>, String, Int32)
-  nameWithType.vb: ContainerBuilder.Register(Of TDependency, TInstance)(Nullable(Of Action(Of StronglyTypedServiceConfigurator(Of TDependency, TInstance))), Nullable(Of IConstructorResolver), String, Int32)
+- uid: Singularity.ContainerBuilder.Register``1(System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``0}},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name: Register<TInstance>(Action<StronglyTypedServiceConfigurator<TInstance, TInstance>>, IConstructorResolver, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register__1_System_Action_Singularity_StronglyTypedServiceConfigurator___0___0___Singularity_Expressions_IConstructorResolver_System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.Register``1(System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``0}},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name.vb: Register(Of TInstance)(Action(Of StronglyTypedServiceConfigurator(Of TInstance, TInstance)), IConstructorResolver, String, Int32)
+  fullName: Singularity.ContainerBuilder.Register<TInstance>(System.Action<Singularity.StronglyTypedServiceConfigurator<TInstance, TInstance>>, Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.Register(Of TInstance)(System.Action(Of Singularity.StronglyTypedServiceConfigurator(Of TInstance, TInstance)), Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  nameWithType: ContainerBuilder.Register<TInstance>(Action<StronglyTypedServiceConfigurator<TInstance, TInstance>>, IConstructorResolver, String, Int32)
+  nameWithType.vb: ContainerBuilder.Register(Of TInstance)(Action(Of StronglyTypedServiceConfigurator(Of TInstance, TInstance)), IConstructorResolver, String, Int32)
+- uid: Singularity.ContainerBuilder.Register``2(System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``1}},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name: Register<TDependency, TInstance>(Action<StronglyTypedServiceConfigurator<TDependency, TInstance>>, IConstructorResolver, String, Int32)
+  href: api/Singularity.ContainerBuilder.html#Singularity_ContainerBuilder_Register__2_System_Action_Singularity_StronglyTypedServiceConfigurator___0___1___Singularity_Expressions_IConstructorResolver_System_String_System_Int32_
+  commentId: M:Singularity.ContainerBuilder.Register``2(System.Action{Singularity.StronglyTypedServiceConfigurator{``0,``1}},Singularity.Expressions.IConstructorResolver,System.String,System.Int32)
+  name.vb: Register(Of TDependency, TInstance)(Action(Of StronglyTypedServiceConfigurator(Of TDependency, TInstance)), IConstructorResolver, String, Int32)
+  fullName: Singularity.ContainerBuilder.Register<TDependency, TInstance>(System.Action<Singularity.StronglyTypedServiceConfigurator<TDependency, TInstance>>, Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  fullName.vb: Singularity.ContainerBuilder.Register(Of TDependency, TInstance)(System.Action(Of Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance)), Singularity.Expressions.IConstructorResolver, System.String, System.Int32)
+  nameWithType: ContainerBuilder.Register<TDependency, TInstance>(Action<StronglyTypedServiceConfigurator<TDependency, TInstance>>, IConstructorResolver, String, Int32)
+  nameWithType.vb: ContainerBuilder.Register(Of TDependency, TInstance)(Action(Of StronglyTypedServiceConfigurator(Of TDependency, TInstance)), IConstructorResolver, String, Int32)
 - uid: Singularity.DefaultConstructorResolver
   name: DefaultConstructorResolver
   href: api/Singularity.DefaultConstructorResolver.html
@@ -1129,6 +1256,31 @@ references:
   isSpec: "True"
   fullName: Singularity.Exceptions.DependencyNotFoundException.Type
   nameWithType: DependencyNotFoundException.Type
+- uid: Singularity.Exceptions.DependencyResolveException
+  name: DependencyResolveException
+  href: api/Singularity.Exceptions.DependencyResolveException.html
+  commentId: T:Singularity.Exceptions.DependencyResolveException
+  fullName: Singularity.Exceptions.DependencyResolveException
+  nameWithType: DependencyResolveException
+- uid: Singularity.Exceptions.DependencyResolveException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: DependencyResolveException(SerializationInfo, StreamingContext)
+  href: api/Singularity.Exceptions.DependencyResolveException.html#Singularity_Exceptions_DependencyResolveException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Singularity.Exceptions.DependencyResolveException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: Singularity.Exceptions.DependencyResolveException.DependencyResolveException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: DependencyResolveException.DependencyResolveException(SerializationInfo, StreamingContext)
+- uid: Singularity.Exceptions.DependencyResolveException.#ctor(System.Type,Singularity.ServiceBinding,System.Exception)
+  name: DependencyResolveException(Type, ServiceBinding, Exception)
+  href: api/Singularity.Exceptions.DependencyResolveException.html#Singularity_Exceptions_DependencyResolveException__ctor_System_Type_Singularity_ServiceBinding_System_Exception_
+  commentId: M:Singularity.Exceptions.DependencyResolveException.#ctor(System.Type,Singularity.ServiceBinding,System.Exception)
+  fullName: Singularity.Exceptions.DependencyResolveException.DependencyResolveException(System.Type, Singularity.ServiceBinding, System.Exception)
+  nameWithType: DependencyResolveException.DependencyResolveException(Type, ServiceBinding, Exception)
+- uid: Singularity.Exceptions.DependencyResolveException.#ctor*
+  name: DependencyResolveException
+  href: api/Singularity.Exceptions.DependencyResolveException.html#Singularity_Exceptions_DependencyResolveException__ctor_
+  commentId: Overload:Singularity.Exceptions.DependencyResolveException.#ctor
+  isSpec: "True"
+  fullName: Singularity.Exceptions.DependencyResolveException.DependencyResolveException
+  nameWithType: DependencyResolveException.DependencyResolveException
 - uid: Singularity.Exceptions.EnumerableRegistrationException
   name: EnumerableRegistrationException
   href: api/Singularity.Exceptions.EnumerableRegistrationException.html
@@ -1429,6 +1581,331 @@ references:
   isSpec: "True"
   fullName: Singularity.Graph.BindingMetadata.ModuleType
   nameWithType: BindingMetadata.ModuleType
+- uid: Singularity.Graph.BindingMetadata.ToString
+  name: ToString()
+  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_ToString
+  commentId: M:Singularity.Graph.BindingMetadata.ToString
+  fullName: Singularity.Graph.BindingMetadata.ToString()
+  nameWithType: BindingMetadata.ToString()
+- uid: Singularity.Graph.BindingMetadata.ToString*
+  name: ToString
+  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_ToString_
+  commentId: Overload:Singularity.Graph.BindingMetadata.ToString
+  isSpec: "True"
+  fullName: Singularity.Graph.BindingMetadata.ToString
+  nameWithType: BindingMetadata.ToString
+- uid: Singularity.Graph.InstanceFactory
+  name: InstanceFactory
+  href: api/Singularity.Graph.InstanceFactory.html
+  commentId: T:Singularity.Graph.InstanceFactory
+  fullName: Singularity.Graph.InstanceFactory
+  nameWithType: InstanceFactory
+- uid: Singularity.Graph.InstanceFactory.#ctor(System.Type,Singularity.Expressions.ReadOnlyExpressionContext,System.Func{Singularity.Scoped,System.Object})
+  name: InstanceFactory(Type, ReadOnlyExpressionContext, Func<Scoped, Object>)
+  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory__ctor_System_Type_Singularity_Expressions_ReadOnlyExpressionContext_System_Func_Singularity_Scoped_System_Object__
+  commentId: M:Singularity.Graph.InstanceFactory.#ctor(System.Type,Singularity.Expressions.ReadOnlyExpressionContext,System.Func{Singularity.Scoped,System.Object})
+  name.vb: InstanceFactory(Type, ReadOnlyExpressionContext, Func(Of Scoped, Object))
+  fullName: Singularity.Graph.InstanceFactory.InstanceFactory(System.Type, Singularity.Expressions.ReadOnlyExpressionContext, System.Func<Singularity.Scoped, System.Object>)
+  fullName.vb: Singularity.Graph.InstanceFactory.InstanceFactory(System.Type, Singularity.Expressions.ReadOnlyExpressionContext, System.Func(Of Singularity.Scoped, System.Object))
+  nameWithType: InstanceFactory.InstanceFactory(Type, ReadOnlyExpressionContext, Func<Scoped, Object>)
+  nameWithType.vb: InstanceFactory.InstanceFactory(Type, ReadOnlyExpressionContext, Func(Of Scoped, Object))
+- uid: Singularity.Graph.InstanceFactory.#ctor*
+  name: InstanceFactory
+  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory__ctor_
+  commentId: Overload:Singularity.Graph.InstanceFactory.#ctor
+  isSpec: "True"
+  fullName: Singularity.Graph.InstanceFactory.InstanceFactory
+  nameWithType: InstanceFactory.InstanceFactory
+- uid: Singularity.Graph.InstanceFactory.Context
+  name: Context
+  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_Context
+  commentId: P:Singularity.Graph.InstanceFactory.Context
+  fullName: Singularity.Graph.InstanceFactory.Context
+  nameWithType: InstanceFactory.Context
+- uid: Singularity.Graph.InstanceFactory.Context*
+  name: Context
+  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_Context_
+  commentId: Overload:Singularity.Graph.InstanceFactory.Context
+  isSpec: "True"
+  fullName: Singularity.Graph.InstanceFactory.Context
+  nameWithType: InstanceFactory.Context
+- uid: Singularity.Graph.InstanceFactory.DependencyType
+  name: DependencyType
+  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_DependencyType
+  commentId: P:Singularity.Graph.InstanceFactory.DependencyType
+  fullName: Singularity.Graph.InstanceFactory.DependencyType
+  nameWithType: InstanceFactory.DependencyType
+- uid: Singularity.Graph.InstanceFactory.DependencyType*
+  name: DependencyType
+  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_DependencyType_
+  commentId: Overload:Singularity.Graph.InstanceFactory.DependencyType
+  isSpec: "True"
+  fullName: Singularity.Graph.InstanceFactory.DependencyType
+  nameWithType: InstanceFactory.DependencyType
+- uid: Singularity.Graph.InstanceFactory.Factory
+  name: Factory
+  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_Factory
+  commentId: P:Singularity.Graph.InstanceFactory.Factory
+  fullName: Singularity.Graph.InstanceFactory.Factory
+  nameWithType: InstanceFactory.Factory
+- uid: Singularity.Graph.InstanceFactory.Factory*
+  name: Factory
+  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_Factory_
+  commentId: Overload:Singularity.Graph.InstanceFactory.Factory
+  isSpec: "True"
+  fullName: Singularity.Graph.InstanceFactory.Factory
+  nameWithType: InstanceFactory.Factory
+- uid: Singularity.Graph.Resolvers
+  name: Singularity.Graph.Resolvers
+  href: api/Singularity.Graph.Resolvers.html
+  commentId: N:Singularity.Graph.Resolvers
+  fullName: Singularity.Graph.Resolvers
+  nameWithType: Singularity.Graph.Resolvers
+- uid: Singularity.Graph.Resolvers.ConcreteDependencyResolver
+  name: ConcreteDependencyResolver
+  href: api/Singularity.Graph.Resolvers.ConcreteDependencyResolver.html
+  commentId: T:Singularity.Graph.Resolvers.ConcreteDependencyResolver
+  fullName: Singularity.Graph.Resolvers.ConcreteDependencyResolver
+  nameWithType: ConcreteDependencyResolver
+- uid: Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  name: Resolve(IResolverPipeline, Type)
+  href: api/Singularity.Graph.Resolvers.ConcreteDependencyResolver.html#Singularity_Graph_Resolvers_ConcreteDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  fullName: Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
+  nameWithType: ConcreteDependencyResolver.Resolve(IResolverPipeline, Type)
+- uid: Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve*
+  name: Resolve
+  href: api/Singularity.Graph.Resolvers.ConcreteDependencyResolver.html#Singularity_Graph_Resolvers_ConcreteDependencyResolver_Resolve_
+  commentId: Overload:Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve
+  nameWithType: ConcreteDependencyResolver.Resolve
+- uid: Singularity.Graph.Resolvers.ContainerDependencyResolver
+  name: ContainerDependencyResolver
+  href: api/Singularity.Graph.Resolvers.ContainerDependencyResolver.html
+  commentId: T:Singularity.Graph.Resolvers.ContainerDependencyResolver
+  fullName: Singularity.Graph.Resolvers.ContainerDependencyResolver
+  nameWithType: ContainerDependencyResolver
+- uid: Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  name: Resolve(IResolverPipeline, Type)
+  href: api/Singularity.Graph.Resolvers.ContainerDependencyResolver.html#Singularity_Graph_Resolvers_ContainerDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  fullName: Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
+  nameWithType: ContainerDependencyResolver.Resolve(IResolverPipeline, Type)
+- uid: Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve*
+  name: Resolve
+  href: api/Singularity.Graph.Resolvers.ContainerDependencyResolver.html#Singularity_Graph_Resolvers_ContainerDependencyResolver_Resolve_
+  commentId: Overload:Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve
+  nameWithType: ContainerDependencyResolver.Resolve
+- uid: Singularity.Graph.Resolvers.EnumerableDependencyResolver
+  name: EnumerableDependencyResolver
+  href: api/Singularity.Graph.Resolvers.EnumerableDependencyResolver.html
+  commentId: T:Singularity.Graph.Resolvers.EnumerableDependencyResolver
+  fullName: Singularity.Graph.Resolvers.EnumerableDependencyResolver
+  nameWithType: EnumerableDependencyResolver
+- uid: Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  name: Resolve(IResolverPipeline, Type)
+  href: api/Singularity.Graph.Resolvers.EnumerableDependencyResolver.html#Singularity_Graph_Resolvers_EnumerableDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  fullName: Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
+  nameWithType: EnumerableDependencyResolver.Resolve(IResolverPipeline, Type)
+- uid: Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve*
+  name: Resolve
+  href: api/Singularity.Graph.Resolvers.EnumerableDependencyResolver.html#Singularity_Graph_Resolvers_EnumerableDependencyResolver_Resolve_
+  commentId: Overload:Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve
+  nameWithType: EnumerableDependencyResolver.Resolve
+- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver
+  name: ExpressionDependencyResolver
+  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html
+  commentId: T:Singularity.Graph.Resolvers.ExpressionDependencyResolver
+  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver
+  nameWithType: ExpressionDependencyResolver
+- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda*
+  name: CreateLambda
+  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html#Singularity_Graph_Resolvers_ExpressionDependencyResolver_CreateLambda_
+  commentId: Overload:Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda
+  nameWithType: ExpressionDependencyResolver.CreateLambda
+- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda``1(Singularity.Expressions.ReadOnlyExpressionContext)
+  name: CreateLambda<T>(ReadOnlyExpressionContext)
+  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html#Singularity_Graph_Resolvers_ExpressionDependencyResolver_CreateLambda__1_Singularity_Expressions_ReadOnlyExpressionContext_
+  commentId: M:Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda``1(Singularity.Expressions.ReadOnlyExpressionContext)
+  name.vb: CreateLambda(Of T)(ReadOnlyExpressionContext)
+  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda<T>(Singularity.Expressions.ReadOnlyExpressionContext)
+  fullName.vb: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda(Of T)(Singularity.Expressions.ReadOnlyExpressionContext)
+  nameWithType: ExpressionDependencyResolver.CreateLambda<T>(ReadOnlyExpressionContext)
+  nameWithType.vb: ExpressionDependencyResolver.CreateLambda(Of T)(ReadOnlyExpressionContext)
+- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  name: Resolve(IResolverPipeline, Type)
+  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html#Singularity_Graph_Resolvers_ExpressionDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
+  nameWithType: ExpressionDependencyResolver.Resolve(IResolverPipeline, Type)
+- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve*
+  name: Resolve
+  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html#Singularity_Graph_Resolvers_ExpressionDependencyResolver_Resolve_
+  commentId: Overload:Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve
+  nameWithType: ExpressionDependencyResolver.Resolve
+- uid: Singularity.Graph.Resolvers.FactoryDependencyResolver
+  name: FactoryDependencyResolver
+  href: api/Singularity.Graph.Resolvers.FactoryDependencyResolver.html
+  commentId: T:Singularity.Graph.Resolvers.FactoryDependencyResolver
+  fullName: Singularity.Graph.Resolvers.FactoryDependencyResolver
+  nameWithType: FactoryDependencyResolver
+- uid: Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  name: Resolve(IResolverPipeline, Type)
+  href: api/Singularity.Graph.Resolvers.FactoryDependencyResolver.html#Singularity_Graph_Resolvers_FactoryDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  fullName: Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
+  nameWithType: FactoryDependencyResolver.Resolve(IResolverPipeline, Type)
+- uid: Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve*
+  name: Resolve
+  href: api/Singularity.Graph.Resolvers.FactoryDependencyResolver.html#Singularity_Graph_Resolvers_FactoryDependencyResolver_Resolve_
+  commentId: Overload:Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve
+  nameWithType: FactoryDependencyResolver.Resolve
+- uid: Singularity.Graph.Resolvers.IDependencyResolver
+  name: IDependencyResolver
+  href: api/Singularity.Graph.Resolvers.IDependencyResolver.html
+  commentId: T:Singularity.Graph.Resolvers.IDependencyResolver
+  fullName: Singularity.Graph.Resolvers.IDependencyResolver
+  nameWithType: IDependencyResolver
+- uid: Singularity.Graph.Resolvers.IDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  name: Resolve(IResolverPipeline, Type)
+  href: api/Singularity.Graph.Resolvers.IDependencyResolver.html#Singularity_Graph_Resolvers_IDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.IDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  fullName: Singularity.Graph.Resolvers.IDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
+  nameWithType: IDependencyResolver.Resolve(IResolverPipeline, Type)
+- uid: Singularity.Graph.Resolvers.IDependencyResolver.Resolve*
+  name: Resolve
+  href: api/Singularity.Graph.Resolvers.IDependencyResolver.html#Singularity_Graph_Resolvers_IDependencyResolver_Resolve_
+  commentId: Overload:Singularity.Graph.Resolvers.IDependencyResolver.Resolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.IDependencyResolver.Resolve
+  nameWithType: IDependencyResolver.Resolve
+- uid: Singularity.Graph.Resolvers.IResolverPipeline
+  name: IResolverPipeline
+  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html
+  commentId: T:Singularity.Graph.Resolvers.IResolverPipeline
+  fullName: Singularity.Graph.Resolvers.IResolverPipeline
+  nameWithType: IResolverPipeline
+- uid: Singularity.Graph.Resolvers.IResolverPipeline.Resolve(System.Type)
+  name: Resolve(Type)
+  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_Resolve_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.IResolverPipeline.Resolve(System.Type)
+  fullName: Singularity.Graph.Resolvers.IResolverPipeline.Resolve(System.Type)
+  nameWithType: IResolverPipeline.Resolve(Type)
+- uid: Singularity.Graph.Resolvers.IResolverPipeline.Resolve*
+  name: Resolve
+  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_Resolve_
+  commentId: Overload:Singularity.Graph.Resolvers.IResolverPipeline.Resolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.IResolverPipeline.Resolve
+  nameWithType: IResolverPipeline.Resolve
+- uid: Singularity.Graph.Resolvers.IResolverPipeline.Settings
+  name: Settings
+  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_Settings
+  commentId: P:Singularity.Graph.Resolvers.IResolverPipeline.Settings
+  fullName: Singularity.Graph.Resolvers.IResolverPipeline.Settings
+  nameWithType: IResolverPipeline.Settings
+- uid: Singularity.Graph.Resolvers.IResolverPipeline.Settings*
+  name: Settings
+  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_Settings_
+  commentId: Overload:Singularity.Graph.Resolvers.IResolverPipeline.Settings
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.IResolverPipeline.Settings
+  nameWithType: IResolverPipeline.Settings
+- uid: Singularity.Graph.Resolvers.IResolverPipeline.TryResolve(System.Type)
+  name: TryResolve(Type)
+  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_TryResolve_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.IResolverPipeline.TryResolve(System.Type)
+  fullName: Singularity.Graph.Resolvers.IResolverPipeline.TryResolve(System.Type)
+  nameWithType: IResolverPipeline.TryResolve(Type)
+- uid: Singularity.Graph.Resolvers.IResolverPipeline.TryResolve*
+  name: TryResolve
+  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_TryResolve_
+  commentId: Overload:Singularity.Graph.Resolvers.IResolverPipeline.TryResolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.IResolverPipeline.TryResolve
+  nameWithType: IResolverPipeline.TryResolve
+- uid: Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll(System.Type)
+  name: TryResolveAll(Type)
+  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_TryResolveAll_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll(System.Type)
+  fullName: Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll(System.Type)
+  nameWithType: IResolverPipeline.TryResolveAll(Type)
+- uid: Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll*
+  name: TryResolveAll
+  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_TryResolveAll_
+  commentId: Overload:Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll
+  nameWithType: IResolverPipeline.TryResolveAll
+- uid: Singularity.Graph.Resolvers.ITypeMatcher
+  name: ITypeMatcher
+  href: api/Singularity.Graph.Resolvers.ITypeMatcher.html
+  commentId: T:Singularity.Graph.Resolvers.ITypeMatcher
+  fullName: Singularity.Graph.Resolvers.ITypeMatcher
+  nameWithType: ITypeMatcher
+- uid: Singularity.Graph.Resolvers.ITypeMatcher.Match(System.Type)
+  name: Match(Type)
+  href: api/Singularity.Graph.Resolvers.ITypeMatcher.html#Singularity_Graph_Resolvers_ITypeMatcher_Match_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.ITypeMatcher.Match(System.Type)
+  fullName: Singularity.Graph.Resolvers.ITypeMatcher.Match(System.Type)
+  nameWithType: ITypeMatcher.Match(Type)
+- uid: Singularity.Graph.Resolvers.ITypeMatcher.Match*
+  name: Match
+  href: api/Singularity.Graph.Resolvers.ITypeMatcher.html#Singularity_Graph_Resolvers_ITypeMatcher_Match_
+  commentId: Overload:Singularity.Graph.Resolvers.ITypeMatcher.Match
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.ITypeMatcher.Match
+  nameWithType: ITypeMatcher.Match
+- uid: Singularity.Graph.Resolvers.LazyDependencyResolver
+  name: LazyDependencyResolver
+  href: api/Singularity.Graph.Resolvers.LazyDependencyResolver.html
+  commentId: T:Singularity.Graph.Resolvers.LazyDependencyResolver
+  fullName: Singularity.Graph.Resolvers.LazyDependencyResolver
+  nameWithType: LazyDependencyResolver
+- uid: Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  name: Resolve(IResolverPipeline, Type)
+  href: api/Singularity.Graph.Resolvers.LazyDependencyResolver.html#Singularity_Graph_Resolvers_LazyDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  fullName: Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
+  nameWithType: LazyDependencyResolver.Resolve(IResolverPipeline, Type)
+- uid: Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve*
+  name: Resolve
+  href: api/Singularity.Graph.Resolvers.LazyDependencyResolver.html#Singularity_Graph_Resolvers_LazyDependencyResolver_Resolve_
+  commentId: Overload:Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve
+  nameWithType: LazyDependencyResolver.Resolve
+- uid: Singularity.Graph.Resolvers.OpenGenericResolver
+  name: OpenGenericResolver
+  href: api/Singularity.Graph.Resolvers.OpenGenericResolver.html
+  commentId: T:Singularity.Graph.Resolvers.OpenGenericResolver
+  fullName: Singularity.Graph.Resolvers.OpenGenericResolver
+  nameWithType: OpenGenericResolver
+- uid: Singularity.Graph.Resolvers.OpenGenericResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  name: Resolve(IResolverPipeline, Type)
+  href: api/Singularity.Graph.Resolvers.OpenGenericResolver.html#Singularity_Graph_Resolvers_OpenGenericResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
+  commentId: M:Singularity.Graph.Resolvers.OpenGenericResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
+  fullName: Singularity.Graph.Resolvers.OpenGenericResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
+  nameWithType: OpenGenericResolver.Resolve(IResolverPipeline, Type)
+- uid: Singularity.Graph.Resolvers.OpenGenericResolver.Resolve*
+  name: Resolve
+  href: api/Singularity.Graph.Resolvers.OpenGenericResolver.html#Singularity_Graph_Resolvers_OpenGenericResolver_Resolve_
+  commentId: Overload:Singularity.Graph.Resolvers.OpenGenericResolver.Resolve
+  isSpec: "True"
+  fullName: Singularity.Graph.Resolvers.OpenGenericResolver.Resolve
+  nameWithType: OpenGenericResolver.Resolve
 - uid: Singularity.IContainer
   name: IContainer
   href: api/Singularity.IContainer.html
@@ -1623,243 +2100,123 @@ references:
   isSpec: "True"
   fullName: Singularity.Lifetimes.Transient
   nameWithType: Lifetimes.Transient
-- uid: Singularity.Microsoft.DependencyInjection
-  name: Singularity.Microsoft.DependencyInjection
-  href: api/Singularity.Microsoft.DependencyInjection.html
-  commentId: N:Singularity.Microsoft.DependencyInjection
-  fullName: Singularity.Microsoft.DependencyInjection
-  nameWithType: Singularity.Microsoft.DependencyInjection
-- uid: Singularity.Microsoft.DependencyInjection.Extensions
-  name: Extensions
-  href: api/Singularity.Microsoft.DependencyInjection.Extensions.html
-  commentId: T:Singularity.Microsoft.DependencyInjection.Extensions
-  fullName: Singularity.Microsoft.DependencyInjection.Extensions
-  nameWithType: Extensions
-- uid: Singularity.Microsoft.DependencyInjection.Extensions.CreateContainerBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Nullable{Singularity.SingularitySettings})
-  name: CreateContainerBuilder(IServiceCollection, Nullable<SingularitySettings>)
-  href: api/Singularity.Microsoft.DependencyInjection.Extensions.html#Singularity_Microsoft_DependencyInjection_Extensions_CreateContainerBuilder_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Nullable_Singularity_SingularitySettings__
-  commentId: M:Singularity.Microsoft.DependencyInjection.Extensions.CreateContainerBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Nullable{Singularity.SingularitySettings})
-  name.vb: CreateContainerBuilder(IServiceCollection, Nullable(Of SingularitySettings))
-  fullName: Singularity.Microsoft.DependencyInjection.Extensions.CreateContainerBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Nullable<Singularity.SingularitySettings>)
-  fullName.vb: Singularity.Microsoft.DependencyInjection.Extensions.CreateContainerBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Nullable(Of Singularity.SingularitySettings))
-  nameWithType: Extensions.CreateContainerBuilder(IServiceCollection, Nullable<SingularitySettings>)
-  nameWithType.vb: Extensions.CreateContainerBuilder(IServiceCollection, Nullable(Of SingularitySettings))
-- uid: Singularity.Microsoft.DependencyInjection.Extensions.CreateContainerBuilder*
-  name: CreateContainerBuilder
-  href: api/Singularity.Microsoft.DependencyInjection.Extensions.html#Singularity_Microsoft_DependencyInjection_Extensions_CreateContainerBuilder_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.Extensions.CreateContainerBuilder
+- uid: Singularity.Loggers
+  name: Loggers
+  href: api/Singularity.Loggers.html
+  commentId: T:Singularity.Loggers
+  fullName: Singularity.Loggers
+  nameWithType: Loggers
+- uid: Singularity.Loggers.ConsoleLogger
+  name: ConsoleLogger
+  href: api/Singularity.Loggers.html#Singularity_Loggers_ConsoleLogger
+  commentId: P:Singularity.Loggers.ConsoleLogger
+  fullName: Singularity.Loggers.ConsoleLogger
+  nameWithType: Loggers.ConsoleLogger
+- uid: Singularity.Loggers.ConsoleLogger*
+  name: ConsoleLogger
+  href: api/Singularity.Loggers.html#Singularity_Loggers_ConsoleLogger_
+  commentId: Overload:Singularity.Loggers.ConsoleLogger
   isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.Extensions.CreateContainerBuilder
-  nameWithType: Extensions.CreateContainerBuilder
-- uid: Singularity.Microsoft.DependencyInjection.Extensions.RegisterService(Singularity.ContainerBuilder,Microsoft.Extensions.DependencyInjection.ServiceDescriptor)
-  name: RegisterService(ContainerBuilder, ServiceDescriptor)
-  href: api/Singularity.Microsoft.DependencyInjection.Extensions.html#Singularity_Microsoft_DependencyInjection_Extensions_RegisterService_Singularity_ContainerBuilder_Microsoft_Extensions_DependencyInjection_ServiceDescriptor_
-  commentId: M:Singularity.Microsoft.DependencyInjection.Extensions.RegisterService(Singularity.ContainerBuilder,Microsoft.Extensions.DependencyInjection.ServiceDescriptor)
-  fullName: Singularity.Microsoft.DependencyInjection.Extensions.RegisterService(Singularity.ContainerBuilder, Microsoft.Extensions.DependencyInjection.ServiceDescriptor)
-  nameWithType: Extensions.RegisterService(ContainerBuilder, ServiceDescriptor)
-- uid: Singularity.Microsoft.DependencyInjection.Extensions.RegisterService*
-  name: RegisterService
-  href: api/Singularity.Microsoft.DependencyInjection.Extensions.html#Singularity_Microsoft_DependencyInjection_Extensions_RegisterService_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.Extensions.RegisterService
+  fullName: Singularity.Loggers.ConsoleLogger
+  nameWithType: Loggers.ConsoleLogger
+- uid: Singularity.Loggers.Default
+  name: Default
+  href: api/Singularity.Loggers.html#Singularity_Loggers_Default
+  commentId: P:Singularity.Loggers.Default
+  fullName: Singularity.Loggers.Default
+  nameWithType: Loggers.Default
+- uid: Singularity.Loggers.Default*
+  name: Default
+  href: api/Singularity.Loggers.html#Singularity_Loggers_Default_
+  commentId: Overload:Singularity.Loggers.Default
   isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.Extensions.RegisterService
-  nameWithType: Extensions.RegisterService
-- uid: Singularity.Microsoft.DependencyInjection.Extensions.RegisterServiceProvider(Singularity.ContainerBuilder)
-  name: RegisterServiceProvider(ContainerBuilder)
-  href: api/Singularity.Microsoft.DependencyInjection.Extensions.html#Singularity_Microsoft_DependencyInjection_Extensions_RegisterServiceProvider_Singularity_ContainerBuilder_
-  commentId: M:Singularity.Microsoft.DependencyInjection.Extensions.RegisterServiceProvider(Singularity.ContainerBuilder)
-  fullName: Singularity.Microsoft.DependencyInjection.Extensions.RegisterServiceProvider(Singularity.ContainerBuilder)
-  nameWithType: Extensions.RegisterServiceProvider(ContainerBuilder)
-- uid: Singularity.Microsoft.DependencyInjection.Extensions.RegisterServiceProvider*
-  name: RegisterServiceProvider
-  href: api/Singularity.Microsoft.DependencyInjection.Extensions.html#Singularity_Microsoft_DependencyInjection_Extensions_RegisterServiceProvider_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.Extensions.RegisterServiceProvider
+  fullName: Singularity.Loggers.Default
+  nameWithType: Loggers.Default
+- uid: Singularity.Logging
+  name: Singularity.Logging
+  href: api/Singularity.Logging.html
+  commentId: N:Singularity.Logging
+  fullName: Singularity.Logging
+  nameWithType: Singularity.Logging
+- uid: Singularity.Logging.ConsoleLogger
+  name: ConsoleLogger
+  href: api/Singularity.Logging.ConsoleLogger.html
+  commentId: T:Singularity.Logging.ConsoleLogger
+  fullName: Singularity.Logging.ConsoleLogger
+  nameWithType: ConsoleLogger
+- uid: Singularity.Logging.ConsoleLogger.Log(System.String,System.Int32)
+  name: Log(String, Int32)
+  href: api/Singularity.Logging.ConsoleLogger.html#Singularity_Logging_ConsoleLogger_Log_System_String_System_Int32_
+  commentId: M:Singularity.Logging.ConsoleLogger.Log(System.String,System.Int32)
+  fullName: Singularity.Logging.ConsoleLogger.Log(System.String, System.Int32)
+  nameWithType: ConsoleLogger.Log(String, Int32)
+- uid: Singularity.Logging.ConsoleLogger.Log*
+  name: Log
+  href: api/Singularity.Logging.ConsoleLogger.html#Singularity_Logging_ConsoleLogger_Log_
+  commentId: Overload:Singularity.Logging.ConsoleLogger.Log
   isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.Extensions.RegisterServiceProvider
-  nameWithType: Extensions.RegisterServiceProvider
-- uid: Singularity.Microsoft.DependencyInjection.Extensions.RegisterServices(Singularity.ContainerBuilder,Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  name: RegisterServices(ContainerBuilder, IServiceCollection)
-  href: api/Singularity.Microsoft.DependencyInjection.Extensions.html#Singularity_Microsoft_DependencyInjection_Extensions_RegisterServices_Singularity_ContainerBuilder_Microsoft_Extensions_DependencyInjection_IServiceCollection_
-  commentId: M:Singularity.Microsoft.DependencyInjection.Extensions.RegisterServices(Singularity.ContainerBuilder,Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  fullName: Singularity.Microsoft.DependencyInjection.Extensions.RegisterServices(Singularity.ContainerBuilder, Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  nameWithType: Extensions.RegisterServices(ContainerBuilder, IServiceCollection)
-- uid: Singularity.Microsoft.DependencyInjection.Extensions.RegisterServices*
-  name: RegisterServices
-  href: api/Singularity.Microsoft.DependencyInjection.Extensions.html#Singularity_Microsoft_DependencyInjection_Extensions_RegisterServices_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.Extensions.RegisterServices
+  fullName: Singularity.Logging.ConsoleLogger.Log
+  nameWithType: ConsoleLogger.Log
+- uid: Singularity.Logging.ISingularityLogger
+  name: ISingularityLogger
+  href: api/Singularity.Logging.ISingularityLogger.html
+  commentId: T:Singularity.Logging.ISingularityLogger
+  fullName: Singularity.Logging.ISingularityLogger
+  nameWithType: ISingularityLogger
+- uid: Singularity.Logging.ISingularityLogger.Log(System.String,System.Int32)
+  name: Log(String, Int32)
+  href: api/Singularity.Logging.ISingularityLogger.html#Singularity_Logging_ISingularityLogger_Log_System_String_System_Int32_
+  commentId: M:Singularity.Logging.ISingularityLogger.Log(System.String,System.Int32)
+  fullName: Singularity.Logging.ISingularityLogger.Log(System.String, System.Int32)
+  nameWithType: ISingularityLogger.Log(String, Int32)
+- uid: Singularity.Logging.ISingularityLogger.Log*
+  name: Log
+  href: api/Singularity.Logging.ISingularityLogger.html#Singularity_Logging_ISingularityLogger_Log_
+  commentId: Overload:Singularity.Logging.ISingularityLogger.Log
   isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.Extensions.RegisterServices
-  nameWithType: Extensions.RegisterServices
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider
-  name: SingularityServiceProvider
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.html
-  commentId: T:Singularity.Microsoft.DependencyInjection.SingularityServiceProvider
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider
-  nameWithType: SingularityServiceProvider
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.#ctor(Singularity.Container)
-  name: SingularityServiceProvider(Container)
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProvider__ctor_Singularity_Container_
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.#ctor(Singularity.Container)
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.SingularityServiceProvider(Singularity.Container)
-  nameWithType: SingularityServiceProvider.SingularityServiceProvider(Container)
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.#ctor*
-  name: SingularityServiceProvider
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProvider__ctor_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.#ctor
+  fullName: Singularity.Logging.ISingularityLogger.Log
+  nameWithType: ISingularityLogger.Log
+- uid: Singularity.Logging.NullLogger
+  name: NullLogger
+  href: api/Singularity.Logging.NullLogger.html
+  commentId: T:Singularity.Logging.NullLogger
+  fullName: Singularity.Logging.NullLogger
+  nameWithType: NullLogger
+- uid: Singularity.Logging.NullLogger.Log(System.String,System.Int32)
+  name: Log(String, Int32)
+  href: api/Singularity.Logging.NullLogger.html#Singularity_Logging_NullLogger_Log_System_String_System_Int32_
+  commentId: M:Singularity.Logging.NullLogger.Log(System.String,System.Int32)
+  fullName: Singularity.Logging.NullLogger.Log(System.String, System.Int32)
+  nameWithType: NullLogger.Log(String, Int32)
+- uid: Singularity.Logging.NullLogger.Log*
+  name: Log
+  href: api/Singularity.Logging.NullLogger.html#Singularity_Logging_NullLogger_Log_
+  commentId: Overload:Singularity.Logging.NullLogger.Log
   isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.SingularityServiceProvider
-  nameWithType: SingularityServiceProvider.SingularityServiceProvider
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.GetService(System.Type)
-  name: GetService(Type)
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProvider_GetService_System_Type_
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.GetService(System.Type)
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.GetService(System.Type)
-  nameWithType: SingularityServiceProvider.GetService(Type)
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.GetService*
-  name: GetService
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProvider_GetService_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.GetService
+  fullName: Singularity.Logging.NullLogger.Log
+  nameWithType: NullLogger.Log
+- uid: Singularity.MatchExtensions
+  name: MatchExtensions
+  href: api/Singularity.MatchExtensions.html
+  commentId: T:Singularity.MatchExtensions
+  fullName: Singularity.MatchExtensions
+  nameWithType: MatchExtensions
+- uid: Singularity.MatchExtensions.Match(System.Collections.Generic.List{Singularity.Graph.Resolvers.ITypeMatcher},System.Type)
+  name: Match(List<ITypeMatcher>, Type)
+  href: api/Singularity.MatchExtensions.html#Singularity_MatchExtensions_Match_System_Collections_Generic_List_Singularity_Graph_Resolvers_ITypeMatcher__System_Type_
+  commentId: M:Singularity.MatchExtensions.Match(System.Collections.Generic.List{Singularity.Graph.Resolvers.ITypeMatcher},System.Type)
+  name.vb: Match(List(Of ITypeMatcher), Type)
+  fullName: Singularity.MatchExtensions.Match(System.Collections.Generic.List<Singularity.Graph.Resolvers.ITypeMatcher>, System.Type)
+  fullName.vb: Singularity.MatchExtensions.Match(System.Collections.Generic.List(Of Singularity.Graph.Resolvers.ITypeMatcher), System.Type)
+  nameWithType: MatchExtensions.Match(List<ITypeMatcher>, Type)
+  nameWithType.vb: MatchExtensions.Match(List(Of ITypeMatcher), Type)
+- uid: Singularity.MatchExtensions.Match*
+  name: Match
+  href: api/Singularity.MatchExtensions.html#Singularity_MatchExtensions_Match_
+  commentId: Overload:Singularity.MatchExtensions.Match
   isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProvider.GetService
-  nameWithType: SingularityServiceProvider.GetService
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory
-  name: SingularityServiceProviderFactory
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.html
-  commentId: T:Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory
-  nameWithType: SingularityServiceProviderFactory
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.#ctor(System.Nullable{Singularity.SingularitySettings})
-  name: SingularityServiceProviderFactory(Nullable<SingularitySettings>)
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProviderFactory__ctor_System_Nullable_Singularity_SingularitySettings__
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.#ctor(System.Nullable{Singularity.SingularitySettings})
-  name.vb: SingularityServiceProviderFactory(Nullable(Of SingularitySettings))
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.SingularityServiceProviderFactory(System.Nullable<Singularity.SingularitySettings>)
-  fullName.vb: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.SingularityServiceProviderFactory(System.Nullable(Of Singularity.SingularitySettings))
-  nameWithType: SingularityServiceProviderFactory.SingularityServiceProviderFactory(Nullable<SingularitySettings>)
-  nameWithType.vb: SingularityServiceProviderFactory.SingularityServiceProviderFactory(Nullable(Of SingularitySettings))
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.#ctor*
-  name: SingularityServiceProviderFactory
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProviderFactory__ctor_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.#ctor
-  isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.SingularityServiceProviderFactory
-  nameWithType: SingularityServiceProviderFactory.SingularityServiceProviderFactory
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  name: CreateBuilder(IServiceCollection)
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProviderFactory_CreateBuilder_Microsoft_Extensions_DependencyInjection_IServiceCollection_
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  nameWithType: SingularityServiceProviderFactory.CreateBuilder(IServiceCollection)
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateBuilder*
-  name: CreateBuilder
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProviderFactory_CreateBuilder_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateBuilder
-  isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateBuilder
-  nameWithType: SingularityServiceProviderFactory.CreateBuilder
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateServiceProvider(Singularity.ContainerBuilder)
-  name: CreateServiceProvider(ContainerBuilder)
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProviderFactory_CreateServiceProvider_Singularity_ContainerBuilder_
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateServiceProvider(Singularity.ContainerBuilder)
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateServiceProvider(Singularity.ContainerBuilder)
-  nameWithType: SingularityServiceProviderFactory.CreateServiceProvider(ContainerBuilder)
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateServiceProvider*
-  name: CreateServiceProvider
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceProviderFactory_CreateServiceProvider_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateServiceProvider
-  isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceProviderFactory.CreateServiceProvider
-  nameWithType: SingularityServiceProviderFactory.CreateServiceProvider
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScope
-  name: SingularityServiceScope
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html
-  commentId: T:Singularity.Microsoft.DependencyInjection.SingularityServiceScope
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScope
-  nameWithType: SingularityServiceScope
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.#ctor(Singularity.Scoped)
-  name: SingularityServiceScope(Scoped)
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScope__ctor_Singularity_Scoped_
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceScope.#ctor(Singularity.Scoped)
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.SingularityServiceScope(Singularity.Scoped)
-  nameWithType: SingularityServiceScope.SingularityServiceScope(Scoped)
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.#ctor*
-  name: SingularityServiceScope
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScope__ctor_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceScope.#ctor
-  isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.SingularityServiceScope
-  nameWithType: SingularityServiceScope.SingularityServiceScope
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.Dispose
-  name: Dispose()
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScope_Dispose
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceScope.Dispose
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.Dispose()
-  nameWithType: SingularityServiceScope.Dispose()
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.Dispose*
-  name: Dispose
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScope_Dispose_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceScope.Dispose
-  isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.Dispose
-  nameWithType: SingularityServiceScope.Dispose
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.GetService(System.Type)
-  name: GetService(Type)
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScope_GetService_System_Type_
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceScope.GetService(System.Type)
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.GetService(System.Type)
-  nameWithType: SingularityServiceScope.GetService(Type)
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.GetService*
-  name: GetService
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScope_GetService_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceScope.GetService
-  isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.GetService
-  nameWithType: SingularityServiceScope.GetService
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.ServiceProvider
-  name: ServiceProvider
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScope_ServiceProvider
-  commentId: P:Singularity.Microsoft.DependencyInjection.SingularityServiceScope.ServiceProvider
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.ServiceProvider
-  nameWithType: SingularityServiceScope.ServiceProvider
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.ServiceProvider*
-  name: ServiceProvider
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScope.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScope_ServiceProvider_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceScope.ServiceProvider
-  isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScope.ServiceProvider
-  nameWithType: SingularityServiceScope.ServiceProvider
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory
-  name: SingularityServiceScopeFactory
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.html
-  commentId: T:Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory
-  nameWithType: SingularityServiceScopeFactory
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.#ctor(Singularity.Container)
-  name: SingularityServiceScopeFactory(Container)
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScopeFactory__ctor_Singularity_Container_
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.#ctor(Singularity.Container)
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.SingularityServiceScopeFactory(Singularity.Container)
-  nameWithType: SingularityServiceScopeFactory.SingularityServiceScopeFactory(Container)
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.#ctor*
-  name: SingularityServiceScopeFactory
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScopeFactory__ctor_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.#ctor
-  isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.SingularityServiceScopeFactory
-  nameWithType: SingularityServiceScopeFactory.SingularityServiceScopeFactory
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.CreateScope
-  name: CreateScope()
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScopeFactory_CreateScope
-  commentId: M:Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.CreateScope
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.CreateScope()
-  nameWithType: SingularityServiceScopeFactory.CreateScope()
-- uid: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.CreateScope*
-  name: CreateScope
-  href: api/Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.html#Singularity_Microsoft_DependencyInjection_SingularityServiceScopeFactory_CreateScope_
-  commentId: Overload:Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.CreateScope
-  isSpec: "True"
-  fullName: Singularity.Microsoft.DependencyInjection.SingularityServiceScopeFactory.CreateScope
-  nameWithType: SingularityServiceScopeFactory.CreateScope
+  fullName: Singularity.MatchExtensions.Match
+  nameWithType: MatchExtensions.Match
 - uid: Singularity.MostArgumentsConstructorResolver
   name: MostArgumentsConstructorResolver
   href: api/Singularity.MostArgumentsConstructorResolver.html
@@ -1892,6 +2249,38 @@ references:
   isSpec: "True"
   fullName: Singularity.MostArgumentsConstructorResolver.SelectConstructor
   nameWithType: MostArgumentsConstructorResolver.SelectConstructor
+- uid: Singularity.PatternTypeMatcher
+  name: PatternTypeMatcher
+  href: api/Singularity.PatternTypeMatcher.html
+  commentId: T:Singularity.PatternTypeMatcher
+  fullName: Singularity.PatternTypeMatcher
+  nameWithType: PatternTypeMatcher
+- uid: Singularity.PatternTypeMatcher.#ctor(System.String)
+  name: PatternTypeMatcher(String)
+  href: api/Singularity.PatternTypeMatcher.html#Singularity_PatternTypeMatcher__ctor_System_String_
+  commentId: M:Singularity.PatternTypeMatcher.#ctor(System.String)
+  fullName: Singularity.PatternTypeMatcher.PatternTypeMatcher(System.String)
+  nameWithType: PatternTypeMatcher.PatternTypeMatcher(String)
+- uid: Singularity.PatternTypeMatcher.#ctor*
+  name: PatternTypeMatcher
+  href: api/Singularity.PatternTypeMatcher.html#Singularity_PatternTypeMatcher__ctor_
+  commentId: Overload:Singularity.PatternTypeMatcher.#ctor
+  isSpec: "True"
+  fullName: Singularity.PatternTypeMatcher.PatternTypeMatcher
+  nameWithType: PatternTypeMatcher.PatternTypeMatcher
+- uid: Singularity.PatternTypeMatcher.Match(System.Type)
+  name: Match(Type)
+  href: api/Singularity.PatternTypeMatcher.html#Singularity_PatternTypeMatcher_Match_System_Type_
+  commentId: M:Singularity.PatternTypeMatcher.Match(System.Type)
+  fullName: Singularity.PatternTypeMatcher.Match(System.Type)
+  nameWithType: PatternTypeMatcher.Match(Type)
+- uid: Singularity.PatternTypeMatcher.Match*
+  name: Match
+  href: api/Singularity.PatternTypeMatcher.html#Singularity_PatternTypeMatcher_Match_
+  commentId: Overload:Singularity.PatternTypeMatcher.Match
+  isSpec: "True"
+  fullName: Singularity.PatternTypeMatcher.Match
+  nameWithType: PatternTypeMatcher.Match
 - uid: Singularity.PerContainer
   name: PerContainer
   href: api/Singularity.PerContainer.html
@@ -2022,6 +2411,23 @@ references:
   fullName.vb: Singularity.Scoped.LateInjectAll(Of T)(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: Scoped.LateInjectAll<T>(IEnumerable<T>)
   nameWithType.vb: Scoped.LateInjectAll(Of T)(IEnumerable(Of T))
+- uid: Singularity.Scoped.System#IServiceProvider#GetService(System.Type)
+  name: IServiceProvider.GetService(Type)
+  href: api/Singularity.Scoped.html#Singularity_Scoped_System_IServiceProvider_GetService_System_Type_
+  commentId: M:Singularity.Scoped.System#IServiceProvider#GetService(System.Type)
+  name.vb: System.IServiceProvider.GetService(Type)
+  fullName: Singularity.Scoped.System.IServiceProvider.GetService(System.Type)
+  nameWithType: Scoped.IServiceProvider.GetService(Type)
+  nameWithType.vb: Scoped.System.IServiceProvider.GetService(Type)
+- uid: Singularity.Scoped.System#IServiceProvider#GetService*
+  name: IServiceProvider.GetService
+  href: api/Singularity.Scoped.html#Singularity_Scoped_System_IServiceProvider_GetService_
+  commentId: Overload:Singularity.Scoped.System#IServiceProvider#GetService
+  isSpec: "True"
+  name.vb: System.IServiceProvider.GetService
+  fullName: Singularity.Scoped.System.IServiceProvider.GetService
+  nameWithType: Scoped.IServiceProvider.GetService
+  nameWithType.vb: Scoped.System.IServiceProvider.GetService
 - uid: Singularity.ServiceAutoDispose
   name: ServiceAutoDispose
   href: api/Singularity.ServiceAutoDispose.html
@@ -2046,50 +2452,435 @@ references:
   commentId: F:Singularity.ServiceAutoDispose.Never
   fullName: Singularity.ServiceAutoDispose.Never
   nameWithType: ServiceAutoDispose.Never
+- uid: Singularity.ServiceBinding
+  name: ServiceBinding
+  href: api/Singularity.ServiceBinding.html
+  commentId: T:Singularity.ServiceBinding
+  fullName: Singularity.ServiceBinding
+  nameWithType: ServiceBinding
+- uid: Singularity.ServiceBinding.#ctor(Singularity.Collections.SinglyLinkedListNode{System.Type},Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name: ServiceBinding(SinglyLinkedListNode<Type>, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding__ctor_Singularity_Collections_SinglyLinkedListNode_System_Type__Singularity_Graph_BindingMetadata__System_Linq_Expressions_Expression_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_
+  commentId: M:Singularity.ServiceBinding.#ctor(Singularity.Collections.SinglyLinkedListNode{System.Type},Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name.vb: ServiceBinding(SinglyLinkedListNode(Of Type), ByRef BindingMetadata, Expression, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+  fullName: Singularity.ServiceBinding.ServiceBinding(Singularity.Collections.SinglyLinkedListNode<System.Type>, Singularity.Graph.BindingMetadata, System.Linq.Expressions.Expression, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action<System.Object>, Singularity.ServiceAutoDispose)
+  fullName.vb: Singularity.ServiceBinding.ServiceBinding(Singularity.Collections.SinglyLinkedListNode(Of System.Type), ByRef Singularity.Graph.BindingMetadata, System.Linq.Expressions.Expression, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action(Of System.Object), Singularity.ServiceAutoDispose)
+  nameWithType: ServiceBinding.ServiceBinding(SinglyLinkedListNode<Type>, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  nameWithType.vb: ServiceBinding.ServiceBinding(SinglyLinkedListNode(Of Type), ByRef BindingMetadata, Expression, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+- uid: Singularity.ServiceBinding.#ctor(System.Type,Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name: ServiceBinding(Type, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding__ctor_System_Type_Singularity_Graph_BindingMetadata__System_Linq_Expressions_Expression_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_
+  commentId: M:Singularity.ServiceBinding.#ctor(System.Type,Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name.vb: ServiceBinding(Type, ByRef BindingMetadata, Expression, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+  fullName: Singularity.ServiceBinding.ServiceBinding(System.Type, Singularity.Graph.BindingMetadata, System.Linq.Expressions.Expression, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action<System.Object>, Singularity.ServiceAutoDispose)
+  fullName.vb: Singularity.ServiceBinding.ServiceBinding(System.Type, ByRef Singularity.Graph.BindingMetadata, System.Linq.Expressions.Expression, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action(Of System.Object), Singularity.ServiceAutoDispose)
+  nameWithType: ServiceBinding.ServiceBinding(Type, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  nameWithType.vb: ServiceBinding.ServiceBinding(Type, ByRef BindingMetadata, Expression, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+- uid: Singularity.ServiceBinding.#ctor*
+  name: ServiceBinding
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding__ctor_
+  commentId: Overload:Singularity.ServiceBinding.#ctor
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.ServiceBinding
+  nameWithType: ServiceBinding.ServiceBinding
+- uid: Singularity.ServiceBinding.BaseExpression
+  name: BaseExpression
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_BaseExpression
+  commentId: P:Singularity.ServiceBinding.BaseExpression
+  fullName: Singularity.ServiceBinding.BaseExpression
+  nameWithType: ServiceBinding.BaseExpression
+- uid: Singularity.ServiceBinding.BaseExpression*
+  name: BaseExpression
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_BaseExpression_
+  commentId: Overload:Singularity.ServiceBinding.BaseExpression
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.BaseExpression
+  nameWithType: ServiceBinding.BaseExpression
+- uid: Singularity.ServiceBinding.BindingMetadata
+  name: BindingMetadata
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_BindingMetadata
+  commentId: P:Singularity.ServiceBinding.BindingMetadata
+  fullName: Singularity.ServiceBinding.BindingMetadata
+  nameWithType: ServiceBinding.BindingMetadata
+- uid: Singularity.ServiceBinding.BindingMetadata*
+  name: BindingMetadata
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_BindingMetadata_
+  commentId: Overload:Singularity.ServiceBinding.BindingMetadata
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.BindingMetadata
+  nameWithType: ServiceBinding.BindingMetadata
+- uid: Singularity.ServiceBinding.ConstructorResolver
+  name: ConstructorResolver
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_ConstructorResolver
+  commentId: P:Singularity.ServiceBinding.ConstructorResolver
+  fullName: Singularity.ServiceBinding.ConstructorResolver
+  nameWithType: ServiceBinding.ConstructorResolver
+- uid: Singularity.ServiceBinding.ConstructorResolver*
+  name: ConstructorResolver
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_ConstructorResolver_
+  commentId: Overload:Singularity.ServiceBinding.ConstructorResolver
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.ConstructorResolver
+  nameWithType: ServiceBinding.ConstructorResolver
+- uid: Singularity.ServiceBinding.Expression
+  name: Expression
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_Expression
+  commentId: P:Singularity.ServiceBinding.Expression
+  fullName: Singularity.ServiceBinding.Expression
+  nameWithType: ServiceBinding.Expression
+- uid: Singularity.ServiceBinding.Expression*
+  name: Expression
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_Expression_
+  commentId: Overload:Singularity.ServiceBinding.Expression
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.Expression
+  nameWithType: ServiceBinding.Expression
+- uid: Singularity.ServiceBinding.Factories
+  name: Factories
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_Factories
+  commentId: P:Singularity.ServiceBinding.Factories
+  fullName: Singularity.ServiceBinding.Factories
+  nameWithType: ServiceBinding.Factories
+- uid: Singularity.ServiceBinding.Factories*
+  name: Factories
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_Factories_
+  commentId: Overload:Singularity.ServiceBinding.Factories
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.Factories
+  nameWithType: ServiceBinding.Factories
+- uid: Singularity.ServiceBinding.Finalizer
+  name: Finalizer
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_Finalizer
+  commentId: P:Singularity.ServiceBinding.Finalizer
+  fullName: Singularity.ServiceBinding.Finalizer
+  nameWithType: ServiceBinding.Finalizer
+- uid: Singularity.ServiceBinding.Finalizer*
+  name: Finalizer
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_Finalizer_
+  commentId: Overload:Singularity.ServiceBinding.Finalizer
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.Finalizer
+  nameWithType: ServiceBinding.Finalizer
+- uid: Singularity.ServiceBinding.Lifetime
+  name: Lifetime
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_Lifetime
+  commentId: P:Singularity.ServiceBinding.Lifetime
+  fullName: Singularity.ServiceBinding.Lifetime
+  nameWithType: ServiceBinding.Lifetime
+- uid: Singularity.ServiceBinding.Lifetime*
+  name: Lifetime
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_Lifetime_
+  commentId: Overload:Singularity.ServiceBinding.Lifetime
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.Lifetime
+  nameWithType: ServiceBinding.Lifetime
+- uid: Singularity.ServiceBinding.NeedsDispose
+  name: NeedsDispose
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_NeedsDispose
+  commentId: P:Singularity.ServiceBinding.NeedsDispose
+  fullName: Singularity.ServiceBinding.NeedsDispose
+  nameWithType: ServiceBinding.NeedsDispose
+- uid: Singularity.ServiceBinding.NeedsDispose*
+  name: NeedsDispose
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_NeedsDispose_
+  commentId: Overload:Singularity.ServiceBinding.NeedsDispose
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.NeedsDispose
+  nameWithType: ServiceBinding.NeedsDispose
+- uid: Singularity.ServiceBinding.ResolveError
+  name: ResolveError
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_ResolveError
+  commentId: P:Singularity.ServiceBinding.ResolveError
+  fullName: Singularity.ServiceBinding.ResolveError
+  nameWithType: ServiceBinding.ResolveError
+- uid: Singularity.ServiceBinding.ResolveError*
+  name: ResolveError
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_ResolveError_
+  commentId: Overload:Singularity.ServiceBinding.ResolveError
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.ResolveError
+  nameWithType: ServiceBinding.ResolveError
+- uid: Singularity.ServiceBinding.ServiceTypes
+  name: ServiceTypes
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_ServiceTypes
+  commentId: P:Singularity.ServiceBinding.ServiceTypes
+  fullName: Singularity.ServiceBinding.ServiceTypes
+  nameWithType: ServiceBinding.ServiceTypes
+- uid: Singularity.ServiceBinding.ServiceTypes*
+  name: ServiceTypes
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_ServiceTypes_
+  commentId: Overload:Singularity.ServiceBinding.ServiceTypes
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.ServiceTypes
+  nameWithType: ServiceBinding.ServiceTypes
+- uid: Singularity.ServiceBinding.TryGetInstanceFactory(System.Type,Singularity.Graph.InstanceFactory@)
+  name: TryGetInstanceFactory(Type, out InstanceFactory)
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_TryGetInstanceFactory_System_Type_Singularity_Graph_InstanceFactory__
+  commentId: M:Singularity.ServiceBinding.TryGetInstanceFactory(System.Type,Singularity.Graph.InstanceFactory@)
+  name.vb: TryGetInstanceFactory(Type, ByRef InstanceFactory)
+  fullName: Singularity.ServiceBinding.TryGetInstanceFactory(System.Type, out Singularity.Graph.InstanceFactory)
+  fullName.vb: Singularity.ServiceBinding.TryGetInstanceFactory(System.Type, ByRef Singularity.Graph.InstanceFactory)
+  nameWithType: ServiceBinding.TryGetInstanceFactory(Type, out InstanceFactory)
+  nameWithType.vb: ServiceBinding.TryGetInstanceFactory(Type, ByRef InstanceFactory)
+- uid: Singularity.ServiceBinding.TryGetInstanceFactory*
+  name: TryGetInstanceFactory
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_TryGetInstanceFactory_
+  commentId: Overload:Singularity.ServiceBinding.TryGetInstanceFactory
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.TryGetInstanceFactory
+  nameWithType: ServiceBinding.TryGetInstanceFactory
+- uid: Singularity.SingularityServiceProviderFactory
+  name: SingularityServiceProviderFactory
+  href: api/Singularity.SingularityServiceProviderFactory.html
+  commentId: T:Singularity.SingularityServiceProviderFactory
+  fullName: Singularity.SingularityServiceProviderFactory
+  nameWithType: SingularityServiceProviderFactory
+- uid: Singularity.SingularityServiceProviderFactory.#ctor(Singularity.SingularitySettings)
+  name: SingularityServiceProviderFactory(SingularitySettings)
+  href: api/Singularity.SingularityServiceProviderFactory.html#Singularity_SingularityServiceProviderFactory__ctor_Singularity_SingularitySettings_
+  commentId: M:Singularity.SingularityServiceProviderFactory.#ctor(Singularity.SingularitySettings)
+  fullName: Singularity.SingularityServiceProviderFactory.SingularityServiceProviderFactory(Singularity.SingularitySettings)
+  nameWithType: SingularityServiceProviderFactory.SingularityServiceProviderFactory(SingularitySettings)
+- uid: Singularity.SingularityServiceProviderFactory.#ctor*
+  name: SingularityServiceProviderFactory
+  href: api/Singularity.SingularityServiceProviderFactory.html#Singularity_SingularityServiceProviderFactory__ctor_
+  commentId: Overload:Singularity.SingularityServiceProviderFactory.#ctor
+  isSpec: "True"
+  fullName: Singularity.SingularityServiceProviderFactory.SingularityServiceProviderFactory
+  nameWithType: SingularityServiceProviderFactory.SingularityServiceProviderFactory
+- uid: Singularity.SingularityServiceProviderFactory.CreateBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: CreateBuilder(IServiceCollection)
+  href: api/Singularity.SingularityServiceProviderFactory.html#Singularity_SingularityServiceProviderFactory_CreateBuilder_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Singularity.SingularityServiceProviderFactory.CreateBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Singularity.SingularityServiceProviderFactory.CreateBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: SingularityServiceProviderFactory.CreateBuilder(IServiceCollection)
+- uid: Singularity.SingularityServiceProviderFactory.CreateBuilder*
+  name: CreateBuilder
+  href: api/Singularity.SingularityServiceProviderFactory.html#Singularity_SingularityServiceProviderFactory_CreateBuilder_
+  commentId: Overload:Singularity.SingularityServiceProviderFactory.CreateBuilder
+  isSpec: "True"
+  fullName: Singularity.SingularityServiceProviderFactory.CreateBuilder
+  nameWithType: SingularityServiceProviderFactory.CreateBuilder
+- uid: Singularity.SingularityServiceProviderFactory.CreateServiceProvider(Singularity.ContainerBuilder)
+  name: CreateServiceProvider(ContainerBuilder)
+  href: api/Singularity.SingularityServiceProviderFactory.html#Singularity_SingularityServiceProviderFactory_CreateServiceProvider_Singularity_ContainerBuilder_
+  commentId: M:Singularity.SingularityServiceProviderFactory.CreateServiceProvider(Singularity.ContainerBuilder)
+  fullName: Singularity.SingularityServiceProviderFactory.CreateServiceProvider(Singularity.ContainerBuilder)
+  nameWithType: SingularityServiceProviderFactory.CreateServiceProvider(ContainerBuilder)
+- uid: Singularity.SingularityServiceProviderFactory.CreateServiceProvider*
+  name: CreateServiceProvider
+  href: api/Singularity.SingularityServiceProviderFactory.html#Singularity_SingularityServiceProviderFactory_CreateServiceProvider_
+  commentId: Overload:Singularity.SingularityServiceProviderFactory.CreateServiceProvider
+  isSpec: "True"
+  fullName: Singularity.SingularityServiceProviderFactory.CreateServiceProvider
+  nameWithType: SingularityServiceProviderFactory.CreateServiceProvider
+- uid: Singularity.SingularityServiceScope
+  name: SingularityServiceScope
+  href: api/Singularity.SingularityServiceScope.html
+  commentId: T:Singularity.SingularityServiceScope
+  fullName: Singularity.SingularityServiceScope
+  nameWithType: SingularityServiceScope
+- uid: Singularity.SingularityServiceScope.#ctor(Singularity.Scoped)
+  name: SingularityServiceScope(Scoped)
+  href: api/Singularity.SingularityServiceScope.html#Singularity_SingularityServiceScope__ctor_Singularity_Scoped_
+  commentId: M:Singularity.SingularityServiceScope.#ctor(Singularity.Scoped)
+  fullName: Singularity.SingularityServiceScope.SingularityServiceScope(Singularity.Scoped)
+  nameWithType: SingularityServiceScope.SingularityServiceScope(Scoped)
+- uid: Singularity.SingularityServiceScope.#ctor*
+  name: SingularityServiceScope
+  href: api/Singularity.SingularityServiceScope.html#Singularity_SingularityServiceScope__ctor_
+  commentId: Overload:Singularity.SingularityServiceScope.#ctor
+  isSpec: "True"
+  fullName: Singularity.SingularityServiceScope.SingularityServiceScope
+  nameWithType: SingularityServiceScope.SingularityServiceScope
+- uid: Singularity.SingularityServiceScope.Dispose
+  name: Dispose()
+  href: api/Singularity.SingularityServiceScope.html#Singularity_SingularityServiceScope_Dispose
+  commentId: M:Singularity.SingularityServiceScope.Dispose
+  fullName: Singularity.SingularityServiceScope.Dispose()
+  nameWithType: SingularityServiceScope.Dispose()
+- uid: Singularity.SingularityServiceScope.Dispose*
+  name: Dispose
+  href: api/Singularity.SingularityServiceScope.html#Singularity_SingularityServiceScope_Dispose_
+  commentId: Overload:Singularity.SingularityServiceScope.Dispose
+  isSpec: "True"
+  fullName: Singularity.SingularityServiceScope.Dispose
+  nameWithType: SingularityServiceScope.Dispose
+- uid: Singularity.SingularityServiceScope.GetService(System.Type)
+  name: GetService(Type)
+  href: api/Singularity.SingularityServiceScope.html#Singularity_SingularityServiceScope_GetService_System_Type_
+  commentId: M:Singularity.SingularityServiceScope.GetService(System.Type)
+  fullName: Singularity.SingularityServiceScope.GetService(System.Type)
+  nameWithType: SingularityServiceScope.GetService(Type)
+- uid: Singularity.SingularityServiceScope.GetService*
+  name: GetService
+  href: api/Singularity.SingularityServiceScope.html#Singularity_SingularityServiceScope_GetService_
+  commentId: Overload:Singularity.SingularityServiceScope.GetService
+  isSpec: "True"
+  fullName: Singularity.SingularityServiceScope.GetService
+  nameWithType: SingularityServiceScope.GetService
+- uid: Singularity.SingularityServiceScope.ServiceProvider
+  name: ServiceProvider
+  href: api/Singularity.SingularityServiceScope.html#Singularity_SingularityServiceScope_ServiceProvider
+  commentId: P:Singularity.SingularityServiceScope.ServiceProvider
+  fullName: Singularity.SingularityServiceScope.ServiceProvider
+  nameWithType: SingularityServiceScope.ServiceProvider
+- uid: Singularity.SingularityServiceScope.ServiceProvider*
+  name: ServiceProvider
+  href: api/Singularity.SingularityServiceScope.html#Singularity_SingularityServiceScope_ServiceProvider_
+  commentId: Overload:Singularity.SingularityServiceScope.ServiceProvider
+  isSpec: "True"
+  fullName: Singularity.SingularityServiceScope.ServiceProvider
+  nameWithType: SingularityServiceScope.ServiceProvider
+- uid: Singularity.SingularityServiceScopeFactory
+  name: SingularityServiceScopeFactory
+  href: api/Singularity.SingularityServiceScopeFactory.html
+  commentId: T:Singularity.SingularityServiceScopeFactory
+  fullName: Singularity.SingularityServiceScopeFactory
+  nameWithType: SingularityServiceScopeFactory
+- uid: Singularity.SingularityServiceScopeFactory.#ctor(Singularity.Container)
+  name: SingularityServiceScopeFactory(Container)
+  href: api/Singularity.SingularityServiceScopeFactory.html#Singularity_SingularityServiceScopeFactory__ctor_Singularity_Container_
+  commentId: M:Singularity.SingularityServiceScopeFactory.#ctor(Singularity.Container)
+  fullName: Singularity.SingularityServiceScopeFactory.SingularityServiceScopeFactory(Singularity.Container)
+  nameWithType: SingularityServiceScopeFactory.SingularityServiceScopeFactory(Container)
+- uid: Singularity.SingularityServiceScopeFactory.#ctor*
+  name: SingularityServiceScopeFactory
+  href: api/Singularity.SingularityServiceScopeFactory.html#Singularity_SingularityServiceScopeFactory__ctor_
+  commentId: Overload:Singularity.SingularityServiceScopeFactory.#ctor
+  isSpec: "True"
+  fullName: Singularity.SingularityServiceScopeFactory.SingularityServiceScopeFactory
+  nameWithType: SingularityServiceScopeFactory.SingularityServiceScopeFactory
+- uid: Singularity.SingularityServiceScopeFactory.CreateScope
+  name: CreateScope()
+  href: api/Singularity.SingularityServiceScopeFactory.html#Singularity_SingularityServiceScopeFactory_CreateScope
+  commentId: M:Singularity.SingularityServiceScopeFactory.CreateScope
+  fullName: Singularity.SingularityServiceScopeFactory.CreateScope()
+  nameWithType: SingularityServiceScopeFactory.CreateScope()
+- uid: Singularity.SingularityServiceScopeFactory.CreateScope*
+  name: CreateScope
+  href: api/Singularity.SingularityServiceScopeFactory.html#Singularity_SingularityServiceScopeFactory_CreateScope_
+  commentId: Overload:Singularity.SingularityServiceScopeFactory.CreateScope
+  isSpec: "True"
+  fullName: Singularity.SingularityServiceScopeFactory.CreateScope
+  nameWithType: SingularityServiceScopeFactory.CreateScope
 - uid: Singularity.SingularitySettings
   name: SingularitySettings
   href: api/Singularity.SingularitySettings.html
   commentId: T:Singularity.SingularitySettings
   fullName: Singularity.SingularitySettings
   nameWithType: SingularitySettings
-- uid: Singularity.SingularitySettings.AutoDisposeLifetimes
-  name: AutoDisposeLifetimes
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_AutoDisposeLifetimes
-  commentId: P:Singularity.SingularitySettings.AutoDisposeLifetimes
-  fullName: Singularity.SingularitySettings.AutoDisposeLifetimes
-  nameWithType: SingularitySettings.AutoDisposeLifetimes
-- uid: Singularity.SingularitySettings.AutoDisposeLifetimes*
-  name: AutoDisposeLifetimes
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_AutoDisposeLifetimes_
-  commentId: Overload:Singularity.SingularitySettings.AutoDisposeLifetimes
+- uid: Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime)
+  name: AutoDispose(ILifetime)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_AutoDispose_Singularity_ILifetime_
+  commentId: M:Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime)
+  fullName: Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime)
+  nameWithType: SingularitySettings.AutoDispose(ILifetime)
+- uid: Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime[])
+  name: AutoDispose(ILifetime[])
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_AutoDispose_Singularity_ILifetime___
+  commentId: M:Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime[])
+  name.vb: AutoDispose(ILifetime())
+  fullName: Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime[])
+  fullName.vb: Singularity.SingularitySettings.AutoDispose(Singularity.ILifetime())
+  nameWithType: SingularitySettings.AutoDispose(ILifetime[])
+  nameWithType.vb: SingularitySettings.AutoDispose(ILifetime())
+- uid: Singularity.SingularitySettings.AutoDispose*
+  name: AutoDispose
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_AutoDispose_
+  commentId: Overload:Singularity.SingularitySettings.AutoDispose
   isSpec: "True"
-  fullName: Singularity.SingularitySettings.AutoDisposeLifetimes
-  nameWithType: SingularitySettings.AutoDisposeLifetimes
-- uid: Singularity.SingularitySettings.ConstructorResolver
-  name: ConstructorResolver
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ConstructorResolver
-  commentId: P:Singularity.SingularitySettings.ConstructorResolver
-  fullName: Singularity.SingularitySettings.ConstructorResolver
-  nameWithType: SingularitySettings.ConstructorResolver
-- uid: Singularity.SingularitySettings.ConstructorResolver*
-  name: ConstructorResolver
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ConstructorResolver_
-  commentId: Overload:Singularity.SingularitySettings.ConstructorResolver
-  isSpec: "True"
-  fullName: Singularity.SingularitySettings.ConstructorResolver
-  nameWithType: SingularitySettings.ConstructorResolver
+  fullName: Singularity.SingularitySettings.AutoDispose
+  nameWithType: SingularitySettings.AutoDispose
 - uid: Singularity.SingularitySettings.Default
   name: Default
   href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_Default
-  commentId: F:Singularity.SingularitySettings.Default
+  commentId: P:Singularity.SingularitySettings.Default
   fullName: Singularity.SingularitySettings.Default
   nameWithType: SingularitySettings.Default
+- uid: Singularity.SingularitySettings.Default*
+  name: Default
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_Default_
+  commentId: Overload:Singularity.SingularitySettings.Default
+  isSpec: "True"
+  fullName: Singularity.SingularitySettings.Default
+  nameWithType: SingularitySettings.Default
+- uid: Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type,Singularity.Graph.Resolvers.ITypeMatcher)
+  name: ExcludeAutoRegistration(Type, ITypeMatcher)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ExcludeAutoRegistration_System_Type_Singularity_Graph_Resolvers_ITypeMatcher_
+  commentId: M:Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type,Singularity.Graph.Resolvers.ITypeMatcher)
+  fullName: Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type, Singularity.Graph.Resolvers.ITypeMatcher)
+  nameWithType: SingularitySettings.ExcludeAutoRegistration(Type, ITypeMatcher)
+- uid: Singularity.SingularitySettings.ExcludeAutoRegistration*
+  name: ExcludeAutoRegistration
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ExcludeAutoRegistration_
+  commentId: Overload:Singularity.SingularitySettings.ExcludeAutoRegistration
+  isSpec: "True"
+  fullName: Singularity.SingularitySettings.ExcludeAutoRegistration
+  nameWithType: SingularitySettings.ExcludeAutoRegistration
+- uid: Singularity.SingularitySettings.ExcludeAutoRegistration``1(Singularity.Graph.Resolvers.ITypeMatcher)
+  name: ExcludeAutoRegistration<TResolverType>(ITypeMatcher)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ExcludeAutoRegistration__1_Singularity_Graph_Resolvers_ITypeMatcher_
+  commentId: M:Singularity.SingularitySettings.ExcludeAutoRegistration``1(Singularity.Graph.Resolvers.ITypeMatcher)
+  name.vb: ExcludeAutoRegistration(Of TResolverType)(ITypeMatcher)
+  fullName: Singularity.SingularitySettings.ExcludeAutoRegistration<TResolverType>(Singularity.Graph.Resolvers.ITypeMatcher)
+  fullName.vb: Singularity.SingularitySettings.ExcludeAutoRegistration(Of TResolverType)(Singularity.Graph.Resolvers.ITypeMatcher)
+  nameWithType: SingularitySettings.ExcludeAutoRegistration<TResolverType>(ITypeMatcher)
+  nameWithType.vb: SingularitySettings.ExcludeAutoRegistration(Of TResolverType)(ITypeMatcher)
+- uid: Singularity.SingularitySettings.IgnoreResolveError(Singularity.Graph.Resolvers.ITypeMatcher)
+  name: IgnoreResolveError(ITypeMatcher)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_IgnoreResolveError_Singularity_Graph_Resolvers_ITypeMatcher_
+  commentId: M:Singularity.SingularitySettings.IgnoreResolveError(Singularity.Graph.Resolvers.ITypeMatcher)
+  fullName: Singularity.SingularitySettings.IgnoreResolveError(Singularity.Graph.Resolvers.ITypeMatcher)
+  nameWithType: SingularitySettings.IgnoreResolveError(ITypeMatcher)
+- uid: Singularity.SingularitySettings.IgnoreResolveError*
+  name: IgnoreResolveError
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_IgnoreResolveError_
+  commentId: Overload:Singularity.SingularitySettings.IgnoreResolveError
+  isSpec: "True"
+  fullName: Singularity.SingularitySettings.IgnoreResolveError
+  nameWithType: SingularitySettings.IgnoreResolveError
 - uid: Singularity.SingularitySettings.Microsoft
   name: Microsoft
   href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_Microsoft
-  commentId: F:Singularity.SingularitySettings.Microsoft
+  commentId: P:Singularity.SingularitySettings.Microsoft
   fullName: Singularity.SingularitySettings.Microsoft
   nameWithType: SingularitySettings.Microsoft
+- uid: Singularity.SingularitySettings.Microsoft*
+  name: Microsoft
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_Microsoft_
+  commentId: Overload:Singularity.SingularitySettings.Microsoft
+  isSpec: "True"
+  fullName: Singularity.SingularitySettings.Microsoft
+  nameWithType: SingularitySettings.Microsoft
+- uid: Singularity.SingularitySettings.With(Singularity.Expressions.IConstructorResolver)
+  name: With(IConstructorResolver)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_With_Singularity_Expressions_IConstructorResolver_
+  commentId: M:Singularity.SingularitySettings.With(Singularity.Expressions.IConstructorResolver)
+  fullName: Singularity.SingularitySettings.With(Singularity.Expressions.IConstructorResolver)
+  nameWithType: SingularitySettings.With(IConstructorResolver)
+- uid: Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver[])
+  name: With(IDependencyResolver[])
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_With_Singularity_Graph_Resolvers_IDependencyResolver___
+  commentId: M:Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver[])
+  name.vb: With(IDependencyResolver())
+  fullName: Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver[])
+  fullName.vb: Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver())
+  nameWithType: SingularitySettings.With(IDependencyResolver[])
+  nameWithType.vb: SingularitySettings.With(IDependencyResolver())
+- uid: Singularity.SingularitySettings.With(Singularity.Logging.ISingularityLogger)
+  name: With(ISingularityLogger)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_With_Singularity_Logging_ISingularityLogger_
+  commentId: M:Singularity.SingularitySettings.With(Singularity.Logging.ISingularityLogger)
+  fullName: Singularity.SingularitySettings.With(Singularity.Logging.ISingularityLogger)
+  nameWithType: SingularitySettings.With(ISingularityLogger)
+- uid: Singularity.SingularitySettings.With*
+  name: With
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_With_
+  commentId: Overload:Singularity.SingularitySettings.With
+  isSpec: "True"
+  fullName: Singularity.SingularitySettings.With
+  nameWithType: SingularitySettings.With
 - uid: Singularity.StronglyTypedDecoratorConfigurator`2
   name: StronglyTypedDecoratorConfigurator<TDependency, TDecorator>
   href: api/Singularity.StronglyTypedDecoratorConfigurator-2.html
@@ -2133,15 +2924,15 @@ references:
   fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseField
   nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseField
   nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseField
-- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseMember(System.Linq.Expressions.Expression{System.Func{`0,System.Nullable{System.Object}}})
-  name: UseMember(Expression<Func<TInstance, Nullable<Object>>>)
-  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseMember_System_Linq_Expressions_Expression_System_Func__0_System_Nullable_System_Object____
-  commentId: M:Singularity.StronglyTypedLateInjectorConfigurator`1.UseMember(System.Linq.Expressions.Expression{System.Func{`0,System.Nullable{System.Object}}})
-  name.vb: UseMember(Expression(Of Func(Of TInstance, Nullable(Of Object))))
-  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseMember(System.Linq.Expressions.Expression<System.Func<TInstance, System.Nullable<System.Object>>>)
-  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseMember(System.Linq.Expressions.Expression(Of System.Func(Of TInstance, System.Nullable(Of System.Object))))
-  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseMember(Expression<Func<TInstance, Nullable<Object>>>)
-  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseMember(Expression(Of Func(Of TInstance, Nullable(Of Object))))
+- uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseMember(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name: UseMember(Expression<Func<TInstance, Object>>)
+  href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseMember_System_Linq_Expressions_Expression_System_Func__0_System_Object___
+  commentId: M:Singularity.StronglyTypedLateInjectorConfigurator`1.UseMember(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name.vb: UseMember(Expression(Of Func(Of TInstance, Object)))
+  fullName: Singularity.StronglyTypedLateInjectorConfigurator<TInstance>.UseMember(System.Linq.Expressions.Expression<System.Func<TInstance, System.Object>>)
+  fullName.vb: Singularity.StronglyTypedLateInjectorConfigurator(Of TInstance).UseMember(System.Linq.Expressions.Expression(Of System.Func(Of TInstance, System.Object)))
+  nameWithType: StronglyTypedLateInjectorConfigurator<TInstance>.UseMember(Expression<Func<TInstance, Object>>)
+  nameWithType.vb: StronglyTypedLateInjectorConfigurator(Of TInstance).UseMember(Expression(Of Func(Of TInstance, Object)))
 - uid: Singularity.StronglyTypedLateInjectorConfigurator`1.UseMember*
   name: UseMember
   href: api/Singularity.StronglyTypedLateInjectorConfigurator-1.html#Singularity_StronglyTypedLateInjectorConfigurator_1_UseMember_
@@ -2380,23 +3171,6 @@ references:
   isSpec: "True"
   fullName: Singularity.Transient.ApplyLifetimeOnExpression
   nameWithType: Transient.ApplyLifetimeOnExpression
-- uid: Singularity.TypeMetadataCache`1
-  name: TypeMetadataCache<T>
-  href: api/Singularity.TypeMetadataCache-1.html
-  commentId: T:Singularity.TypeMetadataCache`1
-  name.vb: TypeMetadataCache(Of T)
-  fullName: Singularity.TypeMetadataCache<T>
-  fullName.vb: Singularity.TypeMetadataCache(Of T)
-  nameWithType: TypeMetadataCache<T>
-  nameWithType.vb: TypeMetadataCache(Of T)
-- uid: Singularity.TypeMetadataCache`1.IsInterface
-  name: IsInterface
-  href: api/Singularity.TypeMetadataCache-1.html#Singularity_TypeMetadataCache_1_IsInterface
-  commentId: F:Singularity.TypeMetadataCache`1.IsInterface
-  fullName: Singularity.TypeMetadataCache<T>.IsInterface
-  fullName.vb: Singularity.TypeMetadataCache(Of T).IsInterface
-  nameWithType: TypeMetadataCache<T>.IsInterface
-  nameWithType.vb: TypeMetadataCache(Of T).IsInterface
 - uid: Singularity.WeaklyTypedDecoratorConfigurator
   name: WeaklyTypedDecoratorConfigurator
   href: api/Singularity.WeaklyTypedDecoratorConfigurator.html
