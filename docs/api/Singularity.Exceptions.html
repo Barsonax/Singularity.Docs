@@ -77,9 +77,6 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="Singularity.Exceptions.AbstractTypeResolveException.html">AbstractTypeResolveException</a></h4>
-      <section><p>Exception thrown when trying to create a instance for a <span class="xref">Singularity.Expressions.AbstractBindingExpression</span></p>
-</section>
       <h4><a class="xref" href="Singularity.Exceptions.BindingConfigException.html">BindingConfigException</a></h4>
       <section><p>Exception for when something is wrong with the bindings.</p>
 </section>
@@ -90,7 +87,7 @@
       <section><p>Thrown when a circular dependency has been found.</p>
 </section>
       <h4><a class="xref" href="Singularity.Exceptions.DependencyNotFoundException.html">DependencyNotFoundException</a></h4>
-      <section><p>Thrown when a service cannot be found and its not possible for the <a class="xref" href="Singularity.Graph.Resolvers.IDependencyResolver.html">IDependencyResolver</a>'s to generate a <a class="xref" href="Singularity.ServiceBinding.html">ServiceBinding</a>.</p>
+      <section><p>Thrown when a service cannot be found and its not possible for the <a class="xref" href="Singularity.Resolving.Generators.IServiceBindingGenerator.html">IServiceBindingGenerator</a>'s to generate a <a class="xref" href="Singularity.ServiceBinding.html">ServiceBinding</a>.</p>
 </section>
       <h4><a class="xref" href="Singularity.Exceptions.DependencyResolveException.html">DependencyResolveException</a></h4>
       <section><p>Thrown if the service was found but it was not possible to resolve it.
@@ -110,6 +107,9 @@ This could be due to missing dependencies of this service.</p>
 </section>
       <h4><a class="xref" href="Singularity.Exceptions.NoConstructorException.html">NoConstructorException</a></h4>
       <section><p>Exception for when no public constructor is available to be resolved.</p>
+</section>
+      <h4><a class="xref" href="Singularity.Exceptions.OpenGenericTypeResolveException.html">OpenGenericTypeResolveException</a></h4>
+      <section><p>Exception thrown when trying to create a instance for a open generic type.</p>
 </section>
       <h4><a class="xref" href="Singularity.Exceptions.RegistrationAlreadyExistsException.html">RegistrationAlreadyExistsException</a></h4>
       <section><p>Exception for when a registration for the same type is registered in the child container.</p>

@@ -5,14 +5,50 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.BestMatchConstructorResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.BestMatchConstructorResolver.html",
+          "hash": "aeVtlZfseor2uMoLSpt4xw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.BindingMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.BindingMetadata.html",
+          "hash": "VPe7c7NmUBPCA1vedogCZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Singularity.Collections.ArrayList-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Collections.ArrayList-1.html",
-          "hash": "fUL8cfa7eMd1oUd/n7iT5A=="
+          "hash": "MhsLjj8p0Dek/tkPK7VHkQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Collections.ConfigurationList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Collections.ConfigurationList-1.html",
+          "hash": "jSsyUc35jsFV6QO0hy95VQ=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Collections.SinglyLinkedListKeyNode-2.Enumerator.html",
-          "hash": "zMjwhJhhweLd1tX0fCojHw=="
+          "hash": "gbyTwG1kE+aRrfj6AVEK9w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Collections.SinglyLinkedListKeyNode-2.html",
-          "hash": "BGpRIxIWbgf4Dc1CdTcu4g=="
+          "hash": "HtC5qW+MLiqWH1xTU4+JqA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Collections.SinglyLinkedListNode-1.Enumerator.html",
-          "hash": "Q4JXz0PHhdcQZWjmK6mNPA=="
+          "hash": "0nqOzhzjP+Z9Npa2j5nmTA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +93,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Collections.SinglyLinkedListNode-1.html",
-          "hash": "88erR40RqxQckrZdRamoRA=="
+          "hash": "uyMLwIHEmu9DvvkhyWwuZQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Collections.SinglyLinkedListNodeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Collections.SinglyLinkedListNodeExtensions.html",
+          "hash": "TmU7rOwlGTPw8o1wu6QiOQ=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Collections.html",
-          "hash": "r2qjj2Gf0WhsGpqUfao8fg=="
+          "hash": "YWIzEhI/DWi6yTcOKE1NoA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +129,34 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.ConfigurationExtensions.html",
-          "hash": "rsgFNDPilLRk1ygKQoEf9g=="
+          "hash": "fJpJDEwmXHQslnzp7QIdCQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.ConstructorResolverCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.ConstructorResolverCache.html",
+          "hash": "lIjGVCpGCLT07VN+d5ejYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.ConstructorResolverExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.ConstructorResolverExtensions.html",
+          "hash": "9kxzYTwrceY1CMpIe1rODg=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.ConstructorResolvers.html",
-          "hash": "JI7QLTHdIKoMZKz2NeisVA=="
+          "hash": "BYQvjRbgDLdNS6VkmSODuA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Container.html",
-          "hash": "Iy/2g68CrZt2ZoAWth6rZg=="
+          "hash": "3j4hwDwM6cOvH8g1mJeJiQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.ContainerBuilder.html",
-          "hash": "BYcLjMR8sob+ireJoS6/wA=="
+          "hash": "r7LyrEwOzlescbAnBsGXOA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.DefaultConstructorResolver.html",
-          "hash": "Ll6PvOcxz6pY4ERrhXMJoA=="
+          "hash": "VGhvUjrtrJ4QXZKp/GL+VQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Duality.Resources.ModuleRef.html",
-          "hash": "qm3ZVVMuPAmxOqjLwN2xuA=="
+          "hash": "IwZpKZEwmLz5GL1KjR0nOw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Duality.Resources.SingularityModules.html",
-          "hash": "9g1xVA2DbNz4yuHV4Bf/VQ=="
+          "hash": "06R8P4xoqL1BNB57YD56dA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +240,7 @@
           "hash": "QgtGSfkDx2sNG0WUuBGiLg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Duality.SingularityPlugin.html",
-          "hash": "Q+RriGvwxXId5mJO0GmfSw=="
+          "hash": "B2sz5jwtmApAffKK72Miwg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -192,19 +264,7 @@
           "hash": "eezdFXMc3nHA6BchEcMr4A=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Exceptions.AbstractTypeResolveException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Exceptions.AbstractTypeResolveException.html",
-          "hash": "t3ViDZiVi/4OXKLlFZnMVQ=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -213,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.BindingConfigException.html",
-          "hash": "85x9kIY6trHMkWsRufKQbg=="
+          "hash": "FOPlDIhbqCax41BJN9yzWA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -225,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.CannotAutoResolveConstructorException.html",
-          "hash": "4ugeIUTV5p8Zh5OHl0B4YQ=="
+          "hash": "WSbWwciRFxilVUvsQ/0SzA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -237,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.CircularDependencyException.html",
-          "hash": "43MtGPLGms8wzjCPaAuT1g=="
+          "hash": "fONBWcPibKGRyKY1fPIo2w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.DependencyNotFoundException.html",
-          "hash": "gqLZb+17TLE+Xqj3ExeD8A=="
+          "hash": "quN928eWcnuW+gxPpz1qZg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -261,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.DependencyResolveException.html",
-          "hash": "FBSns6iOlDCcQ9O6s/bADA=="
+          "hash": "y4AmMw28JWJNs7IVQGZHyw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.EnumerableRegistrationException.html",
-          "hash": "eW4dP/23GcxWAldN6zxIGQ=="
+          "hash": "0m522wTl4joL4DxAuoI0UA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -285,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.InterfaceExpectedException.html",
-          "hash": "BIDL7gajCZi2H15VOw4BVw=="
+          "hash": "Y2HcltVdZjMTarAU8S8o5Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.InvalidEnumValueException-1.html",
-          "hash": "ITNqmsCURN95lwWHXBjrnQ=="
+          "hash": "/pABil/QWJdDRJ5Lhltamw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -309,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.InvalidExpressionArgumentsException.html",
-          "hash": "6pO8CQ2u17DuDsTHE7LuFw=="
+          "hash": "IFT69ahShnLh8jDT8IRSPg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -321,10 +381,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.NoConstructorException.html",
-          "hash": "BtBIF3LDmxs9pCt3V/FTiQ=="
+          "hash": "i/G3SU+Jn5l/ZilqkJisjQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Exceptions.OpenGenericTypeResolveException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Exceptions.OpenGenericTypeResolveException.html",
+          "hash": "JlLlJygF0YGTmQExeFAJCw=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.RegistrationAlreadyExistsException.html",
-          "hash": "/t8D+QnRus4FTS5qFcCneg=="
+          "hash": "3jIm06UBlK9kyeVlZmQUdg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.SingularityAggregateException.html",
-          "hash": "1/Ra98BUlvIFJltDogS66g=="
+          "hash": "QZPwDEjw6s4eg4jE0vEXxA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -357,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.SingularityException.html",
-          "hash": "tKhM0wJ/2MBkXds28Z9UpA=="
+          "hash": "iNCZuRhXuAAP2Wq9cSauHQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -369,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.TypeNotAssignableException.html",
-          "hash": "VaSkr4dbglRsZZ93ENc1aQ=="
+          "hash": "dVI1NMGPbggl04jnSVlGAQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Exceptions.html",
-          "hash": "/0UiZhB6LkTs78ALk2Waaw=="
+          "hash": "mCPXCsSoMr7366dqeS4leA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Expressions.ExpressionContext.html",
-          "hash": "89CHiaptS0wp0NbI3cKrkQ=="
+          "hash": "GaQcPO0fXCIaXmKZSduV7A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -405,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Expressions.IConstructorResolver.html",
-          "hash": "xlClyEQ9C6TU4/fFL/hD7g=="
+          "hash": "YUvxF+alfTpFP68E661hwA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -417,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Expressions.ReadOnlyExpressionContext.html",
-          "hash": "i5iOUfp1C6n7MR8rfaKVDA=="
+          "hash": "NEH/GCTRL/3G/0+Qe1bdxw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -432,175 +504,7 @@
           "hash": "Q907Y9lwXz6x4ZWa46ahCg=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.BindingMetadata.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.BindingMetadata.html",
-          "hash": "Hf3lR0b3WFae93NxpfJ+sQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.InstanceFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.InstanceFactory.html",
-          "hash": "xGPWsfWzWCZsVEObpGmL5g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.ConcreteDependencyResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.ConcreteDependencyResolver.html",
-          "hash": "49DXINVg5bo7dLXKLpQbng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.ContainerDependencyResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.ContainerDependencyResolver.html",
-          "hash": "CUj4+YkxKoWHRXUn4vqbXw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.EnumerableDependencyResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.EnumerableDependencyResolver.html",
-          "hash": "+6LNTmCn2aZiEABdMo5VJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html",
-          "hash": "CQ/8N+vSkGk1VZSK2ke73g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.FactoryDependencyResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.FactoryDependencyResolver.html",
-          "hash": "EMRhUsrqGZYyRjk0GloOeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.IDependencyResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.IDependencyResolver.html",
-          "hash": "3RWxTLUG0NlFI01XrMXXQQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.IResolverPipeline.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.IResolverPipeline.html",
-          "hash": "885TBCWSwjcZ2uTJRh+ffg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.ITypeMatcher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.ITypeMatcher.html",
-          "hash": "UMMLx6uowh3W3tQe025zvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.LazyDependencyResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.LazyDependencyResolver.html",
-          "hash": "iwW7uAADnIvBRhkhrN82KQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.OpenGenericResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.OpenGenericResolver.html",
-          "hash": "EYJsxes+T6uNA9nogWx1OQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.Resolvers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.Resolvers.html",
-          "hash": "czpAT622tw+h6T8JHn+7rA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.Graph.html",
-          "hash": "d+wAAw+Yv6kuamR7lZsZAw=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -609,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.IContainer.html",
-          "hash": "b9dvT9FPylzkCrYan0M08A=="
+          "hash": "7hC+/iQqSbO0querCqfo9A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -621,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.ILifetime.html",
-          "hash": "a1LvOwaAhDOmjF4GYN+dOw=="
+          "hash": "DRBcso7jA350TCnuqErIcw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -633,22 +537,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.IModule.html",
-          "hash": "DRCbPZFmXGi/mP1vKU5SIg=="
+          "hash": "3eLYw2U65N5tQ1rq/VvykA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.LeastArgumentsConstructorResolver.yml",
+      "source_relative_path": "api/Singularity.ITypeMatcher.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Singularity.LeastArgumentsConstructorResolver.html",
-          "hash": "dIsGaKthlSPqAF6VHe01Jw=="
+          "relative_path": "api/Singularity.ITypeMatcher.html",
+          "hash": "a4IP0w1nUielQcl5EIex/A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -657,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Lifetimes.html",
-          "hash": "nms5NcNFoYyGU+i3+imD+Q=="
+          "hash": "xMbgNPQ1W70UYwxMZ2cHnw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -669,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Loggers.html",
-          "hash": "/8kQ9+5QlpVNGbwn7jnZpA=="
+          "hash": "bUPClvucRRBdZNx+dKi5ow=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -681,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Logging.ConsoleLogger.html",
-          "hash": "dsQV6U75q5svgWpVUXcNUA=="
+          "hash": "4pCTGfZFJvuPCUK5mD1V3Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -693,10 +597,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Logging.ISingularityLogger.html",
-          "hash": "QZjtm7aQdZ6Jon0p1RIuMg=="
+          "hash": "9qaHdy6xYUzL4UN9/GwiXw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -705,10 +609,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Logging.NullLogger.html",
-          "hash": "mSMkleLMud7LZ1v1UdB4Sw=="
+          "hash": "m3Hq5DBWMkM9AnL+ZQK/Pw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -720,7 +624,7 @@
           "hash": "T6RDFaRUSV99V/2EbNbeOQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -729,22 +633,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.MatchExtensions.html",
-          "hash": "OUQpme/3MnkYuu4X6R9QtQ=="
+          "hash": "r60tYJ9wuyfUXBStwV72Ew=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Singularity.MostArgumentsConstructorResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Singularity.MostArgumentsConstructorResolver.html",
-          "hash": "+5jdZwJNzQ7ERZFrIezhTg=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -753,10 +645,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.PatternTypeMatcher.html",
-          "hash": "ce2hyncxp5VtmxilILy5bA=="
+          "hash": "Top5g/QoJRzapLFjrjpAcA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -765,10 +657,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.PerContainer.html",
-          "hash": "yNLDaota7C6rqk//uZv3Fw=="
+          "hash": "u/9d8/eGr8gbv+VObdS5sA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -777,10 +669,154 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.PerScope.html",
-          "hash": "F/Oq9RaQg39XI1U5Opd+HA=="
+          "hash": "8oZMSL3ar+YWgQySoprvZA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.Generators.CollectionServiceBindingGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.Generators.CollectionServiceBindingGenerator.html",
+          "hash": "daF4M+ZY3Ppf8H5Cakl3Qg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.html",
+          "hash": "WTZi3gslOko6PsyHtgDhzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.Generators.ContainerServiceBindingGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.Generators.ContainerServiceBindingGenerator.html",
+          "hash": "4PM0InM12kOec3/NPbU0kw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.html",
+          "hash": "/yvndyAXLZVuyDLL6xY8vg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.Generators.FactoryServiceBindingGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.Generators.FactoryServiceBindingGenerator.html",
+          "hash": "vrnCq/foHfvmGhsehSbZEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.Generators.IServiceBindingGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.Generators.IServiceBindingGenerator.html",
+          "hash": "WikZhH3cMAC/MHbOJP+PYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.Generators.LazyServiceBindingGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.Generators.LazyServiceBindingGenerator.html",
+          "hash": "x+1lo7hASbWFFcbs6XUA5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.Generators.OpenGenericBindingGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.Generators.OpenGenericBindingGenerator.html",
+          "hash": "w3RWu4CkGGpTw4rDn86JjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.Generators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.Generators.html",
+          "hash": "r+Hr1Xw+LZfoM7IlFrRR6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.IInstanceFactoryResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.IInstanceFactoryResolver.html",
+          "hash": "x+BzG3ReYe28RkrMVndesw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.InstanceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.InstanceFactory.html",
+          "hash": "RVTzgvfzFglNXAr7Qom/JQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Resolving.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Resolving.html",
+          "hash": "DVqDl85R6MK6cZVxpsJQGA=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -789,10 +825,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Scoped.html",
-          "hash": "crXvKGITjp+ARf1sU0lr5Q=="
+          "hash": "3S3HHHGRhT3JyUEditna1g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -801,10 +837,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.ServiceAutoDispose.html",
-          "hash": "V8eEXNVL3CA9Rwu5MWeE6g=="
+          "hash": "fijWq1z4dSED42DHwss5vA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -813,10 +849,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.ServiceBinding.html",
-          "hash": "uAeAedty7aF55F95OOv/0w=="
+          "hash": "9UXAuTNrTo3ZAOWNZVFRwg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -825,10 +861,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.SingularityServiceProviderFactory.html",
-          "hash": "nwWO9VLOHTH0JJsLMTijLg=="
+          "hash": "Re1lq9bJSRxNqSzqVNU2iA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -837,10 +873,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.SingularityServiceScope.html",
-          "hash": "MrtUVIDCW5rtUMTiRFPc1A=="
+          "hash": "+5dyNsmP5vyEgG/G9Q/1Vw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -849,10 +885,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.SingularityServiceScopeFactory.html",
-          "hash": "DLe+Kl6KesudacrutxkrBw=="
+          "hash": "ix1Wzh6LaRfguLl212QRXw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -861,10 +897,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.SingularitySettings.html",
-          "hash": "FJjlIuqUyq7lALd4nn5E+w=="
+          "hash": "bfVxnUU/5zl9NPZNhC7Ipg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -873,10 +909,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.StronglyTypedDecoratorConfigurator-2.html",
-          "hash": "SQkxuN1HDHWZJS7NeKn5VA=="
+          "hash": "AM7Bzuw6sbj142AXnC56oQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -885,10 +921,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.StronglyTypedLateInjectorConfigurator-1.html",
-          "hash": "0t/UuwZA3WSCspr7oyTllQ=="
+          "hash": "IO5E5mLx1kALQRaDMn80wQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -897,10 +933,34 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.StronglyTypedServiceConfigurator-2.html",
-          "hash": "Exu8II8kw/Zs3WjtOz893A=="
+          "hash": "rev1+LTSS26dXpoIf2wtIg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Test.Settings.TypeEqualityComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Test.Settings.TypeEqualityComparer-1.html",
+          "hash": "Zu5rHBk1KnbHPKQHR61LNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Singularity.Test.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Singularity.Test.Settings.html",
+          "hash": "Z9zEN3lXy5Pq6/0WcFjS7g=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -909,10 +969,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.Transient.html",
-          "hash": "atak1B6Byt4AHFRiU6zCsA=="
+          "hash": "++hbtLmUKvx/gbO1J1nHYw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -921,10 +981,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.WeaklyTypedDecoratorConfigurator.html",
-          "hash": "9sqpFt93MNdJm9LAlsZqSQ=="
+          "hash": "YIswT3l59H5JEcoSZjI7EA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -933,10 +993,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.WeaklyTypedLateInjectorConfigurator.html",
-          "hash": "Mk+cOsyOGGXw+sQoz4RSvg=="
+          "hash": "o7+SYvsLrpNeexg5P2BrMQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -945,10 +1005,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.WeaklyTypedServiceConfigurator.html",
-          "hash": "QkvIK1l9n3T+cb08F5NJGA=="
+          "hash": "CtH9tsx57dHygvh9Z9SN4w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -957,10 +1017,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Singularity.html",
-          "hash": "XW8udpV9VxPpcKrizUBLlA=="
+          "hash": "mWWzWCZqcSwWxqMXgXK5Ew=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -972,7 +1032,7 @@
           "hash": "Rjrsf96JTATLhrS/izpFiQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -981,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "oS4HGjdIeS+BTOtGevfjHA=="
+          "hash": "sJT3oXGmtMqOS1aPFkqeKQ=="
         }
       },
       "is_incremental": false,
@@ -996,7 +1056,7 @@
           "hash": "gVTM+NJAG8wd/bd+7GGBcQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1008,7 +1068,7 @@
           "hash": "WrXO8xIFun3eECd/i/AQHg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1020,7 +1080,7 @@
           "hash": "Zwcm+wIyahp9zRmZr3iuiA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1029,10 +1089,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Lifetimes.html",
-          "hash": "etLgim14Zr21U8mDKO5i5A=="
+          "hash": "bp+EcurKszwKXsAPmL3olQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1044,7 +1104,7 @@
           "hash": "fTOU7Qjq5nnN1PZPjVNevg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1056,7 +1116,7 @@
           "hash": "U8wJykJ65HiCSd36Iww5Gg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1068,7 +1128,7 @@
           "hash": "Q0bkBTraGaQVudW9cS8MEg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1080,7 +1140,19 @@
           "hash": "06ci+7kcqCMZObcxRoSVFg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ServiceBindingGenerators.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ServiceBindingGenerators.html",
+          "hash": "kaDuQw/hga+iZ85QFp4Xtw=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1092,7 +1164,7 @@
           "hash": "lxvuaXZ8B7t0g/7xTiGFBA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1101,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "+pmLqgfq3HqlMCPE1Om1QQ=="
+          "hash": "hZFvALZpyzwf0prAEIDb9g=="
         }
       },
       "is_incremental": false,
@@ -1116,7 +1188,7 @@
           "hash": "chhcf8YXKDk7y5zafSCKbw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1135,31 +1207,29 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because docfx version changed from 2.45.0.0 to 2.47.0.0.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "DocfxVersionChanged"
+        "skipped_file_count": 0
       },
       "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 85,
+          "skipped_file_count": 85
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
+          "skipped_file_count": 12
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 11,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 80,
           "skipped_file_count": 0
         }
       }

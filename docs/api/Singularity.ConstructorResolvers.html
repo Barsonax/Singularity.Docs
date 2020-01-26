@@ -115,10 +115,41 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ConstructorResolvers_Default.md&amp;value=---%0Auid%3A%20Singularity.ConstructorResolvers.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ConstructorResolvers_BestMatch.md&amp;value=---%0Auid%3A%20Singularity.ConstructorResolvers.BestMatch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/ConstructorResolvers.cs/#L11">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Settings/ConstructorResolvers.cs/#L18">View Source</a>
+  </span>
+  <a id="Singularity_ConstructorResolvers_BestMatch_" data-uid="Singularity.ConstructorResolvers.BestMatch*"></a>
+  <h4 id="Singularity_ConstructorResolvers_BestMatch" data-uid="Singularity.ConstructorResolvers.BestMatch">BestMatch</h4>
+  <div class="markdown level1 summary"><p>A resolver that picks the constructor with the most arguments that can still be resolved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConstructorResolver BestMatch { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Singularity.Expressions.IConstructorResolver.html">IConstructorResolver</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ConstructorResolvers_Default.md&amp;value=---%0Auid%3A%20Singularity.ConstructorResolvers.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Settings/ConstructorResolvers.cs/#L13">View Source</a>
   </span>
   <a id="Singularity_ConstructorResolvers_Default_" data-uid="Singularity.ConstructorResolvers.Default*"></a>
   <h4 id="Singularity_ConstructorResolvers_Default" data-uid="Singularity.ConstructorResolvers.Default">Default</h4>
@@ -127,7 +158,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DefaultConstructorResolver Default { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static IConstructorResolver Default { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -139,69 +170,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Singularity.DefaultConstructorResolver.html">DefaultConstructorResolver</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ConstructorResolvers_LeastArguments.md&amp;value=---%0Auid%3A%20Singularity.ConstructorResolvers.LeastArguments%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/ConstructorResolvers.cs/#L21">View Source</a>
-  </span>
-  <a id="Singularity_ConstructorResolvers_LeastArguments_" data-uid="Singularity.ConstructorResolvers.LeastArguments*"></a>
-  <h4 id="Singularity_ConstructorResolvers_LeastArguments" data-uid="Singularity.ConstructorResolvers.LeastArguments">LeastArguments</h4>
-  <div class="markdown level1 summary"><p>A selector that picks the constructor with the most arguments.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static LeastArgumentsConstructorResolver LeastArguments { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Singularity.LeastArgumentsConstructorResolver.html">LeastArgumentsConstructorResolver</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ConstructorResolvers_MostArguments.md&amp;value=---%0Auid%3A%20Singularity.ConstructorResolvers.MostArguments%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/ConstructorResolvers.cs/#L16">View Source</a>
-  </span>
-  <a id="Singularity_ConstructorResolvers_MostArguments_" data-uid="Singularity.ConstructorResolvers.MostArguments*"></a>
-  <h4 id="Singularity_ConstructorResolvers_MostArguments" data-uid="Singularity.ConstructorResolvers.MostArguments">MostArguments</h4>
-  <div class="markdown level1 summary"><p>A selector that picks the constructor with the most arguments.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MostArgumentsConstructorResolver MostArguments { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Singularity.MostArgumentsConstructorResolver.html">MostArgumentsConstructorResolver</a></td>
+        <td><a class="xref" href="Singularity.Expressions.IConstructorResolver.html">IConstructorResolver</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -214,10 +183,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ConstructorResolvers.md&amp;value=---%0Auid%3A%20Singularity.ConstructorResolvers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ConstructorResolvers.md&amp;value=---%0Auid%3A%20Singularity.ConstructorResolvers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Settings/ConstructorResolvers.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Settings/ConstructorResolvers.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

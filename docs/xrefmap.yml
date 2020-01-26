@@ -7,6 +7,122 @@ references:
   commentId: N:Singularity
   fullName: Singularity
   nameWithType: Singularity
+- uid: Singularity.BestMatchConstructorResolver
+  name: BestMatchConstructorResolver
+  href: api/Singularity.BestMatchConstructorResolver.html
+  commentId: T:Singularity.BestMatchConstructorResolver
+  fullName: Singularity.BestMatchConstructorResolver
+  nameWithType: BestMatchConstructorResolver
+- uid: Singularity.BestMatchConstructorResolver.DynamicSelectConstructor(System.Type,Singularity.Resolving.IInstanceFactoryResolver)
+  name: DynamicSelectConstructor(Type, IInstanceFactoryResolver)
+  href: api/Singularity.BestMatchConstructorResolver.html#Singularity_BestMatchConstructorResolver_DynamicSelectConstructor_System_Type_Singularity_Resolving_IInstanceFactoryResolver_
+  commentId: M:Singularity.BestMatchConstructorResolver.DynamicSelectConstructor(System.Type,Singularity.Resolving.IInstanceFactoryResolver)
+  fullName: Singularity.BestMatchConstructorResolver.DynamicSelectConstructor(System.Type, Singularity.Resolving.IInstanceFactoryResolver)
+  nameWithType: BestMatchConstructorResolver.DynamicSelectConstructor(Type, IInstanceFactoryResolver)
+- uid: Singularity.BestMatchConstructorResolver.DynamicSelectConstructor*
+  name: DynamicSelectConstructor
+  href: api/Singularity.BestMatchConstructorResolver.html#Singularity_BestMatchConstructorResolver_DynamicSelectConstructor_
+  commentId: Overload:Singularity.BestMatchConstructorResolver.DynamicSelectConstructor
+  isSpec: "True"
+  fullName: Singularity.BestMatchConstructorResolver.DynamicSelectConstructor
+  nameWithType: BestMatchConstructorResolver.DynamicSelectConstructor
+- uid: Singularity.BestMatchConstructorResolver.ResolveConstructorExpression(System.Type,System.Reflection.ConstructorInfo)
+  name: ResolveConstructorExpression(Type, ConstructorInfo)
+  href: api/Singularity.BestMatchConstructorResolver.html#Singularity_BestMatchConstructorResolver_ResolveConstructorExpression_System_Type_System_Reflection_ConstructorInfo_
+  commentId: M:Singularity.BestMatchConstructorResolver.ResolveConstructorExpression(System.Type,System.Reflection.ConstructorInfo)
+  fullName: Singularity.BestMatchConstructorResolver.ResolveConstructorExpression(System.Type, System.Reflection.ConstructorInfo)
+  nameWithType: BestMatchConstructorResolver.ResolveConstructorExpression(Type, ConstructorInfo)
+- uid: Singularity.BestMatchConstructorResolver.ResolveConstructorExpression*
+  name: ResolveConstructorExpression
+  href: api/Singularity.BestMatchConstructorResolver.html#Singularity_BestMatchConstructorResolver_ResolveConstructorExpression_
+  commentId: Overload:Singularity.BestMatchConstructorResolver.ResolveConstructorExpression
+  isSpec: "True"
+  fullName: Singularity.BestMatchConstructorResolver.ResolveConstructorExpression
+  nameWithType: BestMatchConstructorResolver.ResolveConstructorExpression
+- uid: Singularity.BestMatchConstructorResolver.StaticSelectConstructor(System.Type)
+  name: StaticSelectConstructor(Type)
+  href: api/Singularity.BestMatchConstructorResolver.html#Singularity_BestMatchConstructorResolver_StaticSelectConstructor_System_Type_
+  commentId: M:Singularity.BestMatchConstructorResolver.StaticSelectConstructor(System.Type)
+  fullName: Singularity.BestMatchConstructorResolver.StaticSelectConstructor(System.Type)
+  nameWithType: BestMatchConstructorResolver.StaticSelectConstructor(Type)
+- uid: Singularity.BestMatchConstructorResolver.StaticSelectConstructor*
+  name: StaticSelectConstructor
+  href: api/Singularity.BestMatchConstructorResolver.html#Singularity_BestMatchConstructorResolver_StaticSelectConstructor_
+  commentId: Overload:Singularity.BestMatchConstructorResolver.StaticSelectConstructor
+  isSpec: "True"
+  fullName: Singularity.BestMatchConstructorResolver.StaticSelectConstructor
+  nameWithType: BestMatchConstructorResolver.StaticSelectConstructor
+- uid: Singularity.BindingMetadata
+  name: BindingMetadata
+  href: api/Singularity.BindingMetadata.html
+  commentId: T:Singularity.BindingMetadata
+  fullName: Singularity.BindingMetadata
+  nameWithType: BindingMetadata
+- uid: Singularity.BindingMetadata.CreatorFilePath
+  name: CreatorFilePath
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_CreatorFilePath
+  commentId: P:Singularity.BindingMetadata.CreatorFilePath
+  fullName: Singularity.BindingMetadata.CreatorFilePath
+  nameWithType: BindingMetadata.CreatorFilePath
+- uid: Singularity.BindingMetadata.CreatorFilePath*
+  name: CreatorFilePath
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_CreatorFilePath_
+  commentId: Overload:Singularity.BindingMetadata.CreatorFilePath
+  isSpec: "True"
+  fullName: Singularity.BindingMetadata.CreatorFilePath
+  nameWithType: BindingMetadata.CreatorFilePath
+- uid: Singularity.BindingMetadata.CreatorLineNumber
+  name: CreatorLineNumber
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_CreatorLineNumber
+  commentId: P:Singularity.BindingMetadata.CreatorLineNumber
+  fullName: Singularity.BindingMetadata.CreatorLineNumber
+  nameWithType: BindingMetadata.CreatorLineNumber
+- uid: Singularity.BindingMetadata.CreatorLineNumber*
+  name: CreatorLineNumber
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_CreatorLineNumber_
+  commentId: Overload:Singularity.BindingMetadata.CreatorLineNumber
+  isSpec: "True"
+  fullName: Singularity.BindingMetadata.CreatorLineNumber
+  nameWithType: BindingMetadata.CreatorLineNumber
+- uid: Singularity.BindingMetadata.Generated
+  name: Generated
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_Generated
+  commentId: P:Singularity.BindingMetadata.Generated
+  fullName: Singularity.BindingMetadata.Generated
+  nameWithType: BindingMetadata.Generated
+- uid: Singularity.BindingMetadata.Generated*
+  name: Generated
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_Generated_
+  commentId: Overload:Singularity.BindingMetadata.Generated
+  isSpec: "True"
+  fullName: Singularity.BindingMetadata.Generated
+  nameWithType: BindingMetadata.Generated
+- uid: Singularity.BindingMetadata.ModuleType
+  name: ModuleType
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_ModuleType
+  commentId: P:Singularity.BindingMetadata.ModuleType
+  fullName: Singularity.BindingMetadata.ModuleType
+  nameWithType: BindingMetadata.ModuleType
+- uid: Singularity.BindingMetadata.ModuleType*
+  name: ModuleType
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_ModuleType_
+  commentId: Overload:Singularity.BindingMetadata.ModuleType
+  isSpec: "True"
+  fullName: Singularity.BindingMetadata.ModuleType
+  nameWithType: BindingMetadata.ModuleType
+- uid: Singularity.BindingMetadata.ToString
+  name: ToString()
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_ToString
+  commentId: M:Singularity.BindingMetadata.ToString
+  fullName: Singularity.BindingMetadata.ToString()
+  nameWithType: BindingMetadata.ToString()
+- uid: Singularity.BindingMetadata.ToString*
+  name: ToString
+  href: api/Singularity.BindingMetadata.html#Singularity_BindingMetadata_ToString_
+  commentId: Overload:Singularity.BindingMetadata.ToString
+  isSpec: "True"
+  fullName: Singularity.BindingMetadata.ToString
+  nameWithType: BindingMetadata.ToString
 - uid: Singularity.Collections
   name: Singularity.Collections
   href: api/Singularity.Collections.html
@@ -135,6 +251,140 @@ references:
   fullName.vb: Singularity.Collections.ArrayList(Of T).System.Collections.IEnumerable.GetEnumerator
   nameWithType: ArrayList<T>.IEnumerable.GetEnumerator
   nameWithType.vb: ArrayList(Of T).System.Collections.IEnumerable.GetEnumerator
+- uid: Singularity.Collections.ConfigurationList`1
+  name: ConfigurationList<T>
+  href: api/Singularity.Collections.ConfigurationList-1.html
+  commentId: T:Singularity.Collections.ConfigurationList`1
+  name.vb: ConfigurationList(Of T)
+  fullName: Singularity.Collections.ConfigurationList<T>
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T)
+  nameWithType: ConfigurationList<T>
+  nameWithType.vb: ConfigurationList(Of T)
+- uid: Singularity.Collections.ConfigurationList`1.Add(`0)
+  name: Add(T)
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_Add__0_
+  commentId: M:Singularity.Collections.ConfigurationList`1.Add(`0)
+  fullName: Singularity.Collections.ConfigurationList<T>.Add(T)
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).Add(T)
+  nameWithType: ConfigurationList<T>.Add(T)
+  nameWithType.vb: ConfigurationList(Of T).Add(T)
+- uid: Singularity.Collections.ConfigurationList`1.Add*
+  name: Add
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_Add_
+  commentId: Overload:Singularity.Collections.ConfigurationList`1.Add
+  isSpec: "True"
+  fullName: Singularity.Collections.ConfigurationList<T>.Add
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).Add
+  nameWithType: ConfigurationList<T>.Add
+  nameWithType.vb: ConfigurationList(Of T).Add
+- uid: Singularity.Collections.ConfigurationList`1.After(System.Func{`0,System.Boolean},`0)
+  name: After(Func<T, Boolean>, T)
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_After_System_Func__0_System_Boolean___0_
+  commentId: M:Singularity.Collections.ConfigurationList`1.After(System.Func{`0,System.Boolean},`0)
+  name.vb: After(Func(Of T, Boolean), T)
+  fullName: Singularity.Collections.ConfigurationList<T>.After(System.Func<T, System.Boolean>, T)
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).After(System.Func(Of T, System.Boolean), T)
+  nameWithType: ConfigurationList<T>.After(Func<T, Boolean>, T)
+  nameWithType.vb: ConfigurationList(Of T).After(Func(Of T, Boolean), T)
+- uid: Singularity.Collections.ConfigurationList`1.After*
+  name: After
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_After_
+  commentId: Overload:Singularity.Collections.ConfigurationList`1.After
+  isSpec: "True"
+  fullName: Singularity.Collections.ConfigurationList<T>.After
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).After
+  nameWithType: ConfigurationList<T>.After
+  nameWithType.vb: ConfigurationList(Of T).After
+- uid: Singularity.Collections.ConfigurationList`1.Before(System.Func{`0,System.Boolean},`0)
+  name: Before(Func<T, Boolean>, T)
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_Before_System_Func__0_System_Boolean___0_
+  commentId: M:Singularity.Collections.ConfigurationList`1.Before(System.Func{`0,System.Boolean},`0)
+  name.vb: Before(Func(Of T, Boolean), T)
+  fullName: Singularity.Collections.ConfigurationList<T>.Before(System.Func<T, System.Boolean>, T)
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).Before(System.Func(Of T, System.Boolean), T)
+  nameWithType: ConfigurationList<T>.Before(Func<T, Boolean>, T)
+  nameWithType.vb: ConfigurationList(Of T).Before(Func(Of T, Boolean), T)
+- uid: Singularity.Collections.ConfigurationList`1.Before*
+  name: Before
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_Before_
+  commentId: Overload:Singularity.Collections.ConfigurationList`1.Before
+  isSpec: "True"
+  fullName: Singularity.Collections.ConfigurationList<T>.Before
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).Before
+  nameWithType: ConfigurationList<T>.Before
+  nameWithType.vb: ConfigurationList(Of T).Before
+- uid: Singularity.Collections.ConfigurationList`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_GetEnumerator
+  commentId: M:Singularity.Collections.ConfigurationList`1.GetEnumerator
+  fullName: Singularity.Collections.ConfigurationList<T>.GetEnumerator()
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).GetEnumerator()
+  nameWithType: ConfigurationList<T>.GetEnumerator()
+  nameWithType.vb: ConfigurationList(Of T).GetEnumerator()
+- uid: Singularity.Collections.ConfigurationList`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_GetEnumerator_
+  commentId: Overload:Singularity.Collections.ConfigurationList`1.GetEnumerator
+  isSpec: "True"
+  fullName: Singularity.Collections.ConfigurationList<T>.GetEnumerator
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).GetEnumerator
+  nameWithType: ConfigurationList<T>.GetEnumerator
+  nameWithType.vb: ConfigurationList(Of T).GetEnumerator
+- uid: Singularity.Collections.ConfigurationList`1.Remove(System.Func{`0,System.Boolean})
+  name: Remove(Func<T, Boolean>)
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_Remove_System_Func__0_System_Boolean__
+  commentId: M:Singularity.Collections.ConfigurationList`1.Remove(System.Func{`0,System.Boolean})
+  name.vb: Remove(Func(Of T, Boolean))
+  fullName: Singularity.Collections.ConfigurationList<T>.Remove(System.Func<T, System.Boolean>)
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).Remove(System.Func(Of T, System.Boolean))
+  nameWithType: ConfigurationList<T>.Remove(Func<T, Boolean>)
+  nameWithType.vb: ConfigurationList(Of T).Remove(Func(Of T, Boolean))
+- uid: Singularity.Collections.ConfigurationList`1.Remove*
+  name: Remove
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_Remove_
+  commentId: Overload:Singularity.Collections.ConfigurationList`1.Remove
+  isSpec: "True"
+  fullName: Singularity.Collections.ConfigurationList<T>.Remove
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).Remove
+  nameWithType: ConfigurationList<T>.Remove
+  nameWithType.vb: ConfigurationList(Of T).Remove
+- uid: Singularity.Collections.ConfigurationList`1.Replace(System.Func{`0,System.Boolean},`0)
+  name: Replace(Func<T, Boolean>, T)
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_Replace_System_Func__0_System_Boolean___0_
+  commentId: M:Singularity.Collections.ConfigurationList`1.Replace(System.Func{`0,System.Boolean},`0)
+  name.vb: Replace(Func(Of T, Boolean), T)
+  fullName: Singularity.Collections.ConfigurationList<T>.Replace(System.Func<T, System.Boolean>, T)
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).Replace(System.Func(Of T, System.Boolean), T)
+  nameWithType: ConfigurationList<T>.Replace(Func<T, Boolean>, T)
+  nameWithType.vb: ConfigurationList(Of T).Replace(Func(Of T, Boolean), T)
+- uid: Singularity.Collections.ConfigurationList`1.Replace*
+  name: Replace
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_Replace_
+  commentId: Overload:Singularity.Collections.ConfigurationList`1.Replace
+  isSpec: "True"
+  fullName: Singularity.Collections.ConfigurationList<T>.Replace
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).Replace
+  nameWithType: ConfigurationList<T>.Replace
+  nameWithType.vb: ConfigurationList(Of T).Replace
+- uid: Singularity.Collections.ConfigurationList`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:Singularity.Collections.ConfigurationList`1.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: Singularity.Collections.ConfigurationList<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: ConfigurationList<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: ConfigurationList(Of T).System.Collections.IEnumerable.GetEnumerator()
+- uid: Singularity.Collections.ConfigurationList`1.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/Singularity.Collections.ConfigurationList-1.html#Singularity_Collections_ConfigurationList_1_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:Singularity.Collections.ConfigurationList`1.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: Singularity.Collections.ConfigurationList<T>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: Singularity.Collections.ConfigurationList(Of T).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ConfigurationList<T>.IEnumerable.GetEnumerator
+  nameWithType.vb: ConfigurationList(Of T).System.Collections.IEnumerable.GetEnumerator
 - uid: Singularity.Collections.SinglyLinkedListKeyNode`2
   name: SinglyLinkedListKeyNode<TKey, TValue>
   href: api/Singularity.Collections.SinglyLinkedListKeyNode-2.html
@@ -540,6 +790,44 @@ references:
   fullName.vb: Singularity.Collections.SinglyLinkedListNode(Of T).Value
   nameWithType: SinglyLinkedListNode<T>.Value
   nameWithType.vb: SinglyLinkedListNode(Of T).Value
+- uid: Singularity.Collections.SinglyLinkedListNodeExtensions
+  name: SinglyLinkedListNodeExtensions
+  href: api/Singularity.Collections.SinglyLinkedListNodeExtensions.html
+  commentId: T:Singularity.Collections.SinglyLinkedListNodeExtensions
+  fullName: Singularity.Collections.SinglyLinkedListNodeExtensions
+  nameWithType: SinglyLinkedListNodeExtensions
+- uid: Singularity.Collections.SinglyLinkedListNodeExtensions.Add*
+  name: Add
+  href: api/Singularity.Collections.SinglyLinkedListNodeExtensions.html#Singularity_Collections_SinglyLinkedListNodeExtensions_Add_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListNodeExtensions.Add
+  isSpec: "True"
+  fullName: Singularity.Collections.SinglyLinkedListNodeExtensions.Add
+  nameWithType: SinglyLinkedListNodeExtensions.Add
+- uid: Singularity.Collections.SinglyLinkedListNodeExtensions.Add``1(Singularity.Collections.SinglyLinkedListNode{``0},``0@)
+  name: Add<T>(SinglyLinkedListNode<T>, T)
+  href: api/Singularity.Collections.SinglyLinkedListNodeExtensions.html#Singularity_Collections_SinglyLinkedListNodeExtensions_Add__1_Singularity_Collections_SinglyLinkedListNode___0____0__
+  commentId: M:Singularity.Collections.SinglyLinkedListNodeExtensions.Add``1(Singularity.Collections.SinglyLinkedListNode{``0},``0@)
+  name.vb: Add(Of T)(SinglyLinkedListNode(Of T), ByRef T)
+  fullName: Singularity.Collections.SinglyLinkedListNodeExtensions.Add<T>(Singularity.Collections.SinglyLinkedListNode<T>, T)
+  fullName.vb: Singularity.Collections.SinglyLinkedListNodeExtensions.Add(Of T)(Singularity.Collections.SinglyLinkedListNode(Of T), ByRef T)
+  nameWithType: SinglyLinkedListNodeExtensions.Add<T>(SinglyLinkedListNode<T>, T)
+  nameWithType.vb: SinglyLinkedListNodeExtensions.Add(Of T)(SinglyLinkedListNode(Of T), ByRef T)
+- uid: Singularity.Collections.SinglyLinkedListNodeExtensions.ToSinglyLinkedList*
+  name: ToSinglyLinkedList
+  href: api/Singularity.Collections.SinglyLinkedListNodeExtensions.html#Singularity_Collections_SinglyLinkedListNodeExtensions_ToSinglyLinkedList_
+  commentId: Overload:Singularity.Collections.SinglyLinkedListNodeExtensions.ToSinglyLinkedList
+  isSpec: "True"
+  fullName: Singularity.Collections.SinglyLinkedListNodeExtensions.ToSinglyLinkedList
+  nameWithType: SinglyLinkedListNodeExtensions.ToSinglyLinkedList
+- uid: Singularity.Collections.SinglyLinkedListNodeExtensions.ToSinglyLinkedList``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToSinglyLinkedList<T>(IEnumerable<T>)
+  href: api/Singularity.Collections.SinglyLinkedListNodeExtensions.html#Singularity_Collections_SinglyLinkedListNodeExtensions_ToSinglyLinkedList__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Singularity.Collections.SinglyLinkedListNodeExtensions.ToSinglyLinkedList``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToSinglyLinkedList(Of T)(IEnumerable(Of T))
+  fullName: Singularity.Collections.SinglyLinkedListNodeExtensions.ToSinglyLinkedList<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Singularity.Collections.SinglyLinkedListNodeExtensions.ToSinglyLinkedList(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: SinglyLinkedListNodeExtensions.ToSinglyLinkedList<T>(IEnumerable<T>)
+  nameWithType.vb: SinglyLinkedListNodeExtensions.ToSinglyLinkedList(Of T)(IEnumerable(Of T))
 - uid: Singularity.ConfigurationExtensions
   name: ConfigurationExtensions
   href: api/Singularity.ConfigurationExtensions.html
@@ -598,12 +886,115 @@ references:
   isSpec: "True"
   fullName: Singularity.ConfigurationExtensions.RegisterServices
   nameWithType: ConfigurationExtensions.RegisterServices
+- uid: Singularity.ConstructorResolverCache
+  name: ConstructorResolverCache
+  href: api/Singularity.ConstructorResolverCache.html
+  commentId: T:Singularity.ConstructorResolverCache
+  fullName: Singularity.ConstructorResolverCache
+  nameWithType: ConstructorResolverCache
+- uid: Singularity.ConstructorResolverCache.#ctor(Singularity.Expressions.IConstructorResolver)
+  name: ConstructorResolverCache(IConstructorResolver)
+  href: api/Singularity.ConstructorResolverCache.html#Singularity_ConstructorResolverCache__ctor_Singularity_Expressions_IConstructorResolver_
+  commentId: M:Singularity.ConstructorResolverCache.#ctor(Singularity.Expressions.IConstructorResolver)
+  fullName: Singularity.ConstructorResolverCache.ConstructorResolverCache(Singularity.Expressions.IConstructorResolver)
+  nameWithType: ConstructorResolverCache.ConstructorResolverCache(IConstructorResolver)
+- uid: Singularity.ConstructorResolverCache.#ctor*
+  name: ConstructorResolverCache
+  href: api/Singularity.ConstructorResolverCache.html#Singularity_ConstructorResolverCache__ctor_
+  commentId: Overload:Singularity.ConstructorResolverCache.#ctor
+  isSpec: "True"
+  fullName: Singularity.ConstructorResolverCache.ConstructorResolverCache
+  nameWithType: ConstructorResolverCache.ConstructorResolverCache
+- uid: Singularity.ConstructorResolverCache.DynamicSelectConstructor(System.Type,Singularity.Resolving.IInstanceFactoryResolver)
+  name: DynamicSelectConstructor(Type, IInstanceFactoryResolver)
+  href: api/Singularity.ConstructorResolverCache.html#Singularity_ConstructorResolverCache_DynamicSelectConstructor_System_Type_Singularity_Resolving_IInstanceFactoryResolver_
+  commentId: M:Singularity.ConstructorResolverCache.DynamicSelectConstructor(System.Type,Singularity.Resolving.IInstanceFactoryResolver)
+  fullName: Singularity.ConstructorResolverCache.DynamicSelectConstructor(System.Type, Singularity.Resolving.IInstanceFactoryResolver)
+  nameWithType: ConstructorResolverCache.DynamicSelectConstructor(Type, IInstanceFactoryResolver)
+- uid: Singularity.ConstructorResolverCache.DynamicSelectConstructor*
+  name: DynamicSelectConstructor
+  href: api/Singularity.ConstructorResolverCache.html#Singularity_ConstructorResolverCache_DynamicSelectConstructor_
+  commentId: Overload:Singularity.ConstructorResolverCache.DynamicSelectConstructor
+  isSpec: "True"
+  fullName: Singularity.ConstructorResolverCache.DynamicSelectConstructor
+  nameWithType: ConstructorResolverCache.DynamicSelectConstructor
+- uid: Singularity.ConstructorResolverCache.ResolveConstructorExpression(System.Type,System.Reflection.ConstructorInfo)
+  name: ResolveConstructorExpression(Type, ConstructorInfo)
+  href: api/Singularity.ConstructorResolverCache.html#Singularity_ConstructorResolverCache_ResolveConstructorExpression_System_Type_System_Reflection_ConstructorInfo_
+  commentId: M:Singularity.ConstructorResolverCache.ResolveConstructorExpression(System.Type,System.Reflection.ConstructorInfo)
+  fullName: Singularity.ConstructorResolverCache.ResolveConstructorExpression(System.Type, System.Reflection.ConstructorInfo)
+  nameWithType: ConstructorResolverCache.ResolveConstructorExpression(Type, ConstructorInfo)
+- uid: Singularity.ConstructorResolverCache.ResolveConstructorExpression*
+  name: ResolveConstructorExpression
+  href: api/Singularity.ConstructorResolverCache.html#Singularity_ConstructorResolverCache_ResolveConstructorExpression_
+  commentId: Overload:Singularity.ConstructorResolverCache.ResolveConstructorExpression
+  isSpec: "True"
+  fullName: Singularity.ConstructorResolverCache.ResolveConstructorExpression
+  nameWithType: ConstructorResolverCache.ResolveConstructorExpression
+- uid: Singularity.ConstructorResolverCache.StaticSelectConstructor(System.Type)
+  name: StaticSelectConstructor(Type)
+  href: api/Singularity.ConstructorResolverCache.html#Singularity_ConstructorResolverCache_StaticSelectConstructor_System_Type_
+  commentId: M:Singularity.ConstructorResolverCache.StaticSelectConstructor(System.Type)
+  fullName: Singularity.ConstructorResolverCache.StaticSelectConstructor(System.Type)
+  nameWithType: ConstructorResolverCache.StaticSelectConstructor(Type)
+- uid: Singularity.ConstructorResolverCache.StaticSelectConstructor*
+  name: StaticSelectConstructor
+  href: api/Singularity.ConstructorResolverCache.html#Singularity_ConstructorResolverCache_StaticSelectConstructor_
+  commentId: Overload:Singularity.ConstructorResolverCache.StaticSelectConstructor
+  isSpec: "True"
+  fullName: Singularity.ConstructorResolverCache.StaticSelectConstructor
+  nameWithType: ConstructorResolverCache.StaticSelectConstructor
+- uid: Singularity.ConstructorResolverExtensions
+  name: ConstructorResolverExtensions
+  href: api/Singularity.ConstructorResolverExtensions.html
+  commentId: T:Singularity.ConstructorResolverExtensions
+  fullName: Singularity.ConstructorResolverExtensions
+  nameWithType: ConstructorResolverExtensions
+- uid: Singularity.ConstructorResolverExtensions.GetConstructorCandidates(System.Type)
+  name: GetConstructorCandidates(Type)
+  href: api/Singularity.ConstructorResolverExtensions.html#Singularity_ConstructorResolverExtensions_GetConstructorCandidates_System_Type_
+  commentId: M:Singularity.ConstructorResolverExtensions.GetConstructorCandidates(System.Type)
+  fullName: Singularity.ConstructorResolverExtensions.GetConstructorCandidates(System.Type)
+  nameWithType: ConstructorResolverExtensions.GetConstructorCandidates(Type)
+- uid: Singularity.ConstructorResolverExtensions.GetConstructorCandidates*
+  name: GetConstructorCandidates
+  href: api/Singularity.ConstructorResolverExtensions.html#Singularity_ConstructorResolverExtensions_GetConstructorCandidates_
+  commentId: Overload:Singularity.ConstructorResolverExtensions.GetConstructorCandidates
+  isSpec: "True"
+  fullName: Singularity.ConstructorResolverExtensions.GetConstructorCandidates
+  nameWithType: ConstructorResolverExtensions.GetConstructorCandidates
+- uid: Singularity.ConstructorResolverExtensions.ResolveConstructorExpression(Singularity.Expressions.IConstructorResolver,System.Type)
+  name: ResolveConstructorExpression(IConstructorResolver, Type)
+  href: api/Singularity.ConstructorResolverExtensions.html#Singularity_ConstructorResolverExtensions_ResolveConstructorExpression_Singularity_Expressions_IConstructorResolver_System_Type_
+  commentId: M:Singularity.ConstructorResolverExtensions.ResolveConstructorExpression(Singularity.Expressions.IConstructorResolver,System.Type)
+  fullName: Singularity.ConstructorResolverExtensions.ResolveConstructorExpression(Singularity.Expressions.IConstructorResolver, System.Type)
+  nameWithType: ConstructorResolverExtensions.ResolveConstructorExpression(IConstructorResolver, Type)
+- uid: Singularity.ConstructorResolverExtensions.ResolveConstructorExpression*
+  name: ResolveConstructorExpression
+  href: api/Singularity.ConstructorResolverExtensions.html#Singularity_ConstructorResolverExtensions_ResolveConstructorExpression_
+  commentId: Overload:Singularity.ConstructorResolverExtensions.ResolveConstructorExpression
+  isSpec: "True"
+  fullName: Singularity.ConstructorResolverExtensions.ResolveConstructorExpression
+  nameWithType: ConstructorResolverExtensions.ResolveConstructorExpression
 - uid: Singularity.ConstructorResolvers
   name: ConstructorResolvers
   href: api/Singularity.ConstructorResolvers.html
   commentId: T:Singularity.ConstructorResolvers
   fullName: Singularity.ConstructorResolvers
   nameWithType: ConstructorResolvers
+- uid: Singularity.ConstructorResolvers.BestMatch
+  name: BestMatch
+  href: api/Singularity.ConstructorResolvers.html#Singularity_ConstructorResolvers_BestMatch
+  commentId: P:Singularity.ConstructorResolvers.BestMatch
+  fullName: Singularity.ConstructorResolvers.BestMatch
+  nameWithType: ConstructorResolvers.BestMatch
+- uid: Singularity.ConstructorResolvers.BestMatch*
+  name: BestMatch
+  href: api/Singularity.ConstructorResolvers.html#Singularity_ConstructorResolvers_BestMatch_
+  commentId: Overload:Singularity.ConstructorResolvers.BestMatch
+  isSpec: "True"
+  fullName: Singularity.ConstructorResolvers.BestMatch
+  nameWithType: ConstructorResolvers.BestMatch
 - uid: Singularity.ConstructorResolvers.Default
   name: Default
   href: api/Singularity.ConstructorResolvers.html#Singularity_ConstructorResolvers_Default
@@ -617,32 +1008,6 @@ references:
   isSpec: "True"
   fullName: Singularity.ConstructorResolvers.Default
   nameWithType: ConstructorResolvers.Default
-- uid: Singularity.ConstructorResolvers.LeastArguments
-  name: LeastArguments
-  href: api/Singularity.ConstructorResolvers.html#Singularity_ConstructorResolvers_LeastArguments
-  commentId: P:Singularity.ConstructorResolvers.LeastArguments
-  fullName: Singularity.ConstructorResolvers.LeastArguments
-  nameWithType: ConstructorResolvers.LeastArguments
-- uid: Singularity.ConstructorResolvers.LeastArguments*
-  name: LeastArguments
-  href: api/Singularity.ConstructorResolvers.html#Singularity_ConstructorResolvers_LeastArguments_
-  commentId: Overload:Singularity.ConstructorResolvers.LeastArguments
-  isSpec: "True"
-  fullName: Singularity.ConstructorResolvers.LeastArguments
-  nameWithType: ConstructorResolvers.LeastArguments
-- uid: Singularity.ConstructorResolvers.MostArguments
-  name: MostArguments
-  href: api/Singularity.ConstructorResolvers.html#Singularity_ConstructorResolvers_MostArguments
-  commentId: P:Singularity.ConstructorResolvers.MostArguments
-  fullName: Singularity.ConstructorResolvers.MostArguments
-  nameWithType: ConstructorResolvers.MostArguments
-- uid: Singularity.ConstructorResolvers.MostArguments*
-  name: MostArguments
-  href: api/Singularity.ConstructorResolvers.html#Singularity_ConstructorResolvers_MostArguments_
-  commentId: Overload:Singularity.ConstructorResolvers.MostArguments
-  isSpec: "True"
-  fullName: Singularity.ConstructorResolvers.MostArguments
-  nameWithType: ConstructorResolvers.MostArguments
 - uid: Singularity.Container
   name: Container
   href: api/Singularity.Container.html
@@ -995,32 +1360,45 @@ references:
   commentId: T:Singularity.DefaultConstructorResolver
   fullName: Singularity.DefaultConstructorResolver
   nameWithType: DefaultConstructorResolver
-- uid: Singularity.DefaultConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  name: AutoResolveConstructorExpression(Type)
-  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_AutoResolveConstructorExpression_System_Type_
-  commentId: M:Singularity.DefaultConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  fullName: Singularity.DefaultConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  nameWithType: DefaultConstructorResolver.AutoResolveConstructorExpression(Type)
-- uid: Singularity.DefaultConstructorResolver.AutoResolveConstructorExpression*
-  name: AutoResolveConstructorExpression
-  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_AutoResolveConstructorExpression_
-  commentId: Overload:Singularity.DefaultConstructorResolver.AutoResolveConstructorExpression
+- uid: Singularity.DefaultConstructorResolver.DynamicSelectConstructor(System.Type,Singularity.Resolving.IInstanceFactoryResolver)
+  name: DynamicSelectConstructor(Type, IInstanceFactoryResolver)
+  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_DynamicSelectConstructor_System_Type_Singularity_Resolving_IInstanceFactoryResolver_
+  commentId: M:Singularity.DefaultConstructorResolver.DynamicSelectConstructor(System.Type,Singularity.Resolving.IInstanceFactoryResolver)
+  fullName: Singularity.DefaultConstructorResolver.DynamicSelectConstructor(System.Type, Singularity.Resolving.IInstanceFactoryResolver)
+  nameWithType: DefaultConstructorResolver.DynamicSelectConstructor(Type, IInstanceFactoryResolver)
+- uid: Singularity.DefaultConstructorResolver.DynamicSelectConstructor*
+  name: DynamicSelectConstructor
+  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_DynamicSelectConstructor_
+  commentId: Overload:Singularity.DefaultConstructorResolver.DynamicSelectConstructor
   isSpec: "True"
-  fullName: Singularity.DefaultConstructorResolver.AutoResolveConstructorExpression
-  nameWithType: DefaultConstructorResolver.AutoResolveConstructorExpression
-- uid: Singularity.DefaultConstructorResolver.SelectConstructor(System.Type)
-  name: SelectConstructor(Type)
-  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_SelectConstructor_System_Type_
-  commentId: M:Singularity.DefaultConstructorResolver.SelectConstructor(System.Type)
-  fullName: Singularity.DefaultConstructorResolver.SelectConstructor(System.Type)
-  nameWithType: DefaultConstructorResolver.SelectConstructor(Type)
-- uid: Singularity.DefaultConstructorResolver.SelectConstructor*
-  name: SelectConstructor
-  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_SelectConstructor_
-  commentId: Overload:Singularity.DefaultConstructorResolver.SelectConstructor
+  fullName: Singularity.DefaultConstructorResolver.DynamicSelectConstructor
+  nameWithType: DefaultConstructorResolver.DynamicSelectConstructor
+- uid: Singularity.DefaultConstructorResolver.ResolveConstructorExpression(System.Type,System.Reflection.ConstructorInfo)
+  name: ResolveConstructorExpression(Type, ConstructorInfo)
+  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_ResolveConstructorExpression_System_Type_System_Reflection_ConstructorInfo_
+  commentId: M:Singularity.DefaultConstructorResolver.ResolveConstructorExpression(System.Type,System.Reflection.ConstructorInfo)
+  fullName: Singularity.DefaultConstructorResolver.ResolveConstructorExpression(System.Type, System.Reflection.ConstructorInfo)
+  nameWithType: DefaultConstructorResolver.ResolveConstructorExpression(Type, ConstructorInfo)
+- uid: Singularity.DefaultConstructorResolver.ResolveConstructorExpression*
+  name: ResolveConstructorExpression
+  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_ResolveConstructorExpression_
+  commentId: Overload:Singularity.DefaultConstructorResolver.ResolveConstructorExpression
   isSpec: "True"
-  fullName: Singularity.DefaultConstructorResolver.SelectConstructor
-  nameWithType: DefaultConstructorResolver.SelectConstructor
+  fullName: Singularity.DefaultConstructorResolver.ResolveConstructorExpression
+  nameWithType: DefaultConstructorResolver.ResolveConstructorExpression
+- uid: Singularity.DefaultConstructorResolver.StaticSelectConstructor(System.Type)
+  name: StaticSelectConstructor(Type)
+  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_StaticSelectConstructor_System_Type_
+  commentId: M:Singularity.DefaultConstructorResolver.StaticSelectConstructor(System.Type)
+  fullName: Singularity.DefaultConstructorResolver.StaticSelectConstructor(System.Type)
+  nameWithType: DefaultConstructorResolver.StaticSelectConstructor(Type)
+- uid: Singularity.DefaultConstructorResolver.StaticSelectConstructor*
+  name: StaticSelectConstructor
+  href: api/Singularity.DefaultConstructorResolver.html#Singularity_DefaultConstructorResolver_StaticSelectConstructor_
+  commentId: Overload:Singularity.DefaultConstructorResolver.StaticSelectConstructor
+  isSpec: "True"
+  fullName: Singularity.DefaultConstructorResolver.StaticSelectConstructor
+  nameWithType: DefaultConstructorResolver.StaticSelectConstructor
 - uid: Singularity.Duality
   name: Singularity.Duality
   href: api/Singularity.Duality.html
@@ -1174,12 +1552,6 @@ references:
   commentId: N:Singularity.Exceptions
   fullName: Singularity.Exceptions
   nameWithType: Singularity.Exceptions
-- uid: Singularity.Exceptions.AbstractTypeResolveException
-  name: AbstractTypeResolveException
-  href: api/Singularity.Exceptions.AbstractTypeResolveException.html
-  commentId: T:Singularity.Exceptions.AbstractTypeResolveException
-  fullName: Singularity.Exceptions.AbstractTypeResolveException
-  nameWithType: AbstractTypeResolveException
 - uid: Singularity.Exceptions.BindingConfigException
   name: BindingConfigException
   href: api/Singularity.Exceptions.BindingConfigException.html
@@ -1314,6 +1686,12 @@ references:
   commentId: T:Singularity.Exceptions.NoConstructorException
   fullName: Singularity.Exceptions.NoConstructorException
   nameWithType: NoConstructorException
+- uid: Singularity.Exceptions.OpenGenericTypeResolveException
+  name: OpenGenericTypeResolveException
+  href: api/Singularity.Exceptions.OpenGenericTypeResolveException.html
+  commentId: T:Singularity.Exceptions.OpenGenericTypeResolveException
+  fullName: Singularity.Exceptions.OpenGenericTypeResolveException
+  nameWithType: OpenGenericTypeResolveException
 - uid: Singularity.Exceptions.RegistrationAlreadyExistsException
   name: RegistrationAlreadyExistsException
   href: api/Singularity.Exceptions.RegistrationAlreadyExistsException.html
@@ -1453,32 +1831,45 @@ references:
   commentId: T:Singularity.Expressions.IConstructorResolver
   fullName: Singularity.Expressions.IConstructorResolver
   nameWithType: IConstructorResolver
-- uid: Singularity.Expressions.IConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  name: AutoResolveConstructorExpression(Type)
-  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_AutoResolveConstructorExpression_System_Type_
-  commentId: M:Singularity.Expressions.IConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  fullName: Singularity.Expressions.IConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  nameWithType: IConstructorResolver.AutoResolveConstructorExpression(Type)
-- uid: Singularity.Expressions.IConstructorResolver.AutoResolveConstructorExpression*
-  name: AutoResolveConstructorExpression
-  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_AutoResolveConstructorExpression_
-  commentId: Overload:Singularity.Expressions.IConstructorResolver.AutoResolveConstructorExpression
+- uid: Singularity.Expressions.IConstructorResolver.DynamicSelectConstructor(System.Type,Singularity.Resolving.IInstanceFactoryResolver)
+  name: DynamicSelectConstructor(Type, IInstanceFactoryResolver)
+  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_DynamicSelectConstructor_System_Type_Singularity_Resolving_IInstanceFactoryResolver_
+  commentId: M:Singularity.Expressions.IConstructorResolver.DynamicSelectConstructor(System.Type,Singularity.Resolving.IInstanceFactoryResolver)
+  fullName: Singularity.Expressions.IConstructorResolver.DynamicSelectConstructor(System.Type, Singularity.Resolving.IInstanceFactoryResolver)
+  nameWithType: IConstructorResolver.DynamicSelectConstructor(Type, IInstanceFactoryResolver)
+- uid: Singularity.Expressions.IConstructorResolver.DynamicSelectConstructor*
+  name: DynamicSelectConstructor
+  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_DynamicSelectConstructor_
+  commentId: Overload:Singularity.Expressions.IConstructorResolver.DynamicSelectConstructor
   isSpec: "True"
-  fullName: Singularity.Expressions.IConstructorResolver.AutoResolveConstructorExpression
-  nameWithType: IConstructorResolver.AutoResolveConstructorExpression
-- uid: Singularity.Expressions.IConstructorResolver.SelectConstructor(System.Type)
-  name: SelectConstructor(Type)
-  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_SelectConstructor_System_Type_
-  commentId: M:Singularity.Expressions.IConstructorResolver.SelectConstructor(System.Type)
-  fullName: Singularity.Expressions.IConstructorResolver.SelectConstructor(System.Type)
-  nameWithType: IConstructorResolver.SelectConstructor(Type)
-- uid: Singularity.Expressions.IConstructorResolver.SelectConstructor*
-  name: SelectConstructor
-  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_SelectConstructor_
-  commentId: Overload:Singularity.Expressions.IConstructorResolver.SelectConstructor
+  fullName: Singularity.Expressions.IConstructorResolver.DynamicSelectConstructor
+  nameWithType: IConstructorResolver.DynamicSelectConstructor
+- uid: Singularity.Expressions.IConstructorResolver.ResolveConstructorExpression(System.Type,System.Reflection.ConstructorInfo)
+  name: ResolveConstructorExpression(Type, ConstructorInfo)
+  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_ResolveConstructorExpression_System_Type_System_Reflection_ConstructorInfo_
+  commentId: M:Singularity.Expressions.IConstructorResolver.ResolveConstructorExpression(System.Type,System.Reflection.ConstructorInfo)
+  fullName: Singularity.Expressions.IConstructorResolver.ResolveConstructorExpression(System.Type, System.Reflection.ConstructorInfo)
+  nameWithType: IConstructorResolver.ResolveConstructorExpression(Type, ConstructorInfo)
+- uid: Singularity.Expressions.IConstructorResolver.ResolveConstructorExpression*
+  name: ResolveConstructorExpression
+  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_ResolveConstructorExpression_
+  commentId: Overload:Singularity.Expressions.IConstructorResolver.ResolveConstructorExpression
   isSpec: "True"
-  fullName: Singularity.Expressions.IConstructorResolver.SelectConstructor
-  nameWithType: IConstructorResolver.SelectConstructor
+  fullName: Singularity.Expressions.IConstructorResolver.ResolveConstructorExpression
+  nameWithType: IConstructorResolver.ResolveConstructorExpression
+- uid: Singularity.Expressions.IConstructorResolver.StaticSelectConstructor(System.Type)
+  name: StaticSelectConstructor(Type)
+  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_StaticSelectConstructor_System_Type_
+  commentId: M:Singularity.Expressions.IConstructorResolver.StaticSelectConstructor(System.Type)
+  fullName: Singularity.Expressions.IConstructorResolver.StaticSelectConstructor(System.Type)
+  nameWithType: IConstructorResolver.StaticSelectConstructor(Type)
+- uid: Singularity.Expressions.IConstructorResolver.StaticSelectConstructor*
+  name: StaticSelectConstructor
+  href: api/Singularity.Expressions.IConstructorResolver.html#Singularity_Expressions_IConstructorResolver_StaticSelectConstructor_
+  commentId: Overload:Singularity.Expressions.IConstructorResolver.StaticSelectConstructor
+  isSpec: "True"
+  fullName: Singularity.Expressions.IConstructorResolver.StaticSelectConstructor
+  nameWithType: IConstructorResolver.StaticSelectConstructor
 - uid: Singularity.Expressions.ReadOnlyExpressionContext
   name: ReadOnlyExpressionContext
   href: api/Singularity.Expressions.ReadOnlyExpressionContext.html
@@ -1517,395 +1908,6 @@ references:
   isSpec: "True"
   fullName: Singularity.Expressions.ReadOnlyExpressionContext.ScopedExpressions
   nameWithType: ReadOnlyExpressionContext.ScopedExpressions
-- uid: Singularity.Graph
-  name: Singularity.Graph
-  href: api/Singularity.Graph.html
-  commentId: N:Singularity.Graph
-  fullName: Singularity.Graph
-  nameWithType: Singularity.Graph
-- uid: Singularity.Graph.BindingMetadata
-  name: BindingMetadata
-  href: api/Singularity.Graph.BindingMetadata.html
-  commentId: T:Singularity.Graph.BindingMetadata
-  fullName: Singularity.Graph.BindingMetadata
-  nameWithType: BindingMetadata
-- uid: Singularity.Graph.BindingMetadata.CreatorFilePath
-  name: CreatorFilePath
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_CreatorFilePath
-  commentId: P:Singularity.Graph.BindingMetadata.CreatorFilePath
-  fullName: Singularity.Graph.BindingMetadata.CreatorFilePath
-  nameWithType: BindingMetadata.CreatorFilePath
-- uid: Singularity.Graph.BindingMetadata.CreatorFilePath*
-  name: CreatorFilePath
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_CreatorFilePath_
-  commentId: Overload:Singularity.Graph.BindingMetadata.CreatorFilePath
-  isSpec: "True"
-  fullName: Singularity.Graph.BindingMetadata.CreatorFilePath
-  nameWithType: BindingMetadata.CreatorFilePath
-- uid: Singularity.Graph.BindingMetadata.CreatorLineNumber
-  name: CreatorLineNumber
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_CreatorLineNumber
-  commentId: P:Singularity.Graph.BindingMetadata.CreatorLineNumber
-  fullName: Singularity.Graph.BindingMetadata.CreatorLineNumber
-  nameWithType: BindingMetadata.CreatorLineNumber
-- uid: Singularity.Graph.BindingMetadata.CreatorLineNumber*
-  name: CreatorLineNumber
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_CreatorLineNumber_
-  commentId: Overload:Singularity.Graph.BindingMetadata.CreatorLineNumber
-  isSpec: "True"
-  fullName: Singularity.Graph.BindingMetadata.CreatorLineNumber
-  nameWithType: BindingMetadata.CreatorLineNumber
-- uid: Singularity.Graph.BindingMetadata.Generated
-  name: Generated
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_Generated
-  commentId: P:Singularity.Graph.BindingMetadata.Generated
-  fullName: Singularity.Graph.BindingMetadata.Generated
-  nameWithType: BindingMetadata.Generated
-- uid: Singularity.Graph.BindingMetadata.Generated*
-  name: Generated
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_Generated_
-  commentId: Overload:Singularity.Graph.BindingMetadata.Generated
-  isSpec: "True"
-  fullName: Singularity.Graph.BindingMetadata.Generated
-  nameWithType: BindingMetadata.Generated
-- uid: Singularity.Graph.BindingMetadata.ModuleType
-  name: ModuleType
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_ModuleType
-  commentId: P:Singularity.Graph.BindingMetadata.ModuleType
-  fullName: Singularity.Graph.BindingMetadata.ModuleType
-  nameWithType: BindingMetadata.ModuleType
-- uid: Singularity.Graph.BindingMetadata.ModuleType*
-  name: ModuleType
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_ModuleType_
-  commentId: Overload:Singularity.Graph.BindingMetadata.ModuleType
-  isSpec: "True"
-  fullName: Singularity.Graph.BindingMetadata.ModuleType
-  nameWithType: BindingMetadata.ModuleType
-- uid: Singularity.Graph.BindingMetadata.ToString
-  name: ToString()
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_ToString
-  commentId: M:Singularity.Graph.BindingMetadata.ToString
-  fullName: Singularity.Graph.BindingMetadata.ToString()
-  nameWithType: BindingMetadata.ToString()
-- uid: Singularity.Graph.BindingMetadata.ToString*
-  name: ToString
-  href: api/Singularity.Graph.BindingMetadata.html#Singularity_Graph_BindingMetadata_ToString_
-  commentId: Overload:Singularity.Graph.BindingMetadata.ToString
-  isSpec: "True"
-  fullName: Singularity.Graph.BindingMetadata.ToString
-  nameWithType: BindingMetadata.ToString
-- uid: Singularity.Graph.InstanceFactory
-  name: InstanceFactory
-  href: api/Singularity.Graph.InstanceFactory.html
-  commentId: T:Singularity.Graph.InstanceFactory
-  fullName: Singularity.Graph.InstanceFactory
-  nameWithType: InstanceFactory
-- uid: Singularity.Graph.InstanceFactory.#ctor(System.Type,Singularity.Expressions.ReadOnlyExpressionContext,System.Func{Singularity.Scoped,System.Object})
-  name: InstanceFactory(Type, ReadOnlyExpressionContext, Func<Scoped, Object>)
-  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory__ctor_System_Type_Singularity_Expressions_ReadOnlyExpressionContext_System_Func_Singularity_Scoped_System_Object__
-  commentId: M:Singularity.Graph.InstanceFactory.#ctor(System.Type,Singularity.Expressions.ReadOnlyExpressionContext,System.Func{Singularity.Scoped,System.Object})
-  name.vb: InstanceFactory(Type, ReadOnlyExpressionContext, Func(Of Scoped, Object))
-  fullName: Singularity.Graph.InstanceFactory.InstanceFactory(System.Type, Singularity.Expressions.ReadOnlyExpressionContext, System.Func<Singularity.Scoped, System.Object>)
-  fullName.vb: Singularity.Graph.InstanceFactory.InstanceFactory(System.Type, Singularity.Expressions.ReadOnlyExpressionContext, System.Func(Of Singularity.Scoped, System.Object))
-  nameWithType: InstanceFactory.InstanceFactory(Type, ReadOnlyExpressionContext, Func<Scoped, Object>)
-  nameWithType.vb: InstanceFactory.InstanceFactory(Type, ReadOnlyExpressionContext, Func(Of Scoped, Object))
-- uid: Singularity.Graph.InstanceFactory.#ctor*
-  name: InstanceFactory
-  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory__ctor_
-  commentId: Overload:Singularity.Graph.InstanceFactory.#ctor
-  isSpec: "True"
-  fullName: Singularity.Graph.InstanceFactory.InstanceFactory
-  nameWithType: InstanceFactory.InstanceFactory
-- uid: Singularity.Graph.InstanceFactory.Context
-  name: Context
-  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_Context
-  commentId: P:Singularity.Graph.InstanceFactory.Context
-  fullName: Singularity.Graph.InstanceFactory.Context
-  nameWithType: InstanceFactory.Context
-- uid: Singularity.Graph.InstanceFactory.Context*
-  name: Context
-  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_Context_
-  commentId: Overload:Singularity.Graph.InstanceFactory.Context
-  isSpec: "True"
-  fullName: Singularity.Graph.InstanceFactory.Context
-  nameWithType: InstanceFactory.Context
-- uid: Singularity.Graph.InstanceFactory.DependencyType
-  name: DependencyType
-  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_DependencyType
-  commentId: P:Singularity.Graph.InstanceFactory.DependencyType
-  fullName: Singularity.Graph.InstanceFactory.DependencyType
-  nameWithType: InstanceFactory.DependencyType
-- uid: Singularity.Graph.InstanceFactory.DependencyType*
-  name: DependencyType
-  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_DependencyType_
-  commentId: Overload:Singularity.Graph.InstanceFactory.DependencyType
-  isSpec: "True"
-  fullName: Singularity.Graph.InstanceFactory.DependencyType
-  nameWithType: InstanceFactory.DependencyType
-- uid: Singularity.Graph.InstanceFactory.Factory
-  name: Factory
-  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_Factory
-  commentId: P:Singularity.Graph.InstanceFactory.Factory
-  fullName: Singularity.Graph.InstanceFactory.Factory
-  nameWithType: InstanceFactory.Factory
-- uid: Singularity.Graph.InstanceFactory.Factory*
-  name: Factory
-  href: api/Singularity.Graph.InstanceFactory.html#Singularity_Graph_InstanceFactory_Factory_
-  commentId: Overload:Singularity.Graph.InstanceFactory.Factory
-  isSpec: "True"
-  fullName: Singularity.Graph.InstanceFactory.Factory
-  nameWithType: InstanceFactory.Factory
-- uid: Singularity.Graph.Resolvers
-  name: Singularity.Graph.Resolvers
-  href: api/Singularity.Graph.Resolvers.html
-  commentId: N:Singularity.Graph.Resolvers
-  fullName: Singularity.Graph.Resolvers
-  nameWithType: Singularity.Graph.Resolvers
-- uid: Singularity.Graph.Resolvers.ConcreteDependencyResolver
-  name: ConcreteDependencyResolver
-  href: api/Singularity.Graph.Resolvers.ConcreteDependencyResolver.html
-  commentId: T:Singularity.Graph.Resolvers.ConcreteDependencyResolver
-  fullName: Singularity.Graph.Resolvers.ConcreteDependencyResolver
-  nameWithType: ConcreteDependencyResolver
-- uid: Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  name: Resolve(IResolverPipeline, Type)
-  href: api/Singularity.Graph.Resolvers.ConcreteDependencyResolver.html#Singularity_Graph_Resolvers_ConcreteDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  fullName: Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
-  nameWithType: ConcreteDependencyResolver.Resolve(IResolverPipeline, Type)
-- uid: Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve*
-  name: Resolve
-  href: api/Singularity.Graph.Resolvers.ConcreteDependencyResolver.html#Singularity_Graph_Resolvers_ConcreteDependencyResolver_Resolve_
-  commentId: Overload:Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.ConcreteDependencyResolver.Resolve
-  nameWithType: ConcreteDependencyResolver.Resolve
-- uid: Singularity.Graph.Resolvers.ContainerDependencyResolver
-  name: ContainerDependencyResolver
-  href: api/Singularity.Graph.Resolvers.ContainerDependencyResolver.html
-  commentId: T:Singularity.Graph.Resolvers.ContainerDependencyResolver
-  fullName: Singularity.Graph.Resolvers.ContainerDependencyResolver
-  nameWithType: ContainerDependencyResolver
-- uid: Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  name: Resolve(IResolverPipeline, Type)
-  href: api/Singularity.Graph.Resolvers.ContainerDependencyResolver.html#Singularity_Graph_Resolvers_ContainerDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  fullName: Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
-  nameWithType: ContainerDependencyResolver.Resolve(IResolverPipeline, Type)
-- uid: Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve*
-  name: Resolve
-  href: api/Singularity.Graph.Resolvers.ContainerDependencyResolver.html#Singularity_Graph_Resolvers_ContainerDependencyResolver_Resolve_
-  commentId: Overload:Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.ContainerDependencyResolver.Resolve
-  nameWithType: ContainerDependencyResolver.Resolve
-- uid: Singularity.Graph.Resolvers.EnumerableDependencyResolver
-  name: EnumerableDependencyResolver
-  href: api/Singularity.Graph.Resolvers.EnumerableDependencyResolver.html
-  commentId: T:Singularity.Graph.Resolvers.EnumerableDependencyResolver
-  fullName: Singularity.Graph.Resolvers.EnumerableDependencyResolver
-  nameWithType: EnumerableDependencyResolver
-- uid: Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  name: Resolve(IResolverPipeline, Type)
-  href: api/Singularity.Graph.Resolvers.EnumerableDependencyResolver.html#Singularity_Graph_Resolvers_EnumerableDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  fullName: Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
-  nameWithType: EnumerableDependencyResolver.Resolve(IResolverPipeline, Type)
-- uid: Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve*
-  name: Resolve
-  href: api/Singularity.Graph.Resolvers.EnumerableDependencyResolver.html#Singularity_Graph_Resolvers_EnumerableDependencyResolver_Resolve_
-  commentId: Overload:Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.EnumerableDependencyResolver.Resolve
-  nameWithType: EnumerableDependencyResolver.Resolve
-- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver
-  name: ExpressionDependencyResolver
-  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html
-  commentId: T:Singularity.Graph.Resolvers.ExpressionDependencyResolver
-  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver
-  nameWithType: ExpressionDependencyResolver
-- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda*
-  name: CreateLambda
-  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html#Singularity_Graph_Resolvers_ExpressionDependencyResolver_CreateLambda_
-  commentId: Overload:Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda
-  nameWithType: ExpressionDependencyResolver.CreateLambda
-- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda``1(Singularity.Expressions.ReadOnlyExpressionContext)
-  name: CreateLambda<T>(ReadOnlyExpressionContext)
-  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html#Singularity_Graph_Resolvers_ExpressionDependencyResolver_CreateLambda__1_Singularity_Expressions_ReadOnlyExpressionContext_
-  commentId: M:Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda``1(Singularity.Expressions.ReadOnlyExpressionContext)
-  name.vb: CreateLambda(Of T)(ReadOnlyExpressionContext)
-  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda<T>(Singularity.Expressions.ReadOnlyExpressionContext)
-  fullName.vb: Singularity.Graph.Resolvers.ExpressionDependencyResolver.CreateLambda(Of T)(Singularity.Expressions.ReadOnlyExpressionContext)
-  nameWithType: ExpressionDependencyResolver.CreateLambda<T>(ReadOnlyExpressionContext)
-  nameWithType.vb: ExpressionDependencyResolver.CreateLambda(Of T)(ReadOnlyExpressionContext)
-- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  name: Resolve(IResolverPipeline, Type)
-  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html#Singularity_Graph_Resolvers_ExpressionDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
-  nameWithType: ExpressionDependencyResolver.Resolve(IResolverPipeline, Type)
-- uid: Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve*
-  name: Resolve
-  href: api/Singularity.Graph.Resolvers.ExpressionDependencyResolver.html#Singularity_Graph_Resolvers_ExpressionDependencyResolver_Resolve_
-  commentId: Overload:Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.ExpressionDependencyResolver.Resolve
-  nameWithType: ExpressionDependencyResolver.Resolve
-- uid: Singularity.Graph.Resolvers.FactoryDependencyResolver
-  name: FactoryDependencyResolver
-  href: api/Singularity.Graph.Resolvers.FactoryDependencyResolver.html
-  commentId: T:Singularity.Graph.Resolvers.FactoryDependencyResolver
-  fullName: Singularity.Graph.Resolvers.FactoryDependencyResolver
-  nameWithType: FactoryDependencyResolver
-- uid: Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  name: Resolve(IResolverPipeline, Type)
-  href: api/Singularity.Graph.Resolvers.FactoryDependencyResolver.html#Singularity_Graph_Resolvers_FactoryDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  fullName: Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
-  nameWithType: FactoryDependencyResolver.Resolve(IResolverPipeline, Type)
-- uid: Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve*
-  name: Resolve
-  href: api/Singularity.Graph.Resolvers.FactoryDependencyResolver.html#Singularity_Graph_Resolvers_FactoryDependencyResolver_Resolve_
-  commentId: Overload:Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.FactoryDependencyResolver.Resolve
-  nameWithType: FactoryDependencyResolver.Resolve
-- uid: Singularity.Graph.Resolvers.IDependencyResolver
-  name: IDependencyResolver
-  href: api/Singularity.Graph.Resolvers.IDependencyResolver.html
-  commentId: T:Singularity.Graph.Resolvers.IDependencyResolver
-  fullName: Singularity.Graph.Resolvers.IDependencyResolver
-  nameWithType: IDependencyResolver
-- uid: Singularity.Graph.Resolvers.IDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  name: Resolve(IResolverPipeline, Type)
-  href: api/Singularity.Graph.Resolvers.IDependencyResolver.html#Singularity_Graph_Resolvers_IDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.IDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  fullName: Singularity.Graph.Resolvers.IDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
-  nameWithType: IDependencyResolver.Resolve(IResolverPipeline, Type)
-- uid: Singularity.Graph.Resolvers.IDependencyResolver.Resolve*
-  name: Resolve
-  href: api/Singularity.Graph.Resolvers.IDependencyResolver.html#Singularity_Graph_Resolvers_IDependencyResolver_Resolve_
-  commentId: Overload:Singularity.Graph.Resolvers.IDependencyResolver.Resolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.IDependencyResolver.Resolve
-  nameWithType: IDependencyResolver.Resolve
-- uid: Singularity.Graph.Resolvers.IResolverPipeline
-  name: IResolverPipeline
-  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html
-  commentId: T:Singularity.Graph.Resolvers.IResolverPipeline
-  fullName: Singularity.Graph.Resolvers.IResolverPipeline
-  nameWithType: IResolverPipeline
-- uid: Singularity.Graph.Resolvers.IResolverPipeline.Resolve(System.Type)
-  name: Resolve(Type)
-  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_Resolve_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.IResolverPipeline.Resolve(System.Type)
-  fullName: Singularity.Graph.Resolvers.IResolverPipeline.Resolve(System.Type)
-  nameWithType: IResolverPipeline.Resolve(Type)
-- uid: Singularity.Graph.Resolvers.IResolverPipeline.Resolve*
-  name: Resolve
-  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_Resolve_
-  commentId: Overload:Singularity.Graph.Resolvers.IResolverPipeline.Resolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.IResolverPipeline.Resolve
-  nameWithType: IResolverPipeline.Resolve
-- uid: Singularity.Graph.Resolvers.IResolverPipeline.Settings
-  name: Settings
-  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_Settings
-  commentId: P:Singularity.Graph.Resolvers.IResolverPipeline.Settings
-  fullName: Singularity.Graph.Resolvers.IResolverPipeline.Settings
-  nameWithType: IResolverPipeline.Settings
-- uid: Singularity.Graph.Resolvers.IResolverPipeline.Settings*
-  name: Settings
-  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_Settings_
-  commentId: Overload:Singularity.Graph.Resolvers.IResolverPipeline.Settings
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.IResolverPipeline.Settings
-  nameWithType: IResolverPipeline.Settings
-- uid: Singularity.Graph.Resolvers.IResolverPipeline.TryResolve(System.Type)
-  name: TryResolve(Type)
-  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_TryResolve_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.IResolverPipeline.TryResolve(System.Type)
-  fullName: Singularity.Graph.Resolvers.IResolverPipeline.TryResolve(System.Type)
-  nameWithType: IResolverPipeline.TryResolve(Type)
-- uid: Singularity.Graph.Resolvers.IResolverPipeline.TryResolve*
-  name: TryResolve
-  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_TryResolve_
-  commentId: Overload:Singularity.Graph.Resolvers.IResolverPipeline.TryResolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.IResolverPipeline.TryResolve
-  nameWithType: IResolverPipeline.TryResolve
-- uid: Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll(System.Type)
-  name: TryResolveAll(Type)
-  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_TryResolveAll_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll(System.Type)
-  fullName: Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll(System.Type)
-  nameWithType: IResolverPipeline.TryResolveAll(Type)
-- uid: Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll*
-  name: TryResolveAll
-  href: api/Singularity.Graph.Resolvers.IResolverPipeline.html#Singularity_Graph_Resolvers_IResolverPipeline_TryResolveAll_
-  commentId: Overload:Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.IResolverPipeline.TryResolveAll
-  nameWithType: IResolverPipeline.TryResolveAll
-- uid: Singularity.Graph.Resolvers.ITypeMatcher
-  name: ITypeMatcher
-  href: api/Singularity.Graph.Resolvers.ITypeMatcher.html
-  commentId: T:Singularity.Graph.Resolvers.ITypeMatcher
-  fullName: Singularity.Graph.Resolvers.ITypeMatcher
-  nameWithType: ITypeMatcher
-- uid: Singularity.Graph.Resolvers.ITypeMatcher.Match(System.Type)
-  name: Match(Type)
-  href: api/Singularity.Graph.Resolvers.ITypeMatcher.html#Singularity_Graph_Resolvers_ITypeMatcher_Match_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.ITypeMatcher.Match(System.Type)
-  fullName: Singularity.Graph.Resolvers.ITypeMatcher.Match(System.Type)
-  nameWithType: ITypeMatcher.Match(Type)
-- uid: Singularity.Graph.Resolvers.ITypeMatcher.Match*
-  name: Match
-  href: api/Singularity.Graph.Resolvers.ITypeMatcher.html#Singularity_Graph_Resolvers_ITypeMatcher_Match_
-  commentId: Overload:Singularity.Graph.Resolvers.ITypeMatcher.Match
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.ITypeMatcher.Match
-  nameWithType: ITypeMatcher.Match
-- uid: Singularity.Graph.Resolvers.LazyDependencyResolver
-  name: LazyDependencyResolver
-  href: api/Singularity.Graph.Resolvers.LazyDependencyResolver.html
-  commentId: T:Singularity.Graph.Resolvers.LazyDependencyResolver
-  fullName: Singularity.Graph.Resolvers.LazyDependencyResolver
-  nameWithType: LazyDependencyResolver
-- uid: Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  name: Resolve(IResolverPipeline, Type)
-  href: api/Singularity.Graph.Resolvers.LazyDependencyResolver.html#Singularity_Graph_Resolvers_LazyDependencyResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  fullName: Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
-  nameWithType: LazyDependencyResolver.Resolve(IResolverPipeline, Type)
-- uid: Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve*
-  name: Resolve
-  href: api/Singularity.Graph.Resolvers.LazyDependencyResolver.html#Singularity_Graph_Resolvers_LazyDependencyResolver_Resolve_
-  commentId: Overload:Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.LazyDependencyResolver.Resolve
-  nameWithType: LazyDependencyResolver.Resolve
-- uid: Singularity.Graph.Resolvers.OpenGenericResolver
-  name: OpenGenericResolver
-  href: api/Singularity.Graph.Resolvers.OpenGenericResolver.html
-  commentId: T:Singularity.Graph.Resolvers.OpenGenericResolver
-  fullName: Singularity.Graph.Resolvers.OpenGenericResolver
-  nameWithType: OpenGenericResolver
-- uid: Singularity.Graph.Resolvers.OpenGenericResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  name: Resolve(IResolverPipeline, Type)
-  href: api/Singularity.Graph.Resolvers.OpenGenericResolver.html#Singularity_Graph_Resolvers_OpenGenericResolver_Resolve_Singularity_Graph_Resolvers_IResolverPipeline_System_Type_
-  commentId: M:Singularity.Graph.Resolvers.OpenGenericResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline,System.Type)
-  fullName: Singularity.Graph.Resolvers.OpenGenericResolver.Resolve(Singularity.Graph.Resolvers.IResolverPipeline, System.Type)
-  nameWithType: OpenGenericResolver.Resolve(IResolverPipeline, Type)
-- uid: Singularity.Graph.Resolvers.OpenGenericResolver.Resolve*
-  name: Resolve
-  href: api/Singularity.Graph.Resolvers.OpenGenericResolver.html#Singularity_Graph_Resolvers_OpenGenericResolver_Resolve_
-  commentId: Overload:Singularity.Graph.Resolvers.OpenGenericResolver.Resolve
-  isSpec: "True"
-  fullName: Singularity.Graph.Resolvers.OpenGenericResolver.Resolve
-  nameWithType: OpenGenericResolver.Resolve
 - uid: Singularity.IContainer
   name: IContainer
   href: api/Singularity.IContainer.html
@@ -2023,38 +2025,25 @@ references:
   isSpec: "True"
   fullName: Singularity.IModule.Register
   nameWithType: IModule.Register
-- uid: Singularity.LeastArgumentsConstructorResolver
-  name: LeastArgumentsConstructorResolver
-  href: api/Singularity.LeastArgumentsConstructorResolver.html
-  commentId: T:Singularity.LeastArgumentsConstructorResolver
-  fullName: Singularity.LeastArgumentsConstructorResolver
-  nameWithType: LeastArgumentsConstructorResolver
-- uid: Singularity.LeastArgumentsConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  name: AutoResolveConstructorExpression(Type)
-  href: api/Singularity.LeastArgumentsConstructorResolver.html#Singularity_LeastArgumentsConstructorResolver_AutoResolveConstructorExpression_System_Type_
-  commentId: M:Singularity.LeastArgumentsConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  fullName: Singularity.LeastArgumentsConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  nameWithType: LeastArgumentsConstructorResolver.AutoResolveConstructorExpression(Type)
-- uid: Singularity.LeastArgumentsConstructorResolver.AutoResolveConstructorExpression*
-  name: AutoResolveConstructorExpression
-  href: api/Singularity.LeastArgumentsConstructorResolver.html#Singularity_LeastArgumentsConstructorResolver_AutoResolveConstructorExpression_
-  commentId: Overload:Singularity.LeastArgumentsConstructorResolver.AutoResolveConstructorExpression
+- uid: Singularity.ITypeMatcher
+  name: ITypeMatcher
+  href: api/Singularity.ITypeMatcher.html
+  commentId: T:Singularity.ITypeMatcher
+  fullName: Singularity.ITypeMatcher
+  nameWithType: ITypeMatcher
+- uid: Singularity.ITypeMatcher.Match(System.Type)
+  name: Match(Type)
+  href: api/Singularity.ITypeMatcher.html#Singularity_ITypeMatcher_Match_System_Type_
+  commentId: M:Singularity.ITypeMatcher.Match(System.Type)
+  fullName: Singularity.ITypeMatcher.Match(System.Type)
+  nameWithType: ITypeMatcher.Match(Type)
+- uid: Singularity.ITypeMatcher.Match*
+  name: Match
+  href: api/Singularity.ITypeMatcher.html#Singularity_ITypeMatcher_Match_
+  commentId: Overload:Singularity.ITypeMatcher.Match
   isSpec: "True"
-  fullName: Singularity.LeastArgumentsConstructorResolver.AutoResolveConstructorExpression
-  nameWithType: LeastArgumentsConstructorResolver.AutoResolveConstructorExpression
-- uid: Singularity.LeastArgumentsConstructorResolver.SelectConstructor(System.Type)
-  name: SelectConstructor(Type)
-  href: api/Singularity.LeastArgumentsConstructorResolver.html#Singularity_LeastArgumentsConstructorResolver_SelectConstructor_System_Type_
-  commentId: M:Singularity.LeastArgumentsConstructorResolver.SelectConstructor(System.Type)
-  fullName: Singularity.LeastArgumentsConstructorResolver.SelectConstructor(System.Type)
-  nameWithType: LeastArgumentsConstructorResolver.SelectConstructor(Type)
-- uid: Singularity.LeastArgumentsConstructorResolver.SelectConstructor*
-  name: SelectConstructor
-  href: api/Singularity.LeastArgumentsConstructorResolver.html#Singularity_LeastArgumentsConstructorResolver_SelectConstructor_
-  commentId: Overload:Singularity.LeastArgumentsConstructorResolver.SelectConstructor
-  isSpec: "True"
-  fullName: Singularity.LeastArgumentsConstructorResolver.SelectConstructor
-  nameWithType: LeastArgumentsConstructorResolver.SelectConstructor
+  fullName: Singularity.ITypeMatcher.Match
+  nameWithType: ITypeMatcher.Match
 - uid: Singularity.Lifetimes
   name: Lifetimes
   href: api/Singularity.Lifetimes.html
@@ -2201,13 +2190,13 @@ references:
   commentId: T:Singularity.MatchExtensions
   fullName: Singularity.MatchExtensions
   nameWithType: MatchExtensions
-- uid: Singularity.MatchExtensions.Match(System.Collections.Generic.List{Singularity.Graph.Resolvers.ITypeMatcher},System.Type)
+- uid: Singularity.MatchExtensions.Match(System.Collections.Generic.List{Singularity.ITypeMatcher},System.Type)
   name: Match(List<ITypeMatcher>, Type)
-  href: api/Singularity.MatchExtensions.html#Singularity_MatchExtensions_Match_System_Collections_Generic_List_Singularity_Graph_Resolvers_ITypeMatcher__System_Type_
-  commentId: M:Singularity.MatchExtensions.Match(System.Collections.Generic.List{Singularity.Graph.Resolvers.ITypeMatcher},System.Type)
+  href: api/Singularity.MatchExtensions.html#Singularity_MatchExtensions_Match_System_Collections_Generic_List_Singularity_ITypeMatcher__System_Type_
+  commentId: M:Singularity.MatchExtensions.Match(System.Collections.Generic.List{Singularity.ITypeMatcher},System.Type)
   name.vb: Match(List(Of ITypeMatcher), Type)
-  fullName: Singularity.MatchExtensions.Match(System.Collections.Generic.List<Singularity.Graph.Resolvers.ITypeMatcher>, System.Type)
-  fullName.vb: Singularity.MatchExtensions.Match(System.Collections.Generic.List(Of Singularity.Graph.Resolvers.ITypeMatcher), System.Type)
+  fullName: Singularity.MatchExtensions.Match(System.Collections.Generic.List<Singularity.ITypeMatcher>, System.Type)
+  fullName.vb: Singularity.MatchExtensions.Match(System.Collections.Generic.List(Of Singularity.ITypeMatcher), System.Type)
   nameWithType: MatchExtensions.Match(List<ITypeMatcher>, Type)
   nameWithType.vb: MatchExtensions.Match(List(Of ITypeMatcher), Type)
 - uid: Singularity.MatchExtensions.Match*
@@ -2217,38 +2206,6 @@ references:
   isSpec: "True"
   fullName: Singularity.MatchExtensions.Match
   nameWithType: MatchExtensions.Match
-- uid: Singularity.MostArgumentsConstructorResolver
-  name: MostArgumentsConstructorResolver
-  href: api/Singularity.MostArgumentsConstructorResolver.html
-  commentId: T:Singularity.MostArgumentsConstructorResolver
-  fullName: Singularity.MostArgumentsConstructorResolver
-  nameWithType: MostArgumentsConstructorResolver
-- uid: Singularity.MostArgumentsConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  name: AutoResolveConstructorExpression(Type)
-  href: api/Singularity.MostArgumentsConstructorResolver.html#Singularity_MostArgumentsConstructorResolver_AutoResolveConstructorExpression_System_Type_
-  commentId: M:Singularity.MostArgumentsConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  fullName: Singularity.MostArgumentsConstructorResolver.AutoResolveConstructorExpression(System.Type)
-  nameWithType: MostArgumentsConstructorResolver.AutoResolveConstructorExpression(Type)
-- uid: Singularity.MostArgumentsConstructorResolver.AutoResolveConstructorExpression*
-  name: AutoResolveConstructorExpression
-  href: api/Singularity.MostArgumentsConstructorResolver.html#Singularity_MostArgumentsConstructorResolver_AutoResolveConstructorExpression_
-  commentId: Overload:Singularity.MostArgumentsConstructorResolver.AutoResolveConstructorExpression
-  isSpec: "True"
-  fullName: Singularity.MostArgumentsConstructorResolver.AutoResolveConstructorExpression
-  nameWithType: MostArgumentsConstructorResolver.AutoResolveConstructorExpression
-- uid: Singularity.MostArgumentsConstructorResolver.SelectConstructor(System.Type)
-  name: SelectConstructor(Type)
-  href: api/Singularity.MostArgumentsConstructorResolver.html#Singularity_MostArgumentsConstructorResolver_SelectConstructor_System_Type_
-  commentId: M:Singularity.MostArgumentsConstructorResolver.SelectConstructor(System.Type)
-  fullName: Singularity.MostArgumentsConstructorResolver.SelectConstructor(System.Type)
-  nameWithType: MostArgumentsConstructorResolver.SelectConstructor(Type)
-- uid: Singularity.MostArgumentsConstructorResolver.SelectConstructor*
-  name: SelectConstructor
-  href: api/Singularity.MostArgumentsConstructorResolver.html#Singularity_MostArgumentsConstructorResolver_SelectConstructor_
-  commentId: Overload:Singularity.MostArgumentsConstructorResolver.SelectConstructor
-  isSpec: "True"
-  fullName: Singularity.MostArgumentsConstructorResolver.SelectConstructor
-  nameWithType: MostArgumentsConstructorResolver.SelectConstructor
 - uid: Singularity.PatternTypeMatcher
   name: PatternTypeMatcher
   href: api/Singularity.PatternTypeMatcher.html
@@ -2319,6 +2276,315 @@ references:
   isSpec: "True"
   fullName: Singularity.PerScope.ApplyLifetimeOnExpression
   nameWithType: PerScope.ApplyLifetimeOnExpression
+- uid: Singularity.Resolving
+  name: Singularity.Resolving
+  href: api/Singularity.Resolving.html
+  commentId: N:Singularity.Resolving
+  fullName: Singularity.Resolving
+  nameWithType: Singularity.Resolving
+- uid: Singularity.Resolving.Generators
+  name: Singularity.Resolving.Generators
+  href: api/Singularity.Resolving.Generators.html
+  commentId: N:Singularity.Resolving.Generators
+  fullName: Singularity.Resolving.Generators
+  nameWithType: Singularity.Resolving.Generators
+- uid: Singularity.Resolving.Generators.CollectionServiceBindingGenerator
+  name: CollectionServiceBindingGenerator
+  href: api/Singularity.Resolving.Generators.CollectionServiceBindingGenerator.html
+  commentId: T:Singularity.Resolving.Generators.CollectionServiceBindingGenerator
+  fullName: Singularity.Resolving.Generators.CollectionServiceBindingGenerator
+  nameWithType: CollectionServiceBindingGenerator
+- uid: Singularity.Resolving.Generators.CollectionServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  name: Resolve(IInstanceFactoryResolver, Type)
+  href: api/Singularity.Resolving.Generators.CollectionServiceBindingGenerator.html#Singularity_Resolving_Generators_CollectionServiceBindingGenerator_Resolve_Singularity_Resolving_IInstanceFactoryResolver_System_Type_
+  commentId: M:Singularity.Resolving.Generators.CollectionServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  fullName: Singularity.Resolving.Generators.CollectionServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver, System.Type)
+  nameWithType: CollectionServiceBindingGenerator.Resolve(IInstanceFactoryResolver, Type)
+- uid: Singularity.Resolving.Generators.CollectionServiceBindingGenerator.Resolve*
+  name: Resolve
+  href: api/Singularity.Resolving.Generators.CollectionServiceBindingGenerator.html#Singularity_Resolving_Generators_CollectionServiceBindingGenerator_Resolve_
+  commentId: Overload:Singularity.Resolving.Generators.CollectionServiceBindingGenerator.Resolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.Generators.CollectionServiceBindingGenerator.Resolve
+  nameWithType: CollectionServiceBindingGenerator.Resolve
+- uid: Singularity.Resolving.Generators.ConcreteServiceBindingGenerator
+  name: ConcreteServiceBindingGenerator
+  href: api/Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.html
+  commentId: T:Singularity.Resolving.Generators.ConcreteServiceBindingGenerator
+  fullName: Singularity.Resolving.Generators.ConcreteServiceBindingGenerator
+  nameWithType: ConcreteServiceBindingGenerator
+- uid: Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  name: Resolve(IInstanceFactoryResolver, Type)
+  href: api/Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.html#Singularity_Resolving_Generators_ConcreteServiceBindingGenerator_Resolve_Singularity_Resolving_IInstanceFactoryResolver_System_Type_
+  commentId: M:Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  fullName: Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver, System.Type)
+  nameWithType: ConcreteServiceBindingGenerator.Resolve(IInstanceFactoryResolver, Type)
+- uid: Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.Resolve*
+  name: Resolve
+  href: api/Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.html#Singularity_Resolving_Generators_ConcreteServiceBindingGenerator_Resolve_
+  commentId: Overload:Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.Resolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.Generators.ConcreteServiceBindingGenerator.Resolve
+  nameWithType: ConcreteServiceBindingGenerator.Resolve
+- uid: Singularity.Resolving.Generators.ContainerServiceBindingGenerator
+  name: ContainerServiceBindingGenerator
+  href: api/Singularity.Resolving.Generators.ContainerServiceBindingGenerator.html
+  commentId: T:Singularity.Resolving.Generators.ContainerServiceBindingGenerator
+  fullName: Singularity.Resolving.Generators.ContainerServiceBindingGenerator
+  nameWithType: ContainerServiceBindingGenerator
+- uid: Singularity.Resolving.Generators.ContainerServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  name: Resolve(IInstanceFactoryResolver, Type)
+  href: api/Singularity.Resolving.Generators.ContainerServiceBindingGenerator.html#Singularity_Resolving_Generators_ContainerServiceBindingGenerator_Resolve_Singularity_Resolving_IInstanceFactoryResolver_System_Type_
+  commentId: M:Singularity.Resolving.Generators.ContainerServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  fullName: Singularity.Resolving.Generators.ContainerServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver, System.Type)
+  nameWithType: ContainerServiceBindingGenerator.Resolve(IInstanceFactoryResolver, Type)
+- uid: Singularity.Resolving.Generators.ContainerServiceBindingGenerator.Resolve*
+  name: Resolve
+  href: api/Singularity.Resolving.Generators.ContainerServiceBindingGenerator.html#Singularity_Resolving_Generators_ContainerServiceBindingGenerator_Resolve_
+  commentId: Overload:Singularity.Resolving.Generators.ContainerServiceBindingGenerator.Resolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.Generators.ContainerServiceBindingGenerator.Resolve
+  nameWithType: ContainerServiceBindingGenerator.Resolve
+- uid: Singularity.Resolving.Generators.ExpressionServiceBindingGenerator
+  name: ExpressionServiceBindingGenerator
+  href: api/Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.html
+  commentId: T:Singularity.Resolving.Generators.ExpressionServiceBindingGenerator
+  fullName: Singularity.Resolving.Generators.ExpressionServiceBindingGenerator
+  nameWithType: ExpressionServiceBindingGenerator
+- uid: Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  name: Resolve(IInstanceFactoryResolver, Type)
+  href: api/Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.html#Singularity_Resolving_Generators_ExpressionServiceBindingGenerator_Resolve_Singularity_Resolving_IInstanceFactoryResolver_System_Type_
+  commentId: M:Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  fullName: Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver, System.Type)
+  nameWithType: ExpressionServiceBindingGenerator.Resolve(IInstanceFactoryResolver, Type)
+- uid: Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.Resolve*
+  name: Resolve
+  href: api/Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.html#Singularity_Resolving_Generators_ExpressionServiceBindingGenerator_Resolve_
+  commentId: Overload:Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.Resolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.Generators.ExpressionServiceBindingGenerator.Resolve
+  nameWithType: ExpressionServiceBindingGenerator.Resolve
+- uid: Singularity.Resolving.Generators.FactoryServiceBindingGenerator
+  name: FactoryServiceBindingGenerator
+  href: api/Singularity.Resolving.Generators.FactoryServiceBindingGenerator.html
+  commentId: T:Singularity.Resolving.Generators.FactoryServiceBindingGenerator
+  fullName: Singularity.Resolving.Generators.FactoryServiceBindingGenerator
+  nameWithType: FactoryServiceBindingGenerator
+- uid: Singularity.Resolving.Generators.FactoryServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  name: Resolve(IInstanceFactoryResolver, Type)
+  href: api/Singularity.Resolving.Generators.FactoryServiceBindingGenerator.html#Singularity_Resolving_Generators_FactoryServiceBindingGenerator_Resolve_Singularity_Resolving_IInstanceFactoryResolver_System_Type_
+  commentId: M:Singularity.Resolving.Generators.FactoryServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  fullName: Singularity.Resolving.Generators.FactoryServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver, System.Type)
+  nameWithType: FactoryServiceBindingGenerator.Resolve(IInstanceFactoryResolver, Type)
+- uid: Singularity.Resolving.Generators.FactoryServiceBindingGenerator.Resolve*
+  name: Resolve
+  href: api/Singularity.Resolving.Generators.FactoryServiceBindingGenerator.html#Singularity_Resolving_Generators_FactoryServiceBindingGenerator_Resolve_
+  commentId: Overload:Singularity.Resolving.Generators.FactoryServiceBindingGenerator.Resolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.Generators.FactoryServiceBindingGenerator.Resolve
+  nameWithType: FactoryServiceBindingGenerator.Resolve
+- uid: Singularity.Resolving.Generators.IServiceBindingGenerator
+  name: IServiceBindingGenerator
+  href: api/Singularity.Resolving.Generators.IServiceBindingGenerator.html
+  commentId: T:Singularity.Resolving.Generators.IServiceBindingGenerator
+  fullName: Singularity.Resolving.Generators.IServiceBindingGenerator
+  nameWithType: IServiceBindingGenerator
+- uid: Singularity.Resolving.Generators.IServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  name: Resolve(IInstanceFactoryResolver, Type)
+  href: api/Singularity.Resolving.Generators.IServiceBindingGenerator.html#Singularity_Resolving_Generators_IServiceBindingGenerator_Resolve_Singularity_Resolving_IInstanceFactoryResolver_System_Type_
+  commentId: M:Singularity.Resolving.Generators.IServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  fullName: Singularity.Resolving.Generators.IServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver, System.Type)
+  nameWithType: IServiceBindingGenerator.Resolve(IInstanceFactoryResolver, Type)
+- uid: Singularity.Resolving.Generators.IServiceBindingGenerator.Resolve*
+  name: Resolve
+  href: api/Singularity.Resolving.Generators.IServiceBindingGenerator.html#Singularity_Resolving_Generators_IServiceBindingGenerator_Resolve_
+  commentId: Overload:Singularity.Resolving.Generators.IServiceBindingGenerator.Resolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.Generators.IServiceBindingGenerator.Resolve
+  nameWithType: IServiceBindingGenerator.Resolve
+- uid: Singularity.Resolving.Generators.LazyServiceBindingGenerator
+  name: LazyServiceBindingGenerator
+  href: api/Singularity.Resolving.Generators.LazyServiceBindingGenerator.html
+  commentId: T:Singularity.Resolving.Generators.LazyServiceBindingGenerator
+  fullName: Singularity.Resolving.Generators.LazyServiceBindingGenerator
+  nameWithType: LazyServiceBindingGenerator
+- uid: Singularity.Resolving.Generators.LazyServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  name: Resolve(IInstanceFactoryResolver, Type)
+  href: api/Singularity.Resolving.Generators.LazyServiceBindingGenerator.html#Singularity_Resolving_Generators_LazyServiceBindingGenerator_Resolve_Singularity_Resolving_IInstanceFactoryResolver_System_Type_
+  commentId: M:Singularity.Resolving.Generators.LazyServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  fullName: Singularity.Resolving.Generators.LazyServiceBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver, System.Type)
+  nameWithType: LazyServiceBindingGenerator.Resolve(IInstanceFactoryResolver, Type)
+- uid: Singularity.Resolving.Generators.LazyServiceBindingGenerator.Resolve*
+  name: Resolve
+  href: api/Singularity.Resolving.Generators.LazyServiceBindingGenerator.html#Singularity_Resolving_Generators_LazyServiceBindingGenerator_Resolve_
+  commentId: Overload:Singularity.Resolving.Generators.LazyServiceBindingGenerator.Resolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.Generators.LazyServiceBindingGenerator.Resolve
+  nameWithType: LazyServiceBindingGenerator.Resolve
+- uid: Singularity.Resolving.Generators.OpenGenericBindingGenerator
+  name: OpenGenericBindingGenerator
+  href: api/Singularity.Resolving.Generators.OpenGenericBindingGenerator.html
+  commentId: T:Singularity.Resolving.Generators.OpenGenericBindingGenerator
+  fullName: Singularity.Resolving.Generators.OpenGenericBindingGenerator
+  nameWithType: OpenGenericBindingGenerator
+- uid: Singularity.Resolving.Generators.OpenGenericBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  name: Resolve(IInstanceFactoryResolver, Type)
+  href: api/Singularity.Resolving.Generators.OpenGenericBindingGenerator.html#Singularity_Resolving_Generators_OpenGenericBindingGenerator_Resolve_Singularity_Resolving_IInstanceFactoryResolver_System_Type_
+  commentId: M:Singularity.Resolving.Generators.OpenGenericBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver,System.Type)
+  fullName: Singularity.Resolving.Generators.OpenGenericBindingGenerator.Resolve(Singularity.Resolving.IInstanceFactoryResolver, System.Type)
+  nameWithType: OpenGenericBindingGenerator.Resolve(IInstanceFactoryResolver, Type)
+- uid: Singularity.Resolving.Generators.OpenGenericBindingGenerator.Resolve*
+  name: Resolve
+  href: api/Singularity.Resolving.Generators.OpenGenericBindingGenerator.html#Singularity_Resolving_Generators_OpenGenericBindingGenerator_Resolve_
+  commentId: Overload:Singularity.Resolving.Generators.OpenGenericBindingGenerator.Resolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.Generators.OpenGenericBindingGenerator.Resolve
+  nameWithType: OpenGenericBindingGenerator.Resolve
+- uid: Singularity.Resolving.IInstanceFactoryResolver
+  name: IInstanceFactoryResolver
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html
+  commentId: T:Singularity.Resolving.IInstanceFactoryResolver
+  fullName: Singularity.Resolving.IInstanceFactoryResolver
+  nameWithType: IInstanceFactoryResolver
+- uid: Singularity.Resolving.IInstanceFactoryResolver.GetBinding(System.Type)
+  name: GetBinding(Type)
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_GetBinding_System_Type_
+  commentId: M:Singularity.Resolving.IInstanceFactoryResolver.GetBinding(System.Type)
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.GetBinding(System.Type)
+  nameWithType: IInstanceFactoryResolver.GetBinding(Type)
+- uid: Singularity.Resolving.IInstanceFactoryResolver.GetBinding*
+  name: GetBinding
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_GetBinding_
+  commentId: Overload:Singularity.Resolving.IInstanceFactoryResolver.GetBinding
+  isSpec: "True"
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.GetBinding
+  nameWithType: IInstanceFactoryResolver.GetBinding
+- uid: Singularity.Resolving.IInstanceFactoryResolver.Resolve(System.Type)
+  name: Resolve(Type)
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_Resolve_System_Type_
+  commentId: M:Singularity.Resolving.IInstanceFactoryResolver.Resolve(System.Type)
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.Resolve(System.Type)
+  nameWithType: IInstanceFactoryResolver.Resolve(Type)
+- uid: Singularity.Resolving.IInstanceFactoryResolver.Resolve*
+  name: Resolve
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_Resolve_
+  commentId: Overload:Singularity.Resolving.IInstanceFactoryResolver.Resolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.Resolve
+  nameWithType: IInstanceFactoryResolver.Resolve
+- uid: Singularity.Resolving.IInstanceFactoryResolver.Settings
+  name: Settings
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_Settings
+  commentId: P:Singularity.Resolving.IInstanceFactoryResolver.Settings
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.Settings
+  nameWithType: IInstanceFactoryResolver.Settings
+- uid: Singularity.Resolving.IInstanceFactoryResolver.Settings*
+  name: Settings
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_Settings_
+  commentId: Overload:Singularity.Resolving.IInstanceFactoryResolver.Settings
+  isSpec: "True"
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.Settings
+  nameWithType: IInstanceFactoryResolver.Settings
+- uid: Singularity.Resolving.IInstanceFactoryResolver.TryGetBinding(System.Type)
+  name: TryGetBinding(Type)
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_TryGetBinding_System_Type_
+  commentId: M:Singularity.Resolving.IInstanceFactoryResolver.TryGetBinding(System.Type)
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.TryGetBinding(System.Type)
+  nameWithType: IInstanceFactoryResolver.TryGetBinding(Type)
+- uid: Singularity.Resolving.IInstanceFactoryResolver.TryGetBinding*
+  name: TryGetBinding
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_TryGetBinding_
+  commentId: Overload:Singularity.Resolving.IInstanceFactoryResolver.TryGetBinding
+  isSpec: "True"
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.TryGetBinding
+  nameWithType: IInstanceFactoryResolver.TryGetBinding
+- uid: Singularity.Resolving.IInstanceFactoryResolver.TryResolve(System.Type)
+  name: TryResolve(Type)
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_TryResolve_System_Type_
+  commentId: M:Singularity.Resolving.IInstanceFactoryResolver.TryResolve(System.Type)
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.TryResolve(System.Type)
+  nameWithType: IInstanceFactoryResolver.TryResolve(Type)
+- uid: Singularity.Resolving.IInstanceFactoryResolver.TryResolve*
+  name: TryResolve
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_TryResolve_
+  commentId: Overload:Singularity.Resolving.IInstanceFactoryResolver.TryResolve
+  isSpec: "True"
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.TryResolve
+  nameWithType: IInstanceFactoryResolver.TryResolve
+- uid: Singularity.Resolving.IInstanceFactoryResolver.TryResolveAll(System.Type)
+  name: TryResolveAll(Type)
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_TryResolveAll_System_Type_
+  commentId: M:Singularity.Resolving.IInstanceFactoryResolver.TryResolveAll(System.Type)
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.TryResolveAll(System.Type)
+  nameWithType: IInstanceFactoryResolver.TryResolveAll(Type)
+- uid: Singularity.Resolving.IInstanceFactoryResolver.TryResolveAll*
+  name: TryResolveAll
+  href: api/Singularity.Resolving.IInstanceFactoryResolver.html#Singularity_Resolving_IInstanceFactoryResolver_TryResolveAll_
+  commentId: Overload:Singularity.Resolving.IInstanceFactoryResolver.TryResolveAll
+  isSpec: "True"
+  fullName: Singularity.Resolving.IInstanceFactoryResolver.TryResolveAll
+  nameWithType: IInstanceFactoryResolver.TryResolveAll
+- uid: Singularity.Resolving.InstanceFactory
+  name: InstanceFactory
+  href: api/Singularity.Resolving.InstanceFactory.html
+  commentId: T:Singularity.Resolving.InstanceFactory
+  fullName: Singularity.Resolving.InstanceFactory
+  nameWithType: InstanceFactory
+- uid: Singularity.Resolving.InstanceFactory.#ctor(System.Type,Singularity.Expressions.ReadOnlyExpressionContext,System.Func{Singularity.Scoped,System.Object})
+  name: InstanceFactory(Type, ReadOnlyExpressionContext, Func<Scoped, Object>)
+  href: api/Singularity.Resolving.InstanceFactory.html#Singularity_Resolving_InstanceFactory__ctor_System_Type_Singularity_Expressions_ReadOnlyExpressionContext_System_Func_Singularity_Scoped_System_Object__
+  commentId: M:Singularity.Resolving.InstanceFactory.#ctor(System.Type,Singularity.Expressions.ReadOnlyExpressionContext,System.Func{Singularity.Scoped,System.Object})
+  name.vb: InstanceFactory(Type, ReadOnlyExpressionContext, Func(Of Scoped, Object))
+  fullName: Singularity.Resolving.InstanceFactory.InstanceFactory(System.Type, Singularity.Expressions.ReadOnlyExpressionContext, System.Func<Singularity.Scoped, System.Object>)
+  fullName.vb: Singularity.Resolving.InstanceFactory.InstanceFactory(System.Type, Singularity.Expressions.ReadOnlyExpressionContext, System.Func(Of Singularity.Scoped, System.Object))
+  nameWithType: InstanceFactory.InstanceFactory(Type, ReadOnlyExpressionContext, Func<Scoped, Object>)
+  nameWithType.vb: InstanceFactory.InstanceFactory(Type, ReadOnlyExpressionContext, Func(Of Scoped, Object))
+- uid: Singularity.Resolving.InstanceFactory.#ctor*
+  name: InstanceFactory
+  href: api/Singularity.Resolving.InstanceFactory.html#Singularity_Resolving_InstanceFactory__ctor_
+  commentId: Overload:Singularity.Resolving.InstanceFactory.#ctor
+  isSpec: "True"
+  fullName: Singularity.Resolving.InstanceFactory.InstanceFactory
+  nameWithType: InstanceFactory.InstanceFactory
+- uid: Singularity.Resolving.InstanceFactory.Context
+  name: Context
+  href: api/Singularity.Resolving.InstanceFactory.html#Singularity_Resolving_InstanceFactory_Context
+  commentId: P:Singularity.Resolving.InstanceFactory.Context
+  fullName: Singularity.Resolving.InstanceFactory.Context
+  nameWithType: InstanceFactory.Context
+- uid: Singularity.Resolving.InstanceFactory.Context*
+  name: Context
+  href: api/Singularity.Resolving.InstanceFactory.html#Singularity_Resolving_InstanceFactory_Context_
+  commentId: Overload:Singularity.Resolving.InstanceFactory.Context
+  isSpec: "True"
+  fullName: Singularity.Resolving.InstanceFactory.Context
+  nameWithType: InstanceFactory.Context
+- uid: Singularity.Resolving.InstanceFactory.DependencyType
+  name: DependencyType
+  href: api/Singularity.Resolving.InstanceFactory.html#Singularity_Resolving_InstanceFactory_DependencyType
+  commentId: P:Singularity.Resolving.InstanceFactory.DependencyType
+  fullName: Singularity.Resolving.InstanceFactory.DependencyType
+  nameWithType: InstanceFactory.DependencyType
+- uid: Singularity.Resolving.InstanceFactory.DependencyType*
+  name: DependencyType
+  href: api/Singularity.Resolving.InstanceFactory.html#Singularity_Resolving_InstanceFactory_DependencyType_
+  commentId: Overload:Singularity.Resolving.InstanceFactory.DependencyType
+  isSpec: "True"
+  fullName: Singularity.Resolving.InstanceFactory.DependencyType
+  nameWithType: InstanceFactory.DependencyType
+- uid: Singularity.Resolving.InstanceFactory.Factory
+  name: Factory
+  href: api/Singularity.Resolving.InstanceFactory.html#Singularity_Resolving_InstanceFactory_Factory
+  commentId: P:Singularity.Resolving.InstanceFactory.Factory
+  fullName: Singularity.Resolving.InstanceFactory.Factory
+  nameWithType: InstanceFactory.Factory
+- uid: Singularity.Resolving.InstanceFactory.Factory*
+  name: Factory
+  href: api/Singularity.Resolving.InstanceFactory.html#Singularity_Resolving_InstanceFactory_Factory_
+  commentId: Overload:Singularity.Resolving.InstanceFactory.Factory
+  isSpec: "True"
+  fullName: Singularity.Resolving.InstanceFactory.Factory
+  nameWithType: InstanceFactory.Factory
 - uid: Singularity.Scoped
   name: Scoped
   href: api/Singularity.Scoped.html
@@ -2458,24 +2724,33 @@ references:
   commentId: T:Singularity.ServiceBinding
   fullName: Singularity.ServiceBinding
   nameWithType: ServiceBinding
-- uid: Singularity.ServiceBinding.#ctor(Singularity.Collections.SinglyLinkedListNode{System.Type},Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
-  name: ServiceBinding(SinglyLinkedListNode<Type>, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
-  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding__ctor_Singularity_Collections_SinglyLinkedListNode_System_Type__Singularity_Graph_BindingMetadata__System_Linq_Expressions_Expression_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_
-  commentId: M:Singularity.ServiceBinding.#ctor(Singularity.Collections.SinglyLinkedListNode{System.Type},Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
-  name.vb: ServiceBinding(SinglyLinkedListNode(Of Type), ByRef BindingMetadata, Expression, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
-  fullName: Singularity.ServiceBinding.ServiceBinding(Singularity.Collections.SinglyLinkedListNode<System.Type>, Singularity.Graph.BindingMetadata, System.Linq.Expressions.Expression, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action<System.Object>, Singularity.ServiceAutoDispose)
-  fullName.vb: Singularity.ServiceBinding.ServiceBinding(Singularity.Collections.SinglyLinkedListNode(Of System.Type), ByRef Singularity.Graph.BindingMetadata, System.Linq.Expressions.Expression, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action(Of System.Object), Singularity.ServiceAutoDispose)
-  nameWithType: ServiceBinding.ServiceBinding(SinglyLinkedListNode<Type>, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
-  nameWithType.vb: ServiceBinding.ServiceBinding(SinglyLinkedListNode(Of Type), ByRef BindingMetadata, Expression, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
-- uid: Singularity.ServiceBinding.#ctor(System.Type,Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
-  name: ServiceBinding(Type, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
-  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding__ctor_System_Type_Singularity_Graph_BindingMetadata__System_Linq_Expressions_Expression_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_
-  commentId: M:Singularity.ServiceBinding.#ctor(System.Type,Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
-  name.vb: ServiceBinding(Type, ByRef BindingMetadata, Expression, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
-  fullName: Singularity.ServiceBinding.ServiceBinding(System.Type, Singularity.Graph.BindingMetadata, System.Linq.Expressions.Expression, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action<System.Object>, Singularity.ServiceAutoDispose)
-  fullName.vb: Singularity.ServiceBinding.ServiceBinding(System.Type, ByRef Singularity.Graph.BindingMetadata, System.Linq.Expressions.Expression, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action(Of System.Object), Singularity.ServiceAutoDispose)
-  nameWithType: ServiceBinding.ServiceBinding(Type, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
-  nameWithType.vb: ServiceBinding.ServiceBinding(Type, ByRef BindingMetadata, Expression, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+- uid: Singularity.ServiceBinding.#ctor(Singularity.Collections.SinglyLinkedListNode{System.Type},Singularity.BindingMetadata@,System.Linq.Expressions.Expression,System.Type,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name: ServiceBinding(SinglyLinkedListNode<Type>, BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding__ctor_Singularity_Collections_SinglyLinkedListNode_System_Type__Singularity_BindingMetadata__System_Linq_Expressions_Expression_System_Type_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_
+  commentId: M:Singularity.ServiceBinding.#ctor(Singularity.Collections.SinglyLinkedListNode{System.Type},Singularity.BindingMetadata@,System.Linq.Expressions.Expression,System.Type,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name.vb: ServiceBinding(SinglyLinkedListNode(Of Type), ByRef BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+  fullName: Singularity.ServiceBinding.ServiceBinding(Singularity.Collections.SinglyLinkedListNode<System.Type>, Singularity.BindingMetadata, System.Linq.Expressions.Expression, System.Type, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action<System.Object>, Singularity.ServiceAutoDispose)
+  fullName.vb: Singularity.ServiceBinding.ServiceBinding(Singularity.Collections.SinglyLinkedListNode(Of System.Type), ByRef Singularity.BindingMetadata, System.Linq.Expressions.Expression, System.Type, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action(Of System.Object), Singularity.ServiceAutoDispose)
+  nameWithType: ServiceBinding.ServiceBinding(SinglyLinkedListNode<Type>, BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  nameWithType.vb: ServiceBinding.ServiceBinding(SinglyLinkedListNode(Of Type), ByRef BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+- uid: Singularity.ServiceBinding.#ctor(System.Type,Singularity.BindingMetadata@,System.Linq.Expressions.Expression,System.Type,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name: ServiceBinding(Type, BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding__ctor_System_Type_Singularity_BindingMetadata__System_Linq_Expressions_Expression_System_Type_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_
+  commentId: M:Singularity.ServiceBinding.#ctor(System.Type,Singularity.BindingMetadata@,System.Linq.Expressions.Expression,System.Type,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name.vb: ServiceBinding(Type, ByRef BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+  fullName: Singularity.ServiceBinding.ServiceBinding(System.Type, Singularity.BindingMetadata, System.Linq.Expressions.Expression, System.Type, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action<System.Object>, Singularity.ServiceAutoDispose)
+  fullName.vb: Singularity.ServiceBinding.ServiceBinding(System.Type, ByRef Singularity.BindingMetadata, System.Linq.Expressions.Expression, System.Type, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action(Of System.Object), Singularity.ServiceAutoDispose)
+  nameWithType: ServiceBinding.ServiceBinding(Type, BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  nameWithType.vb: ServiceBinding.ServiceBinding(Type, ByRef BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+- uid: Singularity.ServiceBinding.#ctor(System.Type[],Singularity.BindingMetadata@,System.Linq.Expressions.Expression,System.Type,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name: ServiceBinding(Type[], BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding__ctor_System_Type___Singularity_BindingMetadata__System_Linq_Expressions_Expression_System_Type_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_
+  commentId: M:Singularity.ServiceBinding.#ctor(System.Type[],Singularity.BindingMetadata@,System.Linq.Expressions.Expression,System.Type,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)
+  name.vb: ServiceBinding(Type(), ByRef BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
+  fullName: Singularity.ServiceBinding.ServiceBinding(System.Type[], Singularity.BindingMetadata, System.Linq.Expressions.Expression, System.Type, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action<System.Object>, Singularity.ServiceAutoDispose)
+  fullName.vb: Singularity.ServiceBinding.ServiceBinding(System.Type(), ByRef Singularity.BindingMetadata, System.Linq.Expressions.Expression, System.Type, Singularity.Expressions.IConstructorResolver, Singularity.ILifetime, System.Action(Of System.Object), Singularity.ServiceAutoDispose)
+  nameWithType: ServiceBinding.ServiceBinding(Type[], BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action<Object>, ServiceAutoDispose)
+  nameWithType.vb: ServiceBinding.ServiceBinding(Type(), ByRef BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action(Of Object), ServiceAutoDispose)
 - uid: Singularity.ServiceBinding.#ctor*
   name: ServiceBinding
   href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding__ctor_
@@ -2509,6 +2784,19 @@ references:
   isSpec: "True"
   fullName: Singularity.ServiceBinding.BindingMetadata
   nameWithType: ServiceBinding.BindingMetadata
+- uid: Singularity.ServiceBinding.ConcreteType
+  name: ConcreteType
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_ConcreteType
+  commentId: P:Singularity.ServiceBinding.ConcreteType
+  fullName: Singularity.ServiceBinding.ConcreteType
+  nameWithType: ServiceBinding.ConcreteType
+- uid: Singularity.ServiceBinding.ConcreteType*
+  name: ConcreteType
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_ConcreteType_
+  commentId: Overload:Singularity.ServiceBinding.ConcreteType
+  isSpec: "True"
+  fullName: Singularity.ServiceBinding.ConcreteType
+  nameWithType: ServiceBinding.ConcreteType
 - uid: Singularity.ServiceBinding.ConstructorResolver
   name: ConstructorResolver
   href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_ConstructorResolver
@@ -2613,13 +2901,13 @@ references:
   isSpec: "True"
   fullName: Singularity.ServiceBinding.ServiceTypes
   nameWithType: ServiceBinding.ServiceTypes
-- uid: Singularity.ServiceBinding.TryGetInstanceFactory(System.Type,Singularity.Graph.InstanceFactory@)
+- uid: Singularity.ServiceBinding.TryGetInstanceFactory(System.Type,Singularity.Resolving.InstanceFactory@)
   name: TryGetInstanceFactory(Type, out InstanceFactory)
-  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_TryGetInstanceFactory_System_Type_Singularity_Graph_InstanceFactory__
-  commentId: M:Singularity.ServiceBinding.TryGetInstanceFactory(System.Type,Singularity.Graph.InstanceFactory@)
+  href: api/Singularity.ServiceBinding.html#Singularity_ServiceBinding_TryGetInstanceFactory_System_Type_Singularity_Resolving_InstanceFactory__
+  commentId: M:Singularity.ServiceBinding.TryGetInstanceFactory(System.Type,Singularity.Resolving.InstanceFactory@)
   name.vb: TryGetInstanceFactory(Type, ByRef InstanceFactory)
-  fullName: Singularity.ServiceBinding.TryGetInstanceFactory(System.Type, out Singularity.Graph.InstanceFactory)
-  fullName.vb: Singularity.ServiceBinding.TryGetInstanceFactory(System.Type, ByRef Singularity.Graph.InstanceFactory)
+  fullName: Singularity.ServiceBinding.TryGetInstanceFactory(System.Type, out Singularity.Resolving.InstanceFactory)
+  fullName.vb: Singularity.ServiceBinding.TryGetInstanceFactory(System.Type, ByRef Singularity.Resolving.InstanceFactory)
   nameWithType: ServiceBinding.TryGetInstanceFactory(Type, out InstanceFactory)
   nameWithType.vb: ServiceBinding.TryGetInstanceFactory(Type, ByRef InstanceFactory)
 - uid: Singularity.ServiceBinding.TryGetInstanceFactory*
@@ -2792,6 +3080,22 @@ references:
   isSpec: "True"
   fullName: Singularity.SingularitySettings.AutoDispose
   nameWithType: SingularitySettings.AutoDispose
+- uid: Singularity.SingularitySettings.ConfigureServiceBindingGenerators(System.Action{Singularity.Collections.ConfigurationList{Singularity.Resolving.Generators.IServiceBindingGenerator}})
+  name: ConfigureServiceBindingGenerators(Action<ConfigurationList<IServiceBindingGenerator>>)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ConfigureServiceBindingGenerators_System_Action_Singularity_Collections_ConfigurationList_Singularity_Resolving_Generators_IServiceBindingGenerator___
+  commentId: M:Singularity.SingularitySettings.ConfigureServiceBindingGenerators(System.Action{Singularity.Collections.ConfigurationList{Singularity.Resolving.Generators.IServiceBindingGenerator}})
+  name.vb: ConfigureServiceBindingGenerators(Action(Of ConfigurationList(Of IServiceBindingGenerator)))
+  fullName: Singularity.SingularitySettings.ConfigureServiceBindingGenerators(System.Action<Singularity.Collections.ConfigurationList<Singularity.Resolving.Generators.IServiceBindingGenerator>>)
+  fullName.vb: Singularity.SingularitySettings.ConfigureServiceBindingGenerators(System.Action(Of Singularity.Collections.ConfigurationList(Of Singularity.Resolving.Generators.IServiceBindingGenerator)))
+  nameWithType: SingularitySettings.ConfigureServiceBindingGenerators(Action<ConfigurationList<IServiceBindingGenerator>>)
+  nameWithType.vb: SingularitySettings.ConfigureServiceBindingGenerators(Action(Of ConfigurationList(Of IServiceBindingGenerator)))
+- uid: Singularity.SingularitySettings.ConfigureServiceBindingGenerators*
+  name: ConfigureServiceBindingGenerators
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ConfigureServiceBindingGenerators_
+  commentId: Overload:Singularity.SingularitySettings.ConfigureServiceBindingGenerators
+  isSpec: "True"
+  fullName: Singularity.SingularitySettings.ConfigureServiceBindingGenerators
+  nameWithType: SingularitySettings.ConfigureServiceBindingGenerators
 - uid: Singularity.SingularitySettings.Default
   name: Default
   href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_Default
@@ -2805,11 +3109,11 @@ references:
   isSpec: "True"
   fullName: Singularity.SingularitySettings.Default
   nameWithType: SingularitySettings.Default
-- uid: Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type,Singularity.Graph.Resolvers.ITypeMatcher)
+- uid: Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type,Singularity.ITypeMatcher)
   name: ExcludeAutoRegistration(Type, ITypeMatcher)
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ExcludeAutoRegistration_System_Type_Singularity_Graph_Resolvers_ITypeMatcher_
-  commentId: M:Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type,Singularity.Graph.Resolvers.ITypeMatcher)
-  fullName: Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type, Singularity.Graph.Resolvers.ITypeMatcher)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ExcludeAutoRegistration_System_Type_Singularity_ITypeMatcher_
+  commentId: M:Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type,Singularity.ITypeMatcher)
+  fullName: Singularity.SingularitySettings.ExcludeAutoRegistration(System.Type, Singularity.ITypeMatcher)
   nameWithType: SingularitySettings.ExcludeAutoRegistration(Type, ITypeMatcher)
 - uid: Singularity.SingularitySettings.ExcludeAutoRegistration*
   name: ExcludeAutoRegistration
@@ -2818,20 +3122,20 @@ references:
   isSpec: "True"
   fullName: Singularity.SingularitySettings.ExcludeAutoRegistration
   nameWithType: SingularitySettings.ExcludeAutoRegistration
-- uid: Singularity.SingularitySettings.ExcludeAutoRegistration``1(Singularity.Graph.Resolvers.ITypeMatcher)
+- uid: Singularity.SingularitySettings.ExcludeAutoRegistration``1(Singularity.ITypeMatcher)
   name: ExcludeAutoRegistration<TResolverType>(ITypeMatcher)
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ExcludeAutoRegistration__1_Singularity_Graph_Resolvers_ITypeMatcher_
-  commentId: M:Singularity.SingularitySettings.ExcludeAutoRegistration``1(Singularity.Graph.Resolvers.ITypeMatcher)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_ExcludeAutoRegistration__1_Singularity_ITypeMatcher_
+  commentId: M:Singularity.SingularitySettings.ExcludeAutoRegistration``1(Singularity.ITypeMatcher)
   name.vb: ExcludeAutoRegistration(Of TResolverType)(ITypeMatcher)
-  fullName: Singularity.SingularitySettings.ExcludeAutoRegistration<TResolverType>(Singularity.Graph.Resolvers.ITypeMatcher)
-  fullName.vb: Singularity.SingularitySettings.ExcludeAutoRegistration(Of TResolverType)(Singularity.Graph.Resolvers.ITypeMatcher)
+  fullName: Singularity.SingularitySettings.ExcludeAutoRegistration<TResolverType>(Singularity.ITypeMatcher)
+  fullName.vb: Singularity.SingularitySettings.ExcludeAutoRegistration(Of TResolverType)(Singularity.ITypeMatcher)
   nameWithType: SingularitySettings.ExcludeAutoRegistration<TResolverType>(ITypeMatcher)
   nameWithType.vb: SingularitySettings.ExcludeAutoRegistration(Of TResolverType)(ITypeMatcher)
-- uid: Singularity.SingularitySettings.IgnoreResolveError(Singularity.Graph.Resolvers.ITypeMatcher)
+- uid: Singularity.SingularitySettings.IgnoreResolveError(Singularity.ITypeMatcher)
   name: IgnoreResolveError(ITypeMatcher)
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_IgnoreResolveError_Singularity_Graph_Resolvers_ITypeMatcher_
-  commentId: M:Singularity.SingularitySettings.IgnoreResolveError(Singularity.Graph.Resolvers.ITypeMatcher)
-  fullName: Singularity.SingularitySettings.IgnoreResolveError(Singularity.Graph.Resolvers.ITypeMatcher)
+  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_IgnoreResolveError_Singularity_ITypeMatcher_
+  commentId: M:Singularity.SingularitySettings.IgnoreResolveError(Singularity.ITypeMatcher)
+  fullName: Singularity.SingularitySettings.IgnoreResolveError(Singularity.ITypeMatcher)
   nameWithType: SingularitySettings.IgnoreResolveError(ITypeMatcher)
 - uid: Singularity.SingularitySettings.IgnoreResolveError*
   name: IgnoreResolveError
@@ -2859,15 +3163,6 @@ references:
   commentId: M:Singularity.SingularitySettings.With(Singularity.Expressions.IConstructorResolver)
   fullName: Singularity.SingularitySettings.With(Singularity.Expressions.IConstructorResolver)
   nameWithType: SingularitySettings.With(IConstructorResolver)
-- uid: Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver[])
-  name: With(IDependencyResolver[])
-  href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_With_Singularity_Graph_Resolvers_IDependencyResolver___
-  commentId: M:Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver[])
-  name.vb: With(IDependencyResolver())
-  fullName: Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver[])
-  fullName.vb: Singularity.SingularitySettings.With(Singularity.Graph.Resolvers.IDependencyResolver())
-  nameWithType: SingularitySettings.With(IDependencyResolver[])
-  nameWithType.vb: SingularitySettings.With(IDependencyResolver())
 - uid: Singularity.SingularitySettings.With(Singularity.Logging.ISingularityLogger)
   name: With(ISingularityLogger)
   href: api/Singularity.SingularitySettings.html#Singularity_SingularitySettings_With_Singularity_Logging_ISingularityLogger_
@@ -3152,6 +3447,55 @@ references:
   fullName.vb: Singularity.StronglyTypedServiceConfigurator(Of TDependency, TInstance).WithFinalizer
   nameWithType: StronglyTypedServiceConfigurator<TDependency, TInstance>.WithFinalizer
   nameWithType.vb: StronglyTypedServiceConfigurator(Of TDependency, TInstance).WithFinalizer
+- uid: Singularity.Test.Settings
+  name: Singularity.Test.Settings
+  href: api/Singularity.Test.Settings.html
+  commentId: N:Singularity.Test.Settings
+  fullName: Singularity.Test.Settings
+  nameWithType: Singularity.Test.Settings
+- uid: Singularity.Test.Settings.TypeEqualityComparer`1
+  name: TypeEqualityComparer<T>
+  href: api/Singularity.Test.Settings.TypeEqualityComparer-1.html
+  commentId: T:Singularity.Test.Settings.TypeEqualityComparer`1
+  name.vb: TypeEqualityComparer(Of T)
+  fullName: Singularity.Test.Settings.TypeEqualityComparer<T>
+  fullName.vb: Singularity.Test.Settings.TypeEqualityComparer(Of T)
+  nameWithType: TypeEqualityComparer<T>
+  nameWithType.vb: TypeEqualityComparer(Of T)
+- uid: Singularity.Test.Settings.TypeEqualityComparer`1.Equals(`0,`0)
+  name: Equals(T, T)
+  href: api/Singularity.Test.Settings.TypeEqualityComparer-1.html#Singularity_Test_Settings_TypeEqualityComparer_1_Equals__0__0_
+  commentId: M:Singularity.Test.Settings.TypeEqualityComparer`1.Equals(`0,`0)
+  fullName: Singularity.Test.Settings.TypeEqualityComparer<T>.Equals(T, T)
+  fullName.vb: Singularity.Test.Settings.TypeEqualityComparer(Of T).Equals(T, T)
+  nameWithType: TypeEqualityComparer<T>.Equals(T, T)
+  nameWithType.vb: TypeEqualityComparer(Of T).Equals(T, T)
+- uid: Singularity.Test.Settings.TypeEqualityComparer`1.Equals*
+  name: Equals
+  href: api/Singularity.Test.Settings.TypeEqualityComparer-1.html#Singularity_Test_Settings_TypeEqualityComparer_1_Equals_
+  commentId: Overload:Singularity.Test.Settings.TypeEqualityComparer`1.Equals
+  isSpec: "True"
+  fullName: Singularity.Test.Settings.TypeEqualityComparer<T>.Equals
+  fullName.vb: Singularity.Test.Settings.TypeEqualityComparer(Of T).Equals
+  nameWithType: TypeEqualityComparer<T>.Equals
+  nameWithType.vb: TypeEqualityComparer(Of T).Equals
+- uid: Singularity.Test.Settings.TypeEqualityComparer`1.GetHashCode(`0)
+  name: GetHashCode(T)
+  href: api/Singularity.Test.Settings.TypeEqualityComparer-1.html#Singularity_Test_Settings_TypeEqualityComparer_1_GetHashCode__0_
+  commentId: M:Singularity.Test.Settings.TypeEqualityComparer`1.GetHashCode(`0)
+  fullName: Singularity.Test.Settings.TypeEqualityComparer<T>.GetHashCode(T)
+  fullName.vb: Singularity.Test.Settings.TypeEqualityComparer(Of T).GetHashCode(T)
+  nameWithType: TypeEqualityComparer<T>.GetHashCode(T)
+  nameWithType.vb: TypeEqualityComparer(Of T).GetHashCode(T)
+- uid: Singularity.Test.Settings.TypeEqualityComparer`1.GetHashCode*
+  name: GetHashCode
+  href: api/Singularity.Test.Settings.TypeEqualityComparer-1.html#Singularity_Test_Settings_TypeEqualityComparer_1_GetHashCode_
+  commentId: Overload:Singularity.Test.Settings.TypeEqualityComparer`1.GetHashCode
+  isSpec: "True"
+  fullName: Singularity.Test.Settings.TypeEqualityComparer<T>.GetHashCode
+  fullName.vb: Singularity.Test.Settings.TypeEqualityComparer(Of T).GetHashCode
+  nameWithType: TypeEqualityComparer<T>.GetHashCode
+  nameWithType.vb: TypeEqualityComparer(Of T).GetHashCode
 - uid: Singularity.Transient
   name: Transient
   href: api/Singularity.Transient.html

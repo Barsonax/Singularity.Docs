@@ -77,9 +77,15 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
+      <h4><a class="xref" href="Singularity.BestMatchConstructorResolver.html">BestMatchConstructorResolver</a></h4>
+      <section></section>
       <h4><a class="xref" href="Singularity.ConfigurationExtensions.html">ConfigurationExtensions</a></h4>
       <section><p>Configuration extensions for <span class="xref">Microsoft.Extensions.DependencyInjection</span>.</p>
 </section>
+      <h4><a class="xref" href="Singularity.ConstructorResolverCache.html">ConstructorResolverCache</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Singularity.ConstructorResolverExtensions.html">ConstructorResolverExtensions</a></h4>
+      <section></section>
       <h4><a class="xref" href="Singularity.ConstructorResolvers.html">ConstructorResolvers</a></h4>
       <section><p>Provides easy access to build in constructor selectors.</p>
 </section>
@@ -93,19 +99,13 @@
       <section><p>Assumes there is only 1 public constructor. Throws a error if there are multiple public constructors.
 If this is undesired take a look at other resolves in <a class="xref" href="Singularity.ConstructorResolvers.html">ConstructorResolvers</a>/&gt;</p>
 </section>
-      <h4><a class="xref" href="Singularity.LeastArgumentsConstructorResolver.html">LeastArgumentsConstructorResolver</a></h4>
-      <section><p>Picks the public constructor with the most arguments.</p>
-</section>
       <h4><a class="xref" href="Singularity.Lifetimes.html">Lifetimes</a></h4>
       <section><p>Specifies when new instances of dependencies should be made</p>
 </section>
       <h4><a class="xref" href="Singularity.Loggers.html">Loggers</a></h4>
       <section></section>
       <h4><a class="xref" href="Singularity.MatchExtensions.html">MatchExtensions</a></h4>
-      <section><p>Extensions for <a class="xref" href="Singularity.Graph.Resolvers.ITypeMatcher.html">ITypeMatcher</a></p>
-</section>
-      <h4><a class="xref" href="Singularity.MostArgumentsConstructorResolver.html">MostArgumentsConstructorResolver</a></h4>
-      <section><p>Picks the public constructor with the most arguments.</p>
+      <section><p>Extensions for <a class="xref" href="Singularity.ITypeMatcher.html">ITypeMatcher</a></p>
 </section>
       <h4><a class="xref" href="Singularity.PatternTypeMatcher.html">PatternTypeMatcher</a></h4>
       <section><p>Matches a type with a string.
@@ -157,6 +157,12 @@ Wraps a <a class="xref" href="Singularity.Container.html">Container</a> so that 
       <h4><a class="xref" href="Singularity.WeaklyTypedServiceConfigurator.html">WeaklyTypedServiceConfigurator</a></h4>
       <section><p>A weakly typed configurator for registering new bindings.</p>
 </section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="Singularity.BindingMetadata.html">BindingMetadata</a></h4>
+      <section><p>Contains useful metadata of a registered binding such as on what line its registered.
+Is used to provide more info in error messages</p>
+</section>
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="Singularity.IContainer.html">IContainer</a></h4>
@@ -167,6 +173,9 @@ Wraps a <a class="xref" href="Singularity.Container.html">Container</a> so that 
 </section>
       <h4><a class="xref" href="Singularity.IModule.html">IModule</a></h4>
       <section><p>The interface for modules that can register dependencies.</p>
+</section>
+      <h4><a class="xref" href="Singularity.ITypeMatcher.html">ITypeMatcher</a></h4>
+      <section><p>Interface for matching a type</p>
 </section>
     <h3 id="enums">Enums
   </h3>

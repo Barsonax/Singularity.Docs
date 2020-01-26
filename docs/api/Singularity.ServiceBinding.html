@@ -115,19 +115,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding__ctor_Singularity_Collections_SinglyLinkedListNode_System_Type__Singularity_Graph_BindingMetadata__System_Linq_Expressions_Expression_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.%23ctor(Singularity.Collections.SinglyLinkedListNode%7BSystem.Type%7D%2CSingularity.Graph.BindingMetadata%40%2CSystem.Linq.Expressions.Expression%2CSingularity.Expressions.IConstructorResolver%2CSingularity.ILifetime%2CSystem.Action%7BSystem.Object%7D%2CSingularity.ServiceAutoDispose)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding__ctor_Singularity_Collections_SinglyLinkedListNode_System_Type__Singularity_BindingMetadata__System_Linq_Expressions_Expression_System_Type_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.%23ctor(Singularity.Collections.SinglyLinkedListNode%7BSystem.Type%7D%2CSingularity.BindingMetadata%40%2CSystem.Linq.Expressions.Expression%2CSystem.Type%2CSingularity.Expressions.IConstructorResolver%2CSingularity.ILifetime%2CSystem.Action%7BSystem.Object%7D%2CSingularity.ServiceAutoDispose)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L97">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L95">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding__ctor_" data-uid="Singularity.ServiceBinding.#ctor*"></a>
-  <h4 id="Singularity_ServiceBinding__ctor_Singularity_Collections_SinglyLinkedListNode_System_Type__Singularity_Graph_BindingMetadata__System_Linq_Expressions_Expression_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_" data-uid="Singularity.ServiceBinding.#ctor(Singularity.Collections.SinglyLinkedListNode{System.Type},Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)">ServiceBinding(SinglyLinkedListNode&lt;Type&gt;, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action&lt;Object&gt;, ServiceAutoDispose)</h4>
+  <h4 id="Singularity_ServiceBinding__ctor_Singularity_Collections_SinglyLinkedListNode_System_Type__Singularity_BindingMetadata__System_Linq_Expressions_Expression_System_Type_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_" data-uid="Singularity.ServiceBinding.#ctor(Singularity.Collections.SinglyLinkedListNode{System.Type},Singularity.BindingMetadata@,System.Linq.Expressions.Expression,System.Type,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)">ServiceBinding(SinglyLinkedListNode&lt;Type&gt;, BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action&lt;Object&gt;, ServiceAutoDispose)</h4>
   <div class="markdown level1 summary"><p>Creates a new service binding using the provided data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServiceBinding(SinglyLinkedListNode&lt;Type&gt; serviceTypes, in BindingMetadata bindingMetadata, Expression expression, IConstructorResolver constructorResolver, ILifetime lifetime, Action&lt;object&gt; finalizer = null, ServiceAutoDispose needsDispose = ServiceAutoDispose.Default)</code></pre>
+    <pre><code class="lang-csharp hljs">public ServiceBinding(SinglyLinkedListNode&lt;Type&gt; serviceTypes, in BindingMetadata bindingMetadata, Expression expression, Type concreteType, IConstructorResolver constructorResolver, ILifetime lifetime, Action&lt;object&gt; finalizer = null, ServiceAutoDispose needsDispose = ServiceAutoDispose.Default)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,13 +145,18 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Singularity.Graph.BindingMetadata.html">BindingMetadata</a></td>
+        <td><a class="xref" href="Singularity.BindingMetadata.html">BindingMetadata</a></td>
         <td><span class="parametername">bindingMetadata</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Linq.Expressions.Expression</span></td>
         <td><span class="parametername">expression</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">concreteType</span></td>
         <td></td>
       </tr>
       <tr>
@@ -197,19 +202,19 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding__ctor_System_Type_Singularity_Graph_BindingMetadata__System_Linq_Expressions_Expression_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.%23ctor(System.Type%2CSingularity.Graph.BindingMetadata%40%2CSystem.Linq.Expressions.Expression%2CSingularity.Expressions.IConstructorResolver%2CSingularity.ILifetime%2CSystem.Action%7BSystem.Object%7D%2CSingularity.ServiceAutoDispose)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding__ctor_System_Type_Singularity_BindingMetadata__System_Linq_Expressions_Expression_System_Type_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.%23ctor(System.Type%2CSingularity.BindingMetadata%40%2CSystem.Linq.Expressions.Expression%2CSystem.Type%2CSingularity.Expressions.IConstructorResolver%2CSingularity.ILifetime%2CSystem.Action%7BSystem.Object%7D%2CSingularity.ServiceAutoDispose)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L120">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L125">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding__ctor_" data-uid="Singularity.ServiceBinding.#ctor*"></a>
-  <h4 id="Singularity_ServiceBinding__ctor_System_Type_Singularity_Graph_BindingMetadata__System_Linq_Expressions_Expression_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_" data-uid="Singularity.ServiceBinding.#ctor(System.Type,Singularity.Graph.BindingMetadata@,System.Linq.Expressions.Expression,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)">ServiceBinding(Type, BindingMetadata, Expression, IConstructorResolver, ILifetime, Action&lt;Object&gt;, ServiceAutoDispose)</h4>
-  <div class="markdown level1 summary"><p>Constructor that fills in some default values to make it more easier to use in <a class="xref" href="Singularity.Graph.Resolvers.IDependencyResolver.html">IDependencyResolver</a>'s</p>
+  <h4 id="Singularity_ServiceBinding__ctor_System_Type_Singularity_BindingMetadata__System_Linq_Expressions_Expression_System_Type_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_" data-uid="Singularity.ServiceBinding.#ctor(System.Type,Singularity.BindingMetadata@,System.Linq.Expressions.Expression,System.Type,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)">ServiceBinding(Type, BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action&lt;Object&gt;, ServiceAutoDispose)</h4>
+  <div class="markdown level1 summary"><p>Creates a new service binding using the provided data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServiceBinding(Type dependencyType, in BindingMetadata bindingMetadata, Expression expression, IConstructorResolver constructorResolver, ILifetime lifetime = null, Action&lt;object&gt; finalizer = null, ServiceAutoDispose needsDispose = ServiceAutoDispose.Default)</code></pre>
+    <pre><code class="lang-csharp hljs">public ServiceBinding(Type dependencyType, in BindingMetadata bindingMetadata, Expression expression, Type concreteType, IConstructorResolver constructorResolver, ILifetime lifetime, Action&lt;object&gt; finalizer = null, ServiceAutoDispose needsDispose = ServiceAutoDispose.Default)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -227,13 +232,18 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Singularity.Graph.BindingMetadata.html">BindingMetadata</a></td>
+        <td><a class="xref" href="Singularity.BindingMetadata.html">BindingMetadata</a></td>
         <td><span class="parametername">bindingMetadata</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Linq.Expressions.Expression</span></td>
         <td><span class="parametername">expression</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">concreteType</span></td>
         <td></td>
       </tr>
       <tr>
@@ -258,14 +268,120 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Singularity.Exceptions.InvalidEnumValueException-1.html">InvalidEnumValueException</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding__ctor_System_Type___Singularity_BindingMetadata__System_Linq_Expressions_Expression_System_Type_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.%23ctor(System.Type%5B%5D%2CSingularity.BindingMetadata%40%2CSystem.Linq.Expressions.Expression%2CSystem.Type%2CSingularity.Expressions.IConstructorResolver%2CSingularity.ILifetime%2CSystem.Action%7BSystem.Object%7D%2CSingularity.ServiceAutoDispose)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L114">View Source</a>
+  </span>
+  <a id="Singularity_ServiceBinding__ctor_" data-uid="Singularity.ServiceBinding.#ctor*"></a>
+  <h4 id="Singularity_ServiceBinding__ctor_System_Type___Singularity_BindingMetadata__System_Linq_Expressions_Expression_System_Type_Singularity_Expressions_IConstructorResolver_Singularity_ILifetime_System_Action_System_Object__Singularity_ServiceAutoDispose_" data-uid="Singularity.ServiceBinding.#ctor(System.Type[],Singularity.BindingMetadata@,System.Linq.Expressions.Expression,System.Type,Singularity.Expressions.IConstructorResolver,Singularity.ILifetime,System.Action{System.Object},Singularity.ServiceAutoDispose)">ServiceBinding(Type[], BindingMetadata, Expression, Type, IConstructorResolver, ILifetime, Action&lt;Object&gt;, ServiceAutoDispose)</h4>
+  <div class="markdown level1 summary"><p>Creates a new service binding using the provided data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServiceBinding(Type[] dependencyTypes, in BindingMetadata bindingMetadata, Expression expression, Type concreteType, IConstructorResolver constructorResolver, ILifetime lifetime, Action&lt;object&gt; finalizer = null, ServiceAutoDispose needsDispose = ServiceAutoDispose.Default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">dependencyTypes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Singularity.BindingMetadata.html">BindingMetadata</a></td>
+        <td><span class="parametername">bindingMetadata</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span></td>
+        <td><span class="parametername">expression</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">concreteType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Singularity.Expressions.IConstructorResolver.html">IConstructorResolver</a></td>
+        <td><span class="parametername">constructorResolver</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Singularity.ILifetime.html">ILifetime</a></td>
+        <td><span class="parametername">lifetime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">finalizer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Singularity.ServiceAutoDispose.html">ServiceAutoDispose</a></td>
+        <td><span class="parametername">needsDispose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Singularity.Exceptions.InvalidEnumValueException-1.html">InvalidEnumValueException</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_BaseExpression.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.BaseExpression%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_BaseExpression.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.BaseExpression%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L59">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L64">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_BaseExpression_" data-uid="Singularity.ServiceBinding.BaseExpression*"></a>
   <h4 id="Singularity_ServiceBinding_BaseExpression" data-uid="Singularity.ServiceBinding.BaseExpression">BaseExpression</h4>
@@ -294,10 +410,10 @@ Do not use this directly but use <a class="xref" href="Singularity.ServiceBindin
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_BindingMetadata.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.BindingMetadata%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_BindingMetadata.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.BindingMetadata%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L22">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L22">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_BindingMetadata_" data-uid="Singularity.ServiceBinding.BindingMetadata*"></a>
   <h4 id="Singularity_ServiceBinding_BindingMetadata" data-uid="Singularity.ServiceBinding.BindingMetadata">BindingMetadata</h4>
@@ -318,17 +434,48 @@ Do not use this directly but use <a class="xref" href="Singularity.ServiceBindin
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Singularity.Graph.BindingMetadata.html">BindingMetadata</a></td>
+        <td><a class="xref" href="Singularity.BindingMetadata.html">BindingMetadata</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_ConstructorResolver.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.ConstructorResolver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_ConcreteType.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.ConcreteType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L53">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L37">View Source</a>
+  </span>
+  <a id="Singularity_ServiceBinding_ConcreteType_" data-uid="Singularity.ServiceBinding.ConcreteType*"></a>
+  <h4 id="Singularity_ServiceBinding_ConcreteType" data-uid="Singularity.ServiceBinding.ConcreteType">ConcreteType</h4>
+  <div class="markdown level1 summary"><p>The concrete type of this service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type ConcreteType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_ConstructorResolver.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.ConstructorResolver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L58">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_ConstructorResolver_" data-uid="Singularity.ServiceBinding.ConstructorResolver*"></a>
   <h4 id="Singularity_ServiceBinding_ConstructorResolver" data-uid="Singularity.ServiceBinding.ConstructorResolver">ConstructorResolver</h4>
@@ -356,10 +503,10 @@ Do not use this directly but use <a class="xref" href="Singularity.ServiceBindin
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_Expression.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.Expression%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_Expression.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.Expression%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L32">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L32">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_Expression_" data-uid="Singularity.ServiceBinding.Expression*"></a>
   <h4 id="Singularity_ServiceBinding_Expression" data-uid="Singularity.ServiceBinding.Expression">Expression</h4>
@@ -387,16 +534,16 @@ Do not use this directly but use <a class="xref" href="Singularity.ServiceBindin
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_Factories.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.Factories%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_Factories.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.Factories%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L71">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L76">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_Factories_" data-uid="Singularity.ServiceBinding.Factories*"></a>
   <h4 id="Singularity_ServiceBinding_Factories" data-uid="Singularity.ServiceBinding.Factories">Factories</h4>
   <div class="markdown level1 summary"><p>A list of factories for different service types.
 These factories are generated using the <a class="xref" href="Singularity.ServiceBinding.html#Singularity_ServiceBinding_BaseExpression">BaseExpression</a> as input.
-Decorators are applied at this point and its safe to use this to resolve dependencies of other services with <a class="xref" href="Singularity.ServiceBinding.html#Singularity_ServiceBinding_TryGetInstanceFactory_System_Type_Singularity_Graph_InstanceFactory__">TryGetInstanceFactory(Type, out InstanceFactory)</a></p>
+Decorators are applied at this point and its safe to use this to resolve dependencies of other services with <a class="xref" href="Singularity.ServiceBinding.html#Singularity_ServiceBinding_TryGetInstanceFactory_System_Type_Singularity_Resolving_InstanceFactory__">TryGetInstanceFactory(Type, out InstanceFactory)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -413,17 +560,17 @@ Decorators are applied at this point and its safe to use this to resolve depende
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Singularity.Collections.ArrayList-1.html">ArrayList</a>&lt;<a class="xref" href="Singularity.Graph.InstanceFactory.html">InstanceFactory</a>&gt;</td>
+        <td><a class="xref" href="Singularity.Collections.ArrayList-1.html">ArrayList</a>&lt;<a class="xref" href="Singularity.Resolving.InstanceFactory.html">InstanceFactory</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_Finalizer.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.Finalizer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_Finalizer.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.Finalizer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L48">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L53">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_Finalizer_" data-uid="Singularity.ServiceBinding.Finalizer*"></a>
   <h4 id="Singularity_ServiceBinding_Finalizer" data-uid="Singularity.ServiceBinding.Finalizer">Finalizer</h4>
@@ -452,10 +599,10 @@ Not to be confused with the finalizer of a type itself.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_Lifetime.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.Lifetime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_Lifetime.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.Lifetime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L37">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L42">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_Lifetime_" data-uid="Singularity.ServiceBinding.Lifetime*"></a>
   <h4 id="Singularity_ServiceBinding_Lifetime" data-uid="Singularity.ServiceBinding.Lifetime">Lifetime</h4>
@@ -483,10 +630,10 @@ Not to be confused with the finalizer of a type itself.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_NeedsDispose.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.NeedsDispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_NeedsDispose.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.NeedsDispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L42">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L47">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_NeedsDispose_" data-uid="Singularity.ServiceBinding.NeedsDispose*"></a>
   <h4 id="Singularity_ServiceBinding_NeedsDispose" data-uid="Singularity.ServiceBinding.NeedsDispose">NeedsDispose</h4>
@@ -514,10 +661,10 @@ Not to be confused with the finalizer of a type itself.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_ResolveError.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.ResolveError%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_ResolveError.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.ResolveError%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L64">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L69">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_ResolveError_" data-uid="Singularity.ServiceBinding.ResolveError*"></a>
   <h4 id="Singularity_ServiceBinding_ResolveError" data-uid="Singularity.ServiceBinding.ResolveError">ResolveError</h4>
@@ -545,10 +692,10 @@ Not to be confused with the finalizer of a type itself.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_ServiceTypes.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.ServiceTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_ServiceTypes.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.ServiceTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L27">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L27">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_ServiceTypes_" data-uid="Singularity.ServiceBinding.ServiceTypes*"></a>
   <h4 id="Singularity_ServiceBinding_ServiceTypes" data-uid="Singularity.ServiceBinding.ServiceTypes">ServiceTypes</h4>
@@ -578,13 +725,13 @@ Not to be confused with the finalizer of a type itself.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding_TryGetInstanceFactory_System_Type_Singularity_Graph_InstanceFactory__.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.TryGetInstanceFactory(System.Type%2CSingularity.Graph.InstanceFactory%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding_TryGetInstanceFactory_System_Type_Singularity_Resolving_InstanceFactory__.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding.TryGetInstanceFactory(System.Type%2CSingularity.Resolving.InstanceFactory%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L79">View Source</a>
+    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L84">View Source</a>
   </span>
   <a id="Singularity_ServiceBinding_TryGetInstanceFactory_" data-uid="Singularity.ServiceBinding.TryGetInstanceFactory*"></a>
-  <h4 id="Singularity_ServiceBinding_TryGetInstanceFactory_System_Type_Singularity_Graph_InstanceFactory__" data-uid="Singularity.ServiceBinding.TryGetInstanceFactory(System.Type,Singularity.Graph.InstanceFactory@)">TryGetInstanceFactory(Type, out InstanceFactory)</h4>
+  <h4 id="Singularity_ServiceBinding_TryGetInstanceFactory_System_Type_Singularity_Resolving_InstanceFactory__" data-uid="Singularity.ServiceBinding.TryGetInstanceFactory(System.Type,Singularity.Resolving.InstanceFactory@)">TryGetInstanceFactory(Type, out InstanceFactory)</h4>
   <div class="markdown level1 summary"><p>Gets the instance factory if it exists for the given type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -608,7 +755,7 @@ Not to be confused with the finalizer of a type itself.</p>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Singularity.Graph.InstanceFactory.html">InstanceFactory</a></td>
+        <td><a class="xref" href="Singularity.Resolving.InstanceFactory.html">InstanceFactory</a></td>
         <td><span class="parametername">factory</span></td>
         <td></td>
       </tr>
@@ -637,10 +784,10 @@ Not to be confused with the finalizer of a type itself.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/new/master/apiSpec/new?filename=Singularity_ServiceBinding.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Barsonax/Singularity/new/feature/lgpl/apiSpec/new?filename=Singularity_ServiceBinding.md&amp;value=---%0Auid%3A%20Singularity.ServiceBinding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Barsonax/Singularity/blob/master/src/Singularity/Registration/ServiceBinding.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Barsonax/Singularity/blob/feature/lgpl/src/Singularity/Registration/ServiceBinding.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
